@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="butterfly-egg.svg"
+   inkscape:export-filename="/home/bjorn/Documents/Politics/Fjärilspartiet/se/butterfly-egg.png"
+   inkscape:export-xdpi="256"
+   inkscape:export-ydpi="256"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   width="100"
+   height="100"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="7.25"
+     inkscape:cx="49.931034"
+     inkscape:cy="48.965517"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <!-- Soft glow/shadow -->
+  <defs
+     id="defs7">
+    <radialGradient
+       id="eggGlow"
+       cx="44.72136"
+       cy="40.249224"
+       r="8.9442719"
+       fx="44.72136"
+       fy="40.249224"
+       gradientTransform="scale(0.89442719,1.118034)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:white;stop-opacity:0.2"
+         id="stop2" />
+      <stop
+         offset="100%"
+         style="stop-color:white;stop-opacity:0"
+         id="stop4" />
+    </radialGradient>
+  </defs>
+  <!-- Main egg shape -->
+  <!-- Subtle pattern -->
+  <!-- Highlight -->
+  <g
+     id="g829"
+     transform="translate(0,-10)">
+    <ellipse
+       cx="50"
+       cy="60"
+       rx="30"
+       ry="40"
+       style="fill:#ffffff;stroke:#666666;stroke-width:1"
+       id="ellipse9" />
+    <path
+       d="M 35,45 Q 50,30 65,45 50,60 35,45"
+       style="opacity:0.3;fill:none;stroke:#999999;stroke-width:0.5"
+       id="path11" />
+    <ellipse
+       cx="40"
+       cy="45"
+       rx="8"
+       ry="10"
+       style="opacity:0.6;fill:url(#eggGlow)"
+       id="ellipse13" />
+  </g>
+</svg>

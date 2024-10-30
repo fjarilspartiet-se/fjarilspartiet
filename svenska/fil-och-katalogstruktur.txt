@@ -1,0 +1,85 @@
+.
+├── dokumenthierarki.md
+├── fil-och-katalogstruktur.txt
+├── fjärilsägg.png
+├── fjärilsägg.svg
+├── fjärilspartiet-intro.md
+├── fjärilspartiet-intro.pdf
+├── OPS
+│   ├── OPS-100-digital
+│   │   ├── OPS-101-partiets-operations-plattform-skiss.md
+│   │   ├── OPS-102-digital-parti-operations-plattform-specifikation.md
+│   │   ├── OPS-103-digital-parti-operations-plattform-flexibelt-styre.md
+│   │   └── OPS-104-försäkran-om-icke-korruption-för-digitala-lösningar.md
+│   ├── OPS-200-riktlinjer
+│   │   ├── OPS-201-konkreta-åtgärdsplaner.md
+│   │   ├── OPS-202-kommunikationsstrategi.md
+│   │   ├── OPS-203-extern-kommunikation-om-meningsfull-tillvaro.md
+│   │   ├── OPS-204-symbol-riktlinjer.md
+│   │   ├── OPS-205-säkerhetsramverk.md
+│   │   ├── OPS-206-utbildning-implementeringsriktlinjer.md
+│   │   └── OPS-207-exempel-på-utbildningsprojekt.md
+│   └── OPS-300-teknik
+│       └── OPS-300-teknologiska-ramverk.md
+├── qr-code-original-size.png
+├── qr-code.png
+├── STR
+│   ├── STR-100-grund
+│   │   ├── STR-001-långsiktig-vision-och-transformativa-mål.md
+│   │   ├── STR-009-individens-utveckling-och-självförverkligande-i-ett-transformativt-samhälle.md
+│   │   ├── STR-010-internationell-integration-och-global-enhetsstrategi.md
+│   │   ├── STR-100-inledande-skiss-av-grundläggande-ramverk.md
+│   │   ├── STR-101-parti-grund.md
+│   │   ├── STR-102-bas-i-p(∞)=1.md
+│   │   ├── STR-103-etik-och-värderingsramverk.md
+│   │   ├── STR-104-fjärilsramverket.md
+│   │   ├── STR-105-bortom-symboler.md
+│   │   └── STR-106-vanliga-frågor-om-bortom-symboler.md
+│   ├── STR-200-politik
+│   │   ├── STR-201-adaptivt-skatteramverk.md
+│   │   ├── STR-202-svenskt-adaptivt-skatteramverk.md
+│   │   ├── STR-203-adaptivt-universellt-grundinkomstsystem.md
+│   │   ├── STR-204-adaptiv-universell-basinkomst-fallstudie.md
+│   │   ├── STR-205-AUBI-holistiskt-stödramverk.md
+│   │   ├── STR-206-meningsfull-tillvaro-som-social-rättighet.md
+│   │   ├── STR-207-ramverk-för-religiös-och-andlig-mångfald.md
+│   │   ├── STR-208-ramverk-för-alternativa-livsstilar.md
+│   │   ├── STR-209-invandrings-och-integrationspolitiskt-ramverk.md
+│   │   ├── STR-210-demokratiskt-deltagande-för-barn-och-ungdomar.md
+│   │   ├── STR-211-vägar-till-sjukdomsbekämpning-genom-teknologi-och-social-utveckling.md
+│   │   └── STR-212-ramverk-för-global-ekonomisk-jämlikhet-och-resurs-överflöd.md
+│   ├── STR-300-internationellt
+│   │   ├── STR-301-internationell-strategi.md
+│   │   └── STR-302-mening-och-meningsfullhet-som-universell-rättighet.md
+│   ├── STR-400-hållbarhetsstrategi
+│   │   ├── STR-400-hållbarhetsstrategi.md
+│   │   ├── STR-401-en-blomstrande-framtid-lokal-motståndskraft-och-hållbara-matsystem.md
+│   │   └── STR-402-klimatresiliens-och-biologisk-mångfald-ramverk.md
+│   └── STR-500-digitalt-samhälle
+│       ├── STR-501-digital-etik-och-datasuveränitet.md
+│       └── STR-502-förhållande-till-artificiell-intelligens.md
+└── TAK
+    ├── TAK-100-organisation
+    │   ├── TAK-101-juridiskt-ramverk.md
+    │   ├── TAK-102-svenskt-politiskt-integrations-ramverk.md
+    │   ├── TAK-103-finansiellt-ramverk.md
+    │   └── TAK-104-kvalitetssäkringsramverk.md
+    ├── TAK-200-utveckling
+    │   ├── TAK-201-utbildnings-och-träningsramverk.md
+    │   ├── TAK-202-forskning-och-utvecklingsramverk.md
+    │   ├── TAK-203-utbildningspolitiskt-ramverk.md
+    │   ├── TAK-204-svensk-utbildningsintegration.md
+    │   └── TAK-205-meningsfullhet-inom-utbildning.md
+    ├── TAK-300-hälsa
+    │   ├── TAK-301-hälsofrämjande-insatser.md
+    │   ├── TAK-302-sjukvårdsramverk.md
+    │   ├── TAK-303-tillgänglig-och-holistisk-vård.md
+    │   ├── TAK-304-psykisk-hälsa-och-välbefinnande.md
+    │   └── TAK-305-mening-och-meningsfullhet-som-hälsokomponent.md
+    ├── TAK-500-bostad-och-samhälle
+    │   ├── TAK-501-bostäder-och-stadsutveckling-ramverk.md
+    │   └── TAK-502-rättsreform-och-social-rättvisa.md
+    └── TAK-600-land-och-lokal-utveckling
+        └── TAK-601-landsbygdsutveckling-och-decentralisering.md
+
+16 directories, 66 files
