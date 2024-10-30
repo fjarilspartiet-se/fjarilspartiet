@@ -102,8 +102,10 @@ Kontakta "fjärilsägget" och grundaren Björn via hans
 - Implementeringsguider  
 
 ![Länk till partiets dokument](./qr-code.png)  
-*Åtkomst till partiets kompletta dokumentation*  
+*Åtkomst till partiets kompletta dokumentation (via Google Drive)*  
 [https://tinyurl.com/fjarilspartiets-dokument](https://tinyurl.com/fjarilspartiets-dokument)  
 
----  
+*även via GitHub:*
+[https://github.com/BjornKennethHolmstrom/fjarilspartiet](https://github.com/BjornKennethHolmstrom/fjarilspartiet)
+
 *Fjärilspartiet - Systemisk förnyelse för en blomstrande framtid*
