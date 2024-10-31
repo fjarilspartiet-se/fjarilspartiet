@@ -1,5 +1,5 @@
-TAK-601
-### Dokument-ID: TAK-601  
+TAK-501
+### Dokument-ID: TAK-501  
 Titel: Landsbygdsutveckling och Decentralisering  
 Version: 1.0  
 Senast Uppdaterad: 2024-10-30  
@@ -9,7 +9,7 @@ Relaterade Dokument:
 
 - STR-401 - Hållbarhetsstrategi  
 - TAK-104 - Kvalitetssäkringsramverk  
-- TAK-502 - Rättsreform och Social Rättvisa  
+- TAK-402 - Rättsreform och Social Rättvisa  
 
 ---
 
