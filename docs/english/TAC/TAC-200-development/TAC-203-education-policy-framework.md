@@ -1,5 +1,5 @@
 # Education Policy Framework
-## Unity Forward's Vision for Learning Evolution
+## Fjärilspariet's Vision for Learning Evolution
 
 ### Core Principles
 
