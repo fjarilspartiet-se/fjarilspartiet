@@ -14,7 +14,7 @@ relaterade-dokument:
   - TAK-101 # Juridiskt ramverk
 ---
 
-# Enhet framåt  
+# Fjärilspartiet  
 ## Stiftelsedokument utkast 1.0
 
 ### Vision
