@@ -1,9 +1,9 @@
 # Ethics and Values Framework
-## Unity Forward (Enhet Framåt)
+## Fjärilspartiet
 
 ### Executive Summary
 
-Unity Forward's ethics and values framework provides a comprehensive guide for ethical behavior and decision-making across all aspects of our operations. This framework integrates our core values with our hybrid governance model, ensuring consistent ethical standards while allowing for contextual flexibility.
+Fjärilspartiet's ethics and values framework provides a comprehensive guide for ethical behavior and decision-making across all aspects of our operations. This framework integrates our core values with our hybrid governance model, ensuring consistent ethical standards while allowing for contextual flexibility.
 
 ### Core Values and Principles
 

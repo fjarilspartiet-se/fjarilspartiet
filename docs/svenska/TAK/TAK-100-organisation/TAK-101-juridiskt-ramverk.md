@@ -15,11 +15,11 @@ relaterade-dokument:
 ---
 
 # Juridiskt Ramverk
-## Enhet Framåt
+## Fjärilspartiet
 
 ### Sammanfattning
 
-Enhet Framåt verkar inom de svenska lagkraven och upprätthåller höga standarder för transparens och etiskt beteende. Detta ramverk beskriver vår juridiska struktur, efterlevnadskrav och operativa procedurer för att säkerställa god styrning och skydd för alla intressenter.
+Fjärilspartiet verkar inom de svenska lagkraven och upprätthåller höga standarder för transparens och etiskt beteende. Detta ramverk beskriver vår juridiska struktur, efterlevnadskrav och operativa procedurer för att säkerställa god styrning och skydd för alla intressenter.
 
 ### Partiregistrering och Struktur
 

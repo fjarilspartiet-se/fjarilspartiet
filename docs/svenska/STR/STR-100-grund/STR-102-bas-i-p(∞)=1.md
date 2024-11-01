@@ -14,7 +14,7 @@ relaterade-dokument:
   - STR-302 # Mening och meningsfullhet som universell rättighet
 ---
 
-Artikeln *p(∞)=1* [https://bjornkennethholmstrom.wordpress.com/2024/10/20/what-if-the-probability-of-infinity-equals-one/] presenterar några fascinerande filosofiska perspektiv som kan informera en balanserad politisk strategi med fokus på övergång! Här är en syntes av hur dessa idéer kan komplettera den politiska ramen för **Enhet Framåt**:
+Artikeln *p(∞)=1* [https://bjornkennethholmstrom.wordpress.com/2024/10/20/what-if-the-probability-of-infinity-equals-one/] presenterar några fascinerande filosofiska perspektiv som kan informera en balanserad politisk strategi med fokus på övergång! Här är en syntes av hur dessa idéer kan komplettera den politiska ramen för Fjärilspartiet:
 
 ### Kärnprinciper för integration:
 

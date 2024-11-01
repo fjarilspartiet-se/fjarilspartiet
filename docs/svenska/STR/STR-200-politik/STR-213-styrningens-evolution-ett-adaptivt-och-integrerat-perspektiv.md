@@ -140,7 +140,7 @@ Att utveckla ett styrsystem som kombinerar det bästa från olika styrningsforme
 - Systematisk utveckling
 - Kunskapsintegrering
 
-## Vägen Framåt
+## Vägen framåt
 
 ### Kortsiktiga prioriteringar (1-3 år)
 1. Etablera pilotprojekt för hybridstyrning

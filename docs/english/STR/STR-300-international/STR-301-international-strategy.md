@@ -1,9 +1,9 @@
 # International Strategy
-## Unity Forward (Enhet Framåt)
+## Fjärilspartiet
 
 ### Executive Summary
 
-Unity Forward's international strategy aims to foster global transition toward sustainable and flourishing societies through collaborative networks, knowledge sharing, and culturally-adapted solutions. Our approach emphasizes partnership over competition while respecting local contexts.
+Fjärilspartiet's international strategy aims to foster global transition toward sustainable and flourishing societies through collaborative networks, knowledge sharing, and culturally-adapted solutions. Our approach emphasizes partnership over competition while respecting local contexts.
 
 ### Global Vision and Purpose
 

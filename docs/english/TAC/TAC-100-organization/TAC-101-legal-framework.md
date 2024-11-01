@@ -1,9 +1,9 @@
 # Legal Framework
-## Unity Forward (Enhet Framåt)
+## Fjärilspartiet
 
 ### Executive Summary
 
-Unity Forward operates within Swedish legal requirements while maintaining high standards of transparency and ethical conduct. This framework outlines our legal structure, compliance requirements, and operational procedures to ensure proper governance and protection of all stakeholders.
+Fjärilspartiet operates within Swedish legal requirements while maintaining high standards of transparency and ethical conduct. This framework outlines our legal structure, compliance requirements, and operational procedures to ensure proper governance and protection of all stakeholders.
 
 ### Party Registration and Structure
 

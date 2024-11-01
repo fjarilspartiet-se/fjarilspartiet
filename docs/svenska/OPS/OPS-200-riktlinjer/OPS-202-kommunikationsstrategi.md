@@ -15,11 +15,11 @@ relaterade-dokument:
 ---
 
 # Kommunikationsstrategi  
-## Enhet Framåt (Unity Forward)
+## Fjärilspartiet
 
 ### Sammanfattning
 
-Enhet Framåts kommunikationsstrategi bygger på principer om transparens, autenticitet och inkludering, och är utformad för att stödja vårt uppdrag att underlätta samhällsomvandling genom effektiv dialog och engagemang. Detta dokument beskriver hur vi kommunicerar både internt och externt för att säkerställa att vårt budskap förblir tydligt, konsekvent och slagkraftigt i alla kanaler.
+Fjärilspartiets kommunikationsstrategi bygger på principer om transparens, autenticitet och inkludering, och är utformad för att stödja vårt uppdrag att underlätta samhällsomvandling genom effektiv dialog och engagemang. Detta dokument beskriver hur vi kommunicerar både internt och externt för att säkerställa att vårt budskap förblir tydligt, konsekvent och slagkraftigt i alla kanaler.
 
 ### Grundläggande Kommunikationsprinciper
 
@@ -152,13 +152,13 @@ Vi engagerar oss med allmänheten genom flera kanaler:
 
 Vår kommunikation kretsar kring visionen om "Att skapa en blomstrande framtid tillsammans" genom centrala teman:
 
-**Huvudteman**  
-- Hållbar Välfärd: Ekonomiskt välbefinnande inom planetära gränser
-- Inkluderande Innovation: Teknisk utveckling som gynnar alla
-- Demokratisk Utveckling: Att utveckla bättre sätt att fatta beslut tillsammans
+**Huvudteman**
+- Hållbar välfärd: Ekonomiskt välbefinnande inom planetära gränser
+- Inkluderande innovation: Teknisk utveckling som gynnar alla
+- Personlig autonomi: Att stödja individers rätt och möjlighet till självbestämmande
 - Samhällsresiliens: Bygga starka, anpassningsbara lokalsamhällen
 
-**Fokus på Tillvägagångssätt**  
+**Fokus på tillvägagångssätt**
 Vi betonar alltid:
 - Praktiska lösningar på verkliga problem
 - Evidensbaserat beslutsfattande

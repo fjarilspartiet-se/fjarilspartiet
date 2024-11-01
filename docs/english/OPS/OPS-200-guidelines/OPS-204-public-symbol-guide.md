@@ -1,9 +1,9 @@
-# Unity Forward's Living Symbol
+# Fjärilspartiet's Living Symbol
 ## A Guide to Our Butterfly Identity
 
 ### Why a Butterfly?
 
-Unity Forward sees Swedish democracy as a beautiful meadow, where different political parties are like diverse flowers - each with its own vital role and right to exist. In this meadow, we choose to be like a butterfly: helping ideas flow between different perspectives, supporting the whole ecosystem to flourish, and demonstrating the power of transformation.
+Fjärilspartiet sees Swedish democracy as a beautiful meadow, where different political parties are like diverse flowers - each with its own vital role and right to exist. In this meadow, we choose to be like a butterfly: helping ideas flow between different perspectives, supporting the whole ecosystem to flourish, and demonstrating the power of transformation.
 
 ### Our Four Stages
 
@@ -63,5 +63,5 @@ Visit our website: [website]
 Join our discussions: [platform]
 Contact us: [contact details]
 
-Unity Forward (Enhet Framåt)
+Fjärilspartiet
 Growing together for a flourishing democracy

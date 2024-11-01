@@ -11,7 +11,7 @@ relaterade-dokument:
   - OPS-206 # Utbildning implementeringsriktlinjer
   - OPS-207 # Exempel på utbildningsprojekt
   - TAK-204 # Svensk utbildningsintegration
-  - TAK-205 # Meningsfullhet inom utbildning
+  - TAK-205 # Självbestämmande och personlig utveckling inom utbildning
 ---
 
 # Utbildnings- och Träningsramverk
@@ -19,7 +19,7 @@ relaterade-dokument:
 
 ### Sammanfattning
 
-Vårt utbildnings- och träningsramverk tillhandahåller omfattande utbildningsvägar för alla medlemmar, vilket säkerställer effektivt deltagande och utveckling inom Enhet Framåt. Ramverket använder blandade lärandeformer och anpassas till olika roller och behov, samtidigt som det upprätthåller konsekvent kvalitet och tillgänglighet.
+Vårt utbildnings- och träningsramverk tillhandahåller omfattande utbildningsvägar för alla medlemmar, vilket säkerställer effektivt deltagande och utveckling inom Fjärilspartiet. Ramverket använder blandade lärandeformer och anpassas till olika roller och behov, samtidigt som det upprätthåller konsekvent kvalitet och tillgänglighet.
 
 ### Utbildningsvägar
 

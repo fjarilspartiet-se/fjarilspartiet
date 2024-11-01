@@ -15,11 +15,11 @@ relaterade-dokument:
 ---
 
 # Etik- och Värderingsramverk  
-## Enhet Framåt  
+## Fjärilspartiet  
 
 ### Sammanfattning
 
-Enhet Framåts etik- och värderingsramverk erbjuder en omfattande vägledning för etiskt beteende och beslutsfattande inom alla delar av vår verksamhet. Detta ramverk integrerar våra kärnvärden med vår hybridstyrningsmodell och säkerställer enhetliga etiska standarder samtidigt som det ger utrymme för kontextuell flexibilitet.
+Fjärilspartiets etik- och värderingsramverk erbjuder en omfattande vägledning för etiskt beteende och beslutsfattande inom alla delar av vår verksamhet. Detta ramverk integrerar våra kärnvärden med vår hybridstyrningsmodell och säkerställer enhetliga etiska standarder samtidigt som det ger utrymme för kontextuell flexibilitet.
 
 ### Kärnvärden och Principer
 

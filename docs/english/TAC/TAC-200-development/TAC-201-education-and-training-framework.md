@@ -3,7 +3,7 @@
 
 ### Executive Summary
 
-Our education and training framework provides comprehensive learning pathways for all members, ensuring effective participation and development within Unity Forward. The framework uses blended learning approaches and adapts to different roles and needs while maintaining consistent quality and accessibility.
+Our education and training framework provides comprehensive learning pathways for all members, ensuring effective participation and development within Fjärilspartiet. The framework uses blended learning approaches and adapts to different roles and needs while maintaining consistent quality and accessibility.
 
 ### Learning Pathways
 

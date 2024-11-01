@@ -18,7 +18,7 @@ relaterade-dokument:
 
 ### Varför en fjäril?
 
-Enhet Framåt ser svensk demokrati som en vacker äng, där olika politiska partier är som mångsidiga blommor – var och en med sin egen viktiga roll och rätt att existera. I denna äng väljer vi att vara som en fjäril: hjälpa idéer att flöda mellan olika perspektiv, stödja hela ekosystemet att blomstra och visa kraften i transformation.
+Fjärilspartiet ser svensk demokrati som en vacker äng, där olika politiska partier är som mångsidiga blommor – var och en med sin egen viktiga roll och rätt att existera. I denna äng väljer vi att vara som en fjäril: hjälpa idéer att flöda mellan olika perspektiv, stödja hela ekosystemet att blomstra och visa kraften i transformation.
 
 ### Våra fyra stadier
 

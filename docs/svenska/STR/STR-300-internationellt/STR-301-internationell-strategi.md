@@ -19,7 +19,7 @@ relaterade-dokument:
 
 ### Sammanfattning
 
-Enhet Framåts internationella strategi syftar till att främja en global övergång mot hållbara och blomstrande samhällen genom samarbetsnätverk, kunskapsdelning och kulturellt anpassade lösningar. Vår metod betonar partnerskap över konkurrens och respekterar lokala sammanhang.
+Fjärilspartiets internationella strategi syftar till att främja en global övergång mot hållbara och blomstrande samhällen genom samarbetsnätverk, kunskapsdelning och kulturellt anpassade lösningar. Vår metod betonar partnerskap över konkurrens och respekterar lokala sammanhang.
 
 ### Global vision och syfte
 

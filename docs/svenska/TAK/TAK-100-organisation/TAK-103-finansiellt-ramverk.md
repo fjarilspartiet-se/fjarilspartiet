@@ -19,288 +19,160 @@ relaterade-dokument:
 
 ### Sammanfattning
 
-Fjärilspartiets finansiella ramverk bygger på principerna transparens, etisk förvaltning och hållbar resursanvändning. Detta dokument beskriver hur vi genererar, förvaltar och allokerar ekonomiska resurser för att stödja vårt uppdrag och samtidigt upprätthålla högsta standard för ansvarstagande och etisk praxis.
+Fjärilspartiet drivs på en donationsbaserad modell utan medlemsavgifter, möjliggjort av vår smala digitala infrastruktur och flexibla styrningsmodell. Detta ramverk beskriver hur vi hanterar resurser hållbart samtidigt som vi bibehåller full transparens och etiska standarder.
 
 ### Intäktskällor
 
-#### Offentlig Finansiering
+#### Frivilliga Bidrag
 
-Fjärilspartiet erhåller offentliga medel genom flera kanaler:
+**Donationsprinciper**
+- Inga obligatoriska avgifter eller bidrag
+- Transparent donationshantering via DPOP
+- Flera bidragsnivåer välkomnas
+- Ingen utesluts från deltagande
+- Fokus på hållbart, långsiktigt stöd
 
-**Partistöd**  
-Vi erhåller stöd på flera regeringsnivåer:
-- Nationellt stöd för partiverksamhet
-- Kommunalt stöd för lokala aktiviteter
-- Regionalt stöd för regionala initiativ
-
-För att upprätthålla detta stöd:
-- Följer vi alla krav noggrant
-- Lämnar vi regelbundna rapporter om efterlevnad
-- Planerar vi strategiskt för allokeringar
-- Bibehåller vi transparent dokumentation
-
-**Särskilda Projektbidrag**  
-Vi söker aktivt bidrag för specifika initiativ:
-- Projekt för miljömässig hållbarhet
-- Program för demokratisk innovation
-- Initiativ för social inkludering
-- Forskning och utveckling
-- Utbildningsprogram
-- Samhällsutvecklingsprojekt
-
-#### Medlemsavgifter
-
-**Medlemsavgifter**  
-Vi upprätthåller en inkluderande avgiftsstruktur:
-- Grundmedlemskap: 50-200 SEK/månad (glidande skala)
-- Stödmedlemskap: 201-500 SEK/månad
-- Hållbart medlemskap: Över 500 SEK/månad
-- Student/reducerat pris: 25 SEK/månad
-
-Särskilda bestämmelser:
-- Befrielse vid ekonomisk svårighet
-- 10% rabatt för årliga betalningar
-- Ingen exkluderas på grund av ekonomiska hinder
-
-**Frivilliga Bidrag**  
-Medlemmar kan bidra på olika sätt:
-- Ekonomiska donationer för specifika projekt
+**Bidragstyper**
+- Ekonomiska donationer
 - Professionella färdigheter och tid
 - Delning av utrustning och resurser
-- Tillhandahållande av lokaler för evenemang
-- Professionella tjänster och expertis
-- Andra bidrag i form av varor och tjänster
+- Tillhandahållande av lokaler
+- Teknisk expertis
+- Andra gåvobidrag
 
-#### Alternativa Finansieringskällor
+#### Offentlig Finansiering
 
-**Kooperativa Samarbetsprojekt**  
-Vi utvecklar hållbar finansiering genom:
-- Partnerskap med samhällsägt företag
-- Delningsinitiativ för resurser
-- Samarbetsprojekt med likasinnade organisationer
-- Partnerskap för socialt företagande
-- Arrangemang för resursdelning
-- Gemensamma ansökningar om finansiering med partners
+**Partistöd**
+När vi är berättigade får vi stöd på:
+- Nationell nivå
+- Kommunal nivå
+- Regional nivå
 
-**Etiska Investeringar**  
-Vi upprätthåller en etisk investeringsportfölj:
-- Hållbara investeringsfonder
-- Fonder för samhällsutveckling
-- Partnerskap med kooperativa banker
-- Sociala obligationsprojekt
-- Gröna investeringsmöjligheter
-- Strikt etisk förvaltning av fonder
+All offentlig finansiering är:
+- Transparent dokumenterad
+- Strategiskt fördelad
+- Offentligt rapporterad
+- Etiskt hanterad
 
-### Utgiftsförvaltning
+#### Alternativa Resurser
 
-#### Grundbudget för Verksamheten
+**Resursdelning**
+Vi maximerar effekten genom:
+- Samhällsbaserad resursdelning
+- Delad digital infrastruktur
+- Samarbetsprojekt
+- Färdighetsutbyten
+- Tidsbanker
+- Öppen källkodslösningar
 
-Vår årliga budget fördelar resurser som följer:
+**Digital Effektivitet**
+Vår DPOP-plattform möjliggör:
+- Minimala driftkostnader
+- Automatiserade processer
+- Distribuerat samarbete
+- Effektiv resursanvändning
+- Transparent spårning
 
-**Personal (50%)**
-- 30% Kärnpositioner
-- 15% Specialiserade kontraktsarbeten
-- 5% Personalutbildning och utveckling
+### Utgiftshantering
 
-**Infrastruktur (25%)**
-- 10% Digitala plattformar och teknik
-- 10% Fysiska utrymmen och anläggningar
-- 5% Kommunikationssystem
+#### Kärnverksamhet
 
-**Program (25%)**
-- 15% Genomförande av initiativ
-- 5% Samhällsevenemang
-- 5% Allmän information
+Vår strama budget prioriterar:
 
-#### Kris- och Möjlighetsfonder
-
-Vi upprätthåller strategiska reserver:
-- 10% av total budget för krissituationer
-- Snabb reaktionsförmåga
-- Resurser för oväntade möjligheter
-- Rättsliga kontingensfonder
-- Reserv för infrastrukturreparation
+**Digital Infrastruktur (40%)**
+- Underhåll och utveckling av DPOP
+- Kommunikationssystem
 - Säkerhetsåtgärder
+- Teknisk support
+- Digitala samarbetsverktyg
 
-### Finansiell Översyn
+**Program (40%)**
+- Implementering av initiativ
+- Gemenskapsprojekt
+- Utåtriktade aktiviteter
+- Utbildningsprogram
+- Forskning och utveckling
 
-#### Kommittéstruktur
+**Administration (20%)**
+- Nödvändig samordning
+- Rättslig efterlevnad
+- Ekonomisk förvaltning
+- Strategisk planering
 
-Vi upprätthåller flera översynskommittéer:
-- Revisionskommitté för finansiell granskning
-- Etikkommitté för etisk efterlevnad
-- Investeringskommitté för fondförvaltning
-- Budgetkommitté för resursallokering
+#### Nödfond
+- 10% av donationerna reserverade
+- Klara aktiveringsprotokoll
+- Transparent spårning av användning
+- Regelbunden översyn av reserver
 
-#### Rapporteringsschema
-- Månatliga interna rapporter
-- Kvartalsvisa offentliga rapporter
-- Årliga omfattande revisioner
-- Projektspecifika rapporter vid behov
+### Tillsyn och Transparens
 
-#### Transparensåtgärder
+#### Digital Transparens
+- Finansiella instrumentpaneler i realtid
+- Automatiserad rapportering
+- Offentliga transaktionsloggar
+- Effektspårning
+- Synlighet för resursfördelning
 
-**Offentlig Rapportering**  
-Vi tillhandahåller:
-- Realtids finansiella instrumentpaneler
-- Månatliga utgiftsrapporter
-- Projektspecifik spårning
-- Kompletta donationsregister
-- Detaljerade utgiftsfördelningar
-- Regelbundna utvärderingar av påverkan
-
-**Interna Kontroller**  
-Vi implementerar:
-- System för godkännande med flera signaturer
-- Tydliga godkännandeprocesser
-- Omfattande revisionsspår
-- Noggrann verifiering av utgifter
-- Kontinuerlig budgetövervakning
-- Regelbundna efterlevnadskontroller
+#### Gemenskapstillsyn
+- Öppna budgetdiskussioner
+- Deltagande beslutsfattande
+- Regelbundna granskningar i gemenskapen
+- Feedbackmekanismer
+- Effektbedömningar
 
 ### Etiska Riktlinjer
 
-#### Donationspolicy
+#### Donationspolicyer
+- Inga företagsdonationer
+- Källkontroll krävs
+- Syftesöverensstämmelse verifieras
+- Transparent behandling
+- Klar spårning av användning
 
-Klara regler styr donationer:
-- Inga företagsdonationer accepteras
-- Individuella donationsgränser följs
-- Full transparens krävs
-- Verifiering av donationens källa är obligatorisk
-- Etisk granskning av alla donationer
-- Kontroll av ändamålsanpassning
+#### Resursanvändning
+- Maximal effektivitet
+- Hållbara metoder
+- Delade resurser prioriteras
+- Öppen källkod prioriteras
+- Fokus på samhällsnytta
 
-#### Investeringsstandarder
+### Implementering
 
-Alla investeringar måste uppfylla strikta kriterier:
-- Miljömässig hållbarhet
-- Socialt ansvar
-- Fördel för lokalsamhället
-- Demokratiska ägarstrukturer
-- Etiska driftsmetoder
-- Långsiktig hållbarhet
+#### Digitala Verktyg
+- DPOP-finansmodul
+- Automatisk spårning
+- Plattform för resursdelning
+- Projektledningsverktyg
+- Effektmätning
 
-### Resursallokering
+#### Stödsystem
+- Teknisk dokumentation
+- Användarguider
+- Gemenskapsstöd
+- Utbildningsresurser
+- Felsökningshjälp
 
-#### Prioriteringsram
+### Framtida Utveckling
 
-Vi fördelar resurser enligt tre prioriteringsnivåer:
+#### Strategisk Tillväxt
+- Skalbara system
+- Resurseffektivitet
+- Integrering av innovation
+- Engagemang från gemenskapen
+- Maximering av påverkan
 
-**Nödvändiga Verksamheter (60%)**
-- Kärnverksamhet och grundfunktioner
-- Medlemsservice och stöd
-- Grundläggande infrastrukturunderhåll
-- Kritiska personalpositioner
-- Viktiga tekniska system
-- Grundläggande kommunikationsbehov
+#### Hållbarhet
+- Långsiktig planering
+- Optimering av resurser
+- Samhällsmotståndskraft
+- Teknologisk anpassning
+- Kontinuerlig förbättring
 
-**Utvecklingsinitiativ (30%)**
-- Tillväxt- och expansionsprojekt
-- Teknisk utveckling
-- Implementering av nya program
-- Kapacitetsbyggande
-- Personalutveckling
-- Infrastrukturförbättringar
-
-**Investeringsmöjligheter (10%)**
-- Nya initiativ och pilotprojekt
-- Forskningsprojekt
-- Experimentella program
-- Test av innovationer
-- Särskilda projekt
-- Strategiska möjligheter
-
-#### Beslutsprocess
-
-Resursallokeringsbeslut följer dessa principer:
-
-**Deltagande Budgetering**
-- Medlemsinflytande i budgetprioriteringar
-- Öppna budgetdiskussioner
-- Transparent allokeringsprocess
-- Regelbundna granskningssessioner
-- Tydliga återkopplingskanaler
-- Påverkansutvärdering
-
-**Expertkonsultation**
-- Insikter från finansiella experter
-- Teknisk bedömning
-- Riskbedömning
-- Påverkansanalys
-- Hållbarhetsgranskning
-- Kontroll av strategisk inriktning
-
-### Hållbarhetsplanering
-
-#### Finansiell Resiliens
-
-Vi bygger långsiktig stabilitet genom:
-
-**Diversifierade Intäkter**
-- Flera intäktsströmmar
-- Varierade finansieringskällor
-- Balanserad inkomstportfölj
-- Investeringar med spridd risk
-- Regelbunden översyn av intäkter
-- Identifiering av tillväxtmöjligheter
-
-**Reservhantering**
-- Upprätthållande av krisfond
-- Strategiska reserver
-- Driftsbuffert
-- Investeringsportfölj
-- Riskhanteringsfond
-- Utvecklingsreserver
-
-#### Resurseffektivitet
-
-Vi maximerar resursutnyttjandet genom:
-
-**Integrering av Delningsekonomin**
-- Plattformar för resursdelning
-- Utrustningspooler
-- Delade lokaler
-- Utbytesprogram för färdigheter
-- Tidsbanker
-- Samarbetskonsumtion
-
-**Cirkulär Ekonomi**  
-Vi implementerar:
-- Strategier för att minska avfall
-- Program för resursåteranvändning
-- Energieffektivitetsåtgärder
-- Hållbar upphandling
-- Planering för livscykel
-- Kostnadsoptimering
-
-### Teknologiintegration
-
-#### Finansiella Verktyg
-
-Vårt DPOP-finansieringsmodul erbjuder:
-
-**Grundläggande Funktioner**
-- Realtidsspårning av transaktioner
--
-
- Automatiserade rapporter
-- Dashboard för realtidsuppdateringar
-- Flerdimensionell analys
-
-**Avancerade Funktioner**
-- Anpassningsbara visualiseringar
-- Smart budgetering
-- Proaktiv riskhantering
-- Ökad dataexakthet
-
-#### Säkerhetsfunktioner
-
-Vårt tekniska system erbjuder:
-
-**Skyddsåtgärder**
-- End-to-end-kryptering
-- Multi-faktor autentisering
-- Detektering av bedrägliga aktiviteter
-- Omfattande efterlevnadslogg
-- Informationssäkerhetspolicy
+Detta ramverk betonar vårt engagemang för:
+1. Noll ekonomiska hinder för deltagande
+2. Maximal transparens och effektivitet
+3. Gemenskapsdriven resurshantering
+4. Hållbara digitala operationer
+5. Etiska ekonomiska metoder
 

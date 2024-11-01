@@ -1,3 +1,5 @@
+Not created yet:
+
 # STR
 
 STR-200
@@ -30,3 +32,22 @@ MED-105
 MED-106
 MED-107
 
+---
+
+Revised:
+
+# STR
+
+STR-206
+STR-302
+
+# TAC
+
+TAC-103
+
+TAC-205
+
+# OPS
+
+OPS-202
+OPS-203

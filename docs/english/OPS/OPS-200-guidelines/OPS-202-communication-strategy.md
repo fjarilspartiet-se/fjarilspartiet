@@ -1,9 +1,9 @@
 # Communication Strategy
-## Unity Forward (Enhet Framåt)
+## Fjärilspartiet
 
 ### Executive Summary
 
-Unity Forward's communication strategy is built on principles of transparency, authenticity, and inclusivity, designed to support our mission of facilitating societal transition through effective dialogue and engagement. This document outlines how we communicate both internally and externally, ensuring our message remains clear, consistent, and impactful across all channels.
+Fjärilspartiet's communication strategy is built on principles of transparency, authenticity, and inclusivity, designed to support our mission of facilitating societal transition through effective dialogue and engagement. This document outlines how we communicate both internally and externally, ensuring our message remains clear, consistent, and impactful across all channels.
 
 ### Core Communication Principles
 

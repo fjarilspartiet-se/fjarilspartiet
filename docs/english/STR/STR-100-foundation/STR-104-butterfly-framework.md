@@ -6,7 +6,7 @@
 #### The Meadow Metaphor
 - Swedish political landscape as a diverse meadow
 - Each party as a unique flower with its own value
-- Unity Forward as a butterfly enabling cross-pollination
+- Fjärilspartiet as a butterfly enabling cross-pollination
 - Emphasis on interdependence and mutual flourishing
 
 #### Evolutionary Stages

@@ -1,9 +1,9 @@
 # Religious and Spiritual Diversity Framework
-## Unity Forward (Enhet Framåt)
+## Fjärilspartiet
 
 ### Executive Summary
 
-Unity Forward recognizes the profound role that religious and spiritual beliefs play in many people's lives while maintaining a secular governance approach. This framework outlines how we create an inclusive environment that respects all beliefs while maintaining focus on our shared goals for societal transformation.
+Fjärilspartiet recognizes the profound role that religious and spiritual beliefs play in many people's lives while maintaining a secular governance approach. This framework outlines how we create an inclusive environment that respects all beliefs while maintaining focus on our shared goals for societal transformation.
 
 ### Core Principles
 

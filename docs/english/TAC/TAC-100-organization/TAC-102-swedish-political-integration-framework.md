@@ -1,5 +1,5 @@
 # Swedish Political Integration Framework
-## Unity Forward (Enhet Framåt) - Integration Strategy
+## Fjärilspartiet - Integration Strategy
 
 ### 1. Parliamentary System Integration
 
