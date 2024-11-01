@@ -15,7 +15,7 @@ Våra dokument är en levande plattform för att förstå och forma partiets vis
 - **Ekologisk hållbarhet och ekonomisk innovation**
 - **Demokratisk förnyelse genom digital medborgardeltagande**
 
-Du hittar dessa dokument via vår hemsida eller kan begära dem via e-post. Vi uppmuntrar alltid till dina reflektioner och idéer för att förbättra våra policyer, eftersom vi anser att alla medlemmar spelar en aktiv roll i Fjärilspartiets utveckling.
+Du hittar dessa dokument på Google Drive [https://tinyurl.com/fjarilspartiets-dokument](https://tinyurl.com/fjarilspartiets-dokument) och GitHub [https://github.com/BjornKennethHolmstrom/fjarilspartiet](https://github.com/BjornKennethHolmstrom/fjarilspartiet) och kan även begära dem via e-post. I framtiden kommer de även finnas tillgängliga genom partiets digitala plattform (baserad på DPOP), och förmodligen via en hemsida. Vi uppmuntrar alltid till reflektioner och idéer för att förbättra våra policyer, eftersom vi anser att alla medlemmar spelar en aktiv roll i Fjärilspartiets utveckling.
 
 ---
 
@@ -64,7 +64,7 @@ Med dessa dokument kan du exempelvis organisera lokala projekt och delta i samh�
 
 ## Steg 5: Förberedelse för DPOP och Framtida Utveckling
 
-När DPOP lanseras kommer det att bli vår centrala plattform för digital demokrati och medlemsengagemang. Där kommer du kunna delta i beslutsprocesser, samarbeta med andra medlemmar och vara delaktig i Fjärilspartiets tillväxt och utveckling. Fram tills dess använder vi de befintliga kommunikationskanalerna och våra MED-dokument för att säkerställa en smidig och produktiv start för nya medlemmar.
+När DPOP lanseras kommer det att bli basen för vår centrala plattform för digital demokrati och medlemsengagemang. Där kommer du kunna delta i beslutsprocesser, samarbeta med andra medlemmar och vara delaktig i Fjärilspartiets tillväxt och utveckling. Fram tills dess använder vi de befintliga kommunikationskanalerna och våra MED-dokument för att säkerställa en smidig och produktiv start för nya medlemmar.
 
 ---
 
@@ -72,7 +72,7 @@ Vi ser fram emot att lära känna dig och vad just du kan tillföra till Fjäril
 
 ### Kontakt och Ytterligare Information
 - Grundare och Koordinator: Björn Kenneth Holmström
-- E-post: bjorn.kenneth.holmstrom@gmail.com
-- Hemsida: [bjornkennethholmstrom.wordpress.com/contact](https://bjornkennethholmstrom.wordpress.com/contact/)
+- Kontakta via E-post: bjorn.kenneth.holmstrom@gmail.com
+- Kontakta via hemsida: [bjornkennethholmstrom.wordpress.com/contact](https://bjornkennethholmstrom.wordpress.com/contact/)
 
 *Fjärilspartiet – Frihet, transformation och meningsfull förändring*
