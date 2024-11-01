@@ -27,7 +27,7 @@ OPS-300 beskriver Fjärilspartiets teknologiska ramverk som styr användning och
 ## 1. Etisk teknologiutveckling  
 
 ### 1.1 Etik och hållbarhet i forskning och utveckling  
-Alla teknologiska utvecklingsprocesser ska följa etiska riktlinjer som sätter mänskliga rättigheter, ekologisk hållbarhet och social rättvisa i centrum. Detta innebär att utvecklingen av ny teknik bör ske med långsiktig hållbarhet och etiska hänsyn som grund.
+Alla teknologiska utvecklingsprocesser ska följa etiska riktlinjer som sätter mänskliga rättigheter, ekologisk hållbarhet och social rättvisa i centrum. Detta innebär att utvecklingen av ny teknik bör ske med långsiktig hållbarhet och etisk hänsyn som grund.
 
 **Strategier:**  
 - **Etiska riktlinjer**: Skapa och implementera riktlinjer för etisk teknik, i samarbete med forskningsinstitut och etiska nämnder.  

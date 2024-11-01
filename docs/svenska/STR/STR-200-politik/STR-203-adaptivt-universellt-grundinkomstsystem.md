@@ -11,6 +11,7 @@ relaterade-dokument:
   - STR-205 # Holistiskt stödramverk
   - STR-201 # Adaptivt skatteramverk
   - STR-202 # Svenskt adaptivt skatteramverk
+  - STR-214 # AUBI - Ekonomisk analys och finansiering
   - TAK-103 # Finansiellt ramverk
 ---
 

@@ -10,6 +10,7 @@ relaterade-dokument:
   - STR-203 # Adaptiv universell basinkomst (AUBI)
   - STR-205 # Holistiskt stödramverk
   - STR-206 # Meningsfull tillvaro som social rättighet
+  - STR-214 # AUBI - Ekonomisk analys och finansiering
   - TAK-103 # Finansiellt ramverk
 ---
 
