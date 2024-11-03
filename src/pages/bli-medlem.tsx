@@ -17,18 +17,12 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      const response = await fetch('https://formsubmit.co/ajax/bjorn.kenneth.holmstrom@gmail.com', {
+      const response = await fetch('/api/send-membership', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Accept': 'application/json'
         },
-        body: JSON.stringify({
-          _subject: `[Fjärilspartiet Medlemsansökan] Ny ansökan från ${formData.name}`,
-          name: formData.name,
-          email: formData.email,
-          message: formData.message || 'Ingen extra information angiven.'
-        })
+        body: JSON.stringify(formData)
       });
 
       if (!response.ok) {
