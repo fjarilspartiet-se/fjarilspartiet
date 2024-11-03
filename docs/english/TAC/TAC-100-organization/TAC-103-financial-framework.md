@@ -1,32 +1,32 @@
 # Financial Framework
 ## Fjärilspartiet
 
-### Executive Summary
+### Summary
 
-Fjärilspartiet operates on a donation-based model with no membership fees, enabled by our lean digital infrastructure and flexible governance model. This framework outlines how we sustainably manage resources while maintaining full transparency and ethical standards.
+Fjärilspartiet operates on a donation-based model without membership fees, made possible by our streamlined digital infrastructure and flexible governance model. This framework outlines how we manage resources sustainably while maintaining full transparency and ethical standards.
 
-### Revenue Streams
+### Revenue Sources
 
 #### Voluntary Contributions
 
 **Donation Principles**
 - No mandatory fees or contributions
-- Transparent donation processing through DPOP
-- Multiple contribution levels welcomed
-- No one excluded from participation
+- Transparent donation management via DPOP
+- All levels of contributions are welcome
+- No one is excluded from participation
 - Focus on sustainable, long-term support
 
-**Contribution Types**
-- Financial donations
+**Types of Contributions**
+- Monetary donations
 - Professional skills and time
-- Equipment and resource sharing
-- Venue provision
+- Sharing of equipment and resources
+- Provision of spaces
 - Technical expertise
 - Other in-kind contributions
 
 #### Public Funding
 
-**Party Support (Partistöd)**
+**Party Support**
 When eligible, we receive support at:
 - National level
 - Municipal level
@@ -42,43 +42,43 @@ All public funding is:
 
 **Resource Sharing**
 We maximize impact through:
-- Community resource pooling
+- Community-based resource sharing
 - Shared digital infrastructure
 - Collaborative projects
 - Skill exchanges
-- Time banking
-- Open source solutions
+- Time banks
+- Open-source solutions
 
 **Digital Efficiency**
 Our DPOP platform enables:
 - Minimal operational costs
 - Automated processes
 - Distributed collaboration
-- Efficient resource use
+- Efficient resource utilization
 - Transparent tracking
 
-### Expenditure Management
+### Expense Management
 
 #### Core Operations
 
 Our lean budget prioritizes:
 
 **Digital Infrastructure (40%)**
-- DPOP maintenance and development
+- Maintenance and development of DPOP
 - Communication systems
 - Security measures
 - Technical support
 - Digital collaboration tools
 
 **Programs (40%)**
-- Initiative implementation
+- Implementation of initiatives
 - Community projects
-- Public outreach
+- Outreach activities
 - Educational programs
 - Research and development
 
 **Administration (20%)**
-- Essential coordination
+- Necessary coordination
 - Legal compliance
 - Financial management
 - Strategic planning
@@ -87,7 +87,7 @@ Our lean budget prioritizes:
 - 10% of donations reserved
 - Clear activation protocols
 - Transparent usage tracking
-- Regular review of reserves
+- Regular reserve review
 
 ### Oversight and Transparency
 
@@ -96,7 +96,7 @@ Our lean budget prioritizes:
 - Automated reporting
 - Public transaction logs
 - Impact tracking
-- Resource allocation visibility
+- Visibility of resource allocation
 
 #### Community Oversight
 - Open budget discussions
@@ -111,22 +111,22 @@ Our lean budget prioritizes:
 - No corporate donations
 - Source verification required
 - Purpose alignment verified
-- Transparent processing
-- Clear usage tracking
+- Transparent handling
+- Clear tracking of usage
 
 #### Resource Use
 - Maximum efficiency
 - Sustainable practices
-- Shared resources preferred
-- Open source priority
-- Community benefit focus
+- Prioritization of shared resources
+- Preference for open-source solutions
+- Focus on community benefit
 
 ### Implementation
 
 #### Digital Tools
-- DPOP financial module
-- Automated tracking
-- Resource sharing platform
+- DPOP finance module
+- Automatic tracking
+- Resource-sharing platform
 - Project management tools
 - Impact measurement
 
@@ -134,17 +134,17 @@ Our lean budget prioritizes:
 - Technical documentation
 - User guides
 - Community support
-- Training resources
-- Troubleshooting help
+- Educational resources
+- Troubleshooting assistance
 
 ### Future Development
 
 #### Strategic Growth
 - Scalable systems
 - Resource efficiency
-- Innovation integration
+- Integration of innovation
 - Community engagement
-- Impact maximization
+- Maximizing impact
 
 #### Sustainability
 - Long-term planning
@@ -154,7 +154,7 @@ Our lean budget prioritizes:
 - Continuous improvement
 
 This framework emphasizes our commitment to:
-1. Zero financial barriers to participation
+1. No financial barriers to participation
 2. Maximum transparency and efficiency
 3. Community-driven resource management
 4. Sustainable digital operations

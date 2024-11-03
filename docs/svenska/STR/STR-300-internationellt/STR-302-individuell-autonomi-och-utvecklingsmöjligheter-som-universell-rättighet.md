@@ -9,9 +9,9 @@ roll: Grundare och teknisk samordnare
 relaterade-dokument:
   - STR-301 # Internationell strategi
   - STR-206 # Meningsfull tillvaro som social rättighet
-  - TAK-305 # 
+  - TAK-305 # Självbestämmande och personlig utveckling som hälsokomponent
   - STR-102 # Bas i p(∞)=1
-  - OPS-203 # 
+  - OPS-203 # Extern kommunikation om individuell autonomi och utvecklingsmöjligheter
 ---
 
 # Individuell autonomi och utvecklingsmöjligheter som universell rättighet

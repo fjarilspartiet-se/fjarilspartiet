@@ -8,8 +8,8 @@ responsible: Björn Kenneth Holmström
 role: Founder and Technical Coordinator  
 related-documents:  
   - STR-302 # Individual Autonomy and Development Opportunities as a Universal Right  
-  - TAK-305 #  
-  - TAK-205 #  
+  - TAC-305 #  
+  - TAC-205 #  
   - OPS-203 #  
 
 ---

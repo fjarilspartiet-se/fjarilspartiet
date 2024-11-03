@@ -8,9 +8,9 @@ ansvarig: Björn Kenneth Holmström
 roll: Grundare och teknisk samordnare
 relaterade-dokument:
   - STR-302 # Individuell autonomi och utvecklingsmöjligheter som universell rättighet
-  - TAK-305 # 
-  - TAK-205 # 
-  - OPS-203 # 
+  - TAK-305 # Självbestämmande och personlig utveckling som hälsokomponent
+  - TAK-205 # Självbestämmande och personlig utveckling inom utbildning
+  - OPS-203 # Extern kommunikation om individuell autonomi och utvecklingsmöjligheter
 ---
 
 # Individuell autonomi och personlig utveckling som social rättighet

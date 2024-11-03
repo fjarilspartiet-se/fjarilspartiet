@@ -1,33 +1,74 @@
 # TAC-205
 ---
 document ID: TAC-205  
-title: Meaningfulness in Education  
+title: Self-Determination and Personal Development in Education  
 version: 1.0  
 last updated: 2024-10-29  
 responsible: Björn Kenneth Holmström  
 role: Founder and Technical Coordinator  
 related documents:  
-- STR-206 # Meaningful Existence as a Social Right  
+- STR-206 # Individual Autonomy and Personal Development as a Social Right 
 - TAC-203 # Educational Policy Framework  
 - TAC-204 # Swedish Educational Integration  
 - OPS-203 # External Communication on Meaningful Existence  
 
 ---
 
-### Document: 4.2.4 Meaningfulness in Education
+# Self-Determination and Personal Development in Education
 
-# 4.2.4 Meaningfulness in Education
+## Vision
+An educational system that supports each individual’s right and ability to explore, develop, and grow according to their own interests and goals, while also providing essential knowledge and skills for active participation in society.
 
-## Introduction
-The purpose of education should extend beyond merely preparing students for working life; it should also prepare them for meaningful social engagement and a fulfilling personal life. We emphasize that education’s goals include helping students find a deeper sense of meaning in their own role in society, inspiring engagement, a sense of community, and social responsibility.
+## Core Principles
 
-## Goals
-This section of the educational framework aims to promote:
-1. Democratic participation by educating students in social engagement and critical thinking.
-2. Personal and social development as part of the holistic approach of education.
-3. Opportunities for students to explore their own values, interests, and roles in a broader social context.
+### 1. Learning Autonomy
+- Support for independent learning
+- Respect for diverse learning styles and interests
+- Balance between structure and freedom
+- Development of metacognitive skills
 
-## Methods and Implementation
-- **Integrated Democratic Education**: Introduce programs and courses that strengthen the understanding of democratic participation and collective responsibility.
-- **Projects and Collaborative Opportunities**: Encourage project-based learning focused on meaningful social issues, allowing students to contribute and learn in real-world contexts.
-- **Guidance and Support for Self-Realization**: Provide students with access to mentors and advisors who can support them in discovering and developing their interests, talents, and ways to contribute to society.
+### 2. Individualized Development
+- Flexible learning paths
+- Customized progression
+- Personal development goals
+- Continuous feedback and support
+
+### 3. Active Participation
+- Influence over the learning process
+- Project-based learning
+- Practical application
+- Opportunities for collaboration
+
+## Practical Implementation
+
+### 1. Learning Environments
+- Flexible physical spaces
+- Digital learning platforms
+- Access to resources
+- Safe experimentation zones
+
+### 2. Pedagogical Methods
+- Varied teaching approaches
+- Interactive learning
+- Problem-based learning
+- Creative forms of expression
+
+### 3. Assessment and Evaluation
+- Formative feedback
+- Diverse examination formats
+- Self-assessment
+- Portfolio-based evaluation
+
+## Support Systems
+
+### 1. Teacher Support
+- Professional development
+- Guidance and mentorship
+- Peer learning among colleagues
+- Resource networks
+
+### 2. Student Support
+- Individual guidance
+- Support resources
+- Peer learning
+- Special education support

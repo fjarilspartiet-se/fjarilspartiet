@@ -34,20 +34,6 @@ MED-107
 
 ---
 
-Revised:
-
-# STR
+Header document titles missing:
 
 STR-206
-STR-302
-
-# TAC
-
-TAC-103
-
-TAC-205
-
-# OPS
-
-OPS-202
-OPS-203

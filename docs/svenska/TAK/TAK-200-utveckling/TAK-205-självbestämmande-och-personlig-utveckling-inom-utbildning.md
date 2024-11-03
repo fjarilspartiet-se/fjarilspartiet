@@ -10,7 +10,7 @@ relaterade-dokument:
   - STR-206 # Individuell autonomi och personlig utveckling som social rättighet
   - TAK-203 # Utbildningspolitiskt ramverk
   - TAK-204 # Svensk utbildningsintegration
-  - OPS-203 # 
+  - OPS-203 # Extern kommunikation om individuell autonomi och utvecklingsmöjligheter
 ---
 
 # Självbestämmande och personlig utveckling inom utbildning
