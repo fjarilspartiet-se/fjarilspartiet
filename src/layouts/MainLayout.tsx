@@ -83,6 +83,12 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
                 Vision
               </Link>
               <Link
+                href="/losningar"
+                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
+              >
+                Lösningar
+              </Link>
+              <Link
                 href="/bli-medlem"
                 className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
               >
