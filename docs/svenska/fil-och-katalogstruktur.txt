@@ -4,11 +4,20 @@
 ├── fjärilsägg.png
 ├── fjärilsägg.svg
 ├── fjärilslarv.svg
+├── fjärilspartiet-intro.html
 ├── fjärilspartiet-intro.md
 ├── fjärilspartiet-intro.pdf
 ├── fjäril.svg
 ├── guide-till-nya-medlemmar.md
 ├── guide-till-nya-medlemmar.pdf
+├── MED
+│   ├── MED-101-komma-igång.md
+│   ├── MED-102-organisera-möten.md
+│   ├── MED-103-bidra-tekniskt.md
+│   ├── MED-104-lokala-initiativ.md
+│   ├── MED-105-forskning-och-policyutveckling.md
+│   ├── MED-106-kommunikation-och-samhällsdialog.md
+│   └── MED-107-skalning-och-synergier.md
 ├── OPS
 │   ├── OPS-100-digital
 │   │   ├── OPS-101-partiets-operations-plattform-skiss.md
@@ -18,17 +27,18 @@
 │   ├── OPS-200-riktlinjer
 │   │   ├── OPS-201-konkreta-åtgärdsplaner.md
 │   │   ├── OPS-202-kommunikationsstrategi.md
-│   │   ├── OPS-203-extern-kommunikation-om-meningsfull-tillvaro.md
+│   │   ├── OPS-203-extern-kommunikation-om-individuell-autonomi-och-utvecklingsmöjligheter.md
 │   │   ├── OPS-204-symbol-riktlinjer.md
 │   │   ├── OPS-205-säkerhetsramverk.md
 │   │   ├── OPS-206-utbildning-implementeringsriktlinjer.md
 │   │   └── OPS-207-exempel-på-utbildningsprojekt.md
 │   ├── OPS-300-teknik
 │   │   └── OPS-300-teknologiska-ramverk.md
-│   └── OPS-500-internationellt
-│       └── OPS-500-internationella-samarbetsmekanismer.md
+│   └── OPS-400-internationellt
+│       └── OPS-400-internationella-samarbetsmekanismer.md
 ├── qr-code-original-size.png
 ├── qr-code.png
+├── qr-code.png~
 ├── STR
 │   ├── STR-100-grund
 │   │   ├── STR-001-långsiktig-vision-och-transformativa-mål.md
@@ -48,17 +58,18 @@
 │   │   ├── STR-203-adaptivt-universellt-grundinkomstsystem.md
 │   │   ├── STR-204-adaptiv-universell-basinkomst-fallstudie.md
 │   │   ├── STR-205-AUBI-holistiskt-stödramverk.md
-│   │   ├── STR-206-meningsfull-tillvaro-som-social-rättighet.md
+│   │   ├── STR-206-individuell-autonomi-och-personlig-utveckling-som-social-rättighet.md
 │   │   ├── STR-207-ramverk-för-religiös-och-andlig-mångfald.md
 │   │   ├── STR-208-ramverk-för-alternativa-livsstilar.md
 │   │   ├── STR-209-invandrings-och-integrationspolitiskt-ramverk.md
 │   │   ├── STR-210-demokratiskt-deltagande-för-barn-och-ungdomar.md
 │   │   ├── STR-211-vägar-till-sjukdomsbekämpning-genom-teknologi-och-social-utveckling.md
 │   │   ├── STR-212-ramverk-för-global-ekonomisk-jämlikhet-och-resurs-överflöd.md
-│   │   └── STR-213-styrningens-evolution-ett-adaptivt-och-integrerat-perspektiv.md
+│   │   ├── STR-213-styrningens-evolution-ett-adaptivt-och-integrerat-perspektiv.md
+│   │   └── STR-214-aubi-ekonomisk-analys-och-finansiering.md
 │   ├── STR-300-internationellt
 │   │   ├── STR-301-internationell-strategi.md
-│   │   └── STR-302-mening-och-meningsfullhet-som-universell-rättighet.md
+│   │   └── STR-302-individuell-autonomi-och-utvecklingsmöjligheter-som-universell-rättighet.md
 │   ├── STR-400-hållbarhetsstrategi
 │   │   ├── STR-400-hållbarhetsstrategi.md
 │   │   ├── STR-401-en-blomstrande-framtid-lokal-motståndskraft-och-hållbara-matsystem.md
@@ -71,25 +82,29 @@
 │   │   ├── TAK-101-juridiskt-ramverk.md
 │   │   ├── TAK-102-svenskt-politiskt-integrations-ramverk.md
 │   │   ├── TAK-103-finansiellt-ramverk.md
-│   │   └── TAK-104-kvalitetssäkringsramverk.md
+│   │   ├── TAK-104-kvalitetssäkringsramverk.md
+│   │   ├── TAK-105-intern-demokrati-och-hybridstyrning.md
+│   │   ├── TAK-106-konflikthantering-och-medling.md
+│   │   ├── TAK-107-lokala-kapitel-och-organisation.md
+│   │   └── TAK-108-riktlinjer-för-ekonomisk-struktur-och-hantering.md
 │   ├── TAK-200-utveckling
 │   │   ├── TAK-201-utbildnings-och-träningsramverk.md
 │   │   ├── TAK-202-forskning-och-utvecklingsramverk.md
 │   │   ├── TAK-203-utbildningspolitiskt-ramverk.md
 │   │   ├── TAK-204-svensk-utbildningsintegration.md
-│   │   └── TAK-205-meningsfullhet-inom-utbildning.md
+│   │   └── TAK-205-självbestämmande-och-personlig-utveckling-inom-utbildning.md
 │   ├── TAK-300-hälsa
 │   │   ├── TAK-300-hälso-och-välfärdsramverk.md
 │   │   ├── TAK-301-hälsofrämjande-insatser.md
 │   │   ├── TAK-302-sjukvårdsramverk.md
 │   │   ├── TAK-303-tillgänglig-och-holistisk-vård.md
 │   │   ├── TAK-304-psykisk-hälsa-och-välbefinnande.md
-│   │   └── TAK-305-mening-och-meningsfullhet-som-hälsokomponent.md
-│   ├── TAK-500-bostad-och-samhälle
-│   │   ├── TAK-501-bostäder-och-stadsutveckling-ramverk.md
-│   │   └── TAK-502-rättsreform-och-social-rättvisa.md
-│   └── TAK-600-land-och-lokal-utveckling
-│       └── TAK-601-landsbygdsutveckling-och-decentralisering.md
+│   │   └── TAK-305-självbestämmande-och-personlig-utveckling-som-hälsokomponent.md
+│   ├── TAK-400-bostad-och-samhälle
+│   │   ├── TAK-401-bostäder-och-stadsutveckling-ramverk.md
+│   │   └── TAK-402-rättsreform-och-social-rättvisa.md
+│   └── TAK-500-land-och-lokal-utveckling
+│       └── TAK-501-landsbygdsutveckling-och-decentralisering.md
 └── välkomstmeddelande.md
 
-17 directories, 75 files
+18 directories, 89 files

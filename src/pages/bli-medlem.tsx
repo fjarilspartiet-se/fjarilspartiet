@@ -17,10 +17,11 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      const response = await fetch('/api/send-membership', {
+      const response = await fetch('https://formspree.io/f/xwpkljoe', { // Replace with your Formspree form ID
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify(formData)
       });
@@ -160,4 +161,3 @@ export default function MembershipPage() {
     </MainLayout>
   );
 }
-

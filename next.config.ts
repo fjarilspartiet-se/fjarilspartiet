@@ -3,11 +3,14 @@ import { Configuration } from 'webpack';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  output: 'export',
-  basePath: '/fjarilspartiet',
-  images: {
-    unoptimized: true,
-  },
+  // Only enable static export for production builds
+  ...(process.env.NODE_ENV === 'production' ? {
+    output: 'export',
+    basePath: '/fjarilspartiet',
+    images: {
+      unoptimized: true,
+    },
+  } : {}),
   webpack: (config: Configuration, { isServer }: { isServer: boolean }) => {
     config.resolve = {
       ...config.resolve,
