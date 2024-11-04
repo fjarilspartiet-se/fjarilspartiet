@@ -1,4 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
+import nodemailer from 'nodemailer';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method !== 'POST') {
@@ -9,7 +10,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   try {
     // Send email using Node's built-in mail capabilities
-    const nodemailer = require('nodemailer');
+    //const nodemailer = require('nodemailer');
 
     // Create a transporter using Gmail
     const transporter = nodemailer.createTransport({

@@ -18,7 +18,7 @@ export default function ContactPage() {
             <h2>Primär kontakt</h2>
             <div className="space-y-3">
               <p>
-                Kontakta "fjärilsägget" och grundaren Björn via:
+                Kontakta &quot;fjärilsägget&quot; och grundaren Björn via:
               </p>
               <p>
                 <strong>E-post:</strong>{' '}

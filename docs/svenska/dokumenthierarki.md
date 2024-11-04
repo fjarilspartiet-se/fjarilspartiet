@@ -20,7 +20,7 @@
 - STR-203 Adaptiv universell basinkomst (AUBI)
 - STR-204 AUBI fallstudie
 - STR-205 Holistiskt stödramverk
-- STR-206 Meningsfull tillvaro som social rättighet
+- STR-206 Individuell autonomi och personlig utveckling som social rättighet
 - STR-207 Ramverk för religiös och andlig mångfald
 - STR-208 Ramverk för alternativa livsstilar
 - STR-209 Invandrings- och integrationspolitiskt ramverk
@@ -31,7 +31,7 @@
 
 ### Internationell strategi (STR-300)
 - STR-301 Internationell strategi
-- STR-302 Mening och meningsfullhet som universell rättighet
+- STR-302 Individuell autonomi och utvecklingsmöjligheter som universell rättighet
 
 ### Hållbarhetsstrategi (STR-400)
 - STR-400 Hållbarhetsstrategi
@@ -54,7 +54,7 @@
 - TAK-202 Forsknings- och utvecklingsramverk
 - TAK-203 Utbildningspolitiskt ramverk
 - TAK-204 Svensk utbildningsintegration
-- TAK-205 Meningsfullhet inom utbildning
+- TAK-205 Självbestämmande och personlig utveckling inom utbildning
 
 ### Hälso- och välfärdsramverk (TAK-300)
 - TAK-300 Hälso- och välfärdsramverk
@@ -62,7 +62,7 @@
 - TAK-302 Sjukvårdsramverk
 - TAK-303 Tillgänglig och holistisk vård
 - TAK-304 Psykisk hälsa och välbefinnande
-- TAK-305 Mening och meningsfullhet som hälsokomponent
+- TAK-305 Självbestämmande och personlig utveckling som hälsokomponent
 
 ### Bostad och samhälle (TAK-400)
 - TAK-401 Bostäder och stadsutveckling - ramverk

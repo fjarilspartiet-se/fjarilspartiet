@@ -1,17 +1,17 @@
-STR-001
-Dokument-ID: STR-001  
-Titel: Långsiktig Vision och Transformativa Mål  
-Version: 1.0  
-Senast Uppdaterad: 2024-10-30  
-Ansvarig: Björn Kenneth Holmström  
-Roll: Grundare och Visionär  
-Relaterade Dokument:  
-
-- STR-200 - Politisk strategi  
-- STR-300 - Internationell strategi  
-- STR-400 - Hållbarhetsstrategi  
-- TAK-200 - Utvecklingsramverk  
-- OPS-100 - Digital infrastruktur  
+# STR-001
+---
+dokumentid: STR-001  
+titel: Långsiktig Vision och Transformativa Mål  
+version: 1.0  
+senast-uppdaterad: 2024-10-30  
+ansvarig: Björn Kenneth Holmström  
+roll: Grundare och Visionär  
+relaterade-dokument:  
+  - STR-200 - Politisk strategi  
+  - STR-300 - Internationell strategi  
+  - STR-400 - Hållbarhetsstrategi  
+  - TAK-200 - Utvecklingsramverk  
+  - OPS-100 - Digital infrastruktur  
 
 ---
 

@@ -6,19 +6,33 @@ interface DocumentViewerProps {
   onClose?: () => void;
 }
 
-interface DocumentMetadata {
-  dokumentid: string;
-  titel: string;
-  version: string;
-  senastUppdaterad: string;
-  ansvarig: string;
-  roll: string;
-  relateradeDokument: string[];
+// Define a type for the raw metadata as it appears in the markdown files
+interface RawDocumentMetadata {
+  'dokumentid': string;
+  'titel': string;
+  'version': string;
+  'senast-uppdaterad': string;
+  'ansvarig': string;
+  'roll': string;
+  'relaterade-dokument': string;
+}
+
+// Type guard to check if a key is a valid metadata key
+function isMetadataKey(key: string): key is keyof RawDocumentMetadata {
+  return [
+    'dokumentid',
+    'titel',
+    'version',
+    'senast-uppdaterad',
+    'ansvarig',
+    'roll',
+    'relaterade-dokument'
+  ].includes(key);
 }
 
 export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
   const [content, setContent] = useState<string>('');
-  const [metadata, setMetadata] = useState<DocumentMetadata | null>(null);
+  const [metadata, setMetadata] = useState<Partial<RawDocumentMetadata> | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -37,13 +51,13 @@ export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
           // Parse frontmatter
           const frontmatter = parts[1].trim();
           const frontmatterLines = frontmatter.split('\n');
-          const metadata: any = {};
+          const metadata: Partial<RawDocumentMetadata> = {};
           
-          frontmatterLines.forEach(line => {
+          frontmatterLines.forEach((line: string) => {
             const [key, ...valueParts] = line.split(':');
-            if (key && valueParts.length > 0) {
-              const value = valueParts.join(':').trim();
-              metadata[key.trim()] = value;
+            const trimmedKey = key.trim();
+            if (trimmedKey && valueParts.length > 0 && isMetadataKey(trimmedKey)) {
+              metadata[trimmedKey] = valueParts.join(':').trim();
             }
           });
 
@@ -52,7 +66,8 @@ export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
             metadata['relaterade-dokument'] = metadata['relaterade-dokument']
               .split('\n')
               .filter((line: string) => line.trim().startsWith('-'))
-              .map((line: string) => line.trim().substring(2));
+              .map((line: string) => line.trim().substring(2))
+              .join('\n');
           }
 
           setMetadata(metadata);
@@ -136,7 +151,7 @@ export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
             <div className="mt-4">
               <p className="text-sm text-gray-500 mb-2">Relaterade dokument</p>
               <ul className="list-disc list-inside space-y-1">
-                {metadata['relaterade-dokument'].map((doc: string, index: number) => (
+                {metadata['relaterade-dokument'].split('\n').map((doc: string, index: number) => (
                   <li key={index} className="text-sm">{doc}</li>
                 ))}
               </ul>
