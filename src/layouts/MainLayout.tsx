@@ -25,6 +25,9 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
               <Link href="/vision" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Vision
               </Link>
+              <Link href="/losningar" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
+                Lösningar
+              </Link>
               <Link href="/bli-medlem" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Bli medlem
               </Link>

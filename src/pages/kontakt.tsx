@@ -46,14 +46,41 @@ export default function ContactPage() {
                 <h3>Utveckling</h3>
                 <p>
                   Intresserad av att bidra till utvecklingen av vår digitala plattform eller andra tekniska projekt? 
-                  Besök vårt GitHub-repository och engagera dig i utvecklingen.
+                  Besök våra GitHub-repositories och engagera dig i utvecklingen.
                 </p>
+                <p>
                 <a 
                   href="https://github.com/BjornKennethHolmstrom/fjarilspartiet"
                   className="btn-primary"
                 >
-                  Besök GitHub Repository →
+                  Besök Fjärilspartiets Repository →
                 </a>
+                </p>
+                <p>
+                <a 
+                  href="https://github.com/BjornKennethHolmstrom/DPOP"
+                  className="btn-primary"
+                >
+                  Besök DPOPs Repository →
+                </a>
+                </p>
+                <p>
+                <a 
+                  href="https://github.com/BjornKennethHolmstrom/DidiS"
+                  className="btn-primary"
+                >
+                  Besök DidiS Repository →
+                </a>
+                </p>
+                <p>
+                <a 
+                  href="https://github.com/BjornKennethHolmstrom/communitree"
+                  className="btn-primary"
+                >
+                  Besök CommuniTrees Repository →
+                </a>
+                </p>
+
               </div>
 
               <div className="card">
@@ -61,12 +88,24 @@ export default function ContactPage() {
                 <p>
                   Ta del av vår fullständiga dokumentation och bidra till utvecklingen av våra policies och ramverk.
                 </p>
-                <a 
-                  href="https://tinyurl.com/fjarilspartiets-dokument"
-                  className="btn-secondary"
-                >
-                  Utforska dokumentationen →
-                </a>
+                  <div className="flex gap-4">
+                    <a 
+                      href="https://github.com/BjornKennethHolmstrom/fjarilspartiet/tree/main/docs/svenska"
+                      className="btn-primary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub Repository
+                    </a>
+                    <a 
+                      href="https://tinyurl.com/fjarilspartiets-dokument"
+                      className="btn-secondary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Google Drive
+                    </a>
+                  </div>
               </div>
             </div>
           </div>

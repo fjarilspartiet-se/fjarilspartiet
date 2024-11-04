@@ -62,7 +62,7 @@ export default function MembershipPage() {
                   där varje ny medlem har möjlighet att påverka partiets utveckling och bidra med sina unika perspektiv.
                 </p>
                 <p>
-                  Efter din ansökan kommer vi att kontakta dig via email för att diskutera hur du vill engagera dig. 
+                  Efter din ansökan väljer du själv hur du engagerar dig. 
                   Vi utvecklar för närvarande en digital plattform för medlemsengagemang som kommer att lanseras i framtiden.
                 </p>
               </div>
