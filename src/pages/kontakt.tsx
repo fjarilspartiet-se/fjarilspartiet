@@ -116,7 +116,16 @@ export default function ContactPage() {
               Innan du kontaktar oss, kolla gärna om din fråga besvaras i vår dokumentation:
             </p>
             <ul className="list-disc list-inside space-y-2">
-              <li>Guide för nya medlemmar</li>
+              <li>
+                <a 
+                  href="https://github.com/BjornKennethHolmstrom/fjarilspartiet/blob/main/docs/svenska/guide-för-nya-medlemmar.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--color-primary)] hover:underline"
+                >
+                  Guide för nya medlemmar
+                </a>
+              </li>
               <li>Partiets grunddokument</li>
               <li>Vision och målsättningar</li>
               <li>Information om DPOP och tekniska projekt</li>

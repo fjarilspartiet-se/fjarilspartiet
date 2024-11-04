@@ -6,22 +6,24 @@ export default function Home() {
   return (
     <MainLayout>
       {/* Hero Section */}
-      <section className="bg-[var(--color-background)] py-16">
+      <section className="bg-[var(--color-background)] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:py-24 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-[var(--color-primary)] leading-tight">
-              <span className="block">Fjärilspartiet</span>
-              <span className="block text-[var(--color-highlight)]">Ett parti för hållbar samhällsförnyelse</span>
+            <h1 className="text-4xl md:text-6xl font-bold text-[var(--color-primary)] leading-tight mb-4">
+              <span className="block mb-2">Fjärilspartiet</span>
+              <span className="block text-[var(--color-highlight)]">
+                Ett parti för hållbar samhällsförnyelse
+              </span>
             </h1>
-            <p className="mt-4 text-lg text-[var(--color-text-muted)] max-w-3xl mx-auto">
+            <p className="mt-6 text-xl leading-relaxed text-[var(--color-text-muted)] max-w-3xl mx-auto">
               Vi utvecklar konkreta lösningar för ett samhälle där alla kan blomstra. Genom att kombinera 
               beprövad kunskap med nytänkande skapar vi system som fungerar för både människor och miljö.
             </p>
-            <div className="mt-8 flex justify-center space-x-4">
-              <Link href="/bli-medlem" className="btn-primary">
+            <div className="mt-10 flex justify-center space-x-6">
+              <Link href="/bli-medlem" className="btn-primary text-lg px-8 py-3">
                 Bli medlem
               </Link>
-              <Link href="/vision" className="btn-secondary">
+              <Link href="/vision" className="btn-secondary text-lg px-8 py-3">
                 Utforska våra lösningar
               </Link>
             </div>
@@ -30,10 +32,12 @@ export default function Home() {
       </section>
 
       {/* Core Solutions Section */}
-      <section className="bg-white py-16">
+      <section className="bg-white py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[var(--color-primary)]">Konkreta lösningar för verkliga utmaningar</h2>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold text-[var(--color-primary)] mb-4">
+              Konkreta lösningar för verkliga utmaningar
+              </h2>
             <p className="mt-4 text-lg text-[var(--color-text-muted)] max-w-2xl mx-auto">
               Våra förslag bygger på forskning, praktisk erfarenhet och systemtänkande
             </p>

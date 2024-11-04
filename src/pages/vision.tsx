@@ -152,6 +152,17 @@ export default function VisionPage() {
                 att omforma systemens struktur, inte bara symptomen.
               </p>
             </div>
+            <div className="card">
+              <div className="flex items-center mb-4">
+                <Scale className="w-6 h-6 text-blue-500 mr-2" />
+                <h3 className="text-xl font-semibold">Systemisk balans</h3>
+              </div>
+              <p className="text-gray-600">
+                Vi ser samhället som ett samverkande system där institutioner och medborgare 
+                stödjer varandra. Våra lösningar strävar efter att skapa balans och ömsesidigt 
+                stärkande relationer mellan alla samhällets delar.
+              </p>
+            </div>
 
             <div className="card">
               <div className="flex items-center mb-4">

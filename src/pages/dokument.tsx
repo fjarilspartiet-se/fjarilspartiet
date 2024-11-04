@@ -66,6 +66,18 @@ export default function DocumentsPage() {
           path: "/docs/svenska/STR/STR-200-politik/STR-206-individuell-autonomi-och-personlig-utveckling-som-social-rättighet.md"
         }
       ]
+    },
+    {
+      title: "Medlemsinformation",
+      description: "Guider och information för medlemmar",
+      documents: [
+        {
+          id: "GUIDE-101",
+          title: "Guide för nya medlemmar",
+          description: "Grundläggande information och riktlinjer för att komma igång som medlem",
+          path: "/docs/svenska/guide-för-nya-medlemmar.md"
+        }
+      ]
     }
   ];
 

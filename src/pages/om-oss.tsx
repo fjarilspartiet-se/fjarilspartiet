@@ -1,6 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
-import { Network, Book, Code } from 'lucide-react';
+import { Network, Book, Code, Scale } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -50,8 +50,20 @@ export default function AboutPage() {
                   </p>
                 </div>
               </div>
+              <div className="flex items-start">
+                <Scale className="w-12 h-12 text-blue-600 mt-1 mr-3" />
+                <div>
+                  <h3 className="font-semibold">Samverkande system</h3>
+                  <p className="text-gray-600">
+                    Vi ser samhället som ett ekosystem där medborgare, institutioner och 
+                    marknad samverkar för det gemensamma bästa. Genom att stärka dessa 
+                    relationer skapar vi hållbara lösningar som gynnar alla.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
+
 
           <div className="card">
             <h2 className="text-2xl font-bold mb-6">Aktiva utvecklingsområden</h2>

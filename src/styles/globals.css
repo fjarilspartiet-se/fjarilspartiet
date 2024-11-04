@@ -9,14 +9,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
 :root {
-  /* Color Palette inspired by nature */
-  --color-background: #f1f5f9; /* Keep the soft gray-blue */
-  --color-primary: #3a5a40; /* Keep the earthy green */
-  --color-secondary: #7e8288; /* Keep the stone gray */
-  --color-accent: #4c956c; /* New: Softer green for accent */
-  --color-highlight: #90a955; /* New: Light sage green */
-  --color-text-main: #1d3557; /* Keep the deep blue */
-  --color-text-muted: #6b7280; /* Keep the neutral gray */
+  /* Base on the neutral mauve/brown as background tones */
+  --color-background: #f8f6f6;     /* Very light mauve */
+  --color-primary: #4a3e3e;        /* Deeper neutral brown */
+  --color-secondary: #916f6f;      /* Your logo's mauve */
+  
+  /* Use your logo's distinctive colors as accents */
+  --color-accent: #de87cd;      /* Your pink */
+  --color-highlight: #37c8ab;         /* Your turquoise */
+  --color-highlight-light: #f7f2f2; /* Very light mauve for sections */
+  
+  /* Text colors */
+  --color-text-main: #2d2626;      /* Deep warm grey */
+  --color-text-muted: #6e5959;     /* Muted mauve */
+
+
 
 
   /* Font Sizes */
@@ -131,10 +138,23 @@ button:hover,
   border: 1px solid var(--color-secondary-border, #d1d5db);
 }
 
-.btn-secondary:hover {
-  background-color: var(--color-secondary-hover-bg, #e5e7eb);
+/* Enhanced button styles */
+.btn-primary, .btn-secondary {
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  transition: all 0.3s ease;
 }
 
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-hover-bg, #e5e7eb);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
 /* Utility Classes */
 .text-center {
@@ -162,11 +182,13 @@ button:hover,
   border-radius: var(--border-radius);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   margin-bottom: var(--spacing-medium);
-  transition: box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .card:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
 }
 
 .section-header {
@@ -181,5 +203,20 @@ button:hover,
   .text-shadow {
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   }
+}
+
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
 }
 
