@@ -1,10 +1,9 @@
-import { useState } from 'react';
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
 import { ArrowRight, Lightbulb, HeartHandshake, Scale, Blend } from 'lucide-react';
+import TransformationJourney from '../components/TransformationJourney';
 
 export default function VisionPage() {
-  const [activeStage, setActiveStage] = useState('egg');
 
   return (
     <MainLayout>
@@ -48,6 +47,9 @@ export default function VisionPage() {
                   Ett grundläggande ekonomiskt skyddsnät leder till ökad entreprenörskap, 
                   bättre hälsa, starkare lokalsamhällen och minskad byråkrati - effekter som 
                   förstärker varandra och skapar systemisk förändring.
+                  <Link href="/losningar#aubi" className="text-blue-600 ml-1 hover:underline">
+                    [Läs mer]
+                  </Link>
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -56,6 +58,9 @@ export default function VisionPage() {
                   Stöd för lokal matproduktion stärker både miljön, ekonomin och 
                   samhällsgemenskapen, vilket i sin tur skapar mer engagemang för 
                   hållbara lösningar.
+                  <Link href="/losningar#hallbarhet" className="text-blue-600 ml-1 hover:underline">
+                    [Läs mer]
+                  </Link>
                 </p>
               </div>
             </div>
@@ -64,66 +69,7 @@ export default function VisionPage() {
       </section>
 
       {/* Transformation Journey */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Vår transformationsresa</h2>
-          
-          <div className="grid md:grid-cols-4 gap-8">
-            <div 
-              className={`card cursor-pointer transition-all ${
-                activeStage === 'egg' ? 'ring-2 ring-blue-500' : ''
-              }`}
-              onClick={() => setActiveStage('egg')}
-            >
-              <h3 className="text-xl font-semibold mb-4">Äggstadiet</h3>
-              <p className="text-gray-600">
-                Vi är här nu. Vi utvecklar noggrant våra ramverk, strukturer och digitala verktyg. 
-                Som ett ägg innehåller all information för fjärilens utveckling, bygger vi grunden 
-                för framtida förändring.
-              </p>
-            </div>
-
-            <div 
-              className={`card cursor-pointer transition-all ${
-                activeStage === 'larva' ? 'ring-2 ring-blue-500' : ''
-              }`}
-              onClick={() => setActiveStage('larva')}
-            >
-              <h3 className="text-xl font-semibold mb-4">Larvstadiet</h3>
-              <p className="text-gray-600">
-                Nästa steg är att växa och samla resurser. Vi kommer aktivt engagera medlemmar, 
-                testa våra idéer i praktiken och bygga starka lokala nätverk.
-              </p>
-            </div>
-
-            <div 
-              className={`card cursor-pointer transition-all ${
-                activeStage === 'pupa' ? 'ring-2 ring-blue-500' : ''
-              }`}
-              onClick={() => setActiveStage('pupa')}
-            >
-              <h3 className="text-xl font-semibold mb-4">Puppstadiet</h3>
-              <p className="text-gray-600">
-                En period av djup transformation där vi implementerar våra system i större skala 
-                och omorganiserar samhällets strukturer för ökad hållbarhet och rättvisa.
-              </p>
-            </div>
-
-            <div 
-              className={`card cursor-pointer transition-all ${
-                activeStage === 'butterfly' ? 'ring-2 ring-blue-500' : ''
-              }`}
-              onClick={() => setActiveStage('butterfly')}
-            >
-              <h3 className="text-xl font-semibold mb-4">Fjärilsstadiet</h3>
-              <p className="text-gray-600">
-                Det fullt utvecklade stadiet där våra system aktivt bidrar till ett blomstrande 
-                samhälle, precis som fjärilen pollinerar och sprider liv.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <TransformationJourney />
 
       {/* Core Values */}
       <section className="py-16 bg-blue-50">
