@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import MainLayout from '../layouts/MainLayout';
-import { Shield, Sprout, Network, Target, ArrowRight, Calculator, Users, Leaf, Code } from 'lucide-react';
+import { Shield, Sprout, Network, Target, ArrowRight, Calculator, HeartHandshake, Users, Leaf, Trees, LeafyGreen, ChartNoAxesCombined, Code } from 'lucide-react';
 import Link from 'next/link';
 
 interface Statistic {
@@ -83,7 +83,7 @@ export default function SolutionsPage() {
                   <span>Adaptiva tillägg baserade på individuella behov och samhällsinsatser</span>
                 </li>
                 <li className="flex items-start">
-                  <Users className="w-5 h-5 text-blue-600 mt-1 mr-2" />
+                  <HeartHandshake className="w-5 h-5 text-blue-600 mt-1 mr-2" />
                   <span>Erkännande av olika former av samhällsbidrag</span>
                 </li>
               </ul>
@@ -154,11 +154,11 @@ export default function SolutionsPage() {
                   <span>Stadsodling minskar transportbehov</span>
                 </li>
                 <li className="flex items-start">
-                  <Leaf className="w-5 h-5 text-green-600 mt-1 mr-2" />
+                  <Trees className="w-5 h-5 text-green-600 mt-1 mr-2" />
                   <span>Skogsträdgårdar ökar biologisk mångfald</span>
                 </li>
                 <li className="flex items-start">
-                  <Leaf className="w-5 h-5 text-green-600 mt-1 mr-2" />
+                  <LeafyGreen className="w-5 h-5 text-green-600 mt-1 mr-2" />
                   <span>Lokala matmarknader stärker ekonomin</span>
                 </li>
               </ul>
@@ -225,7 +225,7 @@ export default function SolutionsPage() {
                   <span>Ökat medborgardeltagande i beslutsprocesser genom digitala verktyg</span>
                 </li>
                 <li className="flex items-start">
-                  <Shield className="w-5 h-5 text-blue-600 mt-1 mr-2" />
+                  <ChartNoAxesCombined className="w-5 h-5 text-blue-600 mt-1 mr-2" />
                   <span>Högre tillfredsställelse med demokratiska processer vid användning av digitala plattformar</span>
                 </li>
                 <li className="flex items-start">

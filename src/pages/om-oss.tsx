@@ -1,6 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
-import { Network, Book, Code, Scale } from 'lucide-react';
+import { Network, Lightbulb, Code, ArrowLeftRight } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -31,7 +31,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex items-start">
-                <Book className="w-6 h-6 text-blue-600 mt-1 mr-3" />
+                <Lightbulb className="w-6 h-6 text-blue-600 mt-1 mr-3" />
                 <div>
                   <h3 className="font-semibold">Evidensbaserad politik</h3>
                   <p className="text-gray-600">
@@ -51,7 +51,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="flex items-start">
-                <Scale className="w-12 h-12 text-blue-600 mt-1 mr-3" />
+                <ArrowLeftRight className="w-12 h-12 text-blue-600 mt-1 mr-3" />
                 <div>
                   <h3 className="font-semibold">Samverkande system</h3>
                   <p className="text-gray-600">

@@ -67,7 +67,7 @@ relaterade-dokument:
 #### 1. Utbetalningsstruktur
 
 **Grundbetalning**
-- Startar på 8,000 SEK/månad (justerbart)
+- Startar på 12,000 SEK/månad (justerbart)
 - Utbetalas till alla vuxna medborgare och permanenta invånare
 - Månadsvis distribution
 - Automatisk justering för inflation

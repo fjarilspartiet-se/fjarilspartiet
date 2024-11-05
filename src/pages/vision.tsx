@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
-import { ArrowRight, Lightbulb, Heart, Scale } from 'lucide-react';
+import { ArrowRight, Lightbulb, HeartHandshake, Scale, Blend } from 'lucide-react';
 
 export default function VisionPage() {
   const [activeStage, setActiveStage] = useState('egg');
@@ -133,7 +133,7 @@ export default function VisionPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="card">
               <div className="flex items-center mb-4">
-                <Heart className="w-6 h-6 text-red-500 mr-2" />
+                <HeartHandshake className="w-6 h-6 text-red-500 mr-2" />
                 <h3 className="text-xl font-semibold">Individuell autonomi</h3>
               </div>
               <p className="text-gray-600">
@@ -154,7 +154,7 @@ export default function VisionPage() {
             </div>
             <div className="card">
               <div className="flex items-center mb-4">
-                <Scale className="w-6 h-6 text-blue-500 mr-2" />
+                <Blend className="w-6 h-6 text-blue-500 mr-2" />
                 <h3 className="text-xl font-semibold">Systemisk balans</h3>
               </div>
               <p className="text-gray-600">
