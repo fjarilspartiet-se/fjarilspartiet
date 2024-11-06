@@ -134,7 +134,7 @@ export default function Home() {
             <div className="card">
               <h3 className="text-xl font-semibold text-[var(--color-primary)] mb-4">Lokala pilotprojekt</h3>
               <p className="text-[var(--color-text-muted)] mb-4">
-                Vi testar praktiska lösningar i verkliga miljöer:
+                Vi vill testa praktiska lösningar i verkliga miljöer:
               </p>
               <ul className="list-disc list-inside text-[var--color-text-muted] mb-6">
                 <li>Gemensamma matskogar</li>
@@ -142,9 +142,9 @@ export default function Home() {
                 <li>Delningsekonomiska initiativ</li>
                 <li>Småskalig energiproduktion</li>
               </ul>
-              <Link href="/vision#projekt" className="btn-secondary inline-flex items-center">
+              {/*<Link href="/vision#projekt" className="btn-secondary inline-flex items-center">
                 Hitta projekt nära dig <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
+              </Link>*/}
             </div>
           </div>
         </div>
