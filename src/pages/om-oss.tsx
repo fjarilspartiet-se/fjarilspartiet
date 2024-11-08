@@ -1,6 +1,7 @@
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
 import { Network, Lightbulb, Code, Users, Blocks, GitBranch, ExternalLink, CircleUser, Sprout, Globe } from 'lucide-react';
+import EngagementSection from '../components/EngagementSection';
 
 const ProjectStatus = ({ status }: { status: string }) => {
   const getStatusColor = (status: string) => {
@@ -37,14 +38,16 @@ export default function AboutPage() {
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
               Ett parti som kombinerar systemtänkande, evidensbaserad politik och 
-              praktiska lösningar för att skapa positiv samhällsförändring. Som en fjäril 
-              utvecklas vi genom olika stadier mot något vackert och livskraftigt.
+              praktiska lösningar för att skapa positiv samhällsförändring. Varje steg vi tar 
+              leder mot vår vision om ett blomstrande samhälle. Som en fjäril genomgår vi en 
+              medveten transformation - just nu befinner vi oss i äggstadiet där vi bygger grunden 
+              för något extraordinärt, vackert och livskraftigt.
             </p>
           </div>
           {/* Vision Summary Cards */}
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <CircleUser className="w-8 h-8 text-blue-600 mb-3" />
+              <CircleUser className="w-8 h-8 text-purple-600 mb-3" />
               <h3 className="font-semibold mb-2">Individuell blomstring</h3>
               <p className="text-sm text-gray-600">
                 Vi bygger system som möjliggör verklig frihet och självförverkligande för varje person.
@@ -58,7 +61,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Globe className="w-8 h-8 text-purple-600 mb-3" />
+              <Globe className="w-8 h-8 text-blue-600 mb-3" />
               <h3 className="font-semibold mb-2">Global transformation</h3>
               <p className="text-sm text-gray-600">
                 Vi arbetar för en värld där resursöverflöd och fred möjliggörs genom teknologi och samarbete.
@@ -189,46 +192,8 @@ export default function AboutPage() {
         </div>
 
         {/* Engagement Section */}
-        <div className="bg-blue-50 rounded-lg p-8 text-center">
-          <h2 className="text-2xl font-bold mb-6">Engagera dig</h2>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Vi är ett parti under utveckling och välkomnar alla som vill bidra 
-            till att skapa positiv samhällsförändring.
-          </p>
-          
-          <div className="grid md:grid-cols-3 gap-6 mb-8 max-w-4xl mx-auto">
-            <div className="bg-white p-4 rounded-lg shadow-sm">
-              <Users className="w-8 h-8 text-blue-600 mb-3 mx-auto" />
-              <h3 className="font-semibold mb-2">Community-organisatör</h3>
-              <p className="text-sm text-gray-600">
-                Starta och leda lokala initiativ och projekt i ditt område.
-              </p>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-sm">
-              <Blocks className="w-8 h-8 text-blue-600 mb-3 mx-auto" />
-              <h3 className="font-semibold mb-2">Policyutvecklare</h3>
-              <p className="text-sm text-gray-600">
-                Bidra till utvecklingen av våra politiska förslag och ramverk.
-              </p>
-            </div>
-            <div className="bg-white p-4 rounded-lg shadow-sm">
-              <GitBranch className="w-8 h-8 text-blue-600 mb-3 mx-auto" />
-              <h3 className="font-semibold mb-2">Tech-utvecklare</h3>
-              <p className="text-sm text-gray-600">
-                Arbeta med våra open source-projekt och tekniska infrastruktur.
-              </p>
-            </div>
-          </div>
+        <EngagementSection />
 
-          <div className="flex justify-center space-x-4">
-            <Link href="/bli-medlem" className="btn-primary">
-              Bli medlem
-            </Link>
-            <Link href="/kontakt" className="btn-secondary">
-              Kontakta oss
-            </Link>
-          </div>
-        </div>
       </div>
     </MainLayout>
   );
