@@ -1,3 +1,18 @@
+# OPS-103
+---
+document-id: OPS-103
+title: Digital Party Operation Platform - Flexible governance
+version: 1.0  
+last-updated: 2024-11-08  
+responsible: Björn Kenneth Holmström  
+role: Founder and Technical Coordinator
+related-documents:
+  - OPS-101: Digital Party Operation Platform - Outline
+  - OPS-102: Digital Party Operation Platform - Technical Specification
+  - STR-103: Ethics of Equilibrium and Interconnection
+  - TAC-101: Legal Framework
+---
+
 **Flexible Governance Module**
 
 1. **Core Governance Models**

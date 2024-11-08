@@ -1,12 +1,14 @@
-STR-501
-Dokument-ID: STR-501
-Titel: Digital etik och datasuveränitet  
-Version: 1.0
-Senast Uppdaterad: 2024-10-30
-Ansvarig: Björn Kenneth Holmström
-Roll: Grundare och Teknisk Samordnare
-Relaterade Dokument:
-STR-502 - Förhållande till artificiell intelligens
+# STR-501
+---
+dokumentid: STR-501
+titel: Digital etik och datasuveränitet  
+version: 1.0
+senast-uppdaterad: 2024-10-30
+ansvarig: Björn Kenneth Holmström
+roll: Grundare och Teknisk Samordnare
+relaterade-dokument:
+  - STR-502 - Förhållande till artificiell intelligens
+---
 
 #### Inledning
 I ett alltmer digitaliserat samhälle har frågor om personlig integritet, datasäkerhet och kontroll över den egna digitala identiteten blivit avgörande för medborgarnas frihet och välbefinnande. Fjärilspartiet eftersträvar en digital framtid där individen, inte företag eller institutioner, har suveränitet över sin egen data. Vår digitala etik- och datasuveränitetsramverk fokuserar på att skydda den enskildes integritet och skapa öppenhet kring digitala teknologier.

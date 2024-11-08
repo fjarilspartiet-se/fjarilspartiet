@@ -1,15 +1,15 @@
-STR-009
-Dokument-ID: STR-009  
-Titel: Individens utveckling och självförverkligande i ett transformativt samhälle  
-Version: 1.0  
-Senast Uppdaterad: 2024-10-30  
-Ansvarig: Björn Kenneth Holmström  
-Roll: Grundare och Visionär  
-
-Relaterade Dokument:  
-STR-001 - Långsiktig vision och transformativa mål  
-STR-006 - Mänsklig utveckling och meningsfullt liv  
-STR-200 - Politisk strategi för sociala rättigheter  
+# STR-009
+---
+dokumentid: STR-009  
+titel: Individens utveckling och självförverkligande i ett transformativt samhälle  
+version: 1.0  
+senast-uppdaterad: 2024-10-30  
+ansvarig: Björn Kenneth Holmström  
+roll: Grundare och Visionär  
+relaterade-dokument:  
+  - STR-001 - Långsiktig vision och transformativa mål  
+  - STR-006 - Mänsklig utveckling och meningsfullt liv  
+  - STR-200 - Politisk strategi för sociala rättigheter  
 
 ---
 

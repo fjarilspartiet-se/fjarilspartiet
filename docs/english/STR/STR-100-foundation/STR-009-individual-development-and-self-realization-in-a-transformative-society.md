@@ -1,16 +1,15 @@
-**STR-009**  
-Document ID: STR-009  
-Title: Individual Development and Self-Realization in a Transformative Society  
-Version: 1.0  
-Last Updated: 2024-10-30  
-Responsible: Björn Kenneth Holmström  
-Role: Founder and Visionary  
-
-Related Documents:  
-- STR-001 - Long-term Vision and Transformative Goals  
-- STR-006 - Human Development and Meaningful Life  
-- STR-200 - Political Strategy for Social Rights  
-
+# STR-009
+---
+document-id: STR-009  
+title: Individual Development and Self-Realization in a Transformative Society  
+version: 1.0  
+last-updated: 2024-10-30  
+responsible: Björn Kenneth Holmström  
+role: Founder and Visionary  
+related-documents:  
+  - STR-001 - Long-term Vision and Transformative Goals  
+  - STR-006 - Human Development and Meaningful Life  
+  - STR-200 - Political Strategy for Social Rights  
 ---
 
 ### Summary

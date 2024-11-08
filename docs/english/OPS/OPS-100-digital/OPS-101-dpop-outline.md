@@ -1,3 +1,20 @@
+# OPS-101
+---
+document-id: OPS-101  
+title: Sketch of the party's operation platform
+version: 1.0  
+last-updated: 2024-10-29  
+responsible: Björn Kenneth Holmström  
+role: Grundare och teknisk samordnare  
+related-documents:
+  - OPS-102: Specification for digital operation platform
+  - OPS-103: Flexible governance within digital operation platform
+  - OPS-104: Ensuring non-corruption in digital solutions
+  - TAK-101: Legal framework 
+  - STR-100: Foundational framework - initial outline
+
+---
+
 **Digital Party Operations Platform**
 
 1. **Core Features**

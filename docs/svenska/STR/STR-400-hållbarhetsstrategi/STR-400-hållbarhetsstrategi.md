@@ -1,17 +1,17 @@
-STR-400
-### Dokument-ID: STR-400  
-### Titel: Hållbarhetsstrategi  
-### Version: 1.0  
-### Senast Uppdaterad: 2024-10-30  
-### Ansvarig: Björn Kenneth Holmström  
-### Roll: Grundare och Strategiansvarig  
-### Relaterade Dokument:  
-- STR-401 - En blomstrande framtid - lokal motståndskraft och hållbara matsystem  
-- STR-402 - Klimatresiliens och biologisk mångfald - ramverk
-- TAK-300 - Hälso- och välfärdsramverk  
-- OPS-205 - Säkerhetsramverk  
-- STR-300 - Internationell strategi  
-
+# STR-400
+---
+dokumentid: STR-400  
+titel: Hållbarhetsstrategi  
+version: 1.0  
+senast-uppdaterad: 2024-10-30  
+ansvarig: Björn Kenneth Holmström  
+roll: Grundare och Strategiansvarig  
+relaterade-dokument:  
+  - STR-401 - En blomstrande framtid - lokal motståndskraft och hållbara matsystem
+  - STR-402 - Klimatresiliens och biologisk mångfald - ramverk
+  - TAK-300 - Hälso- och välfärdsramverk
+  - OPS-205 - Säkerhetsramverk
+  - STR-300 - Internationell strategi
 ---
 
 ## Inledning  

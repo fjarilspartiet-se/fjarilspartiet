@@ -2,7 +2,6 @@ Not created yet:
 
 # STR
 
-STR-200
 STR-211
 STR-212
 STR-213
@@ -15,7 +14,6 @@ TAK-106
 TAK-107
 TAK-108
 
-TAK-300
 TAK-301
 TAK-302
 TAK-303

@@ -1,12 +1,12 @@
 # OPS-203  
 ---  
-document ID: OPS-203  
+document-id: OPS-203  
 title: External Communication on Individual Autonomy and Development Opportunities  
 version: 1.0  
-last updated: 2024-10-29  
+last-updated: 2024-10-29  
 responsible person: Björn Kenneth Holmström  
 role: Founder and Technical Coordinator  
-related documents:  
+related-documents:  
   - OPS-202 # Communication Strategy  
   - STR-206 # Individual Autonomy and Personal Development as a Social Right  
   - STR-302 # Individual Autonomy and Development Opportunities as a Universal Right  

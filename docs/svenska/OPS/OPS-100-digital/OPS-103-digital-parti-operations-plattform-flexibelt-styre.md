@@ -9,7 +9,7 @@ roll: Grundare och teknisk samordnare
 relaterade-dokument:
   - OPS-101 # Ursprunglig skiss
   - OPS-102 # Teknisk specifikation
-  - STR-103 # Etik- och värderingsramverk
+  - STR-103 # Etik för jämvikt och sammanlänkning
   - TAK-101 # Juridiskt ramverk
 ---
 

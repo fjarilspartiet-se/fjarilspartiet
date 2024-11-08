@@ -1,17 +1,17 @@
-**Document ID:** STR-001  
-**Title:** Long-Term Vision and Transformative Goals  
-**Version:** 1.0  
-**Last Updated:** 2024-10-30  
-**Responsible:** Björn Kenneth Holmström  
-**Role:** Founder and Visionary  
-**Related Documents:**
-
-- STR-200 - Political Strategy  
-- STR-300 - International Strategy  
-- STR-400 - Sustainability Strategy  
-- TAK-200 - Development Framework  
-- OPS-100 - Digital Infrastructure  
-
+# STR-001
+---
+document-id: STR-001  
+title: Long-Term Vision and Transformative Goals  
+version: 1.0  
+last-updated: 2024-10-30  
+responsible: Björn Kenneth Holmström  
+role: Founder and Visionary  
+related-documents:
+  - STR-200 - Political Strategy  
+  - STR-300 - International Strategy  
+  - STR-400 - Sustainability Strategy  
+  - TAK-200 - Development Framework  
+  - OPS-100 - Digital Infrastructure
 ---
 
 ### Introduction

@@ -7,7 +7,9 @@
 ├── fjärilspartiet-intro.html
 ├── fjärilspartiet-intro.md
 ├── fjärilspartiet-intro.pdf
+├── fjärilspuppa.svg
 ├── fjäril.svg
+├── guide-för-nya-medlemmar.md
 ├── guide-till-nya-medlemmar.md
 ├── guide-till-nya-medlemmar.pdf
 ├── MED
@@ -47,7 +49,7 @@
 │   │   ├── STR-100-inledande-skiss-av-grundläggande-ramverk.md
 │   │   ├── STR-101-parti-grund.md
 │   │   ├── STR-102-bas-i-p(∞)=1.md
-│   │   ├── STR-103-etik-och-värderingsramverk.md
+│   │   ├── STR-103-etik-för-jämvikt-och-sammanlänkning .md
 │   │   ├── STR-104-fjärilsramverket.md
 │   │   ├── STR-105-bortom-symboler.md
 │   │   └── STR-106-vanliga-frågor-om-bortom-symboler.md
@@ -76,7 +78,8 @@
 │   │   └── STR-402-klimatresiliens-och-biologisk-mångfald-ramverk.md
 │   └── STR-500-digitalt-samhälle
 │       ├── STR-501-digital-etik-och-datasuveränitet.md
-│       └── STR-502-förhållande-till-artificiell-intelligens.md
+│       ├── STR-502-förhållande-till-artificiell-intelligens.md
+│       └── STR-503-bioetik-och-framväxande-tekniker.md
 ├── TAK
 │   ├── TAK-100-organisation
 │   │   ├── TAK-101-juridiskt-ramverk.md
@@ -107,4 +110,4 @@
 │       └── TAK-501-landsbygdsutveckling-och-decentralisering.md
 └── välkomstmeddelande.md
 
-18 directories, 89 files
+18 directories, 92 files

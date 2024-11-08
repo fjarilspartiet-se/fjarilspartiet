@@ -12,7 +12,6 @@ Relaterade Dokument:
 - TAK-203 - Hälsostrategi  
 - OPS-300 - Teknologiska ramverk  
 - STR-001 - Långsiktig Vision och Transformativa Mål  
-
 ---
 
 ### Inledning

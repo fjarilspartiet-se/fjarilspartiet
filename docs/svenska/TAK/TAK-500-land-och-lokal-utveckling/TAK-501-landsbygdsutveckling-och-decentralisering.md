@@ -1,16 +1,15 @@
-TAK-501
-### Dokument-ID: TAK-501  
-Titel: Landsbygdsutveckling och Decentralisering  
-Version: 1.0  
-Senast Uppdaterad: 2024-10-30  
-Ansvarig: Björn Kenneth Holmström  
-Roll: Grundare och Strategisk Samordnare  
-Relaterade Dokument:
-
-- STR-401 - Hållbarhetsstrategi  
-- TAK-104 - Kvalitetssäkringsramverk  
-- TAK-402 - Rättsreform och Social Rättvisa  
-
+# TAK-501
+---
+dokumentid: TAK-501  
+titel: Landsbygdsutveckling och Decentralisering  
+version: 1.0  
+senast-uppdaterad: 2024-10-30  
+ansvarig: Björn Kenneth Holmström  
+roll: Grundare och Strategisk Samordnare  
+relaterade-dokument:
+  - STR-401 - Hållbarhetsstrategi  
+  - TAK-104 - Kvalitetssäkringsramverk  
+  - TAK-402 - Rättsreform och Social Rättvisa  
 ---
 
 ### Inledning  

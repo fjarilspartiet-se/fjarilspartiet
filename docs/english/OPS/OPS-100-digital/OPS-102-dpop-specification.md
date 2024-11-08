@@ -1,3 +1,20 @@
+# OPS-102
+---
+document-id: OPS-102
+title: Specification for digital party operation platform
+version: 1.0  
+last-updated: 2024-10-29  
+responsible: Björn Kenneth Holmström  
+role: Founder and Technical Coordinator
+related-documents:
+  - OPS-101 # Digital Party Operation Platform - Outline
+  - OPS-103 # Digital Party Operation Platform - Flexible governance
+  - OPS-104: Ensuring Non-corruption in Digital Solutions
+  - TAK-104 # Quality Assurance Framework
+  - OPS-205 # Security Framework
+
+---
+
 # Digital Party Operations Platform (DPOP)
 ## Technical Specification v0.1
 

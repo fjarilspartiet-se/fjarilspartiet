@@ -1,16 +1,15 @@
-TAK-402
-### Dokument-ID: TAK-402  
-Titel: Rättsreform och Social Rättvisa  
-Version: 1.0  
-Senast Uppdaterad: 2024-10-30  
-Ansvarig: Björn Kenneth Holmström  
-Roll: Grundare och Rättspolicy Samordnare  
-Relaterade Dokument:
-
-- STR-103 - Etik och Värderingsramverk  
-- TAK-104 - Kvalitetssäkringsramverk  
-- OPS-205 - Säkerhetsramverk  
-
+# TAK-402
+---
+dokumentid: TAK-402  
+titel: Rättsreform och Social Rättvisa  
+version: 1.0  
+senast-uppdaterad: 2024-10-30  
+ansvarig: Björn Kenneth Holmström  
+roll: Grundare och Rättspolicy Samordnare  
+relaterade-dokument:
+  - STR-103 - Etik och Värderingsramverk  
+  - TAK-104 - Kvalitetssäkringsramverk  
+  - OPS-205 - Säkerhetsramverk  
 ---
 
 ### Inledning  

@@ -1,20 +1,17 @@
----
-
 # OPS-202
 ---
-document id: OPS-202  
+document-id: OPS-202  
 title: Communication Strategy  
 version: 1.0  
-last updated: 2024-10-29  
+last-updated: 2024-10-29  
 responsible: Björn Kenneth Holmström  
 role: Founder and Technical Coordinator  
-related documents:  
+related-documents:  
   - OPS-203 # External communication on meaningful existence  
   - OPS-204 # Symbol guidelines  
   - STR-104 # Butterfly framework  
   - STR-206 # Individual Autonomy and Personal Development as a Social Right
-  - TAK-104 # Quality assurance framework  
-
+  - TAC-104 # Quality assurance framework  
 ---
 
 # Communication Strategy  

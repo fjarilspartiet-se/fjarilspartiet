@@ -1,17 +1,16 @@
-STR-402
-Dokument-ID: STR-402  
-Titel: Klimatresiliens och Biologisk Mångfald - Ramverk  
-Version: 1.0  
-Senast Uppdaterad: 2024-10-30  
-Ansvarig: Björn Kenneth Holmström  
-Roll: Grundare och Hållbarhetssamordnare  
-Relaterade Dokument:  
-
-- STR-401 - En blomstrande framtid - Lokal motståndskraft och hållbara matsystem  
-- STR-400 - Hållbarhetsstrategi  
-- TAK-200 - Utvecklingsramverk  
-- TAK-300 - Hälso- och välfärdsramverk  
-
+# STR-402
+---
+dokumentid: STR-402  
+titel: Klimatresiliens och Biologisk Mångfald - Ramverk  
+version: 1.0  
+senast-uppdaterad: 2024-10-30  
+ansvarig: Björn Kenneth Holmström  
+roll: Grundare och Hållbarhetssamordnare  
+relaterade-dokument:  
+  - STR-401 - En blomstrande framtid - Lokal motståndskraft och hållbara matsystem  
+  - STR-400 - Hållbarhetsstrategi  
+  - TAK-200 - Utvecklingsramverk  
+  - TAK-300 - Hälso- och välfärdsramverk  
 ---
 
 #### **Introduktion**  

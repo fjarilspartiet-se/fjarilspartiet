@@ -1,3 +1,19 @@
+# OPS-201
+---
+document-id: OPS-202  
+title: Concrete Action Plans
+version: 1.0  
+last-updated: 2024-10-29  
+responsible: Björn Kenneth Holmström  
+role: Founder and Technical Coordinator  
+related-documents:  
+  - STR-100 # Initial Outline
+  - TAK-101 # Legal Framework
+  - TAK-103 # Financial Framework
+  - OPS-202 # Communication Strategy
+  - OPS-205 # Security Framework
+---
+
 # Concrete Action Plans
 ## Fjärilspartiet - Implementation Strategy
 

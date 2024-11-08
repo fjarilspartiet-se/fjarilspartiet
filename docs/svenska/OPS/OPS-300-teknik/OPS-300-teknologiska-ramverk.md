@@ -1,15 +1,16 @@
-OPS-300
-### Dokument-ID: OPS-300  
-### Titel: Teknologiska Ramverk  
-### Version: 1.0  
-### Senast Uppdaterad: 2024-10-30  
-### Ansvarig: Björn Kenneth Holmström  
-### Roll: Grundare och Teknologiansvarig  
-### Relaterade Dokument:  
-- STR-400 - Hållbarhetsstrategi  
-- OPS-205 - Säkerhetsramverk  
-- TAK-300 - Hälso- och välfärdsramverk  
-- STR-300 - Internationell strategi  
+# OPS-300
+---
+dokumentid: OPS-300  
+titel: Teknologiska Ramverk  
+version: 1.0  
+senast-uppdaterad: 2024-10-30  
+ansvarig: Björn Kenneth Holmström  
+roll: Grundare och Teknologiansvarig  
+relaterade-dokument:  
+  - STR-400 - Hållbarhetsstrategi  
+  - OPS-205 - Säkerhetsramverk  
+  - TAK-300 - Hälso- och välfärdsramverk  
+  - STR-300 - Internationell strategi  
 
 ---
 

@@ -1,15 +1,15 @@
-**Document ID**: STR-010  
-**Title**: International Integration and Global Unity Strategy  
-**Version**: 1.0  
-**Last Updated**: 2024-10-30  
-**Responsible**: Björn Kenneth Holmström  
-**Role**: Founder and Visionary  
-
-**Related Documents**:  
-- STR-001 – Long-term Vision and Transformative Goals  
-- STR-212 – Global Economic Equality and Resource Abundance  
-- STR-009 – Individual Development and Self-realization in a Transformative Society  
-
+# STR-010
+---
+document-id: STR-010  
+title: International Integration and Global Unity Strategy  
+version: 1.0  
+last-updated: 2024-10-30  
+responsible: Björn Kenneth Holmström  
+role: Founder and Visionary  
+related-documents:  
+  - STR-001 – Long-term Vision and Transformative Goals  
+  - STR-212 – Global Economic Equality and Resource Abundance  
+  - STR-009 – Individual Development and Self-realization in a Transformative Society  
 ---
 
 ### Summary

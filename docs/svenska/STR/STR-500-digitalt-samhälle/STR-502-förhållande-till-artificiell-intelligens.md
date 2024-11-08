@@ -1,13 +1,14 @@
-STR-502
-Dokument-ID: STR-502
-Titel: Förhållande till artificiell intelligens
-Version: 1.0
-Senast Uppdaterad: 2024-10-30
-Ansvarig: Björn Kenneth Holmström
-Roll: Grundare och Teknisk Samordnare
-Relaterade Dokument:
-STR-501 - Digital etik och datasuveränitet  
-
+# STR-502
+---
+dokumentid: STR-502
+titel: Förhållande till artificiell intelligens
+version: 1.0
+senast-uppdaterad: 2024-10-30
+ansvarig: Björn Kenneth Holmström
+roll: Grundare och Teknisk Samordnare
+relaterade-dokument:
+  - STR-501 - Digital etik och datasuveränitet  
+---
 
 ## Förhållande till Artificiell Intelligens (AI)
 

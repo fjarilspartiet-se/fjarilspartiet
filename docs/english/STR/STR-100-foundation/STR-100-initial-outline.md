@@ -1,3 +1,19 @@
+# STR-100
+---
+document-id: STR-100
+titel: Initial outline of foundational framework
+version: 1.0
+last-updated: 2024-10-29
+responsible: Björn Kenneth Holmström
+role: Grundare och teknisk samordnare
+related-documents:
+  - STR-101 # Party foundation
+  - STR-102 # Basis in p(∞)=1
+  - STR-103 # Ethics of equilibrium and interconnection
+  - STR-104 # Butterfly framework
+  - OPS-101 # Party's operation platform - outline
+---
+
 Thoughts on what such a "transition-focused party" might look like:
 
 **Core Framework**

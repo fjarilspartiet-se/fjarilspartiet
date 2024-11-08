@@ -1,15 +1,15 @@
-STR-010
-Dokument-ID: STR-010  
-Titel: Internationell integration och global enhetsstrategi  
-Version: 1.0  
-Senast Uppdaterad: 2024-10-30  
-Ansvarig: Björn Kenneth Holmström  
-Roll: Grundare och Visionär  
-
-Relaterade Dokument:  
-STR-001 - Långsiktig vision och transformativa mål  
-STR-212 - Global ekonomisk jämlikhet och resursöverflöd  
-STR-009 - Individens utveckling och självförverkligande i ett transformativt samhälle  
+# STR-010
+---
+dokumentid: STR-010  
+titel: Internationell integration och global enhetsstrategi  
+version: 1.0  
+senast-uppdaterad: 2024-10-30  
+ansvarig: Björn Kenneth Holmström  
+roll: Grundare och Visionär  
+relaterade-dokument:  
+  - STR-001 - Långsiktig vision och transformativa mål  
+  - STR-212 - Global ekonomisk jämlikhet och resursöverflöd  
+  - STR-009 - Individens utveckling och självförverkligande i ett transformativt samhälle  
 
 ---
 

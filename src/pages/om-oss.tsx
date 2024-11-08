@@ -1,6 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
-import { Network, Lightbulb, Code, Users, Blocks, GitBranch, ExternalLink } from 'lucide-react';
+import { Network, Lightbulb, Code, Users, Blocks, GitBranch, ExternalLink, CircleUser, Sprout, Globe } from 'lucide-react';
 
 const ProjectStatus = ({ status }: { status: string }) => {
   const getStatusColor = (status: string) => {
@@ -40,14 +40,39 @@ export default function AboutPage() {
               praktiska lösningar för att skapa positiv samhällsförändring. Som en fjäril 
               utvecklas vi genom olika stadier mot något vackert och livskraftigt.
             </p>
-            <div className="flex justify-center space-x-4">
-              <Link href="/vision" className="btn-secondary inline-flex items-center">
-                Utforska vår vision
-              </Link>
-              <Link href="/losningar" className="btn-primary inline-flex items-center">
-                Se våra lösningar
-              </Link>
+          </div>
+          {/* Vision Summary Cards */}
+          <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <CircleUser className="w-8 h-8 text-blue-600 mb-3" />
+              <h3 className="font-semibold mb-2">Individuell blomstring</h3>
+              <p className="text-sm text-gray-600">
+                Vi bygger system som möjliggör verklig frihet och självförverkligande för varje person.
+              </p>
             </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <Sprout className="w-8 h-8 text-green-600 mb-3" />
+              <h3 className="font-semibold mb-2">Hållbar samhällsutveckling</h3>
+              <p className="text-sm text-gray-600">
+                Genom systemiskt tänkande skapar vi lösningar som gynnar både människor och miljö.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <Globe className="w-8 h-8 text-purple-600 mb-3" />
+              <h3 className="font-semibold mb-2">Global transformation</h3>
+              <p className="text-sm text-gray-600">
+                Vi arbetar för en värld där resursöverflöd och fred möjliggörs genom teknologi och samarbete.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex justify-center space-x-4">
+            <Link href="/vision" className="btn-secondary inline-flex items-center">
+              Utforska vår vision
+            </Link>
+            <Link href="/losningar" className="btn-primary inline-flex items-center">
+              Se våra lösningar
+            </Link>
           </div>
         </div>
       </section>

@@ -1,17 +1,16 @@
-TAK-401
-Dokument-ID: TAK-401  
-Titel: Bostäder och stadsutveckling - Ramverk  
-Version: 1.0  
-**Senast Uppdaterad:** 2024-10-30  
-Ansvarig: Björn Kenneth Holmström  
-Roll: Grundare och Utvecklingssamordnare  
-Relaterade Dokument:  
-
-- STR-401 - Lokal Resiliens och Hållbara Matsystem  
-- OPS-102 - Digital partioperationsplattform - Specifikation  
-- TAK-104 - Kvalitetssäkringsramverk  
-- STR-206 - Meningsfull tillvaro som social rättighet  
-
+# TAK-401
+---
+dokumentid: TAK-401  
+titel: Bostäder och stadsutveckling - Ramverk  
+version: 1.0  
+senast-uppdaterad: 2024-10-30  
+ansvarig: Björn Kenneth Holmström  
+roll: Grundare och Utvecklingssamordnare  
+relaterade-dokument:  
+  - STR-401 - Lokal Resiliens och Hållbara Matsystem  
+  - OPS-102 - Digital partioperationsplattform - Specifikation  
+  - TAK-104 - Kvalitetssäkringsramverk  
+  - STR-206 - Meningsfull tillvaro som social rättighet  
 ---
 
 ### Inledning

@@ -1,3 +1,18 @@
+# OPS-204  
+---  
+document-id: OPS-204  
+title: Public Symbol Guide
+version: 1.0  
+last-updated: 2024-10-29  
+responsible person: Björn Kenneth Holmström  
+role: Founder and Technical Coordinator  
+related-documents:  
+  - STR-104 # Butterfly Framework
+  - STR-105 # Beyond Symbols
+  - STR-106 # Symbols FAQ
+  - OPS-202 # Communication Strategy
+---
+
 # Fjärilspartiet's Living Symbol
 ## A Guide to Our Butterfly Identity
 
