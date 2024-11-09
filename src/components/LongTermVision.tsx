@@ -1,4 +1,4 @@
-import { Target, Sprout, Globe, Lightbulb } from 'lucide-react';
+import { Target, Globe, Lightbulb } from 'lucide-react';
 
 const LongTermVision = () => {
   return (

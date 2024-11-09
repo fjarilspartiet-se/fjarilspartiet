@@ -1,6 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
-import { Network, Lightbulb, Code, Users, Blocks, GitBranch, ExternalLink, CircleUser, Sprout, Globe } from 'lucide-react';
+import { Network, Lightbulb, Code, ExternalLink, CircleUser, Sprout, Globe } from 'lucide-react';
 import EngagementSection from '../components/EngagementSection';
 
 const ProjectStatus = ({ status }: { status: string }) => {

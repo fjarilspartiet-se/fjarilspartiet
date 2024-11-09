@@ -1,6 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
-import { ArrowRight, Lightbulb, HeartHandshake, Scale, Blend } from 'lucide-react';
+import { ArrowRight, Lightbulb, HeartHandshake, Scale } from 'lucide-react';
 import TransformationJourney from '../components/TransformationJourney';
 import LongTermVision from '../components/LongTermVision';
 
