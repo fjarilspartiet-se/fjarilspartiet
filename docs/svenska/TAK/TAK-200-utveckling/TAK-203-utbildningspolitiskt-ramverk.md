@@ -247,3 +247,44 @@ Stödnivåer:
 - Delning av resurser
 - Påverkansbedömning
 
+### Existentiell och meningsskapande dimension
+
+#### 1. Stöd för livsfrågor och meningssökande
+**Strukturerade möjligheter**
+- Schemalagd tid för existentiell reflektion
+- Handledning i meningssökande
+- Integrering av filosofiska samtal
+- Forum för livsåskådningsdialog
+
+**Praktiska metoder**
+- Reflektionsjournal
+- Meditativa övningar
+- Gruppdialoger om livsfrågor
+- Projekt kopplade till personliga värderingar
+
+#### 2. Integration i vardagligt lärande
+**Ämnesövergripande kopplingar**
+- Meningsperspektiv i alla ämnen
+- Koppling mellan kunskap och livsval
+- Utforskande av värderingar i praktiken
+- Personlig relevans i lärandet
+
+**Utvärderingsmetoder**
+- Portfolio över personlig utveckling
+- Reflektionsbaserad bedömning
+- Dialog om meningsskapande
+- Dokumentation av värderingsprocesser
+
+#### 3. Lärarstöd för meningsskapande
+**Kompetensutveckling**
+- Utbildning i existentiell pedagogik
+- Handledning i meningsskapande samtal
+- Verktyg för värderingsarbete
+- Stöd för personlig integration
+
+**Resurser och material**
+- Metodbank för meningsarbete
+- Dialogverktyg för livsfrågor
+- Övningar för värdegrundsarbete
+- Material för reflektionsprocesser
+

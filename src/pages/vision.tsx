@@ -1,6 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
-import { ArrowRight, Lightbulb, HeartHandshake, Scale } from 'lucide-react';
+import { ArrowRight, Lightbulb, HeartHandshake, Scale, Compass, Heart, Sparkles } from 'lucide-react';
 import TransformationJourney from '../components/TransformationJourney';
 import LongTermVision from '../components/LongTermVision';
 
@@ -20,6 +20,49 @@ export default function VisionPage() {
               för att skapa överflöd och välmående för alla. Denna vision är inte bara en dröm - 
               det är ett åtagande vi arbetar för varje dag.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-6">En djupare mening</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+              I grunden handlar vår vision om att ge varje människa möjlighet att på djupet 
+              utforska frågan &quot;vad lever jag för?&quot; och skapa förutsättningar att förverkliga 
+              svaren de finner. Detta är inte bara en personlig fråga - det är nyckeln till 
+              ett samhälle som blomstrar på riktigt.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <Compass className="w-8 h-8 text-blue-600 mb-4" />
+              <h3 className="font-semibold mb-3">Frihet att utforska</h3>
+              <p className="text-gray-600">
+                När grundläggande behov är säkrade genom system som AUBI skapas ett verkligt 
+                utrymme för människor att utforska livets djupare dimensioner.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <Heart className="w-8 h-8 text-red-600 mb-4" />
+              <h3 className="font-semibold mb-3">Kraft att förverkliga</h3>
+              <p className="text-gray-600">
+                Vi bygger samhällsstrukturer som ger människor verklig möjlighet att leva 
+                i enlighet med sina djupaste insikter och värderingar.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <Sparkles className="w-8 h-8 text-purple-600 mb-4" />
+              <h3 className="font-semibold mb-3">Tillsammans växer vi</h3>
+              <p className="text-gray-600">
+                När människor får utforska och förverkliga vad de verkligen lever för skapas 
+                ett rikare, mer meningsfullt samhälle för alla.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -47,9 +90,11 @@ export default function VisionPage() {
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <h3 className="font-semibold mb-2">Exempel: AUBI</h3>
                 <p className="text-gray-600">
-                  Ett grundläggande ekonomiskt skyddsnät skapar en positiv spiral av ökat 
-                  entreprenörskap, bättre hälsa, starkare lokalsamhällen och minskad byråkrati - 
-                  effekter som förstärker varandra mot vår vision.
+                  Ett intelligent välfärdssystem med ett grundläggande ekonomiskt skyddsnät 
+                  ger människor den grundtrygghet och frihet de behöver för att på djupet utforska vad de
+                  vill leva för och förverkliga detta genom meningsfullt engagemang i samhället. 
+                  Det skapar en positiv spiral av ökat entreprenörskap, bättre hälsa, starkare 
+                  lokalsamhällen och minskad byråkrati - effekter som förstärker varandra mot vår vision.
                   <Link href="/losningar#aubi" className="text-blue-600 ml-1 hover:underline">
                     Läs mer om AUBI
                   </Link>

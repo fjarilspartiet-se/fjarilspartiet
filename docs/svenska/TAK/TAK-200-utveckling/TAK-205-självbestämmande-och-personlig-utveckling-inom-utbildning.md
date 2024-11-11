@@ -72,3 +72,44 @@ Ett utbildningssystem som stödjer varje individs rätt och förmåga att utfors
 - Peer learning
 - Specialpedagogiskt stöd
 
+### Emotionell och social utveckling
+
+#### 1. Emotionell intelligens
+**Kärnkomponenter**
+- Självkännedom och självreflektion
+- Känsloreglering och hantering
+- Empatiutveckling
+- Relationskompetens
+
+**Implementeringsmetoder**
+- Integrerade EQ-övningar
+- Mentorskap och coaching
+- Gruppövningar i empati
+- Konflikthanteringsträning
+
+#### 2. Socialt samspel och gemenskap
+**Lärandemiljö**
+- Strukturer för samarbete
+- Utrymme för social interaktion
+- Stöd för relationsskapande
+- Gemenskapsbyggande aktiviteter
+
+**Färdighetsutveckling**
+- Kommunikationsträning
+- Grupparbetskompetens
+- Ledarskapsförmågor
+- Samarbetsstrategier
+
+#### 3. Systemförståelse och sammanhang
+**Holistiskt lärande**
+- Kopplingar mellan ämnen och liv
+- Förståelse för systemsamband
+- Ekologisk medvetenhet
+- Samhällsperspektiv
+
+**Praktisk tillämpning**
+- Tvärvetenskapliga projekt
+- Samhällsengagemang
+- Miljöinitiativ
+- Kulturella aktiviteter
+

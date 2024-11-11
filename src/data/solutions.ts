@@ -1,11 +1,14 @@
 // data/solutions.ts
+
 import { Shield, Sprout, Network, Target, Calculator, HeartHandshake, 
-         Users, Leaf, Trees, LeafyGreen, ChartNoAxesCombined, Code } from 'lucide-react';
+         Users, Leaf, Trees, LeafyGreen, ChartNoAxesCombined, Code,
+         Compass, Heart, Book, Stars, Layers, Wind, Rocket, Building } from 'lucide-react';
 
 export const TABS = [
   { id: 'aubi', label: 'AUBI', icon: Shield },
   { id: 'hallbarhet', label: 'Hållbarhet', icon: Sprout },
   { id: 'demokrati', label: 'Demokrati', icon: Network },
+  { id: 'utbildning', label: 'Utbildning', icon: Book },
   { id: 'projekt', label: 'Pilotprojekt', icon: Target }
 ];
 
@@ -108,6 +111,62 @@ export const DEMOKRATI_CONTENT = {
   ]
 };
 
+export const UTBILDNING_CONTENT = {
+  title: 'Meningsfull utbildning',
+  sections: [
+    {
+      title: 'Ett nytt syfte med utbildning',
+      description: 'Vi vill skapa ett utbildningssystem som inte bara förmedlar kunskap, utan ger unga människor möjlighet att utforska vad de vill leva för och utveckla verktygen för att förverkliga detta.',
+      items: [
+        { icon: Compass, text: 'Rum för existentiell reflektion och livsfrågor' },
+        { icon: Network, text: 'Systemtänkande och förståelse för samband' },
+        { icon: Heart, text: 'Emotionell intelligens och empatisk förmåga' },
+        { icon: Stars, text: 'Stöd att upptäcka och utveckla personlig potential' }
+      ]
+    },
+    {
+      title: 'Demokratiskt deltagande',
+      description: 'Barn och unga är inte bara framtida medborgare - de är medborgare nu. Vi skapar strukturer för reellt inflytande:',
+      items: [
+        { icon: Users, text: 'Lokala barn- och ungdomsparlament med verklig beslutsmakt' },
+        { icon: Target, text: 'Stärkta elevråd med egen budget för initiativ' },
+        { icon: Shield, text: 'Konsekvensanalyser för barn och unga vid politiska beslut' },
+        { icon: Network, text: 'Digital plattform anpassad för ungas demokratiska deltagande' }
+      ]
+    },
+    {
+      title: 'Personanpassade lärandevägar',
+      description: 'Ett flexibelt system som erkänner olika sätt att lära och utvecklas:',
+      items: [
+        { icon: Layers, text: 'Projektbaserat lärande kopplat till samhällsutmaningar' },
+        { icon: Wind, text: 'Integration av meditation och reflektion i skoldagen' },
+        { icon: Rocket, text: 'Stöd för elevinitierade projekt och utforskande' },
+        { icon: Building, text: 'Samarbete med lokala föreningar och initiativ' }
+      ]
+    }
+  ],
+  evidence: [
+    {
+      title: 'Vetenskapligt stöd',
+      items: [
+        'Ökad studiemotivation när lärandet kopplas till mening',
+        'Bättre psykisk hälsa med tid för reflektion',
+        'Starkare ledarskapsförmågor genom projektbaserat lärande',
+        'Förbättrade akademiska resultat när elever har reellt inflytande'
+      ]
+    },
+    {
+      title: 'Pilotprojekt',
+      items: [
+        'Framgångsrika exempel från skolor som integrerat meningssökande',
+        'Positiv feedback från både elever och lärare',
+        'Stärkt samarbete mellan skola och lokalsamhälle',
+        'Ökad demokratisk kompetens genom aktivt deltagande'
+      ]
+    }
+  ]
+};
+
 export const PROJEKT_CONTENT = {
   title: 'Aktiva projekt och initiativ',
   projects: [
@@ -132,6 +191,18 @@ export const PROJEKT_CONTENT = {
       ],
       linkText: 'Utforska projektet',
       linkHref: 'https://github.com/BjornKennethHolmstrom/CommuniTree'
+    },
+    {
+      title: 'MU - Plattform för meningsfull utbildning',
+      status: 'Konceptfas',
+      items: [
+        'Digitala verktyg för reflektion och meningssökande',
+        'Stöd för mentorskap och samarbete mellan åldrar',
+        'Integration med DPOP för elevdemokrati',
+        'Resursbank för lärare och pedagoger'
+      ],
+      linkText: 'Läs mer om projektet',
+      linkHref: '/utbildning'
     }
   ],
   proposals: [

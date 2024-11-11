@@ -22,7 +22,7 @@ We always welcome your reflections and ideas to improve our policies, as we beli
 
 ## Step 2: Participate in Dialogues and Discussion Forums
 
-To create an open and dynamic environment, we encourage our members to initiate discussion forums, workshops, and meetings, both locally and digitally. Our guide **MED-102: Organizing Meetings** can help you understand how to start or participate in various types of discussions and meeting formats.
+To create an open and dynamic environment, we encourage our members to initiate discussion forums, workshops, and meetings, both locally and digitally. Our guide **MEM-102: Organizing Meetings** can help you understand how to start or participate in various types of discussions and meeting formats.
 
 Through these meetings, you can:
 - **Share your reflections and insights** on our core principles
@@ -46,7 +46,7 @@ We are developing several technical initiatives that will support Fjärilspartie
 - **FUN(TIME) – Freedom and Unity Network (Through Independent Meaningful Effort)**  
   A network project aimed at promoting freedom, community, and meaningful engagement through self-organizing efforts.
 
-Technical experience is welcome, but we also value curiosity and the desire to learn. **MED-103: Contribute Technically** describes how you can contribute to our digital projects. We use tools such as AI and ChatGPT to foster creativity and development, and we believe that technology, when used ethically, can be a positive force for societal change.
+Technical experience is welcome, but we also value curiosity and the desire to learn. **MEM-103: Contribute Technically** describes how you can contribute to our digital projects. We use tools such as AI and ChatGPT to foster creativity and development, and we believe that technology, when used ethically, can be a positive force for societal change.
 
 ---
 
@@ -54,10 +54,10 @@ Technical experience is welcome, but we also value curiosity and the desire to l
 
 Fjärilspartiet encourages local initiatives and engaging community dialogue. Our guides help you understand how to start or participate in initiatives that are meaningful to you and your local area:
 
-- **MED-104: Local Initiatives** – Basic guide for starting and running local projects.
-- **MED-105: Research and Policy Development** – How you can contribute to the party’s policy development through research and analysis.
-- **MED-106: Communication and Community Dialogue** – Guide for effective communication to share our ideas.
-- **MED-107: Scaling and Synergies** – How different initiatives can grow and collaborate for greater impact.
+- **MEM-104: Local Initiatives** – Basic guide for starting and running local projects.
+- **MEM-105: Research and Policy Development** – How you can contribute to the party’s policy development through research and analysis.
+- **MEM-106: Communication and Community Dialogue** – Guide for effective communication to share our ideas.
+- **MEM-107: Scaling and Synergies** – How different initiatives can grow and collaborate for greater impact.
 
 With these documents, you can, for example, organize local projects and participate in community dialogue, contribute with analysis and research, and help spread the message of Fjärilspartiet.
 

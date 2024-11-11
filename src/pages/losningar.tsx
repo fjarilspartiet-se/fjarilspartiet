@@ -8,11 +8,13 @@ import ReferenceSection from '../components/ReferenceSection';
 import Link from 'next/link';
 import { 
   TABS, AUBI_CONTENT, HALLBARHET_CONTENT, 
-  DEMOKRATI_CONTENT, PROJEKT_CONTENT, REFERENCES 
+  DEMOKRATI_CONTENT, UTBILDNING_CONTENT, PROJEKT_CONTENT, REFERENCES 
 } from '../data/solutions';
 
 export default function SolutionsPage() {
   const [activeTab, setActiveTab] = useState('aubi');
+
+  console.log('TABS:', TABS);
 
   const getReferencesForTab = (tabId: string) => {
     switch (tabId) {
@@ -60,6 +62,16 @@ export default function SolutionsPage() {
             title={DEMOKRATI_CONTENT.title}
             contents={DEMOKRATI_CONTENT.sections}
           />
+        </div>
+
+        {/* Utbildning Section */}
+        <div className={`transition-opacity duration-300 ${activeTab === 'utbildning' ? 'opacity-100' : 'opacity-0 hidden'}`}>
+          <ContentSection
+            id="utbildning"
+            title={UTBILDNING_CONTENT.title}
+            contents={UTBILDNING_CONTENT.sections}
+          />
+          <EvidenceCard items={UTBILDNING_CONTENT.evidence} />
         </div>
 
         {/* Projekt Section */}
