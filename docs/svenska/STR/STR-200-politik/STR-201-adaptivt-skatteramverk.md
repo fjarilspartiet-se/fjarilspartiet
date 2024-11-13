@@ -11,6 +11,7 @@ relaterade-dokument:
   - STR-203 # Adaptiv universell basinkomst (AUBI)
   - TAK-103 # Finansiellt ramverk 
   - STR-205 # Holistiskt stödramverk
+  - STR-214 # AUBI - Ekonomisk analys och finansiering
 ---
 
 # Adaptivt skatteramverk

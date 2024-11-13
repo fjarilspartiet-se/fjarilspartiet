@@ -9,6 +9,7 @@ roll: Grundare och teknisk samordnare
 relaterade-dokument:
   - STR-201 # Adaptivt skatteramverk
   - STR-203 # Adaptiv universell basinkomst (AUBI)
+  - STR-214 # AUBI - Ekonomisk analys och finansiering
   - TAK-102 # Svenskt politiskt integrationsramverk
   - TAK-103 # Finansiellt ramverk
 ---
