@@ -10,6 +10,7 @@ relaterade-dokument:
   - STR-500 Digitalt Samhälle  
   - STR-501 Digital etik och datasuveränitet  
   - STR-502 Förhållande till Artificiell Intelligens  
+  - STR-504 Riktlinjer för framväxande bioteknologier
 ---
 
 ### 1. Inledning

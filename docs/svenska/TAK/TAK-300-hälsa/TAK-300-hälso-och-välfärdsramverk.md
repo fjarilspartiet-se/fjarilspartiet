@@ -11,7 +11,7 @@ relaterade-dokument:
   - TAK-302 # Sjukvårdsramverk
   - TAK-303 # Tillgänglig och holistisk vård
   - TAK-304 # Psykisk hälsa och välbefinnande
-  - TAK-305 # Mening och meningsfullhet som hälsokomponent
+  - TAK-305 # Självbestämmande och personlig utveckling som hälsokomponent
 ---
 
 # Hälso- och välfärdsramverk

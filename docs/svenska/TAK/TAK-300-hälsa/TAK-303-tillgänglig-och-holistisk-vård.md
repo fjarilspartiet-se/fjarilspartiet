@@ -10,7 +10,7 @@ relaterade-dokument:
   - TAK-301 # Hälsofrämjande insatser
   - TAK-302 # Sjukvårdsramverk
   - TAK-304 # Psykisk hälsa och välbefinnande
-  - TAK-305 # Mening och meningsfullhet som hälsokomponent
+  - TAK-305 # Självbestämmande och personlig utveckling som hälsokomponent
   - STR-207 # Ramverk för religiös och andlig mångfald
 ---
 

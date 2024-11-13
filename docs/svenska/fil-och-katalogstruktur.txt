@@ -25,7 +25,8 @@
 │   │   ├── OPS-101-partiets-operations-plattform-skiss.md
 │   │   ├── OPS-102-digital-parti-operations-plattform-specifikation.md
 │   │   ├── OPS-103-digital-parti-operations-plattform-flexibelt-styre.md
-│   │   └── OPS-104-försäkran-om-icke-korruption-för-digitala-lösningar.md
+│   │   ├── OPS-104-försäkran-om-icke-korruption-för-digitala-lösningar.md
+│   │   └── OPS-105-didis-ramverk-för-direktdemokrati.md
 │   ├── OPS-200-riktlinjer
 │   │   ├── OPS-201-konkreta-åtgärdsplaner.md
 │   │   ├── OPS-202-kommunikationsstrategi.md
@@ -70,7 +71,16 @@
 │   │   ├── STR-213-styrningens-evolution-ett-adaptivt-och-integrerat-perspektiv.md
 │   │   ├── STR-214-aubi-ekonomisk-analys-och-finansiering.md
 │   │   ├── STR-215-mystik-och-kontemplation-ramverk.md
-│   │   └── STR-216-enteogener-och-psykedelisk-forskning.md
+│   │   ├── STR-216-enteogener-och-psykedelisk-forskning.md
+│   │   ├── STR-217-ungas-ekonomiska-och-demokratiska-rättigheter.md
+│   │   ├── STR-218-integrerad-flernivådemokrati.md
+│   │   ├── STR-219-ramverk-för-etisk-beskattning.md
+│   │   ├── STR-220-datasuveränitet-och-digital-autonomi.md
+│   │   ├── STR-221-ai-etik-och-utvecklingsriktlinjer.md
+│   │   ├── STR-222-ramverk-för-hållbar-och-hälsosam-stadsutveckling.md
+│   │   ├── STR-223-transformation-av-utbildningssystemet-frihet-och-individualisering.md
+│   │   ├── STR-224-vision-för-framtidens-integrerade-hälsovård.md
+│   │   └── STR-225-digital-systemintegration.md
 │   ├── STR-300-internationellt
 │   │   ├── STR-301-internationell-strategi.md
 │   │   └── STR-302-individuell-autonomi-och-utvecklingsmöjligheter-som-universell-rättighet.md
@@ -112,4 +122,4 @@
 │       └── TAK-501-landsbygdsutveckling-och-decentralisering.md
 └── välkomstmeddelande.md
 
-18 directories, 94 files
+18 directories, 104 files

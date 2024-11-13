@@ -1,17 +1,17 @@
 # TAC-300
 ---
-document ID: TAC-300  
+document-id: TAC-300  
 title: Health and Welfare Framework  
 version: 1.0  
-last updated: 2024-10-29  
+last-updated: 2024-10-29  
 responsible: Björn Kenneth Holmström  
 role: Founder and Welfare Coordinator  
-related documents:  
-  - TAK-301 # Health Promotion Initiatives  
-  - TAK-302 # Healthcare Framework  
-  - TAK-303 # Accessible and Holistic Care  
-  - TAK-304 # Mental Health and Wellbeing  
-  - TAK-305 # Meaning and Purpose as Health Components  
+related-documents:  
+  - TAC-301 # Health Promotion Initiatives  
+  - TAC-302 # Healthcare Framework  
+  - TAC-303 # Accessible and Holistic Care  
+  - TAC-304 # Mental Health and Wellbeing  
+  - TAC-305 # Self-Determination and Personal Development as a Health Component 
 ---
 
 # Health and Welfare Framework
