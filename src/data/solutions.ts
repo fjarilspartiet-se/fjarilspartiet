@@ -1,13 +1,13 @@
 // data/solutions.ts
 
 import { Shield, Sprout, Network, Target, Calculator, HeartHandshake, 
-         Users, Leaf, Trees, LeafyGreen, ChartNoAxesCombined, Code,
-         Compass, Heart, Book, Stars, Layers, Wind, Rocket, Building,
-         Route, Clock, Layout, Microscope, TreeDeciduous, Brain, Workflow,
-         Recycle, Bot, Mountain, TrendingUp, Database, Minimize, Flower, 
-         Park, Home, Store, Sun, Zap, Battery, Droplets, GitBranch, Globe,
-         TreePine, HeartPulse, Palette, Shrub, Bike, Lock, User, Wallet,
-         School, Link, Eye, MessageCircle, BookOpen, Scale, Coins, Map as MapIcon } from 'lucide-react';
+         Users, Leaf, Trees, LeafyGreen, Compass, Heart, Book, Stars, 
+         Layers, Wind, Rocket, Building, Route, Clock, Layout, Microscope,
+         TreeDeciduous, Brain, Workflow, Recycle, Bot, Mountain, TrendingUp,
+         Database, Minimize, Flower, Home, Store, Sun, Zap, Battery, Droplets, 
+         GitBranch, Globe, TreePine, HeartPulse, Palette, Shrub, Bike, Lock,
+         User, Wallet, School, Link, Eye, MessageCircle, BookOpen, Scale, 
+         Coins, Map as MapIcon } from 'lucide-react';
 
 export const TABS = [
   { id: 'aubi', label: 'AUBI', icon: Shield },

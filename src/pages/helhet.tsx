@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import MainLayout from '../layouts/MainLayout';
 import { 
   Waves, Sprout, Brain, Heart, Users, 
-  TreeDeciduous, Network, Building, ArrowRight 
+  Building, ArrowRight, LucideIcon // TreeDeciduous, Network, 
 } from 'lucide-react';
 import Link from 'next/link';
 
@@ -15,7 +15,7 @@ const RippleSection = ({
 }: { 
   title: string;
   stages: { title: string; items: string[] }[];
-  icon: any;
+  icon: LucideIcon;
   className?: string;
 }) => {
   return (
@@ -49,7 +49,7 @@ const RippleSection = ({
 };
 
 // Component for case studies
-const CaseStudy = ({
+/* const CaseStudy = ({
   title,
   location,
   description,
@@ -82,7 +82,7 @@ const CaseStudy = ({
       </ul>
     </div>
   );
-};
+}; */
 
 export default function HelhetPage() {
   const aubiRef = useRef<HTMLDivElement>(null);
