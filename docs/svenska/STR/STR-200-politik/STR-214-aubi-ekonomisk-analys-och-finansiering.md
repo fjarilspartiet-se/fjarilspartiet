@@ -56,17 +56,23 @@ AUBI (Adaptiv Universell Basinkomst) representerar en omfattande reform av välf
 #### 3.1 Diversifierade intäktskällor
 
 **Primära källor:**
-1. **Automationsavgift (5%)**
+1. **Automatiseringsdividend**
    - Breddad definition av automation
    - Omfattar: Industrirobotar, AI-system, automatiserade tjänster
-   - Förväntad intäkt: ~87 miljarder kr/år
+   - Progressiv skatt på automatiserad produktion
+   - Etisk aspekt: Rättvis fördelning av teknologiska framsteg
+   - Miljöhänsyn: Främjar effektiv resursanvändning
    - Gradvis implementering över 5 år
+   - Förväntad intäkt: ~200-300 miljarder kr/år
 
-2. **Resursskatt (5%)**
+2. **Resursutvinningsskatt**
    - Naturresursutvinning
    - Skogsbruk
    - Vattenresurser
-   - Förväntad intäkt: ~100 miljarder kr/år
+   - Avgift baserad på miljöpåverkan och hållbarhet
+   - Etisk aspekt: Gemensamt ägande av naturresurser
+   - Transparent redovisning av användning
+   - Förväntad intäkt: ~100-150 miljarder kr/år
 
 3. **Digital verksamhetsskatt**
    - Plattformsekonomi
@@ -81,7 +87,9 @@ AUBI (Adaptiv Universell Basinkomst) representerar en omfattande reform av välf
 
 **Sekundära källor:**
 1. **Miljörelaterade skatter**
-   - Utökad koldioxidskatt
+   - Koldioxidskatt med tydlig etisk grund
+   - Skatt på ohållbar resursanvändning
+   - Incitament för hållbara alternativ
    - Miljöavgifter
    - Förväntad intäkt: ~90 miljarder kr/år
 
@@ -101,6 +109,12 @@ AUBI (Adaptiv Universell Basinkomst) representerar en omfattande reform av välf
 - Förbättrad folkhälsa: ~50 miljarder kr/år
 - Minskad kriminalitet: ~20 miljarder kr/år
 - Ökad företagsamhet: ~30 miljarder kr/år
+
+**Etiska överväganden i varje fas:**
+- Transparens i skatteuttag och användning
+- Rättvis fördelning av börda
+- Miljöhänsyn i genomförande
+- Social hållbarhet i övergången
 
 ### 4. Implementeringsplan
 
