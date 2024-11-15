@@ -63,7 +63,7 @@ export default function MembershipPage() {
                 </p>
                 <p>
                   Efter din ansökan väljer du själv hur du engagerar dig. 
-                  Vi utvecklar för närvarande en digital plattform för medlemsengagemang som kommer att lanseras i framtiden.
+                  Vi utvecklar för närvarande en digital plattform för medlemsengagemang som kommer att lanseras i framtiden. Innan dess har vi en Discord server du kan gå med i.
                 </p>
               </div>
 
@@ -134,11 +134,24 @@ export default function MembershipPage() {
               <h2 className="text-xl font-semibold text-success-dark mb-4">
                 Tack för din ansökan!
               </h2>
-              <p className="text-success">
+              <p className="text-success mb-4">
                 Vi har mottagit din medlemsansökan och kommer att kontakta dig via e-post inom kort. 
                 Vi ser fram emot att välkomna dig till Fjärilspartiet och diskutera hur vi tillsammans 
                 kan arbeta för positiv samhällsförändring.
               </p>
+              <div className="mt-4">
+                <p className="text-gray-700 mb-2">
+                  Under tiden är du välkommen att gå med i vår Discord-community:
+                </p>
+                <a 
+                  href="https://discord.gg/GxSxaYANU4"
+                  className="btn-primary inline-flex items-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Gå med i Discord-communityn →
+                </a>
+              </div>
             </div>
           )}
 

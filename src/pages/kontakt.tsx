@@ -43,6 +43,21 @@ export default function ContactPage() {
             <h2>Engagera dig</h2>
             <div className="grid gap-6">
               <div className="card">
+                <h3>Community</h3>
+                <p>
+                  Gå med i vår Discord-community för att delta i diskussioner, 
+                  samarbeta kring utvecklingsprojekt och engagera dig i partiets utveckling.
+                </p>
+                <a 
+                  href="https://discord.gg/GxSxaYANU4"
+                  className="btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Gå med i Discord →
+                </a>
+              </div>
+              <div className="card">
                 <h3>Utveckling</h3>
                 <p>
                   Intresserad av att bidra till utvecklingen av vår digitala plattform eller andra tekniska projekt? 
