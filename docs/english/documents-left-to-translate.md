@@ -13,14 +13,6 @@ STR-224
 STR-403
 STR-504
 
-# TAK
-
-TAK-403
-
-# OPS
-
-OPS-105
-
 # MED
 
 MED-101

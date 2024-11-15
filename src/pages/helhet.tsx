@@ -1,52 +1,11 @@
-import { useRef } from 'react';
 import MainLayout from '../layouts/MainLayout';
+import SystemEffects from '../components/SystemEffects';
+import SystemMap from '../components/SystemMap';
 import { 
-  Waves, Sprout, Brain, Heart, Users, 
-  Building, ArrowRight, LucideIcon // TreeDeciduous, Network, 
+  Brain, Heart, Users, 
+  Building, ArrowRight // TreeDeciduous, Network, 
 } from 'lucide-react';
 import Link from 'next/link';
-
-// Component for the ripple effect sections
-const RippleSection = ({ 
-  title, 
-  stages,
-  icon: Icon,
-  className = '' 
-}: { 
-  title: string;
-  stages: { title: string; items: string[] }[];
-  icon: LucideIcon;
-  className?: string;
-}) => {
-  return (
-    <div className={`card ${className}`}>
-      <div className="flex items-center gap-3 mb-6">
-        <Icon className="w-8 h-8 text-blue-600" />
-        <h3 className="text-2xl font-semibold">{title}</h3>
-      </div>
-      <div className="grid md:grid-cols-4 gap-4">
-        {stages.map((stage, index) => (
-          <div 
-            key={index} 
-            className={`p-4 rounded-lg border-2 ${
-              index === 0 ? 'border-blue-500 bg-blue-50' :
-              index === 1 ? 'border-green-500 bg-green-50' :
-              index === 2 ? 'border-purple-500 bg-purple-50' :
-              'border-red-500 bg-red-50'
-            }`}
-          >
-            <h4 className="font-semibold mb-2">{stage.title}</h4>
-            <ul className="space-y-2 text-sm">
-              {stage.items.map((item, idx) => (
-                <li key={idx}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-};
 
 // Component for case studies
 /* const CaseStudy = ({
@@ -85,131 +44,52 @@ const RippleSection = ({
 }; */
 
 export default function HelhetPage() {
-  const aubiRef = useRef<HTMLDivElement>(null);
-  const localRef = useRef<HTMLDivElement>(null);
-
   return (
     <MainLayout>
-      {/* Hero Section */}
+      {/* Hero Section - Enhanced */}
       <section className="bg-gradient-to-b from-blue-50 to-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Hur våra lösningar samverkar
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-            Som ringar på vattnet sprider sig positiva förändringar och förstärker varandra. 
-            Se hur våra olika initiativ arbetar tillsammans för att skapa varaktig positiv förändring.
-          </p>
-          <div className="flex justify-center gap-4 flex-wrap">
-            <button 
-              onClick={() => aubiRef.current?.scrollIntoView({ behavior: 'smooth' })}
-              className="btn-primary"
-            >
-              Se AUBI-effekter
-            </button>
-            <button 
-              onClick={() => localRef.current?.scrollIntoView({ behavior: 'smooth' })}
-              className="btn-secondary"
-            >
-              Lokala exempel
-            </button>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Systemisk samhällsförändring
+            </h1>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+              Se hur våra olika initiativ samverkar för att skapa omfattande positiv förändring.
+              Genom att förstå och arbeta med systemets naturliga dynamik kan små, välplanerade
+              förändringar leda till stora förbättringar.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* AUBI Effects Section */}
-      <section ref={aubiRef} className="py-16 bg-white">
+      {/* System Map Section */}
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <RippleSection
-            title="Från ekonomisk trygghet till samhällsinnovation"
-            icon={Waves}
-            stages={[
-              {
-                title: "Initial förändring",
-                items: [
-                  "Grundtrygghet genom AUBI",
-                  "Minskad överlevnadsstress",
-                  "Tid för eftertanke",
-                  "Möjlighet att ta risker"
-                ]
-              },
-              {
-                title: "Första vågen",
-                items: [
-                  "Fler startar företag",
-                  "Ökat volontärarbete",
-                  "Tid för lärande",
-                  "Bättre mental hälsa"
-                ]
-              },
-              {
-                title: "Förstärkande effekter",
-                items: [
-                  "Nya lokala jobb",
-                  "Starkare lokalsamhällen",
-                  "Kunskapsdelning",
-                  "Minskade vårdkostnader"
-                ]
-              },
-              {
-                title: "Långsiktig förändring",
-                items: [
-                  "Blomstrande lokalekonomi",
-                  "Stödjande gemenskap",
-                  "Kultur av lärande",
-                  "Friskare befolkning"
-                ]
-              }
-            ]}
-          />
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-6">Ett sammanhängande system</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Utforska hur våra olika initiativ kopplar samman och förstärker varandra.
+              I ett välfungerande system skapar varje del positiva effekter som sprider
+              sig genom hela samhället.
+            </p>
+          </div>
+          
+          <SystemMap />
         </div>
       </section>
 
-      {/* Local Food Systems Section */}
-      <section ref={localRef} className="py-16 bg-gray-50">
+      {/* System Effects Section */}
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <RippleSection
-            title="Lokala matsystem och samhällseffekter"
-            icon={Sprout}
-            stages={[
-              {
-                title: "Initial förändring",
-                items: [
-                  "Stadsodlingar startas",
-                  "Lokala marknader",
-                  "Skolträdgårdar",
-                  "Matkooperativ"
-                ]
-              },
-              {
-                title: "Direkta fördelar",
-                items: [
-                  "Färsk lokalmat",
-                  "Minskade transporter",
-                  "Praktiskt lärande",
-                  "Mötesplatser"
-                ]
-              },
-              {
-                title: "Växande effekter",
-                items: [
-                  "Ökad matkunskap",
-                  "Ekologisk förståelse",
-                  "Sociala nätverk",
-                  "Nya företag"
-                ]
-              },
-              {
-                title: "Bredare påverkan",
-                items: [
-                  "Förbättrad folkhälsa",
-                  "Rikare stadsmiljö",
-                  "Starkare gemenskap",
-                  "Lokala arbetstillfällen"
-                ]
-              }
-            ]}
-          />
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-6">Från del till helhet</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Se hur enskilda förändringar skapar ringar på vattnet och transformerar
+              hela samhället genom positiva återkopplingsloopar.
+            </p>
+          </div>
+          
+          <SystemEffects />
         </div>
       </section>
 
