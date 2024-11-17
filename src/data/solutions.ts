@@ -395,56 +395,96 @@ export const PROJEKT_CONTENT = {
   projects: [
     {
       title: 'DidiS - Direkt demokrati i Sverige',
-      status: 'Tidig utvecklingsfas',
+      status: 'Under utveckling',
       items: [
-        'Öppen källkod demokratiplattform'
+        'Öppen källkod demokratiplattform',
+        'Stöd för deltagardemokrati och medborgardialoger',
+        'Integration med kommunala system',
+        'Fokus på transparens och säkerhet'
       ],
       linkText: 'Bidra till utvecklingen',
       linkHref: 'https://github.com/BjornKennethHolmstrom/DidiS'
     },
     {
       title: 'DPOP - Digital parti-operations-plattform',
-      status: 'Tidig utvecklingsfas',
+      status: 'Under utveckling',
       items: [
-        'Öppen källkod demokratiplattform',
-        'Stödjer hybridstyrning och flexibel beslutsfattning'
+        'Öppen källkod plattform för partiorganisation',
+        'Stöd för hybridstyrning och flexibelt beslutsfattande',
+        'Transparent dokumenthantering',
+        'Integrerad medlemshantering'
       ],
       linkText: 'Bidra till utvecklingen',
       linkHref: 'https://github.com/BjornKennethHolmstrom/DPOP'
     },
     {
-      title: 'CommuniTree - Samhällsengagemang',
-      status: 'Under aktiv utveckling',
-      items: [
-        'Plattform för lokal samverkan',
-        'Sammankopplar volontärer med behov',
-        'Stödjer generationsöverskridande samarbete',
-        'Integrerar med kommunala tjänster'
-      ],
-      linkText: 'Utforska projektet',
-      linkHref: 'https://github.com/BjornKennethHolmstrom/CommuniTree'
-    },
-    {
-      title: 'MU - Plattform för meningsfull utbildning',
-      status: 'Konceptfas',
+      title: 'MU - Meningsfull utbildning',
+      status: 'Under utveckling',
       items: [
         'Digitala verktyg för reflektion och meningssökande',
-        'Stöd för mentorskap och samarbete mellan åldrar',
-        'Integration med DPOP för elevdemokrati',
+        'Integration av mysticism och filosofi i lärandet',
+        'Stöd för mentorskap och ålderintegrerat lärande',
         'Resursbank för lärare och pedagoger'
       ],
-      linkText: 'Läs mer om projektet',
-      linkHref: '/utbildning'
+      linkText: 'Bidra till utvecklingen',
+      linkHref: 'https://github.com/BjornKennethHolmstrom/MU'
+    },
+    {
+      title: 'FUN(TIME) - Freedom and Unity Network',
+      status: 'Under utveckling',
+      items: [
+        'Internationellt nätverk för frihet och gemenskap',
+        'Plattform för meningsfullt engagemang',
+        'Stöd för självorganiserande initiativ',
+        'Fokus på global transformation'
+      ],
+      linkText: 'Bidra till utvecklingen',
+      linkHref: 'https://github.com/BjornKennethHolmstrom/FUN'
     }
   ],
   proposals: [
     {
+      title: 'Växthuset',
+      description: 'Ett pilotprojekt för lokal mat och gemenskap som kombinerar stadsodling, utbildning och social sammanhållning.',
+      status: 'I planeringsfas',
+      features: [
+        'Community garden och lärcenter',
+        'Integration med AUBI genom meningsfullt bidragande',
+        'Kunskap och resursdelning',
+        'Start i en utvald kommun'
+      ]
+    },
+    {
+      title: 'DemDel',
+      description: 'Ett småskaligt test av demokratisk deliberation som kombinerar DidiS-plattformen med fysiska möten.',
+      status: 'I planeringsfas',
+      features: [
+        'Digital + fysisk hybriddemokrati',
+        'Fokus på lokala beslut',
+        'Samarbete med intresserad kommun',
+        'Test av nya demokratiformer'
+      ]
+    },
+    {
+      title: 'LärLab',
+      description: 'Ett praktiskt experiment med transformativt lärande baserat på MU-principerna.',
+      status: 'I planeringsfas',
+      features: [
+        'After-school program eller studiecirkel',
+        'Integration av filosofi och praktik',
+        'Fokus på meningsfullt lärande',
+        'Testbädd för nya utbildningsmetoder'
+      ]
+    },
+    {
       title: 'EnergyShare',
-      description: 'Plattform för lokal energidelning och smart nätbalansering.'
+      description: 'Plattform för lokal energidelning och smart nätbalansering.',
+      status: 'I konceptfas'
     },
     {
       title: 'FoodWeb',
-      description: 'System för att koppla samman lokala matproducenter med konsumenter.'
+      description: 'System för att koppla samman lokala matproducenter med konsumenter.',
+      status: 'I konceptfas'
     }
   ]
 };

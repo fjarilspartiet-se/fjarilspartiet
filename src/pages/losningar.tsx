@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/router';
 import MainLayout from '../layouts/MainLayout';
 import Tabs from '../components/Tabs';
 import ContentSection from '../components/ContentSection';
@@ -6,12 +7,14 @@ import EvidenceCard from '../components/EvidenceCard';
 import ProjectCard from '../components/ProjectCard';
 import ReferenceSection from '../components/ReferenceSection';
 import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
 import { 
   TABS, AUBI_CONTENT, HALLBARHET_CONTENT, 
   DEMOKRATI_CONTENT, UTBILDNING_CONTENT, PROJEKT_CONTENT, REFERENCES 
 } from '../data/solutions';
 
 export default function SolutionsPage() {
+  const router = useRouter();
   const [activeTab, setActiveTab] = useState('aubi');
 
   console.log('TABS:', TABS);
@@ -27,13 +30,26 @@ export default function SolutionsPage() {
     }
   };
 
+  useEffect(() => {
+    // Get tab from URL query parameter
+    const { tab } = router.query;
+    if (tab && typeof tab === 'string' && TABS.some(t => t.id === tab)) {
+      setActiveTab(tab);
+    }
+  }, [router.query]);
+
+  const handleTabChange = (tabId: string) => {
+    setActiveTab(tabId);
+    router.push(`/losningar?tab=${tabId}`, undefined, { shallow: true });
+  };
+
   return (
     <MainLayout>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <Tabs 
           tabs={TABS}
           activeTab={activeTab}
-          onTabChange={setActiveTab}
+          onTabChange={handleTabChange}
         />
 
         {/* AUBI Section */}
@@ -89,24 +105,39 @@ export default function SolutionsPage() {
 
             {/* Förslag på projekt */}
             <div className="bg-blue-50 p-8 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Förslag på projekt</h3>
-              <div className="grid md:grid-cols-2 gap-6">
+              <h3 className="text-xl font-semibold mb-6">Planerade pilotprojekt</h3>
+              <div className="grid md:grid-cols-3 gap-6">
                 {PROJEKT_CONTENT.proposals.map((proposal, index) => (
-                  <div key={index}>
-                    <h4 className="font-semibold mb-2">{proposal.title}</h4>
-                    <p className="text-sm text-gray-600 mb-2">
+                  <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <div className="flex items-center justify-between mb-3">
+                      <h4 className="font-semibold text-lg">{proposal.title}</h4>
+                      <span className="text-xs font-medium text-blue-600 bg-blue-50 rounded-full px-2 py-1">
+                        {proposal.status}
+                      </span>
+                    </div>
+                    <p className="text-sm text-gray-600 mb-4">
                       {proposal.description}
                     </p>
+                    {proposal.features && (
+                      <ul className="text-sm text-gray-600 space-y-2">
+                        {proposal.features.map((feature, idx) => (
+                          <li key={idx} className="flex items-start">
+                            <span className="text-blue-500 mr-2">•</span>
+                            {feature}
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 ))}
               </div>
-              <div className="mt-4">
-                <p className="text-sm text-gray-600">
-                  Har du idéer för nya projekt? 
-                  <Link href="/kontakt" className="text-blue-600 ml-1">
-                    Kontakta oss
-                  </Link>
+              <div className="mt-8 text-center">
+                <p className="text-sm text-gray-600 mb-4">
+                  Vill du engagera dig i något av dessa projekt eller föreslå ett nytt? 
                 </p>
+                <Link href="/kontakt" className="btn-primary inline-flex items-center">
+                  Kontakta oss <ArrowRight className="w-4 h-4 ml-2" />
+                </Link>
               </div>
             </div>
           </section>

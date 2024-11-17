@@ -80,18 +80,21 @@
 │   │   ├── STR-222-ramverk-för-hållbar-och-hälsosam-stadsutveckling.md
 │   │   ├── STR-223-transformation-av-utbildningssystemet-frihet-och-individualisering.md
 │   │   ├── STR-224-vision-för-framtidens-integrerade-hälsovård.md
-│   │   └── STR-225-digital-systemintegration.md
+│   │   ├── STR-225-digital-systemintegration.md
+│   │   └── STR-226-ramverk-för-etiskt-försvar-och-konflikthantering.md
 │   ├── STR-300-internationellt
 │   │   ├── STR-301-internationell-strategi.md
 │   │   └── STR-302-individuell-autonomi-och-utvecklingsmöjligheter-som-universell-rättighet.md
 │   ├── STR-400-hållbarhetsstrategi
 │   │   ├── STR-400-hållbarhetsstrategi.md
 │   │   ├── STR-401-en-blomstrande-framtid-lokal-motståndskraft-och-hållbara-matsystem.md
-│   │   └── STR-402-klimatresiliens-och-biologisk-mångfald-ramverk.md
+│   │   ├── STR-402-klimatresiliens-och-biologisk-mångfald-ramverk.md
+│   │   └── STR-403-etiskt-ramverk-för-relation-till-djur-växter-och-natur.md
 │   └── STR-500-digitalt-samhälle
 │       ├── STR-501-digital-etik-och-datasuveränitet.md
 │       ├── STR-502-förhållande-till-artificiell-intelligens.md
-│       └── STR-503-bioetik-och-framväxande-tekniker.md
+│       ├── STR-503-bioetik-och-framväxande-tekniker.md
+│       └── STR-504-riktlinjer-för-framväxande-bioteknologier.md
 ├── TAK
 │   ├── TAK-100-organisation
 │   │   ├── TAK-101-juridiskt-ramverk.md
@@ -117,9 +120,10 @@
 │   │   └── TAK-305-självbestämmande-och-personlig-utveckling-som-hälsokomponent.md
 │   ├── TAK-400-bostad-och-samhälle
 │   │   ├── TAK-401-bostäder-och-stadsutveckling-ramverk.md
-│   │   └── TAK-402-rättsreform-och-social-rättvisa.md
+│   │   ├── TAK-402-rättsreform-och-social-rättvisa.md
+│   │   └── TAK-403-ramverk-för-kulturell-innovation-och-bevarande.md
 │   └── TAK-500-land-och-lokal-utveckling
 │       └── TAK-501-landsbygdsutveckling-och-decentralisering.md
 └── välkomstmeddelande.md
 
-18 directories, 104 files
+18 directories, 108 files

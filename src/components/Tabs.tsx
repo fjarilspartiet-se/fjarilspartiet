@@ -15,7 +15,8 @@ interface TabsProps {
 export default function Tabs({ activeTab, onTabChange, tabs }: TabsProps) {
   const handleTabClick = (id: string) => {
     onTabChange(id);
-    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    // Remove smooth scroll since we're handling navigation through URL
+    document.getElementById(id)?.scrollIntoView({ behavior: 'auto' });
   };
 
   return (
