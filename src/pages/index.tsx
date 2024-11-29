@@ -72,16 +72,17 @@ export default function Home() {
                 Under aktiv utveckling
               </div>
               <p className="text-[var(--color-text-muted)] mb-4">
-                Ett smart och flexibelt trygghetssystem som:
+                Ett intelligent välfärdssystem som skapar möjligheter för alla:
               </p>
               <ul className="list-disc list-inside text-[var(--color-text-muted)] space-y-2 mb-4">
-                <li>Ersätter krångliga bidragssystem</li>
-                <li>Anpassar sig efter individuella behov</li>
-                <li>Uppmuntrar samhällsengagemang</li>
+                <li>Garanterar ekonomisk grundtrygghet för alla</li>
+                <li>Frigör tid för personlig utveckling och företagande</li>
+                <li>Stärker lokala gemenskaper och rättvis fördelning</li>
+                <li>Möjliggör meningsfullt bidragande till samhället</li>
               </ul>
               <div className="mt-auto">
                 <Link href="/losningar?tab=aubi" className="btn-primary inline-flex items-center">
-                  Läs om hur det fungerar <ArrowRight className="w-4 h-4 ml-2" />
+                  Upptäck hur det fungerar <ArrowRight className="w-4 h-4 ml-2" />
                 </Link>
               </div>
             </div>
@@ -96,12 +97,13 @@ export default function Home() {
                 Pilotprojekt behöver startas
               </div>
               <p className="text-[var(--color-text-muted)] mb-4">
-                Praktiska steg mot ett regenerativt samhälle:
+                Praktiska lösningar för ett robust och blomstrande samhälle:
               </p>
               <ul className="list-disc list-inside text-[var(--color-text-muted)] space-y-2 mb-4">
-                <li>Lokala matsystem och stadsodling</li>
-                <li>Cirkulär ekonomi och delning</li>
-                <li>Naturbaserade klimatlösningar</li>
+                <li>Säkrar lokal matförsörjning och självständighet</li>
+                <li>Skapar nya jobb och innovationsmöjligheter</li>
+                <li>Bygger starka och rättvisa lokalsamhällen</li>
+                <li>Återställer naturens balans genom systemlösningar</li>
               </ul>
               <div className="mt-auto">
                 <Link href="/losningar?tab=hallbarhet" className="btn-primary inline-flex items-center">
@@ -120,12 +122,13 @@ export default function Home() {
                 Digital plattform i utveckling
               </div>
               <p className="text-[var(--color-text-muted)] mb-4">
-                Ett uppdaterat demokratiskt system där:
+                Ett demokratiskt system som ger verklig makt och inflytande:
               </p>
               <ul className="list-disc list-inside text-[var(--color-text-muted)] space-y-2 mb-4">
-                <li>Digitala verktyg ökar deltagandet</li>
-                <li>Beslut fattas närmare medborgarna</li>
-                <li>AI stödjer informerade beslut</li>
+                <li>Skyddar dina rättigheter och möjlighet att påverka</li>
+                <li>Belönar goda idéer och effektiva lösningar</li>
+                <li>Skapar inkluderande dialog och samförstånd</li>
+                <li>Möjliggör samarbete för komplexa utmaningar</li>
               </ul>
               <div className="mt-auto">
                 <Link href="/losningar?tab=demokrati" className="btn-primary inline-flex items-center">
@@ -144,12 +147,13 @@ export default function Home() {
                 Under utveckling
               </div>
               <p className="text-[var(--color-text-muted)] mb-4">
-                Ett transformerat utbildningssystem där:
+                Ett utbildningssystem som möter varje persons behov:
               </p>
               <ul className="list-disc list-inside text-[var(--color-text-muted)] space-y-2 mb-4">
-                <li>Individuell frihet står i centrum</li>
-                <li>Mening och utveckling prioriteras</li>
-                <li>Verkliga projekt driver lärandet</li>
+                <li>Skapar trygghet och stark grund för alla</li>
+                <li>Uppmuntrar personlig drivkraft och talang</li>
+                <li>Främjar samarbete och kulturell förståelse</li>
+                <li>Utvecklar förmåga att lösa framtidens utmaningar</li>
               </ul>
               <div className="mt-auto">
                 <Link href="/losningar?tab=utbildning" className="btn-primary inline-flex items-center">
