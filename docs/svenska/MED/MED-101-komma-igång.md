@@ -15,18 +15,18 @@ relaterade-dokument:
 ---
 
 # Komma igång som medlem i Fjärilspartiet
-## En praktisk guide för nya medlemmar
+## En välkomnande guide för alla vägar att delta
 
-### 1. Välkommen till Fjärilspartiet!
+### 1. Din plats i Fjärilspartiet
 
-#### 1.1 Din resa börjar här
-Välkommen till en politisk rörelse som värdesätter din unika röst och ditt perspektiv. I Fjärilspartiet finns inga "rätta" sätt att engagera sig - din väg är din egen att utforma. Detta dokument är en guide för att hjälpa dig hitta din plats och ditt sätt att bidra.
+#### 1.1 Ett öppet rum för alla
+Välkommen till en rörelse där olika sätt att vara och tänka berikar helheten. Här finns inget "rätt sätt" att delta - varje persons unika väg bidrar till vår gemensamma utveckling. Denna guide erbjuder inspiration och möjligheter, men du väljer själv vilka delar som känns rätt för dig.
 
-#### 1.2 Våra grundvärderingar i praktiken
-- **Frihet att växa:** Du väljer själv hur och när du vill engagera dig
-- **Meningsfullt bidrag:** Dina insatser ska kännas meningsfulla för dig
-- **Öppenhet för förändring:** Vi välkomnar nya idéer och perspektiv
-- **Gemensam utveckling:** Vi lär och växer tillsammans
+#### 1.2 Levande värderingar
+- **Mångfald som styrka:** Olika perspektiv och sätt att vara berikar oss alla
+- **Organisk utveckling:** Var och en deltar och växer i sin egen takt
+- **Ömsesidig respekt:** Vi lyssnar på och lär av varandra
+- **Gemensam kreativitet:** Vi skapar och utforskar tillsammans
 
 ### 2. Första stegen
 
@@ -43,95 +43,95 @@ Välkommen till en politisk rörelse som värdesätter din unika röst och ditt 
 - Vilka färdigheter och erfarenheter vill du dela?
 - Vilket typ av engagemang passar din livssituation?
 
-### 3. Engagemangsformer
+### 3. Olika sätt att vara med
 
-#### 3.1 Individuellt engagemang
-**Möjligheter:**
-- Läs och reflektera över partimaterial
-- Delta i online-diskussioner
-- Ge feedback på förslag och idéer
-- Dela dina tankar och erfarenheter
+#### 3.1 Personligt deltagande
+**Några möjligheter:**
+- Reflektera och ta in på ditt sätt
+- Delta i samtal när det känns rätt
+- Bidra med dina tankar och insikter
+- Utforska i din egen takt
 
-#### 3.2 Gruppengagemang
-**Alternativ:**
-- Delta i lokala möten
-- Anslut till arbetsgrupper
-- Starta studiecirklar
-- Organisera evenemang
+#### 3.2 Gemensamt utforskande
+**Olika vägar:**
+- Vara med i lokala träffar
+- Delta i samtalsgrupper
+- Skapa lärcirklar
+- Forma egna mötesplatser
 
-#### 3.3 Projektbaserat arbete
-**Exempel på områden:**
-- Policyutveckling
-- Lokal organisering
-- Teknisk utveckling
-- Kunskapsdelning
-- Hållbarhetsinitiativ
+#### 3.3 Skapande tillsammans
+**Områden att utforska:**
+- Utveckla idéer och visioner
+- Bygga lokal gemenskap
+- Bidra med dina färdigheter
+- Dela kunskap och erfarenheter
+- Starta hållbara initiativ
 
 ### 4. Kommunikation och resurser
 
-#### 4.1 Kommunikationskanaler
-**Nuvarande kanaler:**
-- E-post för viktig information
-- Mötesplattformar för digitala sammankomster
-- Dokumentdelning via säkra plattformar
-- Framtida DPOP-plattform
+#### 4.1 Mötesplatser
+**Nuvarande rum för möten:**
+- E-post för den som föredrar det
+- Digitala mötesrum som Discord-servern för gemensamt utforskande
+- Trygga platser för dokumentdelning
+- DPOP som framtida mötesplats
 
-#### 4.2 Viktiga resurser
-**Tillgängligt material:**
-- Grundläggande partidokument
-- Guider och manualer
-- Utbildningsmaterial
-- Projektdokumentation
+#### 4.2 Resurser att utforska
+**Tillgängligt för dig:**
+- Tankar och visioner i våra grunddokument
+- Inspiration och vägledning
+- Material för lärande
+- Dokumentation från olika projekt
 
-### 5. Ditt bidrag
+### 5. Din unika gåva
 
-#### 5.1 Hitta din roll
-**Möjliga områden:**
-- Lokal organisering
-- Policyutveckling
-- Tekniskt arbete
-- Kommunikation
-- Utbildning
-- Projektledning
+#### 5.1 Utforska olika sätt att vara med
+**Några möjligheter:**
+- Skapa lokal gemenskap
+- Utveckla idéer och visioner
+- Bidra med tekniskt kunnande
+- Dela genom kommunikation
+- Växa tillsammans genom lärande
+- Samordna projekt som känns viktiga
 
-#### 5.2 Utveckla ditt engagemang
-- Börja i liten skala
-- Experimentera med olika roller
-- Sök mentorskap vid intresse
-- Utveckla nya färdigheter
-- Dela dina lärdomar
+#### 5.2 Låt ditt engagemang växa naturligt
+- Börja där du är
+- Utforska olika vägar
+- Sök och ge stöd när det känns rätt
+- Utvecklas i din takt
+- Dela dina upptäckter
 
-### 6. Praktisk demokrati
+### 6. Levande demokrati
 
-#### 6.1 Beslutsfattande
-- Delta i diskussioner
-- Rösta i omröstningar
-- Föreslå nya initiativ
-- Ge feedback på förslag
-- Bidra till konsensusbyggande
+#### 6.1 Gemensamt skapande
+- Dela i samtal
+- Uttryck din röst
+- Föreslå nya vägar
+- Ge ditt perspektiv
+- Bygg förståelse tillsammans
 
-#### 6.2 Lokal autonomi
-- Starta lokala grupper
-- Organisera möten
-- Initiera projekt
-- Samarbeta med andra medlemmar
-- Utveckla lokala lösningar
+#### 6.2 Lokal blomstring
+- Skapa lokala mötesplatser
+- Forma möten som känns rätt
+- Starta initiativ som berör
+- Hitta andra att växa med
+- Utveckla lokala drömmar
 
-### 7. Stöd och hjälp
+### 7. Ömsesidigt stöd
 
-#### 7.1 Var du kan få hjälp
-- Kontakta andra medlemmar
-- Rådfråga mer erfarna medlemmar
-- Delta i utbildningar
-- Använd tillgängliga guider
-- Be om teknisk support
+#### 7.1 Stöd att få
+- Möt andra medlemmar i din takt
+- Dela tankar och frågor
+- Delta i lärande tillsammans
+- Utforska tillgängliga resurser
+- Få tekniskt stöd vid behov
 
-#### 7.2 Hur du kan hjälpa andra
-- Dela dina erfarenheter
-- Stöd nya medlemmar
-- Bidra till dokumentation
-- Erbjud mentorskap
-- Delta i kunskapsdelning
+#### 7.2 Stöd att ge
+- Dela det du kan och vill
+- Välkomna nya medlemmar
+- Bidra till vårt gemensamma lärande
+- Var en medvandrare för andra
+- Delta i kunskapsväven
 
 ### 8. Nästa steg
 
@@ -167,8 +167,8 @@ Välkommen till en politisk rörelse som värdesätter din unika röst och ditt 
 
 #### 10.1 Viktiga kontakter
 - Grundare och koordinator: Björn Kenneth Holmström
-- E-post: bjorn.kenneth.holmstrom@gmail.com
-- Hemsida: [bjornkennethholmstrom.wordpress.com/contact](https://bjornkennethholmstrom.wordpress.com/contact/)
+  - E-post: bjorn.kenneth.holmstrom@gmail.com
+  - Hemsida: [bjornkennethholmstrom.wordpress.com/contact](https://bjornkennethholmstrom.wordpress.com/contact/)
 
 #### 10.2 Dokumentation
 - Åtkomst till partiets dokument via:

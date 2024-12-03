@@ -16,42 +16,41 @@ relaterade-dokument:
 # Organisera möten
 ## En praktisk guide för medlemmar
 
-### 1. Grundprinciper för möten
+### 1. Möten ("ängar")
 
-#### 1.1 Våra värderingar i mötesform
-- **Öppenhet:** Alla möten är i princip öppna för alla intresserade
-- **Flexibilitet:** Anpassa mötesformat efter behov och situation
-- **Inkludering:** Skapa utrymme för alla att delta på sina villkor
-- **Meningsfullhet:** Fokusera på vad som skapar värde för deltagarna
-- **Effektivitet:** Respektera deltagarnas tid och energi
+#### 1.1 Sätt att mötas
+- **Öppenhet:** Alla som vill är välkomna att delta
+- **Flöde:** Möten får växa fram efter gruppens behov
+- **Inkludering:** Var och en deltar på sitt eget vis
+- **Mening:** Vi skapar värde tillsammans
+- **Balans:** Vi respekterar varandras tid och energi
 
-#### 1.2 Olika typer av möten
-**Exempel på mötesformer:**
-- Informella diskussionsträffar
-- Studiecirklar
-- Planeringsmöten
-- Beslutsfattande möten
-- Workshops
-- Sociala sammankomster
+**Några möjligheter:**
+- Spontana samtal
+- Gemensamt lärande
+- Kreativa workshops
+- Beslutsrum
+- Sociala träffar
+- Utforskande dialoger
 
-### 2. Planera ett möte
+### 2. Skapa rum för möten
 
-#### 2.1 Före mötet
-**Grundläggande checklista:**
-- Bestäm syfte och mål
-- Välj datum och tid
-- Hitta lämplig plats/plattform
-- Skapa agenda om det behövs
-- Bjud in deltagare
-- Förbered eventuellt material
+#### 2.1 Innan vi möts
+**Några tankar att ha med:**
+- Vad vill vi utforska tillsammans?
+- När passar det att ses?
+- Var känns det bra att mötas?
+- Behöver vi en struktur för samtalet?
+- Hur bjuder vi in andra?
+- Vad behöver vi ha med oss?
 
-**Tips för platsval:**
-- Bibliotek
-- Caféer
+**Platser att mötas:**
+- Lugna caféer
+- Bibliotekens rum
 - Föreningslokaler
-- Utomhusmiljöer
-- Digitala plattformar
-- Privata hem (när lämpligt)
+- Parker och natur
+- Digitala mötesrum
+- Hemma hos varandra (när det känns rätt)
 
 #### 2.2 Praktiska förberedelser
 **Tänk på:**
@@ -62,34 +61,33 @@ relaterade-dokument:
 - Backup-planer
 - Dokumentationsbehov
 
-### 3. Genomföra mötet
+### 3. Mötas i praktiken
 
-#### 3.1 Uppstart
-**Första stegen:**
-- Välkomna alla deltagare
-- Presentationsrunda om det behövs
-- Gå igenom agenda/plan (om sådan finns)
-- Klargör mötets syfte
-- Etablera eventuella grundregler
-- Skapa en trygg och inkluderande atmosfär
+#### 3.1 Börja tillsammans
+**Första stunden:**
+- Välkomna var och en
+- Lära känna varandra (om det behövs)
+- Dela tankar om vad vi vill utforska
+- Skapa trygghet tillsammans
+- Forma gemensamma ramar om det behövs
 
-#### 3.2 Under mötet
-**Faciliteringstips:**
-- Uppmuntra alla att delta
-- Balansera olika röster
-- Håll fokus på syftet
-- Var flexibel för gruppens behov
-- Dokumentera viktiga punkter
-- Respektera tiden
+#### 3.2 Under mötets gång
+**Sätt att stödja dialogen:**
+- Bjud in olika röster
+- Skapa rum för alla att bidra
+- Håll den röda tråden
+- Följ gruppens energi och behov
+- Fånga viktiga insikter
+- Känn av när det är dags att runda av
 
-#### 3.3 Avslutning
+#### 3.3 Avsluta i harmoni
 **Att tänka på:**
-- Sammanfatta viktiga punkter
-- Bekräfta eventuella beslut
-- Planera nästa steg
-- Tacka alla för deltagandet
-- Samla in feedback
-- Städa och återställ lokalen
+- Samla ihop vad vi upptäckt
+- Bekräfta vad vi kommit fram till
+- Utforska nästa steg tillsammans
+- Tacka varandra för delandet
+- Ta emot tankar om mötet
+- Ta hand om platsen vi mötts på
 
 ### 4. Olika mötesformat
 
@@ -105,21 +103,23 @@ relaterade-dokument:
 - Välj en avslappnad miljö
 - Ha några diskussionsfrågor förberedda
 - Låt samtalet flyta naturligt
-- Uppmuntra alla att delta
+- Skapa rum för allas röster
 
-#### 4.2 Studiecirklar
+#### 4.2 Lärande tillsammans (t.ex. studiecirklar)
 **Upplägg:**
 - Välj ett tema eller material
 - Strukturera lärandeprocessen
 - Kombinera teori och diskussion
+- Blanda tankar och handling
 - Uppmuntra aktivt deltagande
-- Dokumentera lärdomar
+- Lär av varandra
+- Dokumentera upptäckter
 
 **Format:**
 - Regelbundna träffar
-- Förberedelsematerial
-- Praktiska övningar
-- Gemensam reflektion
+- Dela inspiration mellan träffar
+- Pröva idéer i praktiken
+- Reflektera
 
 #### 4.3 Beslutsfattande möten
 **Struktur:**
@@ -138,20 +138,20 @@ relaterade-dokument:
 ### 5. Digital mötesteknik
 
 #### 5.1 Plattformar och verktyg
-**Alternativ:**
-- Videokonferensverktyg
-- Chattplattformar
+**Möjligheter:**
+- Videosamtal
+- Chatt
 - Kollaborativa dokument
-- Digitala whiteboard-verktyg
+- Digitala samarbetsytor
 - Omröstningsverktyg
 
 #### 5.2 Digital mötespraxis
 **Tips:**
-- Testa tekniken i förväg
-- Ha en backup-plan
-- Etablera digitala mötesregler
-- Använd chat för frågor
-- Dokumentera aktivt
+- Bekanta dig med verktygen innan
+- Ha alternativa vägar redo
+- Skapa värme även digitalt
+- Använd chatten som extra röst
+- Fånga det viktiga tillsammans
 
 ### 6. Dokumentation
 
@@ -255,33 +255,31 @@ Diskussionsfrågor:
 3. Vilken roll spelar arbete för meningsfullhet?
 ```
 
-**Genomförande:**
-1. Välkomna och introducera temat (5 min)
-2. Presentationsrunda (10 min)
-3. Öppen diskussion kring frågorna (90 min)
-4. Sammanfattning och nästa steg (15 min)
+**En möjlig väg:**
+- Välkomna in i rummet (5-10 min)
+- Lära känna varandra (10-15 min)
+- Låta samtalet växa fritt (90 min)
+- Samla trådar tillsammans (15 min)
 
-#### 11.2 Strukturerat planeringsmöte
+#### 11.2 Forma lokala initiativ
 
-**Exempel: Planering av lokalt hållbarhetsinitiativ**
-
-**Agenda:**
+**Ett exempel på samskapande:**
 ```
-Projekt: Grannskapsodling
-Tid: 17:30-19:00
-Plats: Digitalt via videomöte
+Tema: Odla gemenskap i närområdet
+Rum: Digitalt möte där alla kan vara med
+När: Sen eftermiddag, 17:30-19:00
 
-17:30 - Välkomna och syfte
-17:35 - Lägesrapport från arbetsgrupper
-17:50 - Presentation av platser för odling
-18:10 - Diskussion och beslut om plats
-18:30 - Handlingsplan och ansvarsfördelning
-18:50 - Nästa steg och avslutning
+Möjlig rytm:
+17:30 - Landa tillsammans
+17:40 - Dela drömmar och möjligheter
+18:00 - Utforska platser som kan blomstra
+18:20 - Forma vägen framåt tillsammans
+18:40 - Nästa steg på resan
 
-Förbered:
-- Kartor över möjliga platser
-- Budget för material
-- Lista över intresserade deltagare
+Att ha med:
+- Bilder på platser med potential
+- Tankar om resurser
+- Lista på intresserade grannar
 ```
 
 #### 11.3 Workshop
@@ -298,7 +296,7 @@ Program:
 10:00 - Introduktion till AUBI
 10:30 - Grupparbete: Kartläggning av lokala behov
 11:30 - Presentation och diskussion
-12:00 - Lunch
+12:00 - Lunch och informella samtal
 13:00 - Design av lokalt pilotprojekt
 14:00 - Presentation av förslag
 14:30 - Nästa steg och handlingsplan
@@ -361,7 +359,3 @@ Agenda:
 19:20 - Nästa steg och avslutning
 ```
 
-Would you like me to:
-1. Continue with examples for MED-103 (technical contributions)?
-2. Add more meeting examples?
-3. Move on to examples for MED-104 (local initiatives)?

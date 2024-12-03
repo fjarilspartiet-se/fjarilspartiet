@@ -2,8 +2,8 @@
 ---
 dokumentid: STR-205
 titel: AUBI - Holistiskt stödramverk
-version: 1.0
-senast-uppdaterad: 2024-10-29
+version: 1.1
+senast-uppdaterad: 2024-12-03
 ansvarig: Björn Kenneth Holmström
 roll: Grundare och teknisk samordnare
 relaterade-dokument:
@@ -242,11 +242,11 @@ Baserat på Karls fall:
 - Balans mellan utveckling och återhämtning
 
 **Initial AUBI-struktur**
-- Grundstöd: 12,000 SEK/månad
+- Grundstöd: 15,000 SEK/månad
 - Utvecklingstillägg för tech: 2,000-4,000 SEK
 - Projektbidrag: 1,000-3,000 SEK för open source
 - Kompetensutveckling: 1,000-2,000 SEK
-- Totalt: 16,000-21,000 SEK/månad
+- Totalt: 19,000-24,000 SEK/månad
 
 #### 2. Utvecklingsväg för tech-företag
 
@@ -500,9 +500,9 @@ Baserat på Karls fall:
    - Planerar för socialt företagande
 
 **Ekonomisk utveckling under året:**
-- Månad 1: Grundstöd 12,000 + Hälsotillägg 3,000 = 15,000 SEK
-- Månad 6: Grundstöd 12,000 + Hälsotillägg 2,000 + Mentorskapsbidrag 1,500 = 15,500 SEK
-- Månad 12: Grundstöd 12,000 + Projektbidrag 2,500 + Utbildningsbidrag 2,000 = 16,500 SEK
+- Månad 1: Grundstöd 15,000 + Hälsotillägg 3,000 = 18,000 SEK
+- Månad 6: Grundstöd 15,000 + Hälsotillägg 2,000 + Mentorskapsbidrag 1,500 = 18,500 SEK
+- Månad 12: Grundstöd 15,000 + Projektbidrag 2,500 + Utbildningsbidrag 2,000 = 19,500 SEK
 
 **Stödpersonens nyckelroller:**
 1. Initial stabilisering
@@ -617,4 +617,58 @@ Baserat på Karls fall:
 - Resursoptimering
 - Kvalitetsramverk
 - Integritetsprotokoll
+
+### 9. Stödintegration och rättviseskydd
+
+#### 9.1 Tillgänglighet och inkludering
+**Likvärdig tillgång:**
+- Anpassade kommunikationsformer
+- Flerspråkigt stöd
+- Särskilt stöd för personer med funktionsvariationer
+- Proaktivt uppsökande verksamhet
+
+**Digital tillgänglighet:**
+- Universell design av digitala tjänster
+- Alternativa kontaktvägar
+- Tekniskt stöd vid behov
+- Offline-alternativ tillgängliga
+
+#### 9.2 Kvalitetssäkring av stödtjänster
+**Kompetensutveckling:**
+- Kontinuerlig utbildning av stödpersonal
+- Specialistkompetens för olika behov
+- Etisk träning
+- Kulturell kompetens
+
+**Uppföljning:**
+- Regelbunden utvärdering av stödkvalitet
+- Användarfeedback
+- Systematisk kvalitetskontroll
+- Utvärdering av stödeffekter
+
+#### 9.3 Integration med välfärdssystem
+**Samordning:**
+- Tydliga samarbetsrutiner med andra välfärdsaktörer
+- Integrerade vårdkedjor
+- Informationsdelning enligt samtycke
+- Koordinerade insatser
+
+**Systemskydd:**
+- Tydliga ansvarsområden
+- Dokumenterade samarbetsprocesser
+- Kvalitetssäkring av externa aktörer
+- Regelbunden systemrevision
+
+#### 9.4 Rättssäkerhet och integritet
+**Juridiskt skydd:**
+- Tydliga rättigheter och skyldigheter
+- Transparent överklagandeprocess
+- Rättshjälp vid behov
+- Oberoende tillsyn
+
+**Integritetsskydd:**
+- Strikt dataskydd
+- Samtyckesbaserad informationsdelning
+- Rätt till insyn
+- Begränsad åtkomst till känslig information
 
