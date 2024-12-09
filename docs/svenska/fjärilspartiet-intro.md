@@ -133,12 +133,14 @@ För dig som vill utforska våra idéer närmare finns:
 
 🔗 **Digital åtkomst**:
 * [Google Drive](https://tinyurl.com/fjarilspartiets-dokument)
-* [GitHub](https://github.com/BjornKennethHolmstrom/fjarilspartiet)
+* [GitHub](https://github.com/fjarilspartiet-se/fjarilspartiet)
 
 ---
 
 ### Kontakt
 Vi välkomnar dialog och nya perspektiv i denna spännande utvecklingsfas.
+
+📧 fjarilspartiet@gmail.com
 
 **Björn Kenneth Holmström**  
 Grundare och samordnare  
