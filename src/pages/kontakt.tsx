@@ -126,7 +126,7 @@ export default function ContactPage() {
                       GitHub Repository
                     </a>
                     <a 
-                      href="https://tinyurl.com/fjarilspartiet-dokument"
+                      href="https://tinyurl.com/fjarilspartiets-dokument"
                       className="btn-secondary"
                       target="_blank"
                       rel="noopener noreferrer"

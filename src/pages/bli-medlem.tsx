@@ -17,7 +17,7 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      const response = await fetch('https://formspree.io/f/xwpkljoe', { // Replace with your Formspree form ID
+      const response = await fetch('https://formspree.io/f/mgvebyad', { // Replace with your Formspree form ID
         method: 'POST',
         headers: {
           'Accept': 'application/json',
