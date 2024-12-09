@@ -26,6 +26,8 @@ Our goal is to foster collaboration toward a sustainable, adaptive society. Cont
 ## Contact
 
 For further questions, reach out to us at:
+- **Email**: fjarilspartiet@gmail.com
+alternatively, the founder:
 - **Email**: bjorn.kenneth.holmstrom@gmail.com
 - **Website**: [bjornkennethholmstrom.wordpress.com/contact](https://bjornkennethholmstrom.wordpress.com/contact/)
 
