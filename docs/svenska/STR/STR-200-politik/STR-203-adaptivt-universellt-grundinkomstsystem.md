@@ -292,6 +292,13 @@ relaterade-dokument:
   * Förbättrade livschanser
   * Stärkt demokratiskt deltagande
 
+#### 4. Förbättrade samhällsrelationer
+- Stärkt värdighet genom övergång från bidrag till inkomst
+- Transformation av myndighetskontakter till utvecklingspartnerskap
+- Tryggare och mer meningsfull arbetsmiljö för socialarbetare
+- Ökad samhällstillit och gemenskap
+- Positiv spiral av förbättrade relationer mellan medborgare och myndigheter
+
 ### Övervakning och utvärdering
 
 #### 1. Nyckelindikatorer
