@@ -15,27 +15,43 @@ export default function ContactPage() {
           </p>
 
           <div className="card">
-            <h2>Primär kontakt</h2>
+            <h2>Kontaktvägar</h2>
             <div className="space-y-3">
-              <p>
-                Kontakta &quot;fjärilsägget&quot; och grundaren Björn via:
-              </p>
-              <p>
-                <strong>E-post:</strong>{' '}
-                <a href="mailto:bjorn.kenneth.holmstrom@gmail.com">
-                  bjorn.kenneth.holmstrom@gmail.com
-                </a>
-              </p>
-              <p>
-                <strong>Hemsida:</strong>{' '}
-                <a 
-                  href="https://bjornkennethholmstrom.wordpress.com/contact"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  bjornkennethholmstrom.wordpress.com/contact
-                </a>
-              </p>
+              <div>
+                <h3>Officiell partimail</h3>
+                <p>
+                  För allmänna frågor och medlemskap:
+                </p>
+                <p>
+                  <strong>E-post:</strong>{' '}
+                  <a href="mailto:fjarilspartiet@gmail.com">
+                    fjarilspartiet@gmail.com
+                  </a>
+                </p>
+              </div>
+              
+              <div>
+                <h3>Grundare och koordinator</h3>
+                <p>
+                  Kontakta Björn Kenneth Holmström:
+                </p>
+                <p>
+                  <strong>E-post:</strong>{' '}
+                  <a href="mailto:bjorn.kenneth.holmstrom@gmail.com">
+                    bjorn.kenneth.holmstrom@gmail.com
+                  </a>
+                </p>
+                <p>
+                  <strong>Hemsida:</strong>{' '}
+                  <a 
+                    href="https://bjornkennethholmstrom.wordpress.com/contact"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    bjornkennethholmstrom.wordpress.com/contact
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
 
@@ -65,31 +81,28 @@ export default function ContactPage() {
                 </p>
                 <p>
                 <a 
-                  href="https://github.com/BjornKennethHolmstrom/fjarilspartiet"
+                  href="https://github.com/fjarilspartiet-se/fjarilspartiet"
                   className="btn-primary"
                 >
                   Besök Fjärilspartiets Repository →
                 </a>
-                </p>
-                <p>
+
                 <a 
-                  href="https://github.com/BjornKennethHolmstrom/DPOP"
+                  href="https://github.com/fjarilspartiet-se/DPOP"
                   className="btn-primary"
                 >
                   Besök DPOPs Repository →
                 </a>
-                </p>
-                <p>
+
                 <a 
                   href="https://github.com/BjornKennethHolmstrom/DidiS"
                   className="btn-primary"
                 >
                   Besök DidiS Repository →
                 </a>
-                </p>
-                <p>
+
                 <a 
-                  href="https://github.com/BjornKennethHolmstrom/communitree"
+                  href="https://github.com/fjarilspartiet-se/communitree"
                   className="btn-primary"
                 >
                   Besök CommuniTrees Repository →
@@ -105,7 +118,7 @@ export default function ContactPage() {
                 </p>
                   <div className="flex gap-4">
                     <a 
-                      href="https://github.com/BjornKennethHolmstrom/fjarilspartiet/tree/main/docs/svenska"
+                      href="https://github.com/fjarilspartiet-se/fjarilspartiet/tree/main/docs/svenska"
                       className="btn-primary"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -113,7 +126,7 @@ export default function ContactPage() {
                       GitHub Repository
                     </a>
                     <a 
-                      href="https://tinyurl.com/fjarilspartiets-dokument"
+                      href="https://tinyurl.com/fjarilspartiet-dokument"
                       className="btn-secondary"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -133,7 +146,7 @@ export default function ContactPage() {
             <ul className="list-disc list-inside space-y-2">
               <li>
                 <a 
-                  href="https://github.com/BjornKennethHolmstrom/fjarilspartiet/blob/main/docs/svenska/guide-för-nya-medlemmar.md"
+                  href="https://github.com/fjarilspartiet-se/fjarilspartiet/blob/main/docs/svenska/guide-för-nya-medlemmar.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[var(--color-primary)] hover:underline"

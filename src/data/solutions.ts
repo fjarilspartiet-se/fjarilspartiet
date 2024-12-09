@@ -203,7 +203,7 @@ export const DEMOKRATI_CONTENT = {
       ],
       link: {
         text: 'Utforska DidiS på GitHub',
-        url: 'https://github.com/BjornKennethHolmstrom/DidiS'
+        url: 'https://github.com/fjarilspartiet-se/DidiS'
       }
     },
     {
@@ -415,7 +415,7 @@ export const PROJEKT_CONTENT = {
         'Integrerad medlemshantering'
       ],
       linkText: 'Bidra till utvecklingen',
-      linkHref: 'https://github.com/BjornKennethHolmstrom/DPOP'
+      linkHref: 'https://github.com/fjarilspartiet-se/DPOP'
     },
     {
       title: 'MU - Meningsfull utbildning',
@@ -427,7 +427,7 @@ export const PROJEKT_CONTENT = {
         'Resursbank för lärare och pedagoger'
       ],
       linkText: 'Bidra till utvecklingen',
-      linkHref: 'https://github.com/BjornKennethHolmstrom/MU'
+      linkHref: 'https://github.com/fjarilspartiet-se/MU'
     },
     {
       title: 'FUN(TIME) - Freedom and Unity Network',
