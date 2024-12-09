@@ -4,7 +4,7 @@ Welcome to the Fjärilspartiet documentation repository. Fjärilspartiet is a po
 
 ## Website
 
-Visit our website at [bjornkennethholmstrom.github.io/fjarilspartiet](https://bjornkennethholmstrom.github.io/fjarilspartiet/)
+Visit our website at [fjarilspartiet-se.github.io/fjarilspartiet](https://fjarilspartiet-se.github.io/fjarilspartiet/)
 
 The website source code is available in this repository under the `/src` directory. It's built using:
 - Next.js for the framework
@@ -51,9 +51,9 @@ This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 
 
 ## Contact
 
-For questions or more information, reach out to the party's founder:
+For questions or more information, reach out to the party or directly to its founder:
 
-- **Email**: bjorn.kenneth.holmstrom@gmail.com
+- **Email**: fjarilspartiet@gmail.com
 - **Website**: [bjornkennethholmstrom.wordpress.com/contact](https://bjornkennethholmstrom.wordpress.com/contact/)
 
 ---
