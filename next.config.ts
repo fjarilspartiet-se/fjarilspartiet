@@ -3,24 +3,18 @@ import { Configuration } from 'webpack';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  // Only enable static export for production builds
+  // Only add basePath and image config for production
   ...(process.env.NODE_ENV === 'production' ? {
-    output: 'export',
     basePath: '/fjarilspartiet',
     images: {
       unoptimized: true,
     },
   } : {}),
-  webpack: (config: Configuration, { isServer }: { isServer: boolean }) => {
-    config.resolve = {
-      ...config.resolve,
-      fallback: {
-        ...config.resolve?.fallback,
-        fs: false,
-      },
-    };
-    return config;
+  // Enable server-side features
+  serverRuntimeConfig: {
+    PROJECT_ROOT: process.cwd(),
   },
+  // Keep experimental config
   experimental: {
     externalDir: true,
   },

@@ -15,9 +15,9 @@ type DocumentCategory = {
   documents: Document[];
 };
 
+
 export default function DocumentsPage() {
   const [selectedDoc, setSelectedDoc] = useState<Document | null>(null);
-
   const documentCategories: DocumentCategory[] = [
     {
       title: "Grundläggande dokument",
@@ -27,19 +27,19 @@ export default function DocumentsPage() {
           id: "STR-101",
           title: "Partigrund",
           description: "Grundläggande vision och struktur för Fjärilspartiet",
-          path: "https://raw.githubusercontent.com/fjarilspartiet-se/fjarilspartiet/main/docs/svenska/STR/STR-100-grund/STR-101-parti-grund.md"
+          path: "STR/STR-100-grund/STR-101-parti-grund.md"
         },
         {
           id: "STR-001",
           title: "Långsiktig vision och transformativa mål",
           description: "Vår vision för framtiden och vägen dit",
-          path: "https://raw.githubusercontent.com/fjarilspartiet-se/fjarilspartiet/main/docs/svenska/STR/STR-100-grund/STR-001-långsiktig-vision-och-transformativa-mål.md"
+          path: "STR/STR-100-grund/STR-001-långsiktig-vision-och-transformativa-mål.md"
         },
         {
           id: "STR-104",
           title: "Fjärilsramverket",
           description: "Vår symbolik och transformation genom olika stadier",
-          path: "https://raw.githubusercontent.com/fjarilspartiet-se/fjarilspartiet/main/docs/svenska/STR/STR-100-grund/STR-104-fjärilsramverket.md"
+          path: "STR/STR-100-grund/STR-104-fjärilsramverket.md"
         }
       ]
     },
@@ -51,19 +51,19 @@ export default function DocumentsPage() {
           id: "STR-203",
           title: "Adaptiv universell basinkomst (AUBI)",
           description: "Ett innovativt ekonomiskt system för grundtrygghet",
-          path: "https://raw.githubusercontent.com/fjarilspartiet-se/fjarilspartiet/main/docs/svenska/STR/STR-200-politik/STR-203-adaptivt-universellt-grundinkomstsystem.md"
+          path: "STR/STR-200-politik/STR-203-adaptivt-universellt-grundinkomstsystem.md"
         },
         {
           id: "STR-401",
           title: "En blomstrande framtid",
           description: "Lokal motståndskraft och hållbara matsystem",
-          path: "https://raw.githubusercontent.com/fjarilspartiet-se/fjarilspartiet/main/docs/svenska/STR/STR-400-hållbarhetsstrategi/STR-401-en-blomstrande-framtid-lokal-motståndskraft-och-hållbara-matsystem.md"
+          path: "STR/STR-400-hållbarhetsstrategi/STR-401-en-blomstrande-framtid-lokal-motståndskraft-och-hållbara-matsystem.md"
         },
         {
           id: "STR-206",
           title: "Individuell autonomi och personlig utveckling som social rättighet",
           description: "Vår syn på individuell utveckling och samhällsengagemang",
-          path: "https://raw.githubusercontent.com/fjarilspartiet-se/fjarilspartiet/main/docs/svenska/STR/STR-200-politik/STR-206-individuell-autonomi-och-personlig-utveckling-som-social-rättighet.md"
+          path: "STR/STR-200-politik/STR-206-individuell-autonomi-och-personlig-utveckling-som-social-rättighet.md"
         }
       ]
     },
@@ -75,7 +75,7 @@ export default function DocumentsPage() {
           id: "GUIDE-101",
           title: "Guide för nya medlemmar",
           description: "Grundläggande information och riktlinjer för att komma igång som medlem",
-          path: "https://raw.githubusercontent.com/fjarilspartiet-se/fjarilspartiet/main/docs/svenska/guide-för-nya-medlemmar.md"
+          path: "guide-för-nya-medlemmar.md"
         }
       ]
     }
