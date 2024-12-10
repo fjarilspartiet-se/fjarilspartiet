@@ -7,13 +7,14 @@ import { Shield, Sprout, Network, Target, Calculator, HeartHandshake,
          Database, Minimize, Flower, Home, Store, Sun, Zap, Battery, Droplets, 
          GitBranch, Globe, TreePine, HeartPulse, Palette, Shrub, Bike, Lock,
          User, Wallet, School, Link, Eye, MessageCircle, BookOpen, Scale, 
-         Coins, Map as MapIcon } from 'lucide-react';
+         Coins, Share2, Lightbulb, Map as MapIcon } from 'lucide-react';
 
 export const TABS = [
   { id: 'aubi', label: 'AUBI', icon: Shield },
   { id: 'hallbarhet', label: 'Hållbarhet', icon: Sprout },
   { id: 'demokrati', label: 'Demokrati', icon: Network },
   { id: 'utbildning', label: 'Utbildning', icon: Book },
+  { id: 'transformation', label: 'Global transformation', icon: Globe },
   { id: 'projekt', label: 'Pilotprojekt', icon: Target }
 ];
 
@@ -385,6 +386,62 @@ export const UTBILDNING_CONTENT = {
         'Starkare demokratisk förståelse',
         'Bättre förberedelse för framtidens utmaningar',
         'Minskad psykisk ohälsa bland unga'
+      ]
+    }
+  ]
+};
+
+export const TRANSFORMATION_CONTENT = {
+  title: "Konkreta vägar till global transformation",
+  sections: [
+    {
+      title: "Fred och konfliktförebyggande",
+      description: "Integration av praktisk konfliktlösning med djupare förståelse:",
+      items: [
+        { icon: Heart, text: "Internationella medlingscenter som kombinerar traditionell diplomati med kontemplativ praktik" },
+        { icon: Users, text: "Andliga center som neutrala mötesplatser för fredsförhandlingar" },
+        { icon: Brain, text: "AI-stödda system för tidig konfliktidentifiering" },
+        { icon: Globe, text: "Plattformar för gräsrotsdiplomati" }
+      ]
+    },
+    {
+      title: "Ekonomisk rättvisa",
+      description: "Konkreta vägar till global ekonomisk balans:",
+      items: [
+        { icon: Scale, text: "Global AUBI-implementation i faser" },
+        { icon: TrendingUp, text: "Avancerade ekonomiska simuleringar för rättvis resursfördelning" },
+        { icon: Share2, text: "Teknologidemokratisering genom open source" },
+        { icon: Network, text: "Decentraliserade forsknings- och utvecklingsnätverk" }
+      ]
+    },
+    {
+      title: "Vetenskaplig-spirituell integration",
+      description: "Förening av teknologisk och spirituell utveckling:",
+      items: [
+        { icon: Lightbulb, text: "Centrum för medvetandeforskning" },
+        { icon: BookOpen, text: "Integration av kontemplativa praktiker i utbildning" },
+        { icon: Users, text: "Internationella nätverk för kunskapsdelning" },
+        { icon: Compass, text: "Etisk vägledning för teknologisk utveckling" }
+      ]
+    }
+  ],
+  evidence: [
+    {
+      title: "Historiska exempel",
+      items: [
+        "Framgångsrik fredsmedling genom religiösa ledare",
+        "Ekonomiska reformer som minskat ojämlikhet",
+        "Vetenskapliga genombrott genom internationellt samarbete",
+        "Teknologispridningens positiva effekter"
+      ]
+    },
+    {
+      title: "Forskningsstöd",
+      items: [
+        "Studier om effektiv konfliktlösning",
+        "Ekonomiska modeller för global rättvisa",
+        "Forskning om medvetande och transformation",
+        "Data om teknologisk demokratisering"
       ]
     }
   ]

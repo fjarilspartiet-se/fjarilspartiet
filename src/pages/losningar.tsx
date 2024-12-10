@@ -6,11 +6,12 @@ import ContentSection from '../components/ContentSection';
 import EvidenceCard from '../components/EvidenceCard';
 import ProjectCard from '../components/ProjectCard';
 import ReferenceSection from '../components/ReferenceSection';
+import TransformationCases from '../components/TransformationCases';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import { 
   TABS, AUBI_CONTENT, HALLBARHET_CONTENT, 
-  DEMOKRATI_CONTENT, UTBILDNING_CONTENT, PROJEKT_CONTENT, REFERENCES 
+  DEMOKRATI_CONTENT, UTBILDNING_CONTENT, PROJEKT_CONTENT, TRANSFORMATION_CONTENT, REFERENCES 
 } from '../data/solutions';
 
 export default function SolutionsPage() {
@@ -88,6 +89,20 @@ export default function SolutionsPage() {
             contents={UTBILDNING_CONTENT.sections}
           />
           <EvidenceCard items={UTBILDNING_CONTENT.evidence} />
+        </div>
+
+        {/* Global transformation Section */}
+        <div className={`transition-opacity duration-300 ${activeTab === 'transformation' ? 'opacity-100' : 'opacity-0 hidden'}`}>
+          <ContentSection
+            id="transformation"
+            title={TRANSFORMATION_CONTENT.title}
+            contents={TRANSFORMATION_CONTENT.sections}
+          />
+          
+          {/* Add the new case studies component */}
+          <TransformationCases />
+          
+          <EvidenceCard items={TRANSFORMATION_CONTENT.evidence} />
         </div>
 
         {/* Projekt Section */}

@@ -24,39 +24,39 @@ Fjärilspartiets internationella strategi syftar till att främja en global öve
 ### Global vision och syfte
 
 #### Primärt syfte
-Att främja en global övergång till hållbara och blomstrande samhällen genom:  
-- Bygga internationella nätverk av transformativa rörelser  
-- Dela och anpassa framgångsrika metoder över kulturer  
-- Utveckla globala lösningar med respekt för lokala sammanhang  
-- Skapa resilienta internationella stödsystem  
+Att främja en global övergång till hållbara och blomstrande samhällen genom:
+- Bygga internationella nätverk av transformativa rörelser
+- Dela och anpassa framgångsrika metoder över kulturer
+- Utveckla globala lösningar med respekt för lokala sammanhang
+- Skapa resilienta internationella stödsystem
 
 #### Kärnprinciper  
-1. Samarbete först  
-   - Partnerskap över konkurrens  
-   - Gemensam resursutveckling  
-   - Kollektiv problemlösning  
-   - Ömsesidiga stödsystem  
+1. Samarbete först
+   - Partnerskap över konkurrens
+   - Gemensam resursutveckling
+   - Kollektiv problemlösning
+   - Ömsesidiga stödsystem
 
-2. Kulturell anpassning  
-   - Respekt för lokala sammanhang  
-   - Kulturell känslighet  
-   - Integrering av inhemsk kunskap  
-   - Erkännande av lokal visdom  
+2. Kulturell anpassning
+   - Respekt för lokala sammanhang
+   - Kulturell känslighet
+   - Integrering av inhemsk kunskap
+   - Erkännande av lokal visdom
 
-3. Innovationsfokus  
-   - Tvärkulturellt lärande  
-   - Kunskapsutbyte  
-   - Kreativ lösningsutveckling  
-   - Anpassade metoder  
+3. Innovationsfokus
+   - Tvärkulturellt lärande
+   - Kunskapsutbyte
+   - Kreativ lösningsutveckling
+   - Anpassade metoder
 
 ### Strategiska engagemangsnivåer  
 
 #### Nordiska regionen  
-**Fokus på djup integration**  
-- Gemensam policyutveckling  
-- Plattformar för delade resurser  
-- Gemensamma forskningsinitiativ  
-- Integrerade handlingsprogram  
+**Fokus på djup integration**
+- Gemensam policyutveckling
+- Plattformar för delade resurser
+- Gemensamma forskningsinitiativ
+- Integrerade handlingsprogram
 
 **Samordningsmekanismer**  
 - Regelbundna ledarskapsmöten  
@@ -65,263 +65,263 @@ Att främja en global övergång till hållbara och blomstrande samhällen genom
 - Kontinuerliga anpassningsprocesser  
 
 #### Europeisk nivå  
-**Fokus på starkt samarbete**  
-- Policykoordinering  
-- Resursdelning  
-- Kunskapsutbyte  
-- Gemensamma kampanjer  
+**Fokus på starkt samarbete**
+- Policykoordinering
+- Resursdelning
+- Kunskapsutbyte
+- Gemensamma kampanjer
 
-**Genomförandeupplägg**  
-- Kvartalsvisa toppmöten  
-- Projektpartnerskap  
-- Utveckling av gemensamma ramverk  
-- Regelbundna granskningar  
+**Genomförandeupplägg**
+- Kvartalsvisa toppmöten
+- Projektpartnerskap
+- Utveckling av gemensamma ramverk
+- Regelbundna granskningar
 
 #### Globalt engagemang  
-**Fokus på kunskap och solidaritet**  
-- Delning av bästa praxis  
-- Krisstödsystem  
-- Utbyte av innovationer  
-- Brobyggande mellan kulturer  
+**Fokus på kunskap och solidaritet**
+- Delning av bästa praxis
+- Krisstödsystem
+- Utbyte av innovationer
+- Brobyggande mellan kulturer
 
-**Samordningsmetoder**  
-- Årliga konferenser  
-- Användning av digitala plattformar  
-- System för spårning av påverkan  
-- Anpassning efter kontext  
+**Samordningsmetoder**
+- Årliga konferenser
+- Användning av digitala plattformar
+- System för spårning av påverkan
+- Anpassning efter kontext
 
 ### Partnerskapsramverk  
 
 #### Politiska partnerskap  
-**Nyckelpartner**  
-- Systerpartier  
-- Progressiva rörelser  
-- Demokratiska organisationer  
-- Påverkansgrupper  
+**Nyckelpartner**
+- Systerpartier
+- Progressiva rörelser
+- Demokratiska organisationer
+- Påverkansgrupper
 
-**Engagemangsaktiviteter**  
-- Gemensam policyutveckling  
-- Kampanjkoordinering  
-- Resursdelning  
-- Program för ledarskapsutbyte  
+**Engagemangsaktiviteter**
+- Gemensam policyutveckling
+- Kampanjkoordinering
+- Resursdelning
+- Program för ledarskapsutbyte
 
 #### Samarbete med civilsamhället  
-**Partnertyper**  
-- Miljöorganisationer  
-- Sociala rättvisegrupper  
-- Gemenskapsnätverk  
-- Kulturföreningar  
+**Partnertyper**
+- Miljöorganisationer
+- Sociala rättvisegrupper
+- Gemenskapsnätverk
+- Kulturföreningar
 
-**Samarbetsområden**  
-- Gemensam projektgenomföring  
-- Initiativ för kunskapsdelning  
-- Resurspoolning  
-- Program för kapacitetsuppbyggnad  
+**Samarbetsområden**
+- Gemensam projektgenomföring
+- Initiativ för kunskapsdelning
+- Resurspoolning
+- Program för kapacitetsuppbyggnad
 
 ### Genomförandesystem  
 
 #### Digital infrastruktur  
 
-**Samarbetsplattformar**  
-1. Internationell modul för DPOP  
-   - Stöd för flera språk  
-   - Funktioner för kulturell anpassning  
-   - Säker kommunikation  
-   - Resursdelningsmöjligheter  
+**Samarbetsplattformar**
+1. Internationell modul för DPOP
+   - Stöd för flera språk
+   - Funktioner för kulturell anpassning
+   - Säker kommunikation
+   - Resursdelningsmöjligheter
 
-2. Kunskapshantering  
-   - Delad kunskapsbas  
-   - Projektdokumentation  
-   - Bibliotek för bästa praxis  
-   - Lärresurser  
+2. Kunskapshantering
+   - Delad kunskapsbas
+   - Projektdokumentation
+   - Bibliotek för bästa praxis
+   - Lärresurser
 
-**Samordningsverktyg**  
-1. Planering och hantering  
-   - Eventkoordinering  
-   - Resursallokering  
-   - Tidslinjehantering  
-   - Framstegsspårning  
+**Samordningsverktyg**
+1. Planering och hantering
+   - Eventkoordinering
+   - Resursallokering
+   - Tidslinjehantering
+   - Framstegsspårning
 
-2. Säkerhetsåtgärder  
-   - Slut-till-slut-kryptering  
-   - Åtkomstkontrollsystem  
-   - Dataskyddsprotokoll  
-   - Integritetsskydd  
-   - Regelbundna säkerhetsgranskningar  
+2. Säkerhetsåtgärder
+   - Slut-till-slut-kryptering
+   - Åtkomstkontrollsystem
+   - Dataskyddsprotokoll
+   - Integritetsskydd
+   - Regelbundna säkerhetsgranskningar
 
 ### Kulturell integration  
 
 #### Bedömningsramverk  
 
-**Kulturell kontextanalys**  
-1. Inledande bedömning  
-   - Kartläggning av kulturell kontext  
-   - Analys av värdesystem  
-   - Studie av kommunikationsmönster  
-   - Identifiering av beslutsnormer  
+**Kulturell kontextanalys**
+1. Inledande bedömning
+   - Kartläggning av kulturell kontext
+   - Analys av värdesystem
+   - Studie av kommunikationsmönster
+   - Identifiering av beslutsnormer
 
-2. Forskningsmetoder  
-   - Protokoll för kulturforskning  
-   - Dialog med intressenter  
-   - Engagemang i gemenskapen  
-   - Mönsterigenkänningsstudier  
+2. Forskningsmetoder
+   - Protokoll för kulturforskning
+   - Dialog med intressenter
+   - Engagemang i gemenskapen
+   - Mönsterigenkänningsstudier
 
 #### Anpassningsstrategier  
 
-**Lokal integration**  
-1. Anpassningsmetoder  
-   - Anpassning till lokala metoder  
-   - Brobyggande mellan kulturer  
-   - Modifiering av kommunikation  
-   - Justering av processer  
+**Lokal integration**
+1. Anpassningsmetoder
+   - Anpassning till lokala metoder
+   - Brobyggande mellan kulturer
+   - Modifiering av kommunikation
+   - Justering av processer
 
-2. Implementeringsmetoder  
-   - Utveckling av lokala partnerskap  
-   - Kulturella träningsprogram  
-   - Anpassning av resurser  
-   - Kontinuerlig feedbackintegration  
+2. Implementeringsmetoder
+   - Utveckling av lokala partnerskap
+   - Kulturella träningsprogram
+   - Anpassning av resurser
+   - Kontinuerlig feedbackintegration
 
 ### Kunskapsutbyte  
 
 #### Lärsystem  
 
-**Formella utbytesmekanismer**  
-1. Strukturerade program  
-   - Internationella konferenser  
-   - Träningsinitiativ  
-   - Forskningsprojekt  
-   - Policyworkshops  
+**Formella utbytesmekanismer**
+1. Strukturerade program
+   - Internationella konferenser
+   - Träningsinitiativ
+   - Forskningsprojekt
+   - Policyworkshops
 
-2. Dokumentation  
-   - Vägledningar för bästa praxis  
-   - Fallstudier  
-   - Rapport om lärdomar  
-   - Dokumentation av innovationer  
+2. Dokumentation
+   - Vägledningar för bästa praxis
+   - Fallstudier
+   - Rapport om lärdomar
+   - Dokumentation av innovationer
 
-**Informellt utbyte**  
-1. Engagemang i gemenskapen  
-   - Kulturevenemang  
-   - Digitala forum  
-   - Sociala nätverk  
-   - Gemenskapsutbyten  
+**Informellt utbyte**
+1. Engagemang i gemenskapen
+   - Kulturevenemang
+   - Digitala forum
+   - Sociala nätverk
+   - Gemenskapsutbyten
 
-2. Kunskapsområden  
-   - Innovationsstyrning  
-   - Tekniska lösningar  
-   - Sociala metoder  
-   - Kulturella insikter  
+2. Kunskapsområden
+   - Innovationsstyrning
+   - Tekniska lösningar
+   - Sociala metoder
+   - Kulturella insikter
 
 ### Resurssamordning  
 
-#### Resurshantering  
+#### Resurshantering
 
-**Delade resurser**  
-1. Tekniska resurser  
-   - Infrastrukturdelning  
-   - Teknologiplattformar  
-   - Digitala verktyg  
-   - Teknisk expertis  
+**Delade resurser**
+1. Tekniska resurser
+   - Infrastrukturdelning
+   - Teknologiplattformar
+   - Digitala verktyg
+   - Teknisk expertis
 
-2. Humana resurser  
-   - Expertutbyte  
-   - Färdighetsdelning  
-   - Kapacitetsuppbyggnad  
-   - Kunskapsöverföring  
+2. Humana resurser
+   - Expertutbyte
+   - Färdighetsdelning
+   - Kapacitetsuppbyggnad
+   - Kunskapsöverföring
 
-**Resursallokering**  
+**Resursallokering**
 
-1. Bedömningskriterier  
-   - Behovsbedömning  
-   - Påverkanspotential  
-   - Resurseffektivitet  
-   - Hållbarhetsåtgärder  
+1. Bedömningskriterier
+   - Behovsbedömning
+   - Påverkanspotential
+   - Resurseffektivitet
+   - Hållbarhetsåtgärder
 
-2. Fördelningsprocess  
-   - Begärandesystem  
-   - Utvärderingsprotokoll  
-   - Rättvis fördelning  
-   - Spårning av påverkan  
+2. Fördelningsprocess
+   - Begärandesystem
+   - Utvärderingsprotokoll
+   - Rättvis fördelning
+   - Spårning av påverkan
 
-### Påverkansmätning  
+### Påverkansmätning
 
-#### Utvärderingsramverk  
+#### Utvärderingsramverk
 
-**Kvantitativa mått**  
-1. Tillväxtindikatorer  
-   - Utökning av partnerskap  
-   - Resurseffektivitet  
-   - Projektresultat  
-   - Nätverkstillväxt  
+**Kvantitativa mått**
+1. Tillväxtindikatorer
+   - Utökning av partnerskap
+   - Resurseffektivitet
+   - Projektresultat
+   - Nätverkstillväxt
 
-2. Prestandamått  
-   - Framgång i genomförandet  
-   - Resursanvändning  
-   - Måluppfyllelse  
-   - Tidslinjeöverensstämmelse  
+2. Prestandamått
+   - Framgång i genomförandet
+   - Resursanvändning
+   - Måluppfyllelse
+   - Tidslinjeöverensstämmelse
 
-**Kvalitativ bedömning**  
-1. Relationernas kvalitet  
-   - Partnerskapets styrka  
-   - Kulturell integration  
-   - Kunskapsöverföring  
-   - Innovationstillväxt  
+**Kvalitativ bedömning**
+1. Relationernas kvalitet
+   - Partnerskapets styrka
+   - Kulturell integration
+   - Kunskapsöverföring
+   - Innovationstillväxt
 
-2. Påverkansanalys  
-   - Gemenskapsnytta  
-   - Kulturell känslighet  
-   - Hållbar förändring  
-   - Långsiktigt värde  
+2. Påverkansanalys
+   - Gemenskapsnytta
+   - Kulturell känslighet
+   - Hållbar förändring
+   - Långsiktigt värde
 
 ### Rapportering och dokumentation  
 
 #### Intern rapportering  
 
-**Regelbundna uppdateringar**  
-1. Framstegsrapporter  
-   - Aktivitetsspårning  
-   - Milstolpeuppfyllelse  
-   - Identifiering av utmaningar  
-   - Utveckling av lösningar  
+**Regelbundna uppdateringar**
+1. Framstegsrapporter
+   - Aktivitetsspårning
+   - Milstolpeuppfyllelse
+   - Identifiering av utmaningar
+   - Utveckling av lösningar
 
-2. Prestandagranskningar  
-   - Bedömning av mål  
-   - Påverkansutvärdering  
-   - Resursanalys  
-   - Effektivitetsmått  
+2. Prestandagranskningar
+   - Bedömning av mål
+   - Påverkansutvärdering
+   - Resursanalys
+   - Effektivitetsmått
 
 #### Extern kommunikation  
 
-**Offentlig rapportering**  
-1. Partnerskapsuppdateringar  
-   - Samarbetshöjdpunkter  
-   - Framgångshistorier  
-   - Påverkansberättelser  
-   - Framtidsplaner  
+**Offentlig rapportering**
+1. Partnerskapsuppdateringar
+   - Samarbetshöjdpunkter
+   - Framgångshistorier
+   - Påverkansberättelser
+   - Framtidsplaner
 
-2. Transparensdokument  
-   - Resursfördelning  
-   - Påverkansmätning  
-   - Beslutsprocesser  
-   - Lärdomar  
+2. Transparensdokument
+   - Resursfördelning
+   - Påverkansmätning
+   - Beslutsprocesser
+   - Lärdomar
 
 ### Framtida utveckling  
 
 #### Strategisk tillväxt  
 
-**Expansion och tillväxt**  
-1. Nätverksutveckling  
+**Expansion och tillväxt**
+1. Nätverksutveckling
   
 
- - Utökning av partnerskap  
-   - Breddning av verksamheten  
-   - Resursförstärkning  
-   - Kapacitetsuppbyggnad  
+ - Utökning av partnerskap
+   - Breddning av verksamheten
+   - Resursförstärkning
+   - Kapacitetsuppbyggnad
 
-2. Anpassningsstrategier  
-   - Lokaliserade lösningar  
-   - Innovationsuppdateringar  
-   - Utökad partnerskapserfarenhet  
-   - Förbättrad kunskapsdelning  
+2. Anpassningsstrategier
+   - Lokaliserade lösningar
+   - Innovationsuppdateringar
+   - Utökad partnerskapserfarenhet
+   - Förbättrad kunskapsdelning
 
 #### DidiS som Internationell Demokratiresurs
 
