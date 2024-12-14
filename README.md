@@ -54,7 +54,6 @@ This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 
 For questions or more information, reach out to the party or directly to its founder:
 
 - **Email**: fjarilspartiet@gmail.com
-- **Website**: [bjornkennethholmstrom.wordpress.com/contact](https://bjornkennethholmstrom.wordpress.com/contact/)
 
 ---
 *Fjärilspartiet - Systemic Renewal for a Flourishing Future*
