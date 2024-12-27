@@ -24,10 +24,16 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps  # Added flag here
+        run: npm ci --legacy-peer-deps
 
       - name: Build
         run: npm run build
+
+      - name: Export
+        run: npm run export
+
+      - name: List directory contents # Add this for debugging
+        run: ls -la
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2

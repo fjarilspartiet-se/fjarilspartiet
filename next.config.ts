@@ -3,6 +3,7 @@ import { Configuration } from 'webpack';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  output: 'export', 
   // Only add basePath and image config for production
   ...(process.env.NODE_ENV === 'production' ? {
     basePath: '/fjarilspartiet',
