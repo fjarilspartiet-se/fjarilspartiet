@@ -41,13 +41,16 @@ export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
       try {
         const basePath = process.env.NODE_ENV === 'production' ? '/fjarilspartiet' : '';
         const response = await fetch(`${basePath}/docs/svenska/${path}`);
+        
         if (!response.ok) {
           throw new Error('Could not fetch document');
         }
-        const data = await response.json();
+
+        // Get the raw text instead of trying to parse as JSON
+        const content = await response.text();
         
         // Split the frontmatter and content
-        const parts = data.content.split('---');
+        const parts = content.split('---');
         if (parts.length >= 3) {
           // Parse frontmatter
           const frontmatter = parts[1].trim();
@@ -62,27 +65,18 @@ export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
             }
           });
 
-          // Parse related documents
-          if (metadata['relaterade-dokument']) {
-            metadata['relaterade-dokument'] = metadata['relaterade-dokument']
-              .split('\n')
-              .filter((line: string) => line.trim().startsWith('-'))
-              .map((line: string) => line.trim().substring(2))
-              .join('\n');
-          }
-
           setMetadata(metadata);
           // Set content without frontmatter
           setContent(parts.slice(2).join('---').trim());
         } else {
           // No frontmatter, use entire content
-          setContent(data.content);
+          setContent(content);
         }
         
         setError(null);
       } catch (err) {
-        setError('Kunde inte ladda dokumentet. Försök igen senare.');
         console.error('Error fetching document:', err);
+        setError('Kunde inte ladda dokumentet. Försök igen senare.');
       } finally {
         setIsLoading(false);
       }
