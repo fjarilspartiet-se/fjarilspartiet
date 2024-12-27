@@ -17,7 +17,7 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      const response = await fetch('https://formspree.io/f/mgvebyad', { // Replace with your Formspree form ID
+      const response = await fetch('https://formspree.io/f/mgvebyad', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -27,7 +27,7 @@ export default function MembershipPage() {
       });
 
       if (!response.ok) {
-        throw new Error('Något gick fel vid skickandet av formuläret.');
+        throw new Error('Could not send form');
       }
 
       setIsSubmitted(true);

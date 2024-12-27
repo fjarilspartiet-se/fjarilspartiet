@@ -136,7 +136,7 @@ export default function DocumentsPage() {
               
               <div className="flex gap-4">
                 <a 
-                  href="https://github.com/fjarilspartiet-se/fjarilspartiet/tree/main/docs/svenska"
+                  href="https://github.com/fjarilspartiet-se/fjarilspartiet/tree/main/public/docs/svenska"
                   className="btn-primary"
                   target="_blank"
                   rel="noopener noreferrer"

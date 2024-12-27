@@ -118,7 +118,7 @@ export default function ContactPage() {
                 </p>
                   <div className="flex gap-4">
                     <a 
-                      href="https://github.com/fjarilspartiet-se/fjarilspartiet/tree/main/docs/svenska"
+                      href="https://github.com/fjarilspartiet-se/fjarilspartiet/tree/main/public/docs/svenska"
                       className="btn-primary"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -146,7 +146,7 @@ export default function ContactPage() {
             <ul className="list-disc list-inside space-y-2">
               <li>
                 <a 
-                  href="https://github.com/fjarilspartiet-se/fjarilspartiet/blob/main/docs/svenska/guide-för-nya-medlemmar.md"
+                  href="https://github.com/fjarilspartiet-se/fjarilspartiet/blob/main/public/docs/svenska/guide-för-nya-medlemmar.md"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[var(--color-primary)] hover:underline"

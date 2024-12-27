@@ -39,7 +39,8 @@ export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
   useEffect(() => {
     async function fetchDocument() {
       try {
-        const response = await fetch(`/api/document?path=${encodeURIComponent(path)}`);
+        const basePath = process.env.NODE_ENV === 'production' ? '/fjarilspartiet' : '';
+        const response = await fetch(`${basePath}/docs/svenska/${path}`);
         if (!response.ok) {
           throw new Error('Could not fetch document');
         }
