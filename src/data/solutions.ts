@@ -4,7 +4,7 @@ import { Shield, Sprout, Network, Target, Calculator, HeartHandshake,
          Users, Leaf, Trees, LeafyGreen, Compass, Heart, Book, Stars, 
          Layers, Wind, Rocket, Building, Route, Clock, Layout, Microscope,
          TreeDeciduous, Brain, Workflow, Recycle, Bot, Mountain, TrendingUp,
-         Database, Minimize, Flower, Home, Store, Sun, Zap, Battery, Droplets, 
+         Minimize, Flower, Home, Store, Sun, Zap, Battery, Droplets, 
          GitBranch, Globe, TreePine, HeartPulse, Palette, Shrub, Bike, Lock,
          User, Wallet, School, Link, Eye, MessageCircle, BookOpen, Scale, 
          Coins, Share2, Lightbulb, Map as MapIcon } from 'lucide-react';
@@ -22,34 +22,51 @@ export const AUBI_CONTENT = {
   title: 'AUBI - Adaptiv Universell Basinkomst',
   sections: [
     {
-      title: 'Grundprinciper',
-      description: 'Ett intelligent och etiskt grundat ekonomiskt trygghetssystem som anpassar sig efter individuella behov:',
+      title: 'Mänsklig och samhällelig dimension',
+      description: 'AUBI handlar i grunden om att skapa förutsättningar för mänsklig blomstring och ett mer meningsfullt samhälle:',
       items: [
-        { icon: Shield, text: 'Grundbelopp: 12,000 kr/månad för alla vuxna' },
-        { icon: Calculator, text: 'Behovstillägg upp till 4,000 kr baserat på livssituation' },
+        { icon: Heart, text: 'Frigör tid för personlig utveckling - ta hand om kropp, sinne och själ genom naturvistelse, hälsosam kost och träning' },
+        { icon: Users, text: 'Stärker sociala relationer och ger tid för familj och vänner' },
+        { icon: Lightbulb, text: 'Möjliggör reflektion och insikt om vad man verkligen vill bidra med till världen' },
+        { icon: Shield, text: 'Livslång trygghet utan oro för pension' },
+        { icon: Rocket, text: 'Främjar innovation genom att människor vågar starta företag' },
+        { icon: Globe, text: 'Stärker demokratin genom ökat samhällsengagemang' },
+        { icon: Book, text: 'Möjliggör livslångt lärande och karriärbyte' },
+        { icon: Building, text: 'Utvecklar lokalsamhällen och landsbygd' }
+      ],
+      link: {
+        text: 'Läs mer om tankarna bakom AUBI',
+        action: 'openModal' // Vi kan använda detta för att identifiera att det ska öppna en modal
+      }  
+    },
+    {
+      title: 'Grundprinciper',
+      description: 'Ett intelligent och etiskt grundat ekonomiskt trygghetssystem som anpassar sig efter individuella behov. Beräkningarna är baserade på djupgående ekonomisk analys och forskning:',
+      items: [
+        { icon: Shield, text: 'Grundbelopp: 15,000 kr/månad för alla vuxna' },
+        { icon: Calculator, text: 'Behovstillägg upp till 5,000 kr baserat på livssituation' },
         { icon: HeartHandshake, text: 'Bidragstillägg upp till 3,000 kr för samhällsinsatser' },
         { icon: Target, text: 'Transparent och förutsägbar grund för alla' }
       ]
     },
     {
       title: 'Finansieringsmodell',
-      description: 'Ett hållbart finansieringssystem baserat på etisk beskattning och systemeffektivisering:',
+      description: 'Ett hållbart finansieringssystem baserat på etisk beskattning och systemeffektivisering. Beräkningarna baseras på detaljerad ekonomisk analys av dagens system:',
       items: [
-        { icon: Recycle, text: 'Omfördelning av befintliga välfärdsresurser (~400 miljarder/år)' },
-        { icon: Bot, text: 'Automatiseringsdividend från robotisering (200-300 miljarder/år)' },
-        { icon: Mountain, text: 'Resursutvinningsskatt (100-150 miljarder/år)' },
-        { icon: TrendingUp, text: 'Finansiell transaktionsskatt (50-70 miljarder/år)' },
-        { icon: Database, text: 'Dataskatt på kommersiell dataanvändning (30-50 miljarder/år)' }
+        { icon: Bot, text: 'Automatiseringsdividend från robotisering och AI (400-500 miljarder/år)' },
+        { icon: Mountain, text: 'Resursbeskattning från natur-, data- och markresurser (500-700 miljarder/år)' },
+        { icon: TrendingUp, text: 'Finansiella transaktionsskatter (200-250 miljarder/år)' },
+        { icon: Globe, text: 'Sekundära källor som koldioxidskatt och digital ekonomi (380 miljarder/år)' }
       ]
     },
     {
       title: 'Systemiska besparingar',
-      description: 'Effektiviseringar och förebyggande effekter:',
+      description: 'Effektiviseringar och förebyggande effekter. Beräkningarna baseras på detaljerade studier av nuvarande system:',
       items: [
-        { icon: Minimize, text: 'Minskad byråkrati och administration (50-75 miljarder/år)' },
-        { icon: Heart, text: 'Förbättrad folkhälsa (25-35 miljarder/år)' },
-        { icon: Shield, text: 'Minskad kriminalitet (15-25 miljarder/år)' },
-        { icon: Flower, text: 'Förbättrade utbildningsresultat (10-15 miljarder/år)' }
+        { icon: Minimize, text: 'Direkt administrativ besparing genom systemförenkling (230 miljarder/år)' },
+        { icon: Heart, text: 'Hälsorelaterade besparingar genom förebyggande effekter (180 miljarder/år)' },
+        { icon: Shield, text: 'Sociala besparingar genom minskad kriminalitet och bättre utbildning (90 miljarder/år)' },
+        { icon: Flower, text: 'Ekonomiska effekter genom ökad entreprenörskap och innovation (120 miljarder/år)' }
       ]
     },
     {
@@ -204,6 +221,7 @@ export const DEMOKRATI_CONTENT = {
       ],
       link: {
         text: 'Utforska DidiS på GitHub',
+        action: 'navigate',
         url: 'https://github.com/fjarilspartiet-se/DidiS'
       }
     },

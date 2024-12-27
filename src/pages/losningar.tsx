@@ -4,6 +4,7 @@ import MainLayout from '../layouts/MainLayout';
 import Tabs from '../components/Tabs';
 import ContentSection from '../components/ContentSection';
 import EvidenceCard from '../components/EvidenceCard';
+import AUBIFlowDiagram from '../components/AUBIFlowDiagram';
 import ProjectCard from '../components/ProjectCard';
 import ReferenceSection from '../components/ReferenceSection';
 import TransformationCases from '../components/TransformationCases';
@@ -60,6 +61,94 @@ export default function SolutionsPage() {
             title={AUBI_CONTENT.title}
             contents={AUBI_CONTENT.sections}
           />
+
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold text-center mb-6">
+              Finansieringsflöde och systemeffekter
+            </h3>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8 text-center">
+              Se hur AUBI finansieras och skapar positiva effekter genom hela samhället.
+              Klicka på de olika delarna för mer information.
+            </p>
+            <AUBIFlowDiagram className="max-w-4xl mx-auto" />
+          </div>
+
+          {/* Implementation Timeline */}
+          <div className="mb-16 bg-white p-8 rounded-lg shadow-sm">
+            <h3 className="text-2xl font-bold text-center mb-6">
+              Implementationsplan
+            </h3>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12 text-center">
+              En genomtänkt, fasad införing säkerställer att systemet fungerar optimalt från start
+            </p>
+            
+            <div className="max-w-4xl mx-auto pt-16"> {/* Added pt-16 for top padding */}
+              <div className="relative">
+                {/* Timeline line - make it start below the text */}
+                <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-200 top-0" />
+                
+                {/* Phase 1 - adjusted margins */}
+                <div className="mb-24 relative"> {/* Increased margin-bottom from 16 to 24 */}
+                  <div className="absolute left-1/2 transform -translate-x-1/2 -mt-2">
+                    <div className="w-8 h-8 rounded-full bg-blue-500 border-4 border-white shadow-lg flex items-center justify-center">
+                      <span className="text-white font-bold">1</span>
+                    </div>
+                  </div>
+                  <div className="relative pl-8 md:w-1/2 md:ml-auto md:pl-16">
+                    <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
+                      <h4 className="text-lg font-semibold mb-2">Pilotfas (År 1)</h4>
+                      <ul className="space-y-2 text-gray-600">
+                        <li>• Test i 2-3 utvalda kommuner</li>
+                        <li>• Utförlig datainsamling och utvärdering</li>
+                        <li>• Justering av system baserat på feedback</li>
+                        <li>• Förberedelse för regional expansion</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Phase 2 - adjusted margins */}
+                <div className="mb-24 relative"> {/* Increased margin-bottom from 16 to 24 */}
+                  <div className="absolute left-1/2 transform -translate-x-1/2 -mt-2">
+                    <div className="w-8 h-8 rounded-full bg-blue-500 border-4 border-white shadow-lg flex items-center justify-center">
+                      <span className="text-white font-bold">2</span>
+                    </div>
+                  </div>
+                  <div className="relative pr-8 md:w-1/2 md:pr-16">
+                    <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
+                      <h4 className="text-lg font-semibold mb-2">Regional expansion (År 2-3)</h4>
+                      <ul className="space-y-2 text-gray-600">
+                        <li>• Utrullning i flera regioner</li>
+                        <li>• Integration med befintliga system</li>
+                        <li>• Optimering av processer</li>
+                        <li>• Förberedelse för nationell implementation</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Phase 3 */}
+                <div className="relative pb-8"> {/* Added pb-8 for bottom padding */}
+                  <div className="absolute left-1/2 transform -translate-x-1/2 -mt-2">
+                    <div className="w-8 h-8 rounded-full bg-blue-500 border-4 border-white shadow-lg flex items-center justify-center">
+                      <span className="text-white font-bold">3</span>
+                    </div>
+                  </div>
+                  <div className="relative pl-8 md:w-1/2 md:ml-auto md:pl-16">
+                    <div className="bg-blue-50 p-6 rounded-lg shadow-sm">
+                      <h4 className="text-lg font-semibold mb-2">Nationell utrullning (År 3+)</h4>
+                      <ul className="space-y-2 text-gray-600">
+                        <li>• Full nationell implementation</li>
+                        <li>• Kontinuerlig utvärdering och förbättring</li>
+                        <li>• Anpassning till nya behov</li>
+                        <li>• Delning av erfarenheter internationellt</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <EvidenceCard items={AUBI_CONTENT.evidence} />
         </div>
 
