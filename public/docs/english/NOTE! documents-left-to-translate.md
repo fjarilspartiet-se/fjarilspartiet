@@ -28,10 +28,6 @@ MED-107
 
 With new updates:
 
-STR-201
-STR-202
-STR-203
-STR-204
 STR-205
 STR-214
 

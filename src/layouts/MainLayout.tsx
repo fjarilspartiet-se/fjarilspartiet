@@ -125,7 +125,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
               <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Kontakt</h3>
               <div className="mt-4">
                 <p className="text-base text-gray-500">
-                  E-post: bjorn.kenneth.holmstrom@gmail.com
+                  E-post: fjarilspartiet@gmail.com
                 </p>
               </div>
             </div>
