@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import MainLayout from '../layouts/MainLayout';
+import Link from 'next/link';
 
 export default function MembershipPage() {
   const [formData, setFormData] = useState({
@@ -151,6 +152,12 @@ export default function MembershipPage() {
                 >
                   Gå med i Discord-communityn →
                 </a>
+                <Link 
+                  href="/dokument"
+                  className="btn-secondary inline-flex items-center justify-center"
+                >
+                  Utforska våra dokument →
+                </Link>
               </div>
             </div>
           )}
