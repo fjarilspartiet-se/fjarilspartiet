@@ -64,6 +64,12 @@ export default function DocumentsPage() {
           title: "Individuell autonomi och personlig utveckling som social rättighet",
           description: "Vår syn på individuell utveckling och samhällsengagemang",
           path: "STR/STR-200-politik/STR-206-individuell-autonomi-och-personlig-utveckling-som-social-rättighet.md"
+        },
+        {
+          id: "STR-228",
+          title: "Utvecklingsramverk och systemförståelse",
+          description: "Hur vi använder utvecklingspsykologiska ramverk för att skapa inkluderande lösningar",
+          path: "STR/STR-200-politik/STR-228-utvecklingsramverk-och-systemförståelse.md"
         }
       ]
     },

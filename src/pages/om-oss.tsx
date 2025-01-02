@@ -130,6 +130,24 @@ export default function AboutPage() {
                   </div>
                 </div>
               </div>
+
+              <div className="flex items-start group hover:bg-blue-50 p-3 rounded-lg transition-colors">
+                <Network className="w-6 h-6 text-blue-600 mt-1 mr-3 group-hover:scale-110 transition-transform" />
+                <div>
+                  <h3 className="font-semibold">Systemtänkande</h3>
+                  <p className="text-gray-600 mb-2">
+                    Vi förstår att samhällsutmaningar är sammankopplade och kräver 
+                    helhetslösningar som adresserar grundorsaker, inte bara symptom. Vi använder 
+                    utvecklingspsykologiska ramverk för att bättre förstå och stödja mänsklig och 
+                    samhällelig utveckling.
+                  </p>
+                  <div className="text-sm text-gray-500 pl-4 border-l-2 border-blue-200">
+                    Exempel: Vårt AUBI-system integrerar ekonomisk trygghet med samhällsengagemang 
+                    och lokala utvecklingsmöjligheter. Läs mer om våra utvecklingsramverk i <Link href="/dokument?doc=STR-227" className="text-blue-600 hover:underline">STR-227</Link>.
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
 
