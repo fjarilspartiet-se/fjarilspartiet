@@ -193,11 +193,14 @@ const AUBIFlowDiagram = ({ className = '' }) => {
           
           <div className="absolute top-0 right-0 bg-white p-4 rounded-lg shadow-lg max-w-xs z-20">
             <button 
-              onClick={() => setActiveNode('')}
-              className="absolute top-2 right-2 text-gray-400 hover:text-gray-600"
+              onClick={(e) => {
+                e.stopPropagation();
+                setActiveNode('');
+              }}
+              className="absolute top-1 right-1 w-5 h-5 flex items-center justify-center text-sm text-gray-400 hover:text-gray-600 bg-transparent"
               aria-label="Stäng"
             >
-              ×
+              ✕
             </button>
             <div className="flex items-center gap-2 mb-2">
               <Info className="w-5 h-5 text-blue-500" />
