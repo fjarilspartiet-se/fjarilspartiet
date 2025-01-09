@@ -184,17 +184,32 @@ const AUBIFlowDiagram = ({ className = '' }) => {
 
       {/* Information Box */}
       {activeNode && (
-        <div className="absolute top-0 right-0 bg-white p-4 rounded-lg shadow-lg max-w-xs">
-          <div className="flex items-center gap-2 mb-2">
-            <Info className="w-5 h-5 text-blue-500" />
-            <h4 className="font-semibold">
-              {getNodeTitle(activeNode)}
-            </h4>
+        <>
+          {/* Overlay to handle clicks outside the info box */}
+          <div 
+            className="fixed inset-0 z-10"
+            onClick={() => setActiveNode('')}
+          />
+          
+          <div className="absolute top-0 right-0 bg-white p-4 rounded-lg shadow-lg max-w-xs z-20">
+            <button 
+              onClick={() => setActiveNode('')}
+              className="absolute top-2 right-2 text-gray-400 hover:text-gray-600"
+              aria-label="Stäng"
+            >
+              ×
+            </button>
+            <div className="flex items-center gap-2 mb-2">
+              <Info className="w-5 h-5 text-blue-500" />
+              <h4 className="font-semibold">
+                {getNodeTitle(activeNode)}
+              </h4>
+            </div>
+            <p className="text-sm text-gray-600">
+              {getNodeDescription(activeNode)}
+            </p>
           </div>
-          <p className="text-sm text-gray-600">
-            {getNodeDescription(activeNode)}
-          </p>
-        </div>
+        </>
       )}
     </div>
   );
