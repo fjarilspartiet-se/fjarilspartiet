@@ -25,14 +25,14 @@ export const AUBI_CONTENT = {
       title: 'Mänsklig och samhällelig dimension',
       description: 'AUBI handlar i grunden om att skapa förutsättningar för mänsklig blomstring och ett mer meningsfullt samhälle:',
       items: [
-        { icon: Heart, text: 'Frigör tid för personlig utveckling - ta hand om kropp, sinne och själ genom naturvistelse, hälsosam kost och träning' },
-        { icon: Users, text: 'Stärker sociala relationer och ger tid för familj och vänner' },
+        { icon: Heart, text: 'Frigör tid för personlig utveckling och hälsa - ta hand om kropp, sinne och själ - från meditation, naturvistelse, hälsosam kost och träning till kreativt skapande' },
+        { icon: Users, text: 'Stärker sociala relationer och utökad omsorgsarbete - ger tid för familj och vänner, äldre och granskapshjälp' },
         { icon: Lightbulb, text: 'Möjliggör reflektion och insikt om vad man verkligen vill bidra med till världen' },
-        { icon: Shield, text: 'Livslång trygghet utan oro för pension' },
+        { icon: Shield, text: 'Livslång trygghet utan oro för pension eller karriärbyten' },
         { icon: Rocket, text: 'Främjar innovation genom att människor vågar starta företag' },
-        { icon: Globe, text: 'Stärker demokratin genom ökat samhällsengagemang' },
-        { icon: Book, text: 'Möjliggör livslångt lärande och karriärbyte' },
-        { icon: Building, text: 'Utvecklar lokalsamhällen och landsbygd' }
+        { icon: Globe, text: 'Stärker demokratin genom möjlighet till djupt samhällsengagemang' },
+        { icon: Book, text: 'Möjliggör livslångt lärande samt forskning och kunskapsutveckling inom systemförändring' },
+        { icon: Building, text: 'Utvecklar lokalsamhällen och landsbygd genom stärkta sociala nätverk och gemenskapsprojekt' }
       ],
       link: {
         text: 'Läs mer om tankarna bakom AUBI',
