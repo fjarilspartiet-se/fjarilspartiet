@@ -11,6 +11,9 @@ relaterade-dokument:
   - STR-205 # Holistiskt stödramverk
   - STR-206 # Meningsfull tillvaro som social rättighet
   - STR-214 # AUBI - Ekonomisk analys och finansiering
+  - STR-232 # Nödvändiga lagreformer för AUBI och livsstilsfrihet
+  - STR-233 # Detaljerad analys av nyckelreformer för AUBI och livsstilsfrihet
+  - STR-234 # Övergångsplan från nuvarande socialförsäkringssystem till AUBI
   - TAK-103 # Finansiellt ramverk
 ---
 

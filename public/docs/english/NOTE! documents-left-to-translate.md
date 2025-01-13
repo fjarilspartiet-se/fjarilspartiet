@@ -12,6 +12,10 @@ STR-223
 STR-224
 STR-228
 STR-229
+STR-230
+STR-231
+STR-233
+STR-234
 STR-303
 STR-403
 STR-504
@@ -38,3 +42,6 @@ STR-214
 Header document titles missing:
 
 STR-206
+
+Header document titles in Swedish:
+STR-232
