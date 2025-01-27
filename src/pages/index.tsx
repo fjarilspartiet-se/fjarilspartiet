@@ -32,7 +32,7 @@ export default function Home() {
 
             <p className="mt-6 text-xl leading-relaxed text-gray-600 max-w-3xl mx-auto">
               Vi utvecklar konkreta lösningar för ett samhälle där alla kan blomstra. 
-              Genom systemtänkande och evidensbaserad design skapar vi strukturer som 
+              Genom systemtänkande, evidensbaserad metodik och omsorgsfull utveckling skapar vi strukturer som 
               fungerar för både människor och miljö.
             </p>
 

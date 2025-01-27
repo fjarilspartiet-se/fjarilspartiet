@@ -37,6 +37,9 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
               <Link href="/dokument" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Dokument
               </Link>
+              <Link href="/resurser" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
+                Resurser
+              </Link>
               <Link href="/kontakt" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Kontakt
               </Link>
@@ -102,6 +105,12 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
                 className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
               >
                 Dokument
+              </Link>
+              <Link
+                href="/resurser"
+                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
+              >
+                Resurser
               </Link>
               <Link
                 href="/kontakt"

@@ -131,7 +131,7 @@ export const HALLBARHET_CONTENT = {
       items: [
         { icon: Users, text: 'Städer designade för människor, inte bilar' },
         { icon: Shrub, text: 'Integrerade grönytor och naturområden' },
-        { icon: Home, text: 'Maximalt 4-5 våningar som standard' },
+        { icon: Home, text: 'Varierad bebyggelse där lägre hus dominerar men högre byggnader tillåts där det är lämpligt' },
         { icon: Heart, text: 'Fokus på social sammanhållning och möten' }
       ]
     },
@@ -328,7 +328,7 @@ export const UTBILDNING_CONTENT = {
         { icon: Compass, text: 'Frihet att välja lärandets tempo och form' },
         { icon: Route, text: 'Från ålderbaserade till kunskapsbaserade grupper' },
         { icon: Clock, text: 'Från fasta scheman till flextid' },
-        { icon: Layout, text: 'Från ämnen till integrerade projekt' }
+        { icon: Layout, text: 'Integrera ämneskunskap med projektbaserat lärande för att ge både bred grund och praktisk tillämpning' }
       ]
     },
     {
