@@ -8,7 +8,7 @@ responsible: Björn Kenneth Holmström
 role: Founder and Technical Coordinator
 related documents:
   - STR-204 # AUBI Case Study
-  - STR-205 # Holistic Support Framework
+  - STR-205 # AUBI Holistic Support Framework
   - STR-201 # Adaptive Tax Framework
   - STR-202 # Swedish Adaptive Tax Framework
   - STR-214 # AUBI - Economic Analysis and Financing
