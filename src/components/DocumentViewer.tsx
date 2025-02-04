@@ -39,7 +39,7 @@ export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
   useEffect(() => {
     async function fetchDocument() {
       try {
-        const basePath = process.env.NODE_ENV === 'production' ? '/fjarilspartiet' : '';
+        const basePath = process.env.NODE_ENV === 'production' ? '' : '';
         const response = await fetch(`${basePath}/docs/svenska/${path}`);
         
         if (!response.ok) {

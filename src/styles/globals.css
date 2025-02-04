@@ -55,6 +55,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Base Styles */
 body {
   font-family: 'Roboto', sans-serif;
@@ -63,6 +67,7 @@ body {
   background-color: var(--color-background);
   line-height: 1.6;
   padding: var(--spacing-medium);
+  background: radial-gradient(circle at top left, #fdfcfc 10%, var(--color-background) 90%);
 }
 
 /* Headings - Playfair Display for an elegant look */
@@ -88,8 +93,9 @@ h3 {
 }
 
 p {
-  color: var(--color-text-muted);
+  color: var(--color-text-main); /* Darker text for better contrast */
   margin-bottom: var(--spacing-small);
+  line-height: 1.75; /* Improved readability */
 }
 
 /* Links */
@@ -110,25 +116,28 @@ button,
 .btn-primary,
 .btn-secondary {
   font-family: inherit;
-  font-size: var(--font-size-base);
+  font-size: 1rem; /* Larger for accessibility */
+  padding: var(--spacing-small) var(--spacing-large);
   font-weight: var(--font-weight-medium);
   padding: var(--spacing-small) var(--spacing-medium);
   color: #ffffff;
   background-color: var(--color-primary);
   border: none;
-  border-radius: var(--border-radius);
+  border-radius: calc(var(--border-radius) * 1.5);
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 
 button:hover,
 .btn-primary:hover,
 .btn-secondary:hover {
   background-color: var(--color-accent);
+  transform: translateY(-3px); /* More noticeable lift */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Customize secondary button */
@@ -154,6 +163,21 @@ button:hover,
   background-color: var(--color-secondary-hover-bg, #e5e7eb);
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cta {
+  font-size: 1.2rem;
+  font-weight: var(--font-weight-bold);
+  border: 2px solid var(--color-highlight);
+  padding: var(--spacing-medium);
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 4px 10px rgba(55, 200, 171, 0.3);
+}
+
+.cta:hover {
+  background-color: var(--color-highlight);
+  color: white;
+  box-shadow: 0 8px 20px rgba(55, 200, 171, 0.5);
 }
 
 /* Utility Classes */
