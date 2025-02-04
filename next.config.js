@@ -4,7 +4,6 @@ const nextConfig = {
   output: 'export',
   // Only add basePath and image config for production
   ...(process.env.NODE_ENV === 'production' ? {
-    basePath: '/fjarilspartiet',
     images: {
       unoptimized: true,
     },
