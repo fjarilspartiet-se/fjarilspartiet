@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
+import ShareButtons from './ShareButtons';
 
 interface DocumentViewerProps {
   path: string;
@@ -157,6 +158,12 @@ export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
 
       <div className="prose prose-lg max-w-none">
         <ReactMarkdown>{content}</ReactMarkdown>
+      </div>
+      <div className="mt-12 border-t pt-8">
+        <ShareButtons 
+          title={metadata?.['titel'] || 'Fjärilspartiets dokumentation'}
+          description="Utforska Fjärilspartiets systemiska approach för samhällsförnyelse."
+        />
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowRight, Lightbulb, HeartHandshake, Scale, Compass, Heart, Sparkles } from 'lucide-react';
 import TransformationJourney from '../components/TransformationJourney';
 import LongTermVision from '../components/LongTermVision';
+import ShareButtons from '../components/ShareButtons';
 
 export default function VisionPage() {
   return (
@@ -183,6 +184,11 @@ export default function VisionPage() {
               Gå med i rörelsen <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
           </div>
+
+          <ShareButtons 
+            title="Fjärilspartiets vision för mänsklighetens blomstring"
+            description="Ett samhälle där varje person har möjlighet att förverkliga sin fulla potential, där teknologiska framsteg används för att skapa överflöd och välmående för alla."
+          />
         </div>
       </section>
     </MainLayout>

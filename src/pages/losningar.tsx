@@ -9,6 +9,7 @@ import ProjectCard from '../components/ProjectCard';
 import ReferenceSection from '../components/ReferenceSection';
 import TransformationCases from '../components/TransformationCases';
 import Link from 'next/link';
+import ShareButtons from '../components/ShareButtons';
 import { ArrowRight } from 'lucide-react';
 import { 
   TABS, AUBI_CONTENT, HALLBARHET_CONTENT, 
@@ -258,6 +259,13 @@ export default function SolutionsPage() {
             </div>
           </section>
         )}
+
+        <div className="mt-12 text-center">
+          <ShareButtons 
+            title="AUBI - Ett intelligent välfärdssystem för alla"
+            description="Utforska hur AUBI skapar möjligheter för personlig utveckling och samhällsengagemang genom ekonomisk grundtrygghet."
+          />
+        </div>
       </div>
     </MainLayout>
   );

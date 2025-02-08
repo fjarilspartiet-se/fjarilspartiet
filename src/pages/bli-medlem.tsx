@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
+import ShareButtons from '../components/ShareButtons';
 
 export default function MembershipPage() {
   const [formData, setFormData] = useState({
@@ -158,6 +159,16 @@ export default function MembershipPage() {
                 >
                   Utforska våra dokument →
                 </Link>
+              </div>
+
+              <div className="mt-8">
+                <p className="text-gray-600 mb-4">
+                  Hjälp oss växa genom att dela Fjärilspartiet med andra som också vill bidra till positiv samhällsförändring:
+                </p>
+                <ShareButtons 
+                  title="Gå med i Fjärilspartiet för systemisk samhällsförnyelse"
+                  description="Ett parti som utvecklar konkreta lösningar för ett samhälle där alla kan blomstra. Bli medlem och var med och forma framtiden!"
+                />
               </div>
             </div>
           )}
