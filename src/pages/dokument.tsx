@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import MainLayout from '../layouts/MainLayout';
 import DocumentViewer from '../components/DocumentViewer';
+import SEO from '../components/SEO';
 
 type Document = {
   id: string;
@@ -87,94 +88,128 @@ export default function DocumentsPage() {
     }
   ];
 
+  // Create SEO description based on selected document or default
+  const getSEODescription = (doc: Document | null) => {
+    if (!doc) {
+      return "Utforska Fjärilspartiets omfattande dokumentation - från grundläggande visioner och ramverk till detaljerade policydokument. All vår dokumentation är öppen och tillgänglig för alla.";
+    }
+    // Use document description, truncate if needed and add ellipsis
+    return doc.description.length > 155 
+      ? `${doc.description.slice(0, 155)}...`
+      : doc.description;
+  };
+
+  // Create SEO title based on selected document or default
+  const getSEOTitle = (doc: Document | null) => {
+    if (!doc) {
+      return "Dokumentation och ramverk";
+    }
+    return `${doc.title} (${doc.id}) | Fjärilspartiet`;
+  };
+
+  // Create canonical URL based on selected document or default
+  const getCanonicalUrl = (doc: Document | null) => {
+    if (!doc) {
+      return "/dokument";
+    }
+    return `/dokument/${doc.id.toLowerCase()}`;
+  };
+
   return (
-    <MainLayout>
-      <div className="container">
-        <h1 className="section-header">
-          Dokumentation
-        </h1>
+    <>
+      <SEO 
+        title={getSEOTitle(selectedDoc)}
+        description={getSEODescription(selectedDoc)}
+        canonical={getCanonicalUrl(selectedDoc)}
+      />
+      <MainLayout>
+        <div className="container">
+          <h1 className="section-header">
+            Dokumentation
+          </h1>
 
-        {!selectedDoc ? (
-          <>
-            <div className="card mb-8">
-              <p>
-                Här hittar du våra viktigaste policydokument och ramverk. Klicka på ett dokument för att läsa det.
-              </p>
-            </div>
-
-            <div className="space-y-16">
-              {documentCategories.map((category, index) => (
-                <div key={index} className="space-y-8">
-                  <div className="card">
-                    <h2>{category.title}</h2>
-                    <p>{category.description}</p>
-                  </div>
-
-                  <div className="grid gap-6">
-                    {category.documents.map((doc) => (
-                      <div key={doc.id} className="card hover:shadow cursor-pointer" onClick={() => setSelectedDoc(doc)}>
-                        <h3>
-                          {doc.title}
-                          <span className="text-sm text-gray-500 ml-2">({doc.id})</span>
-                        </h3>
-                        <p className="mt-2">{doc.description}</p>
-                        <button className="btn-primary mt-4">
-                          Läs dokument →
-                        </button>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="card mt-12">
-              <h2>Fullständig dokumentation</h2>
-              <p>
-                All vår dokumentation är öppen och tillgänglig. Utforska alla dokument:
-              </p>
-              <ul className="list-disc list-inside space-y-2 my-4">
-                <li>Strategiska dokument (STR)</li>
-                <li>Taktiska ramverk (TAK)</li>
-                <li>Operativa riktlinjer (OPS)</li>
-                <li>Medlemsdokumentation (MED)</li>
-              </ul>
-              
-              <div className="flex gap-4">
-                <a 
-                  href="https://github.com/fjarilspartiet-se/fjarilspartiet/tree/main/public/docs/svenska"
-                  className="btn-primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub Repository
-                </a>
-                <a 
-                  href="https://tinyurl.com/fjarilspartiets-dokument"
-                  className="btn-secondary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Google Drive
-                </a>
+          {!selectedDoc ? (
+            <>
+              <div className="card mb-8">
+                <p>
+                  Här hittar du våra viktigaste policydokument och ramverk. Klicka på ett dokument för att läsa det.
+                </p>
               </div>
+
+              <div className="space-y-16">
+                {documentCategories.map((category, index) => (
+                  <div key={index} className="space-y-8">
+                    <div className="card">
+                      <h2>{category.title}</h2>
+                      <p>{category.description}</p>
+                    </div>
+
+                    <div className="grid gap-6">
+                      {category.documents.map((doc) => (
+                        <div key={doc.id} className="card hover:shadow cursor-pointer" onClick={() => setSelectedDoc(doc)}>
+                          <h3>
+                            {doc.title}
+                            <span className="text-sm text-gray-500 ml-2">({doc.id})</span>
+                          </h3>
+                          <p className="mt-2">{doc.description}</p>
+                          <button className="btn-primary mt-4">
+                            Läs dokument →
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="card mt-12">
+                <h2>Fullständig dokumentation</h2>
+                <p>
+                  All vår dokumentation är öppen och tillgänglig. Utforska alla dokument:
+                </p>
+                <ul className="list-disc list-inside space-y-2 my-4">
+                  <li>Strategiska dokument (STR)</li>
+                  <li>Taktiska ramverk (TAK)</li>
+                  <li>Operativa riktlinjer (OPS)</li>
+                  <li>Medlemsdokumentation (MED)</li>
+                </ul>
+                
+                <div className="flex gap-4">
+                  <a 
+                    href="https://github.com/fjarilspartiet-se/fjarilspartiet/tree/main/public/docs/svenska"
+                    className="btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub Repository
+                  </a>
+                  <a 
+                    href="https://tinyurl.com/fjarilspartiets-dokument"
+                    className="btn-secondary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Google Drive
+                  </a>
+                </div>
+              </div>
+            </>
+          ) : (
+            <div className="space-y-4">
+              <button 
+                onClick={() => setSelectedDoc(null)}
+                className="btn-secondary mb-4"
+              >
+                ← Tillbaka till dokumentlistan
+              </button>
+              <DocumentViewer 
+                path={selectedDoc.path}
+                onClose={() => setSelectedDoc(null)}
+              />
             </div>
-          </>
-        ) : (
-          <div className="space-y-4">
-            <button 
-              onClick={() => setSelectedDoc(null)}
-              className="btn-secondary mb-4"
-            >
-              ← Tillbaka till dokumentlistan
-            </button>
-            <DocumentViewer 
-              path={selectedDoc.path}
-              onClose={() => setSelectedDoc(null)}
-            />
-          </div>
-        )}
-      </div>
-    </MainLayout>
+          )}
+        </div>
+      </MainLayout>
+    </>
   );
 }

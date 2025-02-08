@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import ShareButtons from './ShareButtons';
+import SEO from '../components/SEO';
 
 interface DocumentViewerProps {
   path: string;
@@ -16,6 +17,7 @@ interface RawDocumentMetadata {
   'ansvarig': string;
   'roll': string;
   'relaterade-dokument': string;
+  'description'?: string;
 }
 
 // Type guard to check if a key is a valid metadata key
@@ -102,8 +104,39 @@ export default function DocumentViewer({ path, onClose }: DocumentViewerProps) {
     );
   }
 
+  // Create structured data from document metadata
+  const getStructuredData = (metadata: Partial<RawDocumentMetadata>) => {
+    return {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": metadata.titel || '',
+      "description": metadata.description || '', // You might need to add this to your metadata type
+      "author": {
+        "@type": "Organization",
+        "name": "Fjärilspartiet"
+      },
+      "dateModified": metadata['senast-uppdaterad'] || '',
+      "publisher": {
+        "@type": "Organization",
+        "name": "Fjärilspartiet",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://fjarilspartiet.se/images/logo.png"
+        }
+      }
+    };
+  };
+
   return (
     <div className="card">
+      {metadata && (
+        <SEO
+          title={`${metadata.titel} | Fjärilspartiet`}
+          description={metadata.description || ''} // You might need to add this to your metadata type
+          canonical={`/dokument/${metadata.dokumentid?.toLowerCase()}`}
+          structuredData={getStructuredData(metadata)}
+        />
+      )}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-bold">Dokument</h2>
         {onClose && (
