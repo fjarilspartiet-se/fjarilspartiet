@@ -1,13 +1,43 @@
 // components/SEO.tsx
 import Head from 'next/head';
 
+type StructuredDataValue = 
+  | string 
+  | number 
+  | boolean 
+  | null 
+  | { [key: string]: StructuredDataValue }
+  | StructuredDataValue[];
+
+// Define the base structured data type
+type StructuredData = {
+  '@context': string;
+  '@type': string;
+  headline?: string;
+  description?: string;
+  author?: {
+    '@type': string;
+    name: string;
+  };
+  dateModified?: string;
+  publisher?: {
+    '@type': string;
+    name: string;
+    logo?: {
+      '@type': string;
+      url: string;
+    };
+  };
+  [key: string]: StructuredDataValue | undefined;
+};
+
 interface SEOProps {
   title?: string;
   description?: string;
   canonical?: string;
   ogImage?: string;
   noindex?: boolean;
-  structuredData?: Record<string, any>;
+  structuredData?: StructuredData;
 }
 
 export default function SEO({
@@ -51,7 +81,7 @@ export default function SEO({
       
       {/* Language */}
       <meta property="og:locale" content="sv_SE" />
-      <meta httpEquip="content-language" content="sv-se" />
+      <meta httpEquiv="content-language" content="sv-se" />
       
       {/* Favicon */}
       <link rel="icon" href="/favicon.ico" />

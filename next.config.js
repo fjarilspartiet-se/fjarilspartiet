@@ -13,7 +13,7 @@ const nextConfig = {
   // Remove experimental config as it's not needed for static export
   experimental: {
     externalDir: true,
-  },
+  }
 };
 
 module.exports = nextConfig;
