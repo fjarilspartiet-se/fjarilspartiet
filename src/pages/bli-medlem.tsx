@@ -20,13 +20,17 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      const response = await fetch('https://formspree.io/f/mgvebyad', {
+      const form = e.target as HTMLFormElement;
+      const formData = new FormData(form);
+      const formObject: Record<string, string> = {};
+      formData.forEach((value, key) => {
+        formObject[key] = value.toString();
+      });
+
+      const response = await fetch('/', {
         method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData)
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formObject).toString()
       });
 
       if (!response.ok) {
@@ -82,7 +86,14 @@ export default function MembershipPage() {
                   </div>
                 )}
 
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form 
+                  name="medlemskap" 
+                  method="POST" 
+                  data-netlify="true" 
+                  onSubmit={handleSubmit} 
+                  className="space-y-6"
+                >
+                  <input type="hidden" name="form-name" value="medlemskap" />
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-primary-dark">
                       Namn
