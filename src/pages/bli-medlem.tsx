@@ -16,7 +16,7 @@ export default function MembershipPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState('');
 
-  const resend = new Resend('re_YOUR_API_KEY');
+  const resend = new Resend('RE_YOUR_API_KEY');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -24,7 +24,11 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      // First insert into Supabase
+      // Check if Supabase is initialized
+      if (!supabase) {
+        throw new Error('Unable to connect to database');
+      }
+
       const { error: supabaseError } = await supabase
         .from('members')
         .insert([{
