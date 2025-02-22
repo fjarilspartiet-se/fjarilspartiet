@@ -24,11 +24,8 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      // Check if Supabase is initialized
-      if (!supabase) {
-        throw new Error('Unable to connect to database');
-      }
-
+      console.log('Attempting Supabase connection...'); // For debugging
+      
       const { error: supabaseError } = await supabase
         .from('members')
         .insert([{
@@ -38,10 +35,11 @@ export default function MembershipPage() {
         }]);
 
       if (supabaseError) {
+        console.error('Supabase error:', supabaseError); // For debugging
         if (supabaseError.code === '23505') {
           throw new Error('En medlem med denna e-postadress finns redan registrerad.');
         }
-        throw supabaseError;
+        throw new Error(`Database error: ${supabaseError.message}`);
       }
 
       // Send welcome email
