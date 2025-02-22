@@ -3,6 +3,8 @@ import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
 import ShareButtons from '../components/ShareButtons';
 import SEO from '../components/SEO';
+import { supabase } from '../lib/supabase';
+import { Resend } from 'resend';
 
 export default function MembershipPage() {
   const [formData, setFormData] = useState({
@@ -14,32 +16,65 @@ export default function MembershipPage() {
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState('');
 
+  const resend = new Resend('re_YOUR_API_KEY');
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setError('');
 
     try {
-      const form = e.target as HTMLFormElement;
-      const formData = new FormData(form);
-      const formObject: Record<string, string> = {};
-      formData.forEach((value, key) => {
-        formObject[key] = value.toString();
-      });
+      // First insert into Supabase
+      const { error: supabaseError } = await supabase
+        .from('members')
+        .insert([{
+          name: formData.name,
+          email: formData.email,
+          message: formData.message || ''
+        }]);
 
-      const response = await fetch('/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formObject).toString()
-      });
-
-      if (!response.ok) {
-        throw new Error('Could not send form');
+      if (supabaseError) {
+        if (supabaseError.code === '23505') {
+          throw new Error('En medlem med denna e-postadress finns redan registrerad.');
+        }
+        throw supabaseError;
       }
+
+      // Send welcome email
+      await resend.emails.send({
+        from: 'Fjärilspartiet <fjarilspartiet@resend.dev>',
+        to: formData.email,
+        subject: 'Välkommen till Fjärilspartiet!',
+        text: `Hej ${formData.name}!
+Välkommen till Fjärilspartiet! Vi är glada att ha dig med oss på vår resa mot ett mer hållbart och rättvist samhälle.
+
+Som medlem kan du:
+- Delta i våra digitala och fysiska möten
+- Engagera dig i arbetsgrupper och projekt
+- Bidra till partiets utveckling
+- Ta del av vårt medlemsmaterial
+
+Vi kommer snart att kontakta dig med mer information om aktuella aktiviteter och möjligheter till engagemang.
+
+Under tiden är du välkommen att gå med i vår Discord-community: https://discord.gg/GxSxaYANU4
+
+Har du frågor eller funderingar är du alltid välkommen att kontakta oss på fjarilspartiet@gmail.com.
+
+Varma hälsningar,
+Fjärilspartiet` // Your welcome email text
+      });
+
+      // Send notification to admin
+      await resend.emails.send({
+        from: 'Fjärilspartiet <fjarilspartiet@resend.dev>',
+        to: 'fjarilspartiet@gmail.com',
+        subject: 'Ny medlemsregistrering - Fjärilspartiet',
+        text: `Ny medlem har registrerat sig:\nNamn: ${formData.name}\nEmail: ${formData.email}\nMeddelande: ${formData.message || 'Inget meddelande'}`
+      });
 
       setIsSubmitted(true);
     } catch (err) {
-      setError('Ett fel uppstod. Vänligen försök igen eller kontakta oss via email direkt.');
+      setError(err instanceof Error ? err.message : 'Ett fel uppstod. Vänligen försök igen.');
       console.error('Form submission error:', err);
     } finally {
       setIsSubmitting(false);
