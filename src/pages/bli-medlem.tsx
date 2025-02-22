@@ -41,36 +41,49 @@ export default function MembershipPage() {
       }
 
       // Send welcome email
-      await resend.emails.send({
-        from: 'Fjärilspartiet <fjarilspartiet@resend.dev>',
-        to: formData.email,
-        subject: 'Välkommen till Fjärilspartiet!',
-        text: `Hej ${formData.name}!
-Välkommen till Fjärilspartiet! Vi är glada att ha dig med oss på vår resa mot ett mer hållbart och rättvist samhälle.
+      try {
+        await resend.emails.send({
+          from: 'Fjärilspartiet <onboarding@resend.dev>', // Use this for testing
+          to: formData.email,
+          subject: 'Välkommen till Fjärilspartiet!',
+          text: `
+  Hej ${formData.name}!
 
-Som medlem kan du:
-- Delta i våra digitala och fysiska möten
-- Engagera dig i arbetsgrupper och projekt
-- Bidra till partiets utveckling
-- Ta del av vårt medlemsmaterial
+  Välkommen till Fjärilspartiet! Vi är glada att ha dig med oss på vår resa mot ett mer hållbart och rättvist samhälle.
 
-Vi kommer snart att kontakta dig med mer information om aktuella aktiviteter och möjligheter till engagemang.
+  Som medlem kan du:
+  - Delta i våra digitala och fysiska möten
+  - Engagera dig i arbetsgrupper och projekt
+  - Bidra till partiets utveckling
+  - Ta del av vårt medlemsmaterial
 
-Under tiden är du välkommen att gå med i vår Discord-community: https://discord.gg/GxSxaYANU4
+  Vi kommer snart att kontakta dig med mer information om aktuella aktiviteter och möjligheter till engagemang.
 
-Har du frågor eller funderingar är du alltid välkommen att kontakta oss på fjarilspartiet@gmail.com.
+  Under tiden är du välkommen att gå med i vår Discord-community: https://discord.gg/GxSxaYANU4
 
-Varma hälsningar,
-Fjärilspartiet` // Your welcome email text
-      });
+  Har du frågor eller funderingar är du alltid välkommen att kontakta oss på fjarilspartiet@gmail.com.
 
-      // Send notification to admin
-      await resend.emails.send({
-        from: 'Fjärilspartiet <fjarilspartiet@resend.dev>',
-        to: 'fjarilspartiet@gmail.com',
-        subject: 'Ny medlemsregistrering - Fjärilspartiet',
-        text: `Ny medlem har registrerat sig:\nNamn: ${formData.name}\nEmail: ${formData.email}\nMeddelande: ${formData.message || 'Inget meddelande'}`
-      });
+  Varma hälsningar,
+  Fjärilspartiet
+          `
+        });
+
+        // Send notification to admin
+        await resend.emails.send({
+          from: 'Fjärilspartiet <onboarding@resend.dev>', // Use this for testing
+          to: 'fjarilspartiet@gmail.com',
+          subject: 'Ny medlemsregistrering - Fjärilspartiet',
+          text: `
+  Ny medlem har registrerat sig:
+  Namn: ${formData.name}
+  Email: ${formData.email}
+  Meddelande: ${formData.message || 'Inget meddelande'}
+          `
+        });
+      } catch (emailError) {
+        console.error('Email sending failed:', emailError);
+        // Note: We continue with success state even if email fails
+      }
 
       setIsSubmitted(true);
     } catch (err) {
