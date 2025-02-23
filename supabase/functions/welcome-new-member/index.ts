@@ -1,9 +1,14 @@
 import { serve } from "https://deno.land/std@0.181.0/http/server.ts"
+import { corsHeaders } from '../_shared/cors.ts'
 
-// Log when the function is loaded
 console.log("Edge function loaded and ready");
 
 serve(async (req) => {
+  // Handle CORS preflight requests
+  if (req.method === 'OPTIONS') {
+    return new Response('ok', { headers: corsHeaders })
+  }
+
   const timestamp = new Date().toISOString();
   console.log(`[${timestamp}] Webhook triggered`);
   
@@ -26,7 +31,10 @@ serve(async (req) => {
       timestamp,
       message: "Request processed" 
     }), {
-      headers: { "Content-Type": "application/json" }
+      headers: { 
+        ...corsHeaders,
+        "Content-Type": "application/json" 
+      }
     });
   } catch (error) {
     console.error(`[${timestamp}] Error:`, error);
@@ -35,7 +43,10 @@ serve(async (req) => {
       timestamp 
     }), {
       status: 500,
-      headers: { "Content-Type": "application/json" }
+      headers: { 
+        ...corsHeaders,
+        "Content-Type": "application/json" 
+      }
     });
   }
 });
