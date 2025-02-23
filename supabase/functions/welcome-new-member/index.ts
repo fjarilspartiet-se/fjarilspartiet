@@ -1,32 +1,30 @@
-import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
-import { createClient } from 'https://esm.sh/@supabase/supabase-js@2'
+import { serve } from "https://deno.land/std@0.181.0/http/server.ts"
 import { Resend } from 'https://esm.sh/resend'
 
 const resend = new Resend(Deno.env.get('RESEND_API_KEY'))
 
+// Add initial log to verify function loads
+console.log("Function loaded, RESEND_API_KEY present:", !!Deno.env.get('RESEND_API_KEY'))
+
 serve(async (req) => {
-  console.log('Webhook triggered');
+  console.log("Function triggered")
   
   try {
     const payload = await req.json()
-    console.log('Received payload:', payload);
-    
+    console.log('Webhook payload:', JSON.stringify(payload, null, 2))
+
     const { record, type } = payload
 
-    console.log('Event type:', type);
-    console.log('Record:', record);
-
-    // Only handle INSERT events
     if (type !== 'INSERT') {
-      console.log('Not an insert event, skipping');
+      console.log('Not an insert event, skipping')
       return new Response(JSON.stringify({ message: 'Not an insert event' }), {
         headers: { 'Content-Type': 'application/json' },
       })
     }
 
+    console.log('Sending welcome email to:', record.email)
+
     try {
-      console.log('Attempting to send welcome email');
-      // Send welcome email
       const welcomeEmail = await resend.emails.send({
         from: 'Fjärilspartiet <onboarding@resend.dev>',
         to: record.email,
@@ -78,7 +76,7 @@ Meddelande: ${record.message || 'Inget meddelande'}
       headers: { 'Content-Type': 'application/json' },
     })
   } catch (error) {
-    console.error('Error in webhook:', error);
+    console.error('Webhook error:', error)
     return new Response(JSON.stringify({ error: error.message }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
