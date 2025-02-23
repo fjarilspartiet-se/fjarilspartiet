@@ -93,6 +93,18 @@ export default function ResourcesPage() {
                   <p className="text-gray-600 mb-2">Grundläggande texter om ekonomisk grundtrygghet och systemförändring:</p>
                   <ul className="list-disc list-inside text-gray-600 space-y-2">
                     <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                      <span className="font-medium">&quot;Adaptiv Universell  Basinkomst - Ett nytt socialt kontrakt för 2000-talet&quot;</span> av Björn Holmström 
+                      - Denna bok är en djupgående utforskning av hur AUBI kan implementeras och omforma samhället. Genom 21 kapitel analyseras systemet från filosofiska, ekonomiska och praktiska perspektiv, med konkreta exempel och framtidsscenarier. Boken behandlar allt från tekniska implementeringsdetaljer och finansieringsmodeller till hur AUBI kan stärka lokalsamhällen och främja global rättvisa. Detta är en viktig resurs för alla som vill förstå den fulla potentialen i ett adaptivt och universellt grundinkomstsystem.
+                      <a 
+                        href="https://bjornkennethholmstrom.wordpress.com/wp-content/uploads/2025/02/adaptiv-universell-basinkomst-ett-nytt-socialt-kontrakt-for-2000-talet.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline block mt-1"
+                      >
+                        Ladda ner boken (PDF)
+                      </a>
+                    </li>
+                    <li className="hover:bg-blue-50 p-2 rounded transition-colors">
                       <span className="font-medium">&quot;Complex Adaptation and Permissionless Innovation&quot;</span> av Otto Lehto 
                       - En doktorsavhandling som analyserar UBI från ett systemiskt och evolutionärt perspektiv, 
                       särskilt relevant för vår approach till AUBI.
