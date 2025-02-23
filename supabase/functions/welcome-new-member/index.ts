@@ -1,36 +1,39 @@
 import { serve } from "https://deno.land/std@0.181.0/http/server.ts"
 
+// Log when the function is loaded
+console.log("Edge function loaded and ready");
+
 serve(async (req) => {
-  // Log basic request info
-  console.log("Request received:", {
-    method: req.method,
-    url: req.url,
-    headers: Object.fromEntries(req.headers.entries())
-  });
-
+  const timestamp = new Date().toISOString();
+  console.log(`[${timestamp}] Webhook triggered`);
+  
   try {
-    // Log the raw request body
+    // Log raw request
     const rawBody = await req.text();
-    console.log("Raw request body:", rawBody);
+    console.log(`[${timestamp}] Raw request body:`, rawBody);
 
-    // Try to parse as JSON if possible
-    let jsonBody;
+    // Try to parse JSON
+    let payload;
     try {
-      jsonBody = JSON.parse(rawBody);
-      console.log("Parsed JSON body:", jsonBody);
+      payload = JSON.parse(rawBody);
+      console.log(`[${timestamp}] Parsed payload:`, payload);
     } catch (e) {
-      console.log("Could not parse body as JSON:", e);
+      console.log(`[${timestamp}] Failed to parse JSON:`, e);
     }
 
     return new Response(JSON.stringify({ 
       success: true,
-      message: "Request logged successfully" 
+      timestamp,
+      message: "Request processed" 
     }), {
       headers: { "Content-Type": "application/json" }
     });
   } catch (error) {
-    console.error("Error processing request:", error);
-    return new Response(JSON.stringify({ error: error.message }), {
+    console.error(`[${timestamp}] Error:`, error);
+    return new Response(JSON.stringify({ 
+      error: error.message,
+      timestamp 
+    }), {
       status: 500,
       headers: { "Content-Type": "application/json" }
     });
