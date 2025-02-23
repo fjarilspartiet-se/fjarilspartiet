@@ -21,21 +21,12 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      // Debug logging
-      console.log('Supabase client:', supabase);
-      console.log('Environment variables:', {
-        url: process.env.NEXT_PUBLIC_SUPABASE_URL,
-        keyAvailable: !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
-      });
-
       if (!supabase) {
-        console.error('Supabase client is not available');
         throw new Error('Database connection not available');
       }
 
-      console.log('Attempting to insert member:', formData);
-
-      const { error: supabaseError, data } = await supabase
+      // Insert into database
+      const { error: supabaseError } = await supabase
         .from('Members')
         .insert([{
           name: formData.name,
@@ -43,19 +34,40 @@ export default function MembershipPage() {
           message: formData.message || ''
         }]);
 
-      console.log('Insert response:', { error: supabaseError, data });
-
       if (supabaseError) {
-        console.error('Supabase error details:', supabaseError);
         if (supabaseError.code === '23505') {
           throw new Error('En medlem med denna e-postadress finns redan registrerad.');
         }
         throw new Error('Ett fel uppstod vid registrering. Vänligen försök igen.');
       }
 
+      // Directly call the Edge Function after successful insert
+      const functionResponse = await fetch(
+        'https://besgmmbnpqcoirbhemhl.supabase.co/functions/v1/welcome-new-member',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY}`
+          },
+          body: JSON.stringify({
+            type: 'INSERT',
+            table: 'Members',
+            record: {
+              name: formData.name,
+              email: formData.email,
+              message: formData.message || ''
+            }
+          })
+        }
+      );
+
+      if (!functionResponse.ok) {
+        console.error('Edge function error:', await functionResponse.text());
+      }
+
       setIsSubmitted(true);
     } catch (err) {
-      console.error('Full error:', err);
       setError(err instanceof Error ? err.message : 'Ett fel uppstod. Vänligen försök igen.');
       console.error('Form submission error:', err);
     } finally {
