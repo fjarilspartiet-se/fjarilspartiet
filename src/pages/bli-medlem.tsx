@@ -19,36 +19,40 @@ export default function MembershipPage() {
   const resend = new Resend('RE_YOUR_API_KEY');
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setError('');
+      e.preventDefault();
+      setIsSubmitting(true);
+      setError('');
 
-    try {
-      console.log('Attempting Supabase connection...'); // For debugging
-      
-      const { error: supabaseError } = await supabase
-        .from('members')
-        .insert([{
-          name: formData.name,
-          email: formData.email,
-          message: formData.message || ''
-        }]);
-
-      if (supabaseError) {
-        console.error('Supabase error:', supabaseError); // For debugging
-        if (supabaseError.code === '23505') {
-          throw new Error('En medlem med denna e-postadress finns redan registrerad.');
-        }
-        throw new Error(`Database error: ${supabaseError.message}`);
-      }
-
-      // Send welcome email
       try {
-        await resend.emails.send({
-          from: 'Fjärilspartiet <onboarding@resend.dev>', // Use this for testing
-          to: formData.email,
-          subject: 'Välkommen till Fjärilspartiet!',
-          text: `
+        console.log('Attempting Supabase connection...'); // For debugging
+        
+        if (!supabase) {
+          console.warn('Supabase not configured - skipping database insert');
+        } else {
+          const { error: supabaseError } = await supabase
+            .from('members')
+            .insert([{
+              name: formData.name,
+              email: formData.email,
+              message: formData.message || ''
+            }]);
+
+          if (supabaseError) {
+            console.error('Supabase error:', supabaseError); // For debugging
+            if (supabaseError.code === '23505') {
+              throw new Error('En medlem med denna e-postadress finns redan registrerad.');
+            }
+            throw new Error(`Database error: ${supabaseError.message}`);
+          }
+        }
+
+        // Send welcome email
+        try {
+          await resend.emails.send({
+            from: 'Fjärilspartiet <onboarding@resend.dev>', // Use this for testing
+            to: formData.email,
+            subject: 'Välkommen till Fjärilspartiet!',
+            text: `
   Hej ${formData.name}!
 
   Välkommen till Fjärilspartiet! Vi är glada att ha dig med oss på vår resa mot ett mer hållbart och rättvist samhälle.
@@ -67,33 +71,33 @@ export default function MembershipPage() {
 
   Varma hälsningar,
   Fjärilspartiet
-          `
-        });
+            `
+          });
 
-        // Send notification to admin
-        await resend.emails.send({
-          from: 'Fjärilspartiet <onboarding@resend.dev>', // Use this for testing
-          to: 'fjarilspartiet@gmail.com',
-          subject: 'Ny medlemsregistrering - Fjärilspartiet',
-          text: `
+          // Send notification to admin
+          await resend.emails.send({
+            from: 'Fjärilspartiet <onboarding@resend.dev>', // Use this for testing
+            to: 'fjarilspartiet@gmail.com',
+            subject: 'Ny medlemsregistrering - Fjärilspartiet',
+            text: `
   Ny medlem har registrerat sig:
   Namn: ${formData.name}
   Email: ${formData.email}
   Meddelande: ${formData.message || 'Inget meddelande'}
-          `
-        });
-      } catch (emailError) {
-        console.error('Email sending failed:', emailError);
-        // Note: We continue with success state even if email fails
-      }
+            `
+          });
+        } catch (emailError) {
+          console.error('Email sending failed:', emailError);
+          // Note: We continue with success state even if email fails
+        }
 
-      setIsSubmitted(true);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Ett fel uppstod. Vänligen försök igen.');
-      console.error('Form submission error:', err);
-    } finally {
-      setIsSubmitting(false);
-    }
+        setIsSubmitted(true);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Ett fel uppstod. Vänligen försök igen.');
+        console.error('Form submission error:', err);
+      } finally {
+        setIsSubmitting(false);
+      }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
