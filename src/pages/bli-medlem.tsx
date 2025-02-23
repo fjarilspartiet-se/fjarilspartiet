@@ -3,6 +3,7 @@ import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
 import ShareButtons from '../components/ShareButtons';
 import SEO from '../components/SEO';
+import { supabase } from '../lib/supabase';
 
 export default function MembershipPage() {
   const [formData, setFormData] = useState({
@@ -20,18 +21,23 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      const response = await fetch('/api/register', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+      if (!supabase) {
+        throw new Error('Database connection not available');
+      }
 
-      const data = await response.json();
+      const { error: supabaseError } = await supabase
+        .from('Members')
+        .insert([{
+          name: formData.name,
+          email: formData.email,
+          message: formData.message || ''
+        }]);
 
-      if (!response.ok) {
-        throw new Error(data.error || 'Ett fel uppstod. Vänligen försök igen.');
+      if (supabaseError) {
+        if (supabaseError.code === '23505') {
+          throw new Error('En medlem med denna e-postadress finns redan registrerad.');
+        }
+        throw new Error('Ett fel uppstod vid registrering. Vänligen försök igen.');
       }
 
       setIsSubmitted(true);

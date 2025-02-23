@@ -8,11 +8,17 @@ const nextConfig = {
       unoptimized: true,
     },
   } : {}),
-  // Allow static file serving
-  trailingSlash: true,
   // Remove experimental config as it's not needed for static export
   experimental: {
     externalDir: true,
+  },
+  // Add this to ignore Supabase functions
+  webpack: (config, { isServer }) => {
+    config.watchOptions = {
+      ...config.watchOptions,
+      ignored: ['**/supabase/**', '**/supabase-functions/**']
+    };
+    return config;
   }
 };
 
