@@ -162,7 +162,7 @@ export default function ResourcesPage() {
                       </a>
                     </li>
                     <li className="hover:bg-blue-50 p-2 rounded transition-colors">
-                      <span className="font-medium">"Optimizing Reality: A Systems Thinking Guide for a Multi-Intelligence Future"</span> av Björn Kenneth Holmström 
+                      <span className="font-medium">&quot;Optimizing Reality: A Systems Thinking Guide for a Multi-Intelligence Future&quot;</span> av Björn Kenneth Holmström 
                       - Ett innovativt ramverk för hur olika former av intelligens – mänsklig, artificiell, ekologisk och kollektiv 
                       – kan samverka för att skapa mer harmoniska och hållbara system. Boken presenterar praktiska verktyg för att 
                       mäta och förbättra integration av olika intelligensformer i organisationer och samhällssystem.
@@ -221,7 +221,7 @@ export default function ResourcesPage() {
                       </a>
                     </li>
                     <li className="hover:bg-blue-50 p-2 rounded transition-colors">
-                      <span className="font-medium">"Global Governance: Natural Steps Toward a Thriving World"</span> av Björn Kenneth Holmström 
+                      <span className="font-medium">&quot;Global Governance: Natural Steps Toward a Thriving World&quot;</span> av Björn Kenneth Holmström 
                       - En praktisk färdplan för att skapa etiska, decentraliserade och deltagarbaserade globala styrsystem. 
                       Boken kombinerar systemtänkande med modern teknologi för att visa hur vi kan implementera AUBI, 
                       använda AI för att stärka demokratin, och skapa rättvisare ekonomiska system.
