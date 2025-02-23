@@ -21,11 +21,21 @@ export default function MembershipPage() {
     setError('');
 
     try {
+      // Debug logging
+      console.log('Supabase client:', supabase);
+      console.log('Environment variables:', {
+        url: process.env.NEXT_PUBLIC_SUPABASE_URL,
+        keyAvailable: !!process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+      });
+
       if (!supabase) {
+        console.error('Supabase client is not available');
         throw new Error('Database connection not available');
       }
 
-      const { error: supabaseError } = await supabase
+      console.log('Attempting to insert member:', formData);
+
+      const { error: supabaseError, data } = await supabase
         .from('Members')
         .insert([{
           name: formData.name,
@@ -33,7 +43,10 @@ export default function MembershipPage() {
           message: formData.message || ''
         }]);
 
+      console.log('Insert response:', { error: supabaseError, data });
+
       if (supabaseError) {
+        console.error('Supabase error details:', supabaseError);
         if (supabaseError.code === '23505') {
           throw new Error('En medlem med denna e-postadress finns redan registrerad.');
         }
@@ -42,6 +55,7 @@ export default function MembershipPage() {
 
       setIsSubmitted(true);
     } catch (err) {
+      console.error('Full error:', err);
       setError(err instanceof Error ? err.message : 'Ett fel uppstod. Vänligen försök igen.');
       console.error('Form submission error:', err);
     } finally {
