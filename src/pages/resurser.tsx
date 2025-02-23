@@ -161,6 +161,20 @@ export default function ResourcesPage() {
                         Läs mer om boken
                       </a>
                     </li>
+                    <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                      <span className="font-medium">"Optimizing Reality: A Systems Thinking Guide for a Multi-Intelligence Future"</span> av Björn Kenneth Holmström 
+                      - Ett innovativt ramverk för hur olika former av intelligens – mänsklig, artificiell, ekologisk och kollektiv 
+                      – kan samverka för att skapa mer harmoniska och hållbara system. Boken presenterar praktiska verktyg för att 
+                      mäta och förbättra integration av olika intelligensformer i organisationer och samhällssystem.
+                      <a 
+                        href="https://bjornkennethholmstrom.wordpress.com/optimizing-reality-a-systems-thinking-guide-for-a-multi-intelligence-future/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline block mt-1"
+                      >
+                        Läs mer om boken
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div>
@@ -204,6 +218,20 @@ export default function ResourcesPage() {
                         className="text-blue-600 hover:underline block mt-1"
                       >
                         Läs mer om konceptet
+                      </a>
+                    </li>
+                    <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                      <span className="font-medium">"Global Governance: Natural Steps Toward a Thriving World"</span> av Björn Kenneth Holmström 
+                      - En praktisk färdplan för att skapa etiska, decentraliserade och deltagarbaserade globala styrsystem. 
+                      Boken kombinerar systemtänkande med modern teknologi för att visa hur vi kan implementera AUBI, 
+                      använda AI för att stärka demokratin, och skapa rättvisare ekonomiska system.
+                      <a 
+                        href="https://bjornkennethholmstrom.wordpress.com/global-governance-natural-steps-toward-a-thriving-world-2/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline block mt-1"
+                      >
+                        Läs mer om boken
                       </a>
                     </li>
                   </ul>
