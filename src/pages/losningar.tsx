@@ -5,6 +5,7 @@ import Tabs from '../components/Tabs';
 import ContentSection from '../components/ContentSection';
 import EvidenceCard from '../components/EvidenceCard';
 import AUBIFlowDiagram from '../components/AUBIFlowDiagram';
+import AUBIKMSIEffectsDiagram from '../components/AUBIKMSIEffectsDiagram'; 
 import ProjectCard from '../components/ProjectCard';
 import ReferenceSection from '../components/ReferenceSection';
 import TransformationCases from '../components/TransformationCases';
@@ -110,6 +111,18 @@ export default function SolutionsPage() {
                 Klicka på de olika delarna för mer information.
               </p>
               <AUBIFlowDiagram className="max-w-4xl mx-auto" />
+            </div>
+
+            {/* New KMSI Effects Diagram */}
+            <div className="mb-12">
+              <h3 className="text-2xl font-bold text-center mb-6">
+                AUBI:s effekter på mänskligt välbefinnande
+              </h3>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8 text-center">
+                Utforska hur ekonomisk grundtrygghet möjliggör djupare kärlek, mening och sammanhang.
+                Klicka på de olika delarna för att lära dig mer.
+              </p>
+              <AUBIKMSIEffectsDiagram className="max-w-4xl mx-auto" />
             </div>
 
             {/* Implementation Timeline */}

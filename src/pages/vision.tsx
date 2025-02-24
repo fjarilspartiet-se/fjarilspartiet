@@ -75,6 +75,110 @@ export default function VisionPage() {
           </div>
         </section>
 
+        <section className="py-16 bg-blue-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-6">Att mäta det som verkligen betyder något</h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+                I ett samhälle som främst mäter framgång genom BNP och ekonomisk tillväxt går vi miste om de djupare dimensioner som gör livet meningsfullt. Fjärilspartiet förespråkar en bredare syn på samhällsutveckling som inkluderar kärlek, mening, sammanhang och lekfullhet.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
+              <div>
+                <h3 className="text-2xl font-semibold mb-4">Kärlek, Mening, Sammanhang-Index (KMSI)</h3>
+                <p className="text-gray-600 mb-4">
+                  Vi anser att samhällets framgång bör mätas genom hur väl det främjar:
+                </p>
+                <ul className="space-y-4">
+                  <li className="flex items-start">
+                    <span className="bg-red-100 p-2 rounded-full mr-3 text-red-600">❤️</span>
+                    <div>
+                      <h4 className="font-semibold">Kärlek</h4>
+                      <p className="text-gray-600">Från självmedkänsla till mellanmänskliga relationer och universell medkänsla - hur vi tar hand om oss själva och varandra.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="bg-purple-100 p-2 rounded-full mr-3 text-purple-600">🔍</span>
+                    <div>
+                      <h4 className="font-semibold">Mening</h4>
+                      <p className="text-gray-600">I arbete, fritid och personlig utveckling - hur vi upplever att våra liv har syfte och betydelse.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="bg-blue-100 p-2 rounded-full mr-3 text-blue-600">🌐</span>
+                    <div>
+                      <h4 className="font-semibold">Sammanhang</h4>
+                      <p className="text-gray-600">Med oss själva, med andra, med naturen och med existentiella dimensioner - hur vi känner tillhörighet med omvärlden.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="bg-yellow-100 p-2 rounded-full mr-3 text-yellow-600">🎮</span>
+                    <div>
+                      <h4 className="font-semibold">Lekfullhet</h4>
+                      <p className="text-gray-600">Genom kreativitet, lek och utforskande - hur vi behåller vår nyfikenhet och glädje genom livet.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="bg-green-100 p-2 rounded-full mr-3 text-green-600">🔓</span>
+                    <div>
+                      <h4 className="font-semibold">Frihet</h4>
+                      <p className="text-gray-600">Genom förverkligandet av vår potential och möjligheten att uttrycka vår sanna natur - hur vi utvecklar en djupare form av frihet som går bortom yttre begränsningar.</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="bg-teal-100 p-2 rounded-full mr-3 text-teal-600">🌱</span>
+                    <div>
+                      <h4 className="font-semibold">Motståndskraft</h4>
+                      <p className="text-gray-600">Genom förmågan att hantera förändringar och utmaningar - hur vi bygger personlig och samhällelig resiliens som stärker oss även i svåra tider.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4">Nya mått på framgång</h3>
+                <p className="text-gray-600 mb-4">
+                  Vi inspireras av flera alternativa mätsystem som redan används runt om i världen:
+                </p>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">•</span>
+                    <span><strong>Bhutans lyckoindex (GNH)</strong> - Mäter psykologiskt välbefinnande, hälsa, utbildning, kultur, samhällsvitalitet, miljö och styrning.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">•</span>
+                    <span><strong>Nya Zeelands Wellbeing Budget</strong> - Prioriterar medborgarnas hälsa och välbefinnande över ekonomisk tillväxt i statsbudgeten.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">•</span>
+                    <span><strong>OECD:s Better Life Index</strong> - Mäter välbefinnande genom boende, inkomst, arbete, gemenskap, utbildning, miljö, medborgarengagemang, hälsa, livstillfredsställelse, säkerhet och balans mellan arbete och privatliv.</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-green-600 mr-2">•</span>
+                    <span><strong>FN:s Human Development Index</strong> - Kombinerar livslängd, utbildning och ekonomisk standard för att bedöma mänsklig utveckling.</span>
+                  </li>
+                </ul>
+                <div className="mt-6 bg-blue-50 p-4 rounded-lg">
+                  <p className="text-sm text-gray-600 italic">
+                    &quot;Vad vi mäter påverkar vad vi gör. Om vi mäter fel saker, kommer vi att sträva efter fel saker.&quot;
+                    <br />— Joseph Stiglitz, Nobelpristagare i ekonomi
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="text-center">
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-6">
+                Genom att skapa system som mäter och prioriterar kärlek, mening, sammanhang och lekfullhet kan vi bygga ett samhälle som verkligen främjar mänskligt blomstrande, inte bara ekonomisk tillväxt.
+              </p>
+              <Link href="/losningar" className="text-blue-600 ml-1 hover:underline">
+                Utforska våra förslag för ett mer meningsfullt samhälle →
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* Long-term Vision Section */}
         <LongTermVision />
 

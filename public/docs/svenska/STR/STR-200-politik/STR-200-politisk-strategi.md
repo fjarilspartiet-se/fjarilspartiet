@@ -18,7 +18,7 @@ relaterade-dokument:
 ## Fjärilspartiet: En transformativ kraft för samhällsförnyelse
 
 ## Vision
-Att utveckla och implementera en adaptiv politisk strategi som främjar en gradvis och systematisk övergång till ett mer hållbart, rättvist och meningsfullt samhälle, där varje individ har möjlighet att blomstra och bidra till det gemensamma bästa.
+Att utveckla och implementera en adaptiv politisk strategi som främjar en gradvis och systematisk övergång till ett mer hållbart, rättvist och meningsfullt samhälle, där varje individ har möjlighet att blomstra och bidra till det gemensamma bästa genom fördjupad kärlek, mening och sammanhang i sina liv.
 
 ## Strategiska gundpelare
 
@@ -134,12 +134,21 @@ Att utveckla och implementera en adaptiv politisk strategi som främjar en gradv
 - Implementering av reformer
 - Samhällspåverkan
 - Organisatorisk utveckling
+- **Kärnindikatorer för mänskligt välbefinnande (LMCI)**
 
 ### 2. Utvärderingsprocesser
 - Regelbunden uppföljning
 - Systematisk utvärdering
 - Kontinuerlig förbättring
 - Transparent redovisning
+- **Holistisk mätning av kärlek, mening och sammanhang**
+
+### 3. KMSI (LMCI) - Kärleks-, Menings- och Sammanhangindex
+- **Mätning av kärlek** (egenkärlek, medmänsklig kärlek, universell medkänsla)
+- **Mätning av mening** (meningsfullt arbete, meningsfull fritid, personlig utveckling)
+- **Mätning av sammanhang** (samhörighet med sig själv, andra, naturen och existentiella dimensioner)
+- **Implementering i pilotprojekt** för att validera indikatorerna
+- **Integration med befintliga välfärdsmått** för en mer holistisk utvärdering
 
 ## Riskhantering och anpassning
 

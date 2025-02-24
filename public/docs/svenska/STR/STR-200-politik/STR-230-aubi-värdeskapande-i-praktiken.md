@@ -16,7 +16,7 @@ relaterade-dokument:
 
 ## Sammanfattning
 
-Detta dokument presenterar konkreta exempel på hur AUBI möjliggör värdeskapande arbete som är svårt att genomföra inom traditionella ekonomiska ramar. Exemplen visar hur systemet frigör mänsklig potential för innovation, samhällsförbättring och kulturell utveckling.
+Detta dokument presenterar konkreta exempel på hur AUBI möjliggör värdeskapande arbete som är svårt att genomföra inom traditionella ekonomiska ramar. Exemplen visar hur systemet frigör mänsklig potential för innovation, samhällsförbättring och kulturell utveckling, samt dess effekter enligt kärleks-, menings- och sammanhangsindexet KMSI (LMCI på engelska).
 
 ## 1. Systemutveckling och Innovation
 
@@ -115,3 +115,79 @@ Dessa exempel visar hur AUBI möjliggör arbete som:
 4. Bidrar till systemisk samhällsutveckling
 
 Genom att frigöra människor från konstant ekonomisk stress kan AUBI katalysera den typ av djupgående samhällsförändring som krävs för att möta vår tids utmaningar.
+
+## 1. AUBI:s effekt på kärlek
+
+### Personlig kärlek och omsorg
+**Exempel: Självomvårdnad och hälsofrämjande aktiviteter**
+- Tid för återhämtning och stressreducering
+- Möjlighet att prioritera fysisk och mental hälsa
+- Utveckling av självmedkänsla och självkännedom
+
+### Mellanmänsklig kärlek
+**Exempel: Utökad familje- och äldreomsorg**
+- Mer tid för barnuppfostran
+- Stöd till äldre anhöriga
+- Grannskapshjälp
+- Förebyggande hälsoarbete
+- Stärkt socialt skyddsnät
+
+### Universell medkänsla
+**Exempel: Interkulturella mötesplatser**
+- Organisation av kulturella utbyten
+- Mentorskap för nyanlända
+- Språkcaféer och kulturkvällar
+- Gemenskapsodlingar
+- Skapar social sammanhållning
+
+## 2. AUBI:s effekt på mening
+
+### Meningsfullt arbete och bidrag
+**Exempel: Utveckling av öppen programvara för demokrati**
+- Utveckling av system som DPOP och DidiS
+- Långsiktigt arbete utan omedelbar ekonomisk avkastning
+- Kräver djup fokus och frihet från ekonomisk stress
+- Skapar värde genom förbättrad demokratisk infrastruktur
+- Möjliggör nya former av medborgardeltagande
+
+### Meningsfull fritid och kreativitet
+**Exempel: Konstnärlig verksamhet**
+- Produktion av konst och musik
+- Kulturella evenemang
+- Dokumentation av lokalhistoria
+- Bevarande av traditioner
+- Bidrar till samhällets själsliga utveckling
+
+### Meningsfull personlig utveckling
+**Exempel: Alternativa lärandeinitiativ**
+- Utveckling av nya pedagogiska metoder
+- Mentorskap och kunskapsöverföring
+- Livslångt lärande
+- Forskning inom systemförändring
+- Stärker samhällets kunskapsbas
+
+## 3. AUBI:s effekt på sammanhang
+
+### Sammanhang med sig själv
+**Exempel: Kontemplativa praktiker**
+- Meditation och mindfulness
+- Existentiella samtal
+- Retreatledning
+- Integration av visdom och praktik
+- Fördjupar samhällets medvetande
+
+### Sammanhang med andra
+**Exempel: Arbete med samhällstransformation**
+- Utveckling av policydokument
+- Systemanalys och design
+- Facilitering av dialogprocesser
+- Internationellt nätverksbyggande
+- Bidrar till långsiktig systemförändring
+
+### Sammanhang med naturen
+**Exempel: Lokala matsystemslösningar**
+- Design av integrerade odlingssystem
+- Utveckling av delningsplattformar
+- Kunskapsöverföring och utbildning
+- Långsiktig ekologisk omställning
+- Stärkt lokal motståndskraft
