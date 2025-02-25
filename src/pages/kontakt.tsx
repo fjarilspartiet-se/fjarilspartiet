@@ -86,36 +86,43 @@ export default function ContactPage() {
                     Intresserad av att bidra till utvecklingen av vår digitala plattform eller andra tekniska projekt? 
                     Besök våra GitHub-repositories och engagera dig i utvecklingen.
                   </p>
-                  <p>
-                  <a 
-                    href="https://github.com/fjarilspartiet-se/fjarilspartiet"
-                    className="btn-primary"
-                  >
-                    Besök Fjärilspartiets Repository →
-                  </a>
+                  <div className="grid sm:grid-cols-2 gap-4 mt-4">
+                    <a 
+                      href="https://github.com/fjarilspartiet-se/fjarilspartiet"
+                      className="btn-primary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Besök Fjärilspartiets Repository →
+                    </a>
 
-                  <a 
-                    href="https://github.com/fjarilspartiet-se/DPOP"
-                    className="btn-primary"
-                  >
-                    Besök DPOPs Repository →
-                  </a>
+                    <a 
+                      href="https://github.com/fjarilspartiet-se/DPOP"
+                      className="btn-primary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Besök DPOPs Repository →
+                    </a>
 
-                  <a 
-                    href="https://github.com/BjornKennethHolmstrom/DidiS"
-                    className="btn-primary"
-                  >
-                    Besök DidiS Repository →
-                  </a>
+                    <a 
+                      href="https://github.com/BjornKennethHolmstrom/DidiS"
+                      className="btn-primary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Besök DidiS Repository →
+                    </a>
 
-                  <a 
-                    href="https://github.com/fjarilspartiet-se/communitree"
-                    className="btn-primary"
-                  >
-                    Besök CommuniTrees Repository →
-                  </a>
-                  </p>
-
+                    <a 
+                      href="https://github.com/fjarilspartiet-se/communitree"
+                      className="btn-primary"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Besök CommuniTrees Repository →
+                    </a>
+                  </div>
                 </div>
 
                 <div className="card">
