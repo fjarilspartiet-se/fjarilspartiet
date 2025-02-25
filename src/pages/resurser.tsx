@@ -1,5 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
 import { Book, Network, Brain, Heart, Globe, School } from 'lucide-react';
+import SystemsThinkingCourse from '../components/SystemsThinkingCourse';
 import SEO from '../components/SEO';
 
 export default function ResourcesPage() {
@@ -238,6 +239,17 @@ export default function ResourcesPage() {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="my-16">
+            <h2 className="text-3xl font-bold text-center mb-8">
+              Lär dig grunderna i systemtänkande
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8 text-center">
+              Utforska vår interaktiva introduktion till systemtänkande och holism - de grundläggande 
+              perspektiv som vägleder Fjärilspartiets approach till samhällsförändring.
+            </p>
+            <SystemsThinkingCourse />
           </div>
 
           {/* Kunskapsområden */}
