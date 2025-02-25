@@ -241,6 +241,131 @@ export default function ResourcesPage() {
             </div>
           </div>
 
+          {/* AI-verktyg */}
+          <div className="card mt-12">
+            <div className="flex items-center mb-4">
+              <Network className="w-6 h-6 text-indigo-600 mr-2" />
+              <h2 className="text-2xl font-bold">AI-verktyg för systemtänkande</h2>
+            </div>
+            <p className="text-gray-600 mb-6">
+              På Fjärilspartiet använder vi aktivt AI-assistenter som samarbetspartners för att hantera komplexa 
+              utmaningar och utveckla systemiska lösningar. Dessa verktyg kan förstärka mänsklig kreativitet, 
+              bidra med olika perspektiv och hjälpa till att syntetisera komplex information till 
+              användbara insikter.
+            </p>
+            
+            <div className="grid md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all">
+                <h3 className="font-semibold mb-2">Claude (Anthropic)</h3>
+                <p className="text-sm text-gray-600 mb-4">
+                  Särskilt stark för nyanserad policyanalys, förståelse av komplexa system och att generera genomtänkta 
+                  förklaringar av utvecklingskoncept.
+                </p>
+                <a 
+                  href="https://claude.ai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn-primary inline-flex items-center"
+                >
+                  Använd Claude
+                </a>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all">
+                <h3 className="font-semibold mb-2">ChatGPT (OpenAI)</h3>
+                <p className="text-sm text-gray-600 mb-4">
+                  Användbar för brainstorming, teknisk assistans, kreativ idégenerering och tillgång till bred 
+                  kunskapsbas inom olika ämnen.
+                </p>
+                <a 
+                  href="https://chat.openai.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn-primary inline-flex items-center"
+                >
+                  Använd ChatGPT
+                </a>
+              </div>
+              
+              <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-all">
+                <h3 className="font-semibold mb-2">DeepSeek</h3>
+                <p className="text-sm text-gray-600 mb-4">
+                  Värdefull för tekniska uppgifter, kodgenerering och att tillhandahålla alternativa perspektiv 
+                  på komplexa problem.
+                </p>
+                <a 
+                  href="https://chat.deepseek.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="btn-primary inline-flex items-center"
+                >
+                  Använd DeepSeek
+                </a>
+              </div>
+            </div>
+            
+            <h3 className="font-semibold mt-4 mb-2">Vår process för systemiskt AI-engagemang</h3>
+            <p className="text-gray-600 mb-2">
+              Vi har utvecklat en metodik för att använda AI-verktyg som överensstämmer med vårt systemiska tankesätt:
+            </p>
+            
+            <ol className="list-decimal list-inside text-gray-600 space-y-6 mt-4">
+              <li className="hover:bg-blue-50 p-3 rounded transition-colors">
+                <span className="font-medium">Identifiera en systemisk fråga</span>
+                <p className="ml-6 mt-1">
+                  Definiera problemet och dess gränser tydligt, kartlägg intressenter och deras relationer, 
+                  identifiera relevanta system och delsystem, och beakta flera perspektiv på frågan.
+                </p>
+              </li>
+              
+              <li className="hover:bg-blue-50 p-3 rounded transition-colors">
+                <span className="font-medium">Sök systemmedveten vägledning</span>
+                <p className="ml-6 mt-1">
+                  Formulera frågor som beaktar hela det berörda systemets välbefinnande, be om lösningar som 
+                  balanserar olika behov och perspektiv, efterfråga identifiering av potentiella oavsiktliga 
+                  konsekvenser, och utforska både kort- och långsiktiga effekter.
+                </p>
+              </li>
+              
+              <li className="hover:bg-blue-50 p-3 rounded transition-colors">
+                <span className="font-medium">Triangulera och syntetisera</span>
+                <p className="ml-6 mt-1">
+                  Dela svar mellan olika AI-verktyg, be om kritik och förfining av initiala förslag, 
+                  identifiera punkter där svar sammanfaller eller skiljer sig åt, och syntetisera flera 
+                  perspektiv till integrerade metoder.
+                </p>
+              </li>
+              
+              <li className="hover:bg-blue-50 p-3 rounded transition-colors">
+                <span className="font-medium">Implementera och iterera</span>
+                <p className="ml-6 mt-1">
+                  Tillämpa insikter på praktiska lösningar, testa implementeringar i små experiment där 
+                  misslyckanden är säkra, samla återkoppling från verkliga tillämpningar, och förfina 
+                  metoderna baserat på observerade resultat.
+                </p>
+              </li>
+            </ol>
+            
+            <h3 className="font-semibold mt-6 mb-2">Riktlinjer för effektiv användning</h3>
+            <ul className="list-disc list-inside text-gray-600 space-y-2">
+              <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                <span className="font-medium">Bibehåll mänskligt omdöme</span> - AI-verktyg är rådgivare, inte beslutsfattare
+              </li>
+              <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                <span className="font-medium">Beakta olika perspektiv</span> - Använd AI för att utforska synvinklar du kanske inte har övervägt
+              </li>
+              <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                <span className="font-medium">Leta efter systemiska mönster</span> - Be AI:er identifiera relationer och återkopplingsslingor
+              </li>
+              <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                <span className="font-medium">Verifiera faktapåståenden</span> - AI-system kan göra misstag, särskilt med specifika fakta
+              </li>
+              <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                <span className="font-medium">Dela dina erfarenheter</span> - Hjälp andra att lära sig genom att dokumentera vad som fungerar och vad som inte gör det
+              </li>
+            </ul>
+          </div>
+
           <div className="my-16">
             <h2 className="text-3xl font-bold text-center mb-8">
               Lär dig grunderna i systemtänkande
