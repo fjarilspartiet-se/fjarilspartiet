@@ -80,7 +80,7 @@ export default function VisionPage() {
             <div className="text-center mb-12">
               <h2 className="text-3xl font-bold mb-6">Att mäta det som verkligen betyder något</h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
-                I ett samhälle som främst mäter framgång genom BNP och ekonomisk tillväxt går vi miste om de djupare dimensioner som gör livet meningsfullt. Fjärilspartiet förespråkar en bredare syn på samhällsutveckling som inkluderar kärlek, mening, sammanhang och lekfullhet.
+                I ett samhälle som främst mäter framgång genom BNP och ekonomisk tillväxt går vi miste om de djupare dimensioner som gör livet meningsfullt. Fjärilspartiet förespråkar en bredare syn på samhällsutveckling som inkluderar kärlek, mening, sammanhang, lekfullhet, frihet och motståndskraft.
               </p>
             </div>
             

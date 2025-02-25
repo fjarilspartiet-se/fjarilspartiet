@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Twitter, Facebook, Linkedin, Link2 } from 'lucide-react';
+import { Twitter, Facebook, Linkedin, Link2, Share2 } from 'lucide-react';
 
 interface ShareButtonsProps {
   title?: string;
@@ -31,6 +31,28 @@ export default function ShareButtons({
     }
   };
 
+  // Native share functionality
+  const nativeShare = async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: title,
+          text: description,
+          url: url,
+        });
+        console.log('Content shared successfully');
+      } catch (err) {
+        console.error('Error sharing content:', err);
+      }
+    } else {
+      console.log('Web Share API not supported on this browser');
+      // Fallback - perhaps show a tooltip explaining that this feature is not available
+    }
+  };
+
+  // Check if Web Share API is available
+  const isWebShareAvailable = typeof navigator !== 'undefined' && !!navigator.share;
+
   return (
     <div className={`flex flex-col items-center space-y-4 ${className}`}>
       <p className="text-sm font-medium text-gray-400">
@@ -38,6 +60,17 @@ export default function ShareButtons({
       </p>
       
       <div className="flex space-x-4">
+        {/* Native Share Button - only shown if supported */}
+        {isWebShareAvailable && (
+          <button
+            onClick={nativeShare}
+            className="p-2 rounded-full bg-blue-500 hover:bg-blue-600 text-white transition-colors"
+            title="Dela via din enhet"
+          >
+            <Share2 className="w-5 h-5" />
+          </button>
+        )}
+        
         {/* Twitter */}
         <a
           href={twitterUrl}
