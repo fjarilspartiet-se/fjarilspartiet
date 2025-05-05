@@ -30,6 +30,10 @@ export default function ManifestPage() {
   const [copied, setCopied] = useState(false);
   // Removed the unused previewActive state
   const [formSubmitted, setFormSubmitted] = useState(false);
+  const [permalink, setPermalink] = useState('');
+
+  // Add loading state
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Styles for larger input fields
   const inputStyles = "w-full p-4 text-lg border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500";
@@ -155,11 +159,28 @@ export default function ManifestPage() {
     return `<p class="mb-4">${html}</p>`;
   };
 
+  // Basic form validation
+  const validateForm = () => {
+    // At minimum, require a meaning statement
+    if (!formData.meaning.trim()) {
+      alert('Vänligen beskriv din definition av en meningsfull tillvaro innan du skickar in.');
+      return false;
+    }
+    return true;
+  };
+
   // Handle form submission
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!validateForm()) {
+      return;
+    }
     
+    setIsSubmitting(true);
     try {
+      const submissionTime = new Date().toISOString();
+
       // Using Formspree for form submission
       const response = await fetch('https://formspree.io/f/mzzrrvlp', {
         method: 'POST',
@@ -168,9 +189,11 @@ export default function ManifestPage() {
         },
         body: JSON.stringify({
           ...formData,
+          manifestPermalink: permalink,
           formType: 'personal-manifesto',
-          timestamp: new Date().toISOString()
-        }),
+          timestamp: submissionTime,
+          manifestContent: generatePreview() + `\n\n_Inlämnat: ${new Date(submissionTime).toLocaleDateString('sv-SE')}_`
+        })
       });
       
       if (response.ok) {
@@ -180,11 +203,16 @@ export default function ManifestPage() {
         // Show success message
         setFormSubmitted(true);
       } else {
-        alert('Ett fel uppstod. Vänligen försök igen.');
+          const errorText = await response.text();
+          console.error('Submission error:', errorText);
+          alert(`Ett fel uppstod (${response.status}). Vänligen försök igen eller kontakta oss om problemet kvarstår.`);
+          return;
       }
     } catch (error) {
       console.error('Submission error:', error);
       alert('Ett fel uppstod vid anslutningen. Vänligen kontrollera din internetanslutning och försök igen.');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -201,13 +229,14 @@ export default function ManifestPage() {
 
   // Generate a random permalink for sharing
   const generatePermalink = () => {
-    const randomId = Math.random().toString(36).substring(2, 10);
-    return `https://fjarilspartiet.se/manifest/${randomId}`;
+    return permalink || `https://fjarilspartiet.se/manifest/${Math.random().toString(36).substring(2, 10)}`;
   };
 
   // Load draft on component mount
   useEffect(() => {
+    // Load draft and generate permalink once
     loadDraft();
+    setPermalink(generatePermalink());
   }, []); // Changed from useState to useEffect with empty dependency array
 
   return (
@@ -517,8 +546,12 @@ export default function ManifestPage() {
                       >
                         Förhandsgranska
                       </button>
-                      <button type="submit" className="btn-primary text-lg py-3 px-6">
-                        Skicka in manifestet
+                      <button 
+                        type="submit" 
+                        disabled={isSubmitting}
+                        className="btn-primary text-lg py-3 px-6"
+                      >
+                        {isSubmitting ? 'Skickar...' : 'Skicka in manifestet'}
                       </button>
                     </div>
                   </div>
