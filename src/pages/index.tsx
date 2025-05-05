@@ -1,6 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
-import { ArrowRight, Sprout, Network, Shield, GraduationCap } from 'lucide-react';
+import { ArrowRight, Sprout, Network, Shield, GraduationCap, PenTool } from 'lucide-react';
 import ShareButtons from '../components/ShareButtons';
 import SEO from '../components/SEO';
 
@@ -268,6 +268,25 @@ export default function Home() {
             />
           </div>
         </section>
+
+        <div className="card hover:shadow-lg transition-all group">
+          <div className="flex items-center mb-4">
+            <PenTool className="w-6 h-6 text-purple-600 mr-2 group-hover:scale-110 transition-transform" />
+            <h3 className="text-xl font-semibold text-gray-900">Personligt Manifest</h3>
+          </div>
+          <div className="mb-2 text-xs font-medium text-purple-600 bg-purple-50 rounded-full px-2 py-1 inline-block">
+            Ny funktion
+          </div>
+          <p className="text-gray-600 mb-4">
+            Artikulera din vision för ett meningsfullt samhälle. Skapa, dela och bidra med ditt 
+            personliga manifest.
+          </p>
+          <div className="mt-auto">
+            <Link href="/manifest" className="btn-primary inline-flex items-center">
+              Skapa ditt manifest <ArrowRight className="w-4 h-4 ml-2" />
+            </Link>
+          </div>
+        </div>
       </MainLayout>
     </>
   );

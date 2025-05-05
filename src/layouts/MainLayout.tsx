@@ -31,6 +31,9 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
               <Link href="/helhet" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Helhet
               </Link>
+              <Link href="/manifest" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
+                Manifest
+              </Link>
               <Link href="/bli-medlem" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Bli medlem
               </Link>
@@ -93,6 +96,18 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
                 className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
               >
                 Lösningar
+              </Link>
+              <Link
+                href="/helhet"
+                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
+              >
+                Helhet
+              </Link>
+              <Link
+                href="/manifest"
+                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
+              >
+                Manifest
               </Link>
               <Link
                 href="/bli-medlem"

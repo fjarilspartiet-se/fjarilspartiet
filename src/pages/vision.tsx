@@ -302,6 +302,20 @@ export default function VisionPage() {
             />
           </div>
         </section>
+
+        <section className="py-12 bg-blue-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="text-3xl font-bold mb-4">Vad lever du för?</h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+              Skapa ditt personliga manifest och bidra till vår gemensamma vision för ett 
+              meningsfullt samhälle.
+            </p>
+            <Link href="/manifest" className="btn-primary inline-flex items-center">
+              Skapa ditt manifest <ArrowRight className="w-5 h-5 ml-2" />
+            </Link>
+          </div>
+        </section>
+
       </MainLayout>
     </>
   );

@@ -232,6 +232,16 @@ export default function MembershipPage() {
                 <li>Kommunikation och utåtriktat arbete</li>
               </ul>
             </div>
+            <div className="card mt-8">
+              <h2 className="text-xl font-semibold mb-4">Definiera din vision</h2>
+              <p className="mb-4">
+                Vill du artikulera din personliga vision för ett meningsfullt samhälle? Skapa ditt 
+                personliga manifest för att utforska och dela vad du lever för.
+              </p>
+              <Link href="/manifest" className="btn-secondary">
+                Skapa ditt manifest →
+              </Link>
+            </div>
           </div>
         </div>
       </MainLayout>
