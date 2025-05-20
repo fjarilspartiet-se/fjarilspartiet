@@ -77,8 +77,8 @@ export default function ResourcesPage() {
               <ArrowRight className="w-4 h-4 ml-2" />
             </Link>
           </div>
-          
-          <h1 className="text-4xl font-bold text-center mb-12">
+                    
+          <h1 className="text-4xl my-16 font-bold text-center mb-12">
             Resurser för utveckling och fördjupning
           </h1>
 
@@ -99,79 +99,78 @@ export default function ResourcesPage() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            {/* Interaktiva verktyg */}
+            {/* Left column with Interaktiva verktyg and the Basinkomst subsection from Rekommenderad läsning */}
             <div className="card">
               <div className="flex items-center mb-4">
                 <Network className="w-6 h-6 text-blue-600 mr-2" />
                 <h2 className="text-2xl font-bold">Interaktiva verktyg</h2>
               </div>
-                <div className="space-y-4">
-                  <div>
-                    <h3 className="font-semibold mb-2">Spiralize.org</h3>
-                    <p className="text-gray-600 mb-2">
-                      Ett interaktivt verktyg för att utforska och förstå hur värderingar och 
-                      världsbilder utvecklas. Hjälper dig förstå den utvecklingspsykologiska grunden 
-                      för partiets systemiska approach.
-                    </p>
+              <div className="space-y-4">
+                <div>
+                  <h3 className="font-semibold mb-2">Spiralize.org</h3>
+                  <p className="text-gray-600 mb-2">
+                    Ett interaktivt verktyg för att utforska och förstå hur värderingar och 
+                    världsbilder utvecklas. Hjälper dig förstå den utvecklingspsykologiska grunden 
+                    för partiets systemiska approach.
+                  </p>
+                  <a 
+                    href="https://spiralize.org" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn-primary inline-flex items-center"
+                  >
+                    Utforska Spiralize
+                  </a>
+                </div>
+                
+                <div>
+                  <h3 className="font-semibold mb-2">DidiS & DPOP - Digital demokrati</h3>
+                  <p className="text-gray-600 mb-2">
+                    Våra open source-plattformar för demokratiskt deltagande och transparens:
+                  </p>
+                  <ul className="list-disc list-inside text-gray-600 space-y-2 mb-4">
+                    <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                      <span className="font-medium">DidiS</span> - Plattform för direktdemokrati och deltagarprocesser
+                    </li>
+                    <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                      <span className="font-medium">DPOP</span> - Partiets operativa plattform för transparent styrning och medlemsengagemang
+                    </li>
+                  </ul>
+                  <div className="flex gap-4">
                     <a 
-                      href="https://spiralize.org" 
+                      href="https://github.com/fjarilspartiet-se/DidiS" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="btn-primary inline-flex items-center"
                     >
-                      Utforska Spiralize
+                      DidiS på GitHub
+                    </a>
+                    <a 
+                      href="https://github.com/fjarilspartiet-se/DPOP" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="btn-primary inline-flex items-center"
+                    >
+                      DPOP på GitHub
                     </a>
                   </div>
-                  
-                  <div>
-                    <h3 className="font-semibold mb-2">DidiS & DPOP - Digital demokrati</h3>
-                    <p className="text-gray-600 mb-2">
-                      Våra open source-plattformar för demokratiskt deltagande och transparens:
-                    </p>
-                    <ul className="list-disc list-inside text-gray-600 space-y-2 mb-4">
-                      <li className="hover:bg-blue-50 p-2 rounded transition-colors">
-                        <span className="font-medium">DidiS</span> - Plattform för direktdemokrati och deltagarprocesser
-                      </li>
-                      <li className="hover:bg-blue-50 p-2 rounded transition-colors">
-                        <span className="font-medium">DPOP</span> - Partiets operativa plattform för transparent styrning och medlemsengagemang
-                      </li>
-                    </ul>
-                    <div className="flex gap-4">
-                      <a 
-                        href="https://github.com/fjarilspartiet-se/DidiS" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="btn-primary inline-flex items-center"
-                      >
-                        DidiS på GitHub
-                      </a>
-                      <a 
-                        href="https://github.com/fjarilspartiet-se/DPOP" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="btn-primary inline-flex items-center"
-                      >
-                        DPOP på GitHub
-                      </a>
-                    </div>
-                  </div>
                 </div>
-            </div>
 
-            {/* Rekommenderad läsning */}
-            <div className="card">
-              <div className="flex items-center mb-4">
-                <Book className="w-6 h-6 text-green-600 mr-2" />
-                <h2 className="text-2xl font-bold">Rekommenderad läsning</h2>
-              </div>
-              <div className="space-y-4">
-                <div>
-                  <h3 className="font-semibold">Basinkomst och ekonomisk innovation</h3>
+                <div className="flex items-center mb-4 mt-16">
+                  <Book className="w-6 h-6 text-green-600 mr-2 mt-16" />
+                  <h2 className="text-2xl font-bold mt-16">Rekommenderad läsning</h2>
+                </div>
+                
+                {/* Adding the Basinkomst section here for better balance */}
+                <div className="mt-2 pt-6 border-t">
+                  <div className="flex items-center mb-4">
+                    <h3 className="font-semibold">Basinkomst och ekonomisk innovation</h3>
+                  </div>
                   <p className="text-gray-600 mb-2">Grundläggande texter om ekonomisk grundtrygghet och systemförändring:</p>
                   <ul className="list-disc list-inside text-gray-600 space-y-2">
                     <li className="hover:bg-blue-50 p-2 rounded transition-colors">
-                      <span className="font-medium">&quot;Adaptiv Universell  Basinkomst - Ett nytt socialt kontrakt för 2000-talet&quot;</span> av Björn Holmström 
-                      - Denna bok är en djupgående utforskning av hur AUBI kan implementeras och omforma samhället. Genom 21 kapitel analyseras systemet från filosofiska, ekonomiska och praktiska perspektiv, med konkreta exempel och framtidsscenarier. Boken behandlar allt från tekniska implementeringsdetaljer och finansieringsmodeller till hur AUBI kan stärka lokalsamhällen och främja global rättvisa. Detta är en viktig resurs för alla som vill förstå den fulla potentialen i ett adaptivt och universellt grundinkomstsystem.
+                      <span className="font-medium">&quot;Adaptiv Universell Basinkomst - Ett nytt socialt kontrakt för 2000-talet&quot;</span> av Björn Holmström 
+                      - Denna bok är en djupgående utforskning av hur AUBI kan implementeras och omforma samhället.
                       <a 
                         href="https://bjornkennethholmstrom.wordpress.com/wp-content/uploads/2025/02/adaptiv-universell-basinkomst-ett-nytt-socialt-kontrakt-for-2000-talet.pdf"
                         target="_blank"
@@ -183,8 +182,7 @@ export default function ResourcesPage() {
                     </li>
                     <li className="hover:bg-blue-50 p-2 rounded transition-colors">
                       <span className="font-medium">&quot;Complex Adaptation and Permissionless Innovation&quot;</span> av Otto Lehto 
-                      - En doktorsavhandling som analyserar UBI från ett systemiskt och evolutionärt perspektiv, 
-                      särskilt relevant för vår approach till AUBI.
+                      - En doktorsavhandling som analyserar UBI från ett systemiskt perspektiv.
                       <a 
                         href="https://kclpure.kcl.ac.uk/portal/en/studentTheses/complex-adaptation-and-permissionless-innovation"
                         target="_blank"
@@ -194,20 +192,14 @@ export default function ResourcesPage() {
                         Ladda ner avhandlingen (PDF)
                       </a>
                     </li>
-                    <li className="hover:bg-blue-50 p-2 rounded transition-colors">
-                      <span className="font-medium">&quot;Universal Basic Income&quot;</span> av Karl Widerquist 
-                      - En koncis och välskriven introduktion till basinkomst från MIT Press Essential Knowledge-serien.
-                      <a 
-                        href="https://mitpress.mit.edu/9780262546898/universal-basic-income/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-600 hover:underline block mt-1"
-                      >
-                        Läs mer om boken
-                      </a>
-                    </li>
                   </ul>
                 </div>
+              </div>
+            </div>
+
+            {/* Right column with the remaining Rekommenderad läsning subsections */}
+            <div className="card">
+              <div className="space-y-4">
                 <div>
                   <h3 className="font-semibold">Systemtänkande</h3>
                   <p className="text-gray-600 mb-2">Grundläggande verk om hur vi kan förstå och arbeta med komplexa system:</p>
@@ -241,8 +233,7 @@ export default function ResourcesPage() {
                     <li className="hover:bg-blue-50 p-2 rounded transition-colors">
                       <span className="font-medium">&quot;Optimizing Reality: A Systems Thinking Guide for a Multi-Intelligence Future&quot;</span> av Björn Kenneth Holmström 
                       - Ett innovativt ramverk för hur olika former av intelligens – mänsklig, artificiell, ekologisk och kollektiv 
-                      – kan samverka för att skapa mer harmoniska och hållbara system. Boken presenterar praktiska verktyg för att 
-                      mäta och förbättra integration av olika intelligensformer i organisationer och samhällssystem.
+                      – kan samverka för att skapa mer harmoniska och hållbara system.
                       <a 
                         href="https://bjornkennethholmstrom.wordpress.com/optimizing-reality-a-systems-thinking-guide-for-a-multi-intelligence-future/"
                         target="_blank"
@@ -299,11 +290,21 @@ export default function ResourcesPage() {
                     </li>
                     <li className="hover:bg-blue-50 p-2 rounded transition-colors">
                       <span className="font-medium">&quot;Global Governance: Natural Steps Toward a Thriving World&quot;</span> av Björn Kenneth Holmström 
-                      - En praktisk färdplan för att skapa etiska, decentraliserade och deltagarbaserade globala styrsystem. 
-                      Boken kombinerar systemtänkande med modern teknologi för att visa hur vi kan implementera AUBI, 
-                      använda AI för att stärka demokratin, och skapa rättvisare ekonomiska system.
+                      - En praktisk färdplan för att skapa etiska, decentraliserade och deltagarbaserade globala styrsystem.
                       <a 
                         href="https://bjornkennethholmstrom.wordpress.com/global-governance-natural-steps-toward-a-thriving-world-2/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 hover:underline block mt-1"
+                      >
+                        Läs mer om boken
+                      </a>
+                    </li>
+                    <li className="hover:bg-blue-50 p-2 rounded transition-colors">
+                      <span className="font-medium">&quot;Universal Basic Income&quot;</span> av Karl Widerquist 
+                      - En koncis och välskriven introduktion till basinkomst från MIT Press Essential Knowledge-serien.
+                      <a 
+                        href="https://mitpress.mit.edu/9780262546898/universal-basic-income/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 hover:underline block mt-1"
