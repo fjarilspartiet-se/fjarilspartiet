@@ -19,7 +19,16 @@ const nextConfig = {
       ignored: ['**/supabase/**', '**/supabase-functions/**']
     };
     return config;
-  }
+  },
+  async redirects() {
+    return [
+      {
+        source: '/aubi',
+        destination: '/losningar?tab=aubi',
+        permanent: true, // or false if it's a temporary redirect
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
