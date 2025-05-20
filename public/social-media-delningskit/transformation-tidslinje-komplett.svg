@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1200 600"
+   version="1.1"
+   id="svg84"
+   sodipodi:docname="transformation-tidslinje-komplett.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   inkscape:export-filename="transformation-tidslinje-komplett.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview84"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.99702056"
+     inkscape:cx="617.33933"
+     inkscape:cy="477.42245"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg84" />
+  <!-- Definitions -->
+  <defs
+     id="defs16">
+    <!-- Background gradient -->
+    <linearGradient
+       id="bg-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#f9f7f7"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#f0f0f2"
+         id="stop2" />
+    </linearGradient>
+    <!-- Stage gradients -->
+    <linearGradient
+       id="egg-gradient"
+       x1="-57.131427"
+       y1="-57.131427"
+       x2="57.131427"
+       y2="57.131427"
+       gradientTransform="scale(0.84016805,1.1902381)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#f0f0f2"
+         id="stop3" />
+      <stop
+         offset="100%"
+         stop-color="#e0e0e2"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="caterpillar-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#b8e6da"
+         id="stop5" />
+      <stop
+         offset="100%"
+         stop-color="#77d1be"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="chrysalis-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#edbae0"
+         id="stop7" />
+      <stop
+         offset="100%"
+         stop-color="#de87cd"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="butterfly-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#b8a3a3"
+         id="stop9" />
+      <stop
+         offset="100%"
+         stop-color="#916f6f"
+         id="stop10" />
+    </linearGradient>
+    <!-- Leaf gradients -->
+    <linearGradient
+       id="leaf-gradient"
+       x1="45.327762"
+       y1="-19.996454"
+       x2="83.769159"
+       y2="-19.996454"
+       gradientTransform="scale(0.88246139,1.1331941)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#37c8ab"
+         id="stop11" />
+      <stop
+         offset="100%"
+         stop-color="#7ad7c1"
+         id="stop12" />
+    </linearGradient>
+    <!-- Wing gradients -->
+    <linearGradient
+       id="wing-gradient-1"
+       x1="-73.35953"
+       y1="-37.531848"
+       x2="0"
+       y2="35.827683"
+       gradientTransform="scale(0.84446658,1.1841795)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#de87cd"
+         id="stop13" />
+      <stop
+         offset="100%"
+         stop-color="#e7a9db"
+         id="stop14" />
+    </linearGradient>
+    <linearGradient
+       id="wing-gradient-2"
+       x1="0"
+       y1="-37.531848"
+       x2="73.35953"
+       y2="35.827683"
+       gradientTransform="scale(0.84446658,1.1841795)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#37c8ab"
+         id="stop15" />
+      <stop
+         offset="100%"
+         stop-color="#7ad7c1"
+         id="stop16" />
+    </linearGradient>
+    <style
+       type="text/css"
+       id="style16">
+      .timeline-text {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        fill: #4a3e3e;
+      }
+      
+      .stage-title {
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        fill: #4a3e3e;
+      }
+      
+      .stage-subtitle {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        fill: #6c5353;
+      }
+      
+      .bullet-list {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        fill: #4a3e3e;
+      }
+      
+      .stage-circle {
+        filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.1));
+      }
+      
+      .arrow {
+        fill: none;
+        stroke: #6c5353;
+        stroke-width: 2;
+        stroke-linecap: round;
+        marker-end: url(#arrowhead);
+      }
+    </style>
+    <!-- Arrow marker -->
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="7"
+       refX="0"
+       refY="3.5"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3.5, 0 7"
+         fill="#6c5353"
+         id="polygon16" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#caterpillar-gradient"
+       id="linearGradient84"
+       x1="-55"
+       y1="0"
+       x2="-25"
+       y2="30"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#caterpillar-gradient"
+       id="linearGradient85"
+       x1="-37"
+       y1="-7"
+       x2="-3"
+       y2="27"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#caterpillar-gradient"
+       id="linearGradient86"
+       x1="-20"
+       y1="-20"
+       x2="20"
+       y2="20"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#caterpillar-gradient"
+       id="linearGradient87"
+       x1="2"
+       y1="-23"
+       x2="38"
+       y2="13"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#caterpillar-gradient"
+       id="linearGradient88"
+       x1="24"
+       y1="-26"
+       x2="56"
+       y2="6"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#caterpillar-gradient"
+       id="linearGradient89"
+       x1="-72"
+       y1="6"
+       x2="-48"
+       y2="30"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#chrysalis-gradient"
+       id="linearGradient90"
+       x1="-44.765011"
+       y1="-45.236222"
+       x2="44.765011"
+       y2="44.293801"
+       gradientTransform="scale(0.75393703,1.3263707)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#chrysalis-gradient"
+       id="linearGradient91"
+       x1="-5.3033009"
+       y1="-53.033009"
+       x2="5.3033009"
+       y2="-42.426407"
+       gradientTransform="scale(0.70710678,1.4142136)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <!-- Background -->
+  <rect
+     width="1200"
+     height="600"
+     fill="url(#bg-gradient)"
+     id="rect16" />
+  <!-- Title -->
+  <text
+     x="600"
+     y="50"
+     font-family="Arial, sans-serif"
+     font-size="32px"
+     text-anchor="middle"
+     font-weight="bold"
+     fill="#4a3e3e"
+     id="text16">Fjärilsramverket</text>
+  <text
+     x="600"
+     y="85"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     text-anchor="middle"
+     fill="#6c5353"
+     id="text17">Samhällsförändring genom medveten transformation</text>
+  <!-- Timeline path -->
+  <path
+     d="m 150,330 h 900"
+     stroke="#6c5353"
+     stroke-width="3"
+     fill="none"
+     id="path17" />
+  <!-- Timeline markers -->
+  <circle
+     cx="150"
+     cy="330"
+     r="10"
+     fill="#6c5353"
+     id="circle17" />
+  <circle
+     cx="450"
+     cy="330"
+     r="10"
+     fill="#6c5353"
+     id="circle18" />
+  <circle
+     cx="750"
+     cy="330"
+     r="10"
+     fill="#6c5353"
+     id="circle19" />
+  <circle
+     cx="1050"
+     cy="330"
+     r="10"
+     fill="#6c5353"
+     id="circle20" />
+  <!-- Stage 1: Egg -->
+  <g
+     transform="translate(150,242)"
+     id="g26">
+    <ellipse
+       cx="0"
+       cy="0"
+       rx="50"
+       ry="70"
+       fill="#ffffff"
+       class="stage-circle"
+       id="ellipse20" />
+    <ellipse
+       cx="0"
+       cy="0"
+       rx="48"
+       ry="68"
+       fill="url(#egg-gradient)"
+       id="ellipse21"
+       style="fill:url(#egg-gradient)" />
+    <!-- Subtle patterns on the egg -->
+    <path
+       d="m -20,-50 q 20,-10 40,0"
+       fill="none"
+       stroke="#e0e0e2"
+       stroke-width="2"
+       id="path21" />
+    <path
+       d="m -25,-30 q 25,-10 50,0"
+       fill="none"
+       stroke="#e0e0e2"
+       stroke-width="2"
+       id="path22" />
+    <path
+       d="m -30,-10 q 30,-10 60,0"
+       fill="none"
+       stroke="#e0e0e2"
+       stroke-width="2"
+       id="path23" />
+    <path
+       d="M -30,10 Q 0,0 30,10"
+       fill="none"
+       stroke="#e0e0e2"
+       stroke-width="2"
+       id="path24" />
+    <path
+       d="M -25,30 Q 0,20 25,30"
+       fill="none"
+       stroke="#e0e0e2"
+       stroke-width="2"
+       id="path25" />
+    <path
+       d="M -20,50 Q 0,40 20,50"
+       fill="none"
+       stroke="#e0e0e2"
+       stroke-width="2"
+       id="path26" />
+    <!-- Highlight -->
+    <ellipse
+       cx="-15"
+       cy="-25"
+       rx="10"
+       ry="15"
+       fill="#ffffff"
+       opacity="0.3"
+       id="ellipse26" />
+  </g>
+  <text
+     x="150"
+     y="132"
+     class="stage-title"
+     text-anchor="middle"
+     id="text26">Äggstadiet</text>
+  <text
+     x="150"
+     y="157"
+     class="stage-subtitle"
+     text-anchor="middle"
+     id="text27">Den tålmodiga grundläggningen</text>
+  <g
+     transform="translate(150,382)"
+     id="g31">
+    <text
+       x="-120"
+       y="-10"
+       class="bullet-list"
+       id="text28">• Utveckling av ramverk</text>
+    <text
+       x="-120"
+       y="15"
+       class="bullet-list"
+       id="text29">• Byggande av digital infrastruktur</text>
+    <text
+       x="-120"
+       y="40"
+       class="bullet-list"
+       id="text30">• Kunskapsinhämtning</text>
+    <text
+       x="-120"
+       y="65"
+       class="bullet-list"
+       id="text31">• Skapande av gemenskapsbas</text>
+  </g>
+  <rect
+     x="20"
+     y="462"
+     width="260"
+     height="60"
+     rx="10"
+     fill="#ffffff"
+     stroke="#6c5353"
+     stroke-width="1.5"
+     id="rect31" />
+  <text
+     x="150"
+     y="487"
+     class="timeline-text"
+     text-anchor="middle"
+     id="text32">Förberedelse för systemförändring</text>
+  <text
+     x="150"
+     y="507"
+     class="timeline-text"
+     text-anchor="middle"
+     id="text33">Utveckling av nya koncept</text>
+  <!-- Stage 2: Caterpillar -->
+  <g
+     transform="translate(450,242)"
+     id="g46">
+    <g
+       class="stage-circle"
+       id="g45">
+      <!-- Body segments -->
+      <circle
+         cx="-40"
+         cy="15"
+         r="15"
+         fill="url(#caterpillar-gradient)"
+         id="circle33"
+         style="fill:url(#linearGradient84)" />
+      <circle
+         cx="-20"
+         cy="10"
+         r="17"
+         fill="url(#caterpillar-gradient)"
+         id="circle34"
+         style="fill:url(#linearGradient85)" />
+      <circle
+         cx="0"
+         cy="0"
+         r="20"
+         fill="url(#caterpillar-gradient)"
+         id="circle35"
+         style="fill:url(#linearGradient86)" />
+      <circle
+         cx="20"
+         cy="-5"
+         r="18"
+         fill="url(#caterpillar-gradient)"
+         id="circle36"
+         style="fill:url(#linearGradient87)" />
+      <circle
+         cx="40"
+         cy="-10"
+         r="16"
+         fill="url(#caterpillar-gradient)"
+         id="circle37"
+         style="fill:url(#linearGradient88)" />
+      <!-- Head -->
+      <circle
+         cx="-60"
+         cy="18"
+         r="12"
+         fill="url(#caterpillar-gradient)"
+         id="circle38"
+         style="fill:url(#linearGradient89)" />
+      <!-- Legs -->
+      <line
+         x1="-40"
+         y1="25"
+         x2="-40"
+         y2="35"
+         stroke="#37c8ab"
+         stroke-width="2"
+         id="line38" />
+      <line
+         x1="-20"
+         y1="20"
+         x2="-20"
+         y2="30"
+         stroke="#37c8ab"
+         stroke-width="2"
+         id="line39" />
+      <line
+         x1="0"
+         y1="15"
+         x2="0"
+         y2="25"
+         stroke="#37c8ab"
+         stroke-width="2"
+         id="line40" />
+      <line
+         x1="20"
+         y1="10"
+         x2="20"
+         y2="20"
+         stroke="#37c8ab"
+         stroke-width="2"
+         id="line41" />
+      <line
+         x1="40"
+         y1="5"
+         x2="40"
+         y2="15"
+         stroke="#37c8ab"
+         stroke-width="2"
+         id="line42" />
+      <!-- Face -->
+      <circle
+         cx="-65"
+         cy="15"
+         r="2"
+         fill="#4a3e3e"
+         id="circle42" />
+      <circle
+         cx="-55"
+         cy="15"
+         r="2"
+         fill="#4a3e3e"
+         id="circle43" />
+      <path
+         d="m -63,22 c 3,2 6,0 8,0"
+         fill="none"
+         stroke="#4a3e3e"
+         stroke-width="1.5"
+         id="path43" />
+      <!-- Antenna -->
+      <path
+         d="M -68,10 Q -75,0 -70,-10"
+         fill="none"
+         stroke="#37c8ab"
+         stroke-width="1.5"
+         id="path44" />
+      <path
+         d="m -52,10 q 7,-10 2,-20"
+         fill="none"
+         stroke="#37c8ab"
+         stroke-width="1.5"
+         id="path45" />
+    </g>
+    <!-- Leaf -->
+    <path
+       d="M 50,-20 C 70,-30 80,-10 70,10 60,30 40,20 40,0 Z"
+       fill="url(#leaf-gradient)"
+       opacity="0.7"
+       id="path46"
+       style="fill:url(#leaf-gradient)" />
+  </g>
+  <text
+     x="450"
+     y="132"
+     class="stage-title"
+     text-anchor="middle"
+     id="text46">Larvstadiet</text>
+  <text
+     x="450"
+     y="157"
+     class="stage-subtitle"
+     text-anchor="middle"
+     id="text47">Resursbyggande och tillväxt</text>
+  <g
+     transform="translate(450,382)"
+     id="g51">
+    <text
+       x="-120"
+       y="-10"
+       class="bullet-list"
+       id="text48">• Praktiska pilotprojekt</text>
+    <text
+       x="-120"
+       y="15"
+       class="bullet-list"
+       id="text49">• Insamling av resurser</text>
+    <text
+       x="-120"
+       y="40"
+       class="bullet-list"
+       id="text50">• Spridning av idéer</text>
+    <text
+       x="-120"
+       y="65"
+       class="bullet-list"
+       id="text51">• Byggande av nätverk</text>
+  </g>
+  <rect
+     x="320"
+     y="462"
+     width="260"
+     height="60"
+     rx="10"
+     fill="#ffffff"
+     stroke="#6c5353"
+     stroke-width="1.5"
+     id="rect51" />
+  <text
+     x="450"
+     y="487"
+     class="timeline-text"
+     text-anchor="middle"
+     id="text52">Implementering av lokala lösningar</text>
+  <text
+     x="450"
+     y="507"
+     class="timeline-text"
+     text-anchor="middle"
+     id="text53">Experimenterande och lärande</text>
+  <!-- Stage 3: Chrysalis -->
+  <g
+     transform="translate(750,252)"
+     id="g62">
+    <g
+       class="stage-circle"
+       id="g61">
+      <!-- Main chrysalis shape -->
+      <path
+         d="M 0,-60 C 30,-55 40,0 30,55 10,60 -10,60 -30,55 -40,0 -30,-55 0,-60 Z"
+         fill="url(#chrysalis-gradient)"
+         id="path53"
+         style="fill:url(#linearGradient90)" />
+      <!-- Chrysalis patterns -->
+      <path
+         d="m -20,-40 c 10,-5 30,-5 40,0"
+         fill="none"
+         stroke="#de87cd"
+         stroke-width="1.5"
+         id="path54" />
+      <path
+         d="m -24,-20 c 12,-5 36,-5 48,0"
+         fill="none"
+         stroke="#de87cd"
+         stroke-width="1.5"
+         id="path55" />
+      <path
+         d="m -26,0 c 13,-5 39,-5 52,0"
+         fill="none"
+         stroke="#de87cd"
+         stroke-width="1.5"
+         id="path56" />
+      <path
+         d="m -24,20 c 12,-5 36,-5 48,0"
+         fill="none"
+         stroke="#de87cd"
+         stroke-width="1.5"
+         id="path57" />
+      <path
+         d="m -20,40 c 10,-5 30,-5 40,0"
+         fill="none"
+         stroke="#de87cd"
+         stroke-width="1.5"
+         id="path58" />
+      <!-- Top connection -->
+      <path
+         d="m 0,-60 c 5,-5 5,-10 0,-15 -5,5 -5,10 0,15"
+         fill="url(#chrysalis-gradient)"
+         id="path59"
+         style="fill:url(#linearGradient91)" />
+      <!-- Highlights -->
+      <path
+         d="m -10,-30 h 20 l 5,15 -5,15 h -20 l -5,-15 z"
+         fill="#de87cd"
+         opacity="0.3"
+         id="path60" />
+      <path
+         d="m -10,20 h 20 l 5,15 -5,15 h -20 l -5,-15 z"
+         fill="#de87cd"
+         opacity="0.3"
+         id="path61" />
+    </g>
+    <!-- Branch connection -->
+    <path
+       d="M 0,-75 50,-90"
+       stroke="#6c5353"
+       stroke-width="2"
+       id="path62" />
+  </g>
+  <text
+     x="750"
+     y="132"
+     class="stage-title"
+     text-anchor="middle"
+     id="text62">Puppstadiet</text>
+  <text
+     x="750"
+     y="157"
+     class="stage-subtitle"
+     text-anchor="middle"
+     id="text63">Djupgående omvandling</text>
+  <g
+     transform="translate(750,382)"
+     id="g67">
+    <text
+       x="-120"
+       y="-10"
+       class="bullet-list"
+       id="text64">• Storskalig systemförändring</text>
+    <text
+       x="-120"
+       y="15"
+       class="bullet-list"
+       id="text65">• Implementering av AUBI</text>
+    <text
+       x="-120"
+       y="40"
+       class="bullet-list"
+       id="text66">• Transformation av institutioner</text>
+    <text
+       x="-120"
+       y="65"
+       class="bullet-list"
+       id="text67">• Kulturell omvandling</text>
+  </g>
+  <rect
+     x="620"
+     y="462"
+     width="260"
+     height="60"
+     rx="10"
+     fill="#ffffff"
+     stroke="#6c5353"
+     stroke-width="1.5"
+     id="rect67" />
+  <text
+     x="750"
+     y="487"
+     class="timeline-text"
+     text-anchor="middle"
+     id="text68">Struktur- och värderingsförändringar</text>
+  <text
+     x="750"
+     y="507"
+     class="timeline-text"
+     text-anchor="middle"
+     id="text69">Omdefiniering av samhällskontrakt</text>
+  <!-- Stage 4: Butterfly -->
+  <g
+     transform="translate(1050,242)"
+     class="stage-circle"
+     id="g73">
+    <!-- Left wing -->
+    <path
+       d="M -5,-30 C -40,-60 -70,-40 -60,0 -50,30 -20,60 0,30 -10,10 -10,-10 -5,-30"
+       fill="url(#wing-gradient-1)"
+       opacity="0.9"
+       id="path69"
+       style="fill:url(#wing-gradient-1)" />
+    <!-- Right wing -->
+    <path
+       d="M 5,-30 C 40,-60 70,-40 60,0 50,30 20,60 0,30 10,10 10,-10 5,-30"
+       fill="url(#wing-gradient-2)"
+       opacity="0.9"
+       id="path70"
+       style="fill:url(#wing-gradient-2)" />
+    <!-- Body -->
+    <path
+       d="M 0,-40 V 40"
+       stroke="#916f6f"
+       stroke-width="8"
+       id="path71" />
+    <!-- Head -->
+    <circle
+       cx="0"
+       cy="-40"
+       r="8"
+       fill="#916f6f"
+       id="circle71" />
+    <!-- Antennae -->
+    <path
+       d="m -5,-45 q -10,-10 -5,-25"
+       fill="none"
+       stroke="#916f6f"
+       stroke-width="1.5"
+       id="path72" />
+    <path
+       d="m 5,-45 q 10,-10 5,-25"
+       fill="none"
+       stroke="#916f6f"
+       stroke-width="1.5"
+       id="path73" />
+  </g>
+  <text
+     x="1050"
+     y="132"
+     class="stage-title"
+     text-anchor="middle"
+     id="text73">Fjärilsstadiet</text>
+  <text
+     x="1050"
+     y="157"
+     class="stage-subtitle"
+     text-anchor="middle"
+     id="text74">Blomstring och spridning</text>
+  <g
+     transform="translate(1050,382)"
+     id="g78">
+    <text
+       x="-120"
+       y="-10"
+       class="bullet-list"
+       id="text75">• Fullt utvecklad systemförändring</text>
+    <text
+       x="-120"
+       y="15"
+       class="bullet-list"
+       id="text76">• Mänsklig och ekologisk blomstring</text>
+    <text
+       x="-120"
+       y="40"
+       class="bullet-list"
+       id="text77">• Inspiration för global förändring</text>
+    <text
+       x="-120"
+       y="65"
+       class="bullet-list"
+       id="text78">• Hållbara samhällsstrukturer</text>
+  </g>
+  <rect
+     x="920"
+     y="462"
+     width="260"
+     height="60"
+     rx="10"
+     fill="#ffffff"
+     stroke="#6c5353"
+     stroke-width="1.5"
+     id="rect78" />
+  <text
+     x="1050"
+     y="487"
+     class="timeline-text"
+     text-anchor="middle"
+     id="text79">Ett samhälle i harmoni med naturen</text>
+  <text
+     x="1050"
+     y="507"
+     class="timeline-text"
+     text-anchor="middle"
+     id="text80">Individens och gemenskapens blomstring</text>
+  <!-- Connection arrows -->
+  <path
+     d="M 230,330 H 370"
+     class="arrow"
+     id="path80" />
+  <path
+     d="M 530,330 H 670"
+     class="arrow"
+     id="path81" />
+  <path
+     d="M 830,330 H 970"
+     class="arrow"
+     id="path82" />
+  <!-- Current stage indicator -->
+  <path
+     d="m 135,564 h 30 l -15,-15 z"
+     fill="#de87cd"
+     id="path83" />
+  <text
+     x="210"
+     y="564"
+     font-family="Arial, sans-serif"
+     font-size="18px"
+     font-weight="bold"
+     fill="#de87cd"
+     id="text83">Vi är här nu</text>
+  <!-- Fjärilspartiet branding -->
+  <g
+     transform="translate(1100,574)"
+     id="g84">
+    <text
+       x="0"
+       y="0"
+       font-family="Arial, sans-serif"
+       font-size="16px"
+       text-anchor="end"
+       fill="#6c5353"
+       id="text84">fjarilspartiet.se</text>
+  </g>
+  <g
+     id="g6349"
+     transform="matrix(0.13981733,0,0,0.13981733,955.47539,548.01086)">
+    <path
+       style="fill:#916f6f;fill-opacity:1;stroke:#000000;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 186.02665,214.41177 c -0.6473,-1.38039 -57.11486,-97.03295 -57.11486,-97.03295"
+       id="path857"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#de87cd;fill-opacity:1;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 124.91213,129.67987 c 0,0 -99.930879,-29.0738 -117.9066682,-13.68989 -4.7639298,4.56643 11.1116632,13.10254 19.9268132,23.79409 9.787402,11.87074 22.550028,13.73946 30.511727,22.59599 9.340043,10.38979 16.854238,23.1014 24.120002,29.22825 16.585672,13.98587 60.952926,-25.58086 63.003626,-23.39668 0.93324,0.994 -21.98985,26.38055 -32.65033,41.53564 -17.690553,25.14914 -12.052414,33.75789 9.19003,45.54453 18.41695,10.21888 51.15788,-2.89972 59.81143,-20.3735 4.59844,-9.28544 -8.85521,-29.77325 -8.85521,-29.77325 z"
+       id="path859"
+       sodipodi:nodetypes="ccssssssscc" />
+    <path
+       style="fill:#37c8ab;fill-opacity:1;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 140.61606,120.79857 c 0,0 23.22854,-98.652745 41.32862,-108.639375 6.87673,-3.7942009 13.22778,12.57948 17.41155,29.749287 3.13973,12.885242 -0.68393,26.698277 2.6072,39.235924 3.13509,11.943181 5.39564,26.131544 9.60557,34.918844 9.90706,20.67874 -46.39347,40.73378 -46.39347,40.73378 0,0 34.46532,-5.82285 51.77412,-6.86088 22.48158,-1.34824 28.81837,-2.76661 34.34583,27.36745 3.64826,19.88925 -20.54376,43.27205 -40.69161,44.99134 -11.58488,0.98858 -25.4329,-25.44458 -25.4329,-25.44458 z"
+       id="path861"
+       sodipodi:nodetypes="csssscssscc" />
+    <path
+       style="fill:none;stroke:#916f6f;stroke-width:2.408;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 118.02155,116.9044 66.030886,89.285014"
+       id="path863" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#916f6f;stroke-width:2.408;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 129.68602,108.95303 119.70286,58.862544"
+       id="path865"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;stroke:#000000;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 176.40313,207.11128 9.62352,7.30049 -2.86508,-13.64822"
+       id="path2264" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 135.80237,130.15431 -10.89024,-0.47444 47.15142,75.46518 13.9631,9.26672 c -14.24817,-24.96933 -13.45029,-24.59059 -50.22428,-84.25746 z"
+       id="path3079"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 140.61606,120.79857 -4.81369,9.35574 50.22428,84.25746 -0.85568,-17.56141 z"
+       id="path3081"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#916f6f;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path895"
+       sodipodi:type="arc"
+       sodipodi:cx="129.95512"
+       sodipodi:cy="121.97241"
+       sodipodi:rx="13.327892"
+       sodipodi:ry="13.022045"
+       sodipodi:start="4.712389"
+       sodipodi:end="4.6921955"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m 129.95512,108.95037 a 13.327892,13.022045 0 0 1 13.32773,12.9563 13.327892,13.022045 0 0 1 -13.19316,13.08712 13.327892,13.022045 0 0 1 -13.46093,-12.82417 13.327892,13.022045 0 0 1 13.05725,-13.2166" />
+  </g>
+</svg>

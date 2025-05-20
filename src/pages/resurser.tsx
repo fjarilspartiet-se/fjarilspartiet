@@ -1,5 +1,6 @@
 import MainLayout from '../layouts/MainLayout';
-import { Book, Network, Brain, Heart, Globe, School } from 'lucide-react';
+import { Book, Network, Brain, Heart, Globe, School, Share2, Copy, Check, ArrowRight, Users, Sprout } from 'lucide-react';
+import Link from 'next/link';
 import SystemsThinkingCourse from '../components/SystemsThinkingCourse';
 import SEO from '../components/SEO';
 
@@ -13,14 +14,89 @@ export default function ResourcesPage() {
       />
       <MainLayout>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+          {/* Social Media Kit Section - Add this after the "Studiegrupper" section */}
+          <div className="mt-12 bg-blue-50 p-8 rounded-lg">
+            <div className="flex items-center mb-4">
+              <Share2 className="w-6 h-6 text-blue-600 mr-2" />
+              <h2 className="text-2xl font-bold">Sociala medier delningskit</h2>
+            </div>
+            <p className="text-gray-600 mb-4">
+              Hjälp till att sprida Fjärilspartiets budskap med vårt kompletta delningskit för sociala medier.
+              Hämta färdiga mallar, infografik och grafik som är lätta att anpassa och dela.
+            </p>
+            <div className="grid sm:grid-cols-2 gap-6 mb-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="font-semibold mb-2">Innehåller:</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li className="flex items-center">
+                    <Copy className="w-4 h-4 text-blue-600 mr-2" />
+                    Citatmallar i olika format
+                  </li>
+                  <li className="flex items-center">
+                    <Brain className="w-4 h-4 text-purple-600 mr-2" />
+                    AUBI och systemtänkande infografik
+                  </li>
+                  <li className="flex items-center">
+                    <Users className="w-4 h-4 text-green-600 mr-2" />
+                    &quot;Bli medlem&quot;-mallar
+                  </li>
+                  <li className="flex items-center">
+                    <Sprout className="w-4 h-4 text-teal-600 mr-2" />
+                    Grafik för transformationsprocessen
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <h3 className="font-semibold mb-2">Fördelar:</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li className="flex items-center">
+                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    SVG-filer som är lätta att anpassa
+                  </li>
+                  <li className="flex items-center">
+                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    Färdiga PNG-filer för direkt delning
+                  </li>
+                  <li className="flex items-center">
+                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    Professionell design med partiets visuella identitet
+                  </li>
+                  <li className="flex items-center">
+                    <Check className="w-4 h-4 text-green-600 mr-2" />
+                    Texter och riktlinjer för effektiv kommunikation
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <Link 
+              href="/social-media-kit" 
+              className="btn-primary inline-flex items-center"
+            >
+              Utforska sociala medier delningskitet
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Link>
+          </div>
+          
           <h1 className="text-4xl font-bold text-center mb-12">
             Resurser för utveckling och fördjupning
           </h1>
-          
+
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12 text-center">
             Här har vi samlat verktyg, litteratur och resurser som kan hjälpa dig förstå 
             och bidra till partiets systemiska approach för samhällsförnyelse.
           </p>
+
+          <div className="my-16">
+            <h2 className="text-3xl font-bold text-center mb-8">
+              Lär dig grunderna i systemtänkande
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8 text-center">
+              Utforska vår interaktiva introduktion till systemtänkande och holism - de grundläggande 
+              perspektiv som vägleder Fjärilspartiets approach till samhällsförändring.
+            </p>
+            <SystemsThinkingCourse />
+          </div>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* Interaktiva verktyg */}
@@ -366,17 +442,6 @@ export default function ResourcesPage() {
             </ul>
           </div>
 
-          <div className="my-16">
-            <h2 className="text-3xl font-bold text-center mb-8">
-              Lär dig grunderna i systemtänkande
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8 text-center">
-              Utforska vår interaktiva introduktion till systemtänkande och holism - de grundläggande 
-              perspektiv som vägleder Fjärilspartiets approach till samhällsförändring.
-            </p>
-            <SystemsThinkingCourse />
-          </div>
-
           {/* Kunskapsområden */}
           <div className="grid md:grid-cols-3 gap-8">
             <div className="card">
@@ -430,6 +495,9 @@ export default function ResourcesPage() {
               Gå med i vår Discord-community
             </a>
           </div>
+
+
+
         </div>
       </MainLayout>
     </>

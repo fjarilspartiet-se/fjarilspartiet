@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg90"
+   sodipodi:docname="lokal-resiliens-ikoner.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview90"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="401.06383"
+     inkscape:cy="356.73759"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg90" />
+  <!-- Definitions -->
+  <defs
+     id="defs14">
+    <!-- Background gradient -->
+    <linearGradient
+       id="bg-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#f9f7f7"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#f0f0f2"
+         id="stop2" />
+    </linearGradient>
+    <!-- Icon backgrounds -->
+    <linearGradient
+       id="food-bg"
+       x1="-81"
+       y1="-81"
+       x2="81"
+       y2="81"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(175,210)">
+      <stop
+         offset="0%"
+         stop-color="#37c8ab"
+         stop-opacity="0.15"
+         id="stop3" />
+      <stop
+         offset="100%"
+         stop-color="#37c8ab"
+         stop-opacity="0.05"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="energy-bg"
+       x1="-81"
+       y1="-81"
+       x2="81"
+       y2="81"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(400,210)">
+      <stop
+         offset="0%"
+         stop-color="#de87cd"
+         stop-opacity="0.15"
+         id="stop5" />
+      <stop
+         offset="100%"
+         stop-color="#de87cd"
+         stop-opacity="0.05"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="community-bg"
+       x1="-81"
+       y1="-81"
+       x2="81"
+       y2="81"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(625,210)">
+      <stop
+         offset="0%"
+         stop-color="#916f6f"
+         stop-opacity="0.15"
+         id="stop7" />
+      <stop
+         offset="100%"
+         stop-color="#916f6f"
+         stop-opacity="0.05"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="water-bg"
+       x1="-81"
+       y1="-81"
+       x2="81"
+       y2="81"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(175,400)">
+      <stop
+         offset="0%"
+         stop-color="#5b9bd5"
+         stop-opacity="0.15"
+         id="stop9" />
+      <stop
+         offset="100%"
+         stop-color="#5b9bd5"
+         stop-opacity="0.05"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="biodiversity-bg"
+       x1="-81"
+       y1="-81"
+       x2="81"
+       y2="81"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(400,400)">
+      <stop
+         offset="0%"
+         stop-color="#70ad47"
+         stop-opacity="0.15"
+         id="stop11" />
+      <stop
+         offset="100%"
+         stop-color="#70ad47"
+         stop-opacity="0.05"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       id="economy-bg"
+       x1="-81"
+       y1="-81"
+       x2="81"
+       y2="81"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(625,400)">
+      <stop
+         offset="0%"
+         stop-color="#ffc000"
+         stop-opacity="0.15"
+         id="stop13" />
+      <stop
+         offset="100%"
+         stop-color="#ffc000"
+         stop-opacity="0.05"
+         id="stop14" />
+    </linearGradient>
+    <!-- Common icon styles -->
+    <style
+       type="text/css"
+       id="style14">
+      .icon-title {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-anchor: middle;
+        fill: #4a3e3e;
+      }
+      
+      .icon-circle {
+        stroke-width: 2;
+        filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.1));
+      }
+      
+      .icon-outline {
+        fill: none;
+        stroke-width: 2.5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="800"
+     height="600"
+     fill="url(#bg-gradient)"
+     id="rect14" />
+  <g
+     id="g6349"
+     transform="matrix(0.11111785,0,0,0.11111785,712.99944,565.7241)">
+    <path
+       style="fill:#916f6f;fill-opacity:1;stroke:#000000;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 186.02665,214.41177 c -0.6473,-1.38039 -57.11486,-97.03295 -57.11486,-97.03295"
+       id="path857"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#de87cd;fill-opacity:1;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 124.91213,129.67987 c 0,0 -99.930879,-29.0738 -117.9066682,-13.68989 -4.7639298,4.56643 11.1116632,13.10254 19.9268132,23.79409 9.787402,11.87074 22.550028,13.73946 30.511727,22.59599 9.340043,10.38979 16.854238,23.1014 24.120002,29.22825 16.585672,13.98587 60.952926,-25.58086 63.003626,-23.39668 0.93324,0.994 -21.98985,26.38055 -32.65033,41.53564 -17.690553,25.14914 -12.052414,33.75789 9.19003,45.54453 18.41695,10.21888 51.15788,-2.89972 59.81143,-20.3735 4.59844,-9.28544 -8.85521,-29.77325 -8.85521,-29.77325 z"
+       id="path859"
+       sodipodi:nodetypes="ccssssssscc" />
+    <path
+       style="fill:#37c8ab;fill-opacity:1;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 140.61606,120.79857 c 0,0 23.22854,-98.652745 41.32862,-108.639375 6.87673,-3.7942009 13.22778,12.57948 17.41155,29.749287 3.13973,12.885242 -0.68393,26.698277 2.6072,39.235924 3.13509,11.943181 5.39564,26.131544 9.60557,34.918844 9.90706,20.67874 -46.39347,40.73378 -46.39347,40.73378 0,0 34.46532,-5.82285 51.77412,-6.86088 22.48158,-1.34824 28.81837,-2.76661 34.34583,27.36745 3.64826,19.88925 -20.54376,43.27205 -40.69161,44.99134 -11.58488,0.98858 -25.4329,-25.44458 -25.4329,-25.44458 z"
+       id="path861"
+       sodipodi:nodetypes="csssscssscc" />
+    <path
+       style="fill:none;stroke:#916f6f;stroke-width:2.408;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 118.02155,116.9044 66.030886,89.285014"
+       id="path863" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#916f6f;stroke-width:2.408;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 129.68602,108.95303 119.70286,58.862544"
+       id="path865"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;stroke:#000000;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 176.40313,207.11128 9.62352,7.30049 -2.86508,-13.64822"
+       id="path2264" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 135.80237,130.15431 -10.89024,-0.47444 47.15142,75.46518 13.9631,9.26672 c -14.24817,-24.96933 -13.45029,-24.59059 -50.22428,-84.25746 z"
+       id="path3079"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 140.61606,120.79857 -4.81369,9.35574 50.22428,84.25746 -0.85568,-17.56141 z"
+       id="path3081"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#916f6f;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path895"
+       sodipodi:type="arc"
+       sodipodi:cx="129.95512"
+       sodipodi:cy="121.97241"
+       sodipodi:rx="13.327892"
+       sodipodi:ry="13.022045"
+       sodipodi:start="4.712389"
+       sodipodi:end="4.6921955"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m 129.95512,108.95037 a 13.327892,13.022045 0 0 1 13.32773,12.9563 13.327892,13.022045 0 0 1 -13.19316,13.08712 13.327892,13.022045 0 0 1 -13.46093,-12.82417 13.327892,13.022045 0 0 1 13.05725,-13.2166" />
+  </g>
+  <!-- Title -->
+  <text
+     x="400"
+     y="60"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     text-anchor="middle"
+     font-weight="bold"
+     fill="#4a3e3e"
+     id="text14">Lokal resiliens</text>
+  <text
+     x="400"
+     y="90"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     text-anchor="middle"
+     fill="#6c5353"
+     id="text15">Byggstenar för ett motståndskraftigt samhälle</text>
+  <!-- ===== FOOD SYSTEMS ===== -->
+  <circle
+     cx="175"
+     cy="210"
+     r="80"
+     fill="url(#food-bg)"
+     class="icon-circle"
+     stroke="#37c8ab"
+     id="circle15"
+     style="fill:url(#food-bg)" />
+  <g
+     transform="translate(175,195)"
+     id="g21">
+    <!-- Plate -->
+    <circle
+       cx="0"
+       cy="10"
+       r="35"
+       fill="none"
+       stroke="#37c8ab"
+       stroke-width="2.5"
+       id="circle16" />
+    <!-- Vegetables -->
+    <path
+       d="M -20,10 C -15,0 -10,5 -5,0 0,5 5,0 10,5 15,0 20,5 25,10"
+       class="icon-outline"
+       stroke="#37c8ab"
+       id="path16" />
+    <!-- Carrot -->
+    <path
+       d="M -15,10 V 25"
+       stroke="#37c8ab"
+       stroke-width="2.5"
+       id="path17" />
+    <path
+       d="m -15,10 -5,-5 5,-5 5,5 z"
+       fill="#de87cd"
+       stroke="#37c8ab"
+       stroke-width="1"
+       id="path18" />
+    <!-- Broccoli -->
+    <circle
+       cx="0"
+       cy="5"
+       r="8"
+       fill="#37c8ab"
+       id="circle18" />
+    <path
+       d="M 0,5 V 25"
+       stroke="#37c8ab"
+       stroke-width="2.5"
+       id="path19" />
+    <!-- Tomato -->
+    <circle
+       cx="15"
+       cy="15"
+       r="10"
+       fill="#de87cd"
+       stroke="#37c8ab"
+       stroke-width="1"
+       id="circle19" />
+    <path
+       d="m 15,5 v 5"
+       stroke="#37c8ab"
+       stroke-width="1.5"
+       id="path20" />
+    <path
+       d="m 15,5 c 2,-2 2,-5 0,-7"
+       stroke="#37c8ab"
+       stroke-width="1.5"
+       id="path21" />
+  </g>
+  <text
+     x="175"
+     y="308"
+     class="icon-title"
+     id="text21">Lokal matproduktion</text>
+  <!-- ===== RENEWABLE ENERGY ===== -->
+  <circle
+     cx="400"
+     cy="210"
+     r="80"
+     fill="url(#energy-bg)"
+     class="icon-circle"
+     stroke="#de87cd"
+     id="circle22"
+     style="fill:url(#energy-bg)" />
+  <g
+     transform="translate(400,200)"
+     id="g35">
+    <!-- Sun -->
+    <circle
+       cx="25"
+       cy="-20"
+       r="15"
+       fill="#de87cd"
+       opacity="0.7"
+       id="circle23" />
+    <path
+       d="m 25,-40 v 5"
+       stroke="#de87cd"
+       stroke-width="2"
+       id="path23" />
+    <path
+       d="M 25,0 V -5"
+       stroke="#de87cd"
+       stroke-width="2"
+       id="path24" />
+    <path
+       d="m 5,-20 h 5"
+       stroke="#de87cd"
+       stroke-width="2"
+       id="path25" />
+    <path
+       d="M 45,-20 H 40"
+       stroke="#de87cd"
+       stroke-width="2"
+       id="path26" />
+    <path
+       d="m 10,-35 5,5"
+       stroke="#de87cd"
+       stroke-width="2"
+       id="path27" />
+    <path
+       d="m 40,-35 -5,5"
+       stroke="#de87cd"
+       stroke-width="2"
+       id="path28" />
+    <path
+       d="m 10,-5 5,-5"
+       stroke="#de87cd"
+       stroke-width="2"
+       id="path29" />
+    <path
+       d="m 40,-5 -5,-5"
+       stroke="#de87cd"
+       stroke-width="2"
+       id="path30" />
+    <!-- Wind Turbine -->
+    <line
+       x1="-25"
+       y1="-15"
+       x2="-25"
+       y2="35"
+       stroke="#de87cd"
+       stroke-width="3"
+       id="line30" />
+    <path
+       d="M -25,-15 -45,-30"
+       stroke="#de87cd"
+       stroke-width="2.5"
+       id="path31" />
+    <path
+       d="M -25,-15 -5,-30"
+       stroke="#de87cd"
+       stroke-width="2.5"
+       id="path32" />
+    <path
+       d="M -25,-15 V -40"
+       stroke="#de87cd"
+       stroke-width="2.5"
+       id="path33" />
+    <!-- House with solar -->
+    <path
+       d="M 0,35 H 40 V 10 L 20,-5 0,10 Z"
+       fill="#ffffff"
+       stroke="#de87cd"
+       stroke-width="2"
+       id="path34" />
+    <rect
+       x="10"
+       y="15"
+       width="20"
+       height="20"
+       fill="#de87cd"
+       opacity="0.3"
+       stroke="#de87cd"
+       stroke-width="1"
+       id="rect34" />
+    <rect
+       x="15"
+       y="0"
+       width="25"
+       height="10"
+       fill="#de87cd"
+       opacity="0.5"
+       stroke="#de87cd"
+       stroke-width="1"
+       id="rect35" />
+  </g>
+  <text
+     x="400"
+     y="308"
+     class="icon-title"
+     id="text35">Förnybar energi</text>
+  <!-- ===== COMMUNITY BUILDING ===== -->
+  <circle
+     cx="625"
+     cy="210"
+     r="80"
+     fill="url(#community-bg)"
+     class="icon-circle"
+     stroke="#916f6f"
+     id="circle36"
+     style="fill:url(#community-bg)" />
+  <g
+     transform="translate(625,200)"
+     id="g50">
+    <!-- People in circle -->
+    <circle
+       cx="0"
+       cy="0"
+       r="35"
+       fill="none"
+       stroke="#916f6f"
+       stroke-width="2"
+       stroke-dasharray="5, 3"
+       id="circle37" />
+    <!-- Person 1 (top) -->
+    <circle
+       cx="0"
+       cy="-35"
+       r="10"
+       fill="#916f6f"
+       opacity="0.8"
+       id="circle38" />
+    <circle
+       cx="0"
+       cy="-35"
+       r="5"
+       fill="#ffffff"
+       opacity="0.3"
+       id="circle39" />
+    <!-- Person 2 (right) -->
+    <circle
+       cx="35"
+       cy="0"
+       r="10"
+       fill="#916f6f"
+       opacity="0.8"
+       id="circle40" />
+    <circle
+       cx="35"
+       cy="0"
+       r="5"
+       fill="#ffffff"
+       opacity="0.3"
+       id="circle41" />
+    <!-- Person 3 (bottom) -->
+    <circle
+       cx="0"
+       cy="35"
+       r="10"
+       fill="#916f6f"
+       opacity="0.8"
+       id="circle42" />
+    <circle
+       cx="0"
+       cy="35"
+       r="5"
+       fill="#ffffff"
+       opacity="0.3"
+       id="circle43" />
+    <!-- Person 4 (left) -->
+    <circle
+       cx="-35"
+       cy="0"
+       r="10"
+       fill="#916f6f"
+       opacity="0.8"
+       id="circle44" />
+    <circle
+       cx="-35"
+       cy="0"
+       r="5"
+       fill="#ffffff"
+       opacity="0.3"
+       id="circle45" />
+    <!-- Connecting lines -->
+    <line
+       x1="0"
+       y1="-25"
+       x2="25"
+       y2="0"
+       stroke="#916f6f"
+       stroke-width="2"
+       id="line45" />
+    <line
+       x1="25"
+       y1="0"
+       x2="0"
+       y2="25"
+       stroke="#916f6f"
+       stroke-width="2"
+       id="line46" />
+    <line
+       x1="0"
+       y1="25"
+       x2="-25"
+       y2="0"
+       stroke="#916f6f"
+       stroke-width="2"
+       id="line47" />
+    <line
+       x1="-25"
+       y1="0"
+       x2="0"
+       y2="-25"
+       stroke="#916f6f"
+       stroke-width="2"
+       id="line48" />
+    <line
+       x1="-25"
+       y1="0"
+       x2="25"
+       y2="0"
+       stroke="#916f6f"
+       stroke-width="2"
+       id="line49" />
+    <line
+       x1="0"
+       y1="-25"
+       x2="0"
+       y2="25"
+       stroke="#916f6f"
+       stroke-width="2"
+       id="line50" />
+  </g>
+  <text
+     x="625"
+     y="308"
+     class="icon-title"
+     id="text50">Gemenskap samarbete</text>
+  <!-- ===== WATER MANAGEMENT ===== -->
+  <circle
+     cx="175"
+     cy="400"
+     r="80"
+     fill="url(#water-bg)"
+     class="icon-circle"
+     stroke="#5b9bd5"
+     id="circle51"
+     style="fill:url(#water-bg)" />
+  <g
+     transform="translate(175,390)"
+     id="g59">
+    <!-- Rainwater collection -->
+    <path
+       d="M -35,30 H 35 V -10 C 35,-20 25,-20 25,-10 25,0 15,0 15,-10 15,-20 5,-20 5,-10 5,0 -5,0 -5,-10 c 0,-10 -10,-10 -10,0 0,10 -10,10 -10,0 0,-10 -10,-10 -10,0 z"
+       fill="#ffffff"
+       stroke="#5b9bd5"
+       stroke-width="2"
+       id="path51" />
+    <!-- Water level -->
+    <path
+       d="M -35,20 H 35"
+       stroke="#5b9bd5"
+       stroke-width="1"
+       stroke-dasharray="2, 2"
+       id="path52" />
+    <path
+       d="M -34,19 H 34 V 30 H -34 Z"
+       fill="#5b9bd5"
+       opacity="0.3"
+       id="path53" />
+    <!-- Clouds and rain -->
+    <path
+       d="m -20,-25 c -5,0 -10,5 -5,10 0,5 10,5 10,0 0,-5 0,-10 -5,-10 z"
+       fill="#5b9bd5"
+       opacity="0.5"
+       id="path54" />
+    <path
+       d="m 0,-30 c -5,0 -10,5 -5,10 0,5 10,5 10,0 0,-5 0,-10 -5,-10 z"
+       fill="#5b9bd5"
+       opacity="0.6"
+       id="path55" />
+    <path
+       d="m 20,-25 c -5,0 -10,5 -5,10 0,5 10,5 10,0 0,-5 0,-10 -5,-10 z"
+       fill="#5b9bd5"
+       opacity="0.5"
+       id="path56" />
+    <!-- Raindrops -->
+    <path
+       d="m -25,-15 v 5"
+       stroke="#5b9bd5"
+       stroke-width="1.5"
+       id="path57" />
+    <path
+       d="m -5,-20 v 10"
+       stroke="#5b9bd5"
+       stroke-width="1.5"
+       id="path58" />
+    <path
+       d="m 15,-15 v 5"
+       stroke="#5b9bd5"
+       stroke-width="1.5"
+       id="path59" />
+  </g>
+  <text
+     x="175"
+     y="498"
+     class="icon-title"
+     id="text59">Vattenförsörjning</text>
+  <!-- ===== BIODIVERSITY ===== -->
+  <circle
+     cx="400"
+     cy="400"
+     r="80"
+     fill="url(#biodiversity-bg)"
+     class="icon-circle"
+     stroke="#70ad47"
+     id="circle60"
+     style="fill:url(#biodiversity-bg)" />
+  <g
+     transform="translate(400,390)"
+     id="g70">
+    <!-- Trees -->
+    <path
+       d="M -30,30 V 15 h -5 l 10,-20 10,20 h -5 v 15 z"
+       fill="#70ad47"
+       opacity="0.8"
+       id="path60" />
+    <path
+       d="M 0,30 V 10 H -10 L 0,-15 10,10 H 0 Z"
+       fill="#70ad47"
+       id="path61" />
+    <path
+       d="M 30,30 V 15 H 20 L 30,-10 40,15 H 30 Z"
+       fill="#70ad47"
+       opacity="0.7"
+       id="path62" />
+    <!-- Flowers -->
+    <circle
+       cx="-25"
+       cy="18"
+       r="5"
+       fill="#de87cd"
+       opacity="0.7"
+       id="circle62" />
+    <circle
+       cx="15"
+       cy="25"
+       r="4"
+       fill="#de87cd"
+       opacity="0.8"
+       id="circle63" />
+    <circle
+       cx="35"
+       cy="20"
+       r="3"
+       fill="#de87cd"
+       opacity="0.6"
+       id="circle64" />
+    <!-- Bee -->
+    <ellipse
+       cx="10"
+       cy="0"
+       rx="6"
+       ry="4"
+       fill="#ffc000"
+       id="ellipse64" />
+    <ellipse
+       cx="10"
+       cy="0"
+       rx="5"
+       ry="3"
+       fill="#000000"
+       opacity="0.3"
+       id="ellipse65" />
+    <circle
+       cx="16"
+       cy="0"
+       r="3"
+       fill="#ffc000"
+       id="circle65" />
+    <path
+       d="M 16,-3 V 3"
+       stroke="#000000"
+       stroke-width="0.5"
+       id="path65" />
+    <path
+       d="M 8,-4 C 4,-2 4,2 8,4"
+       stroke="#ffc000"
+       stroke-width="0.5"
+       fill="none"
+       id="path66" />
+    <circle
+       cx="17"
+       cy="-1"
+       r="1"
+       fill="#ffffff"
+       opacity="0.5"
+       id="circle66" />
+    <!-- Bird -->
+    <path
+       d="m -15,0 c 3,-5 10,-5 10,0 0,5 -7,5 -10,0 z"
+       fill="#5b9bd5"
+       opacity="0.7"
+       id="path67" />
+    <path
+       d="M -5,0 H 0"
+       stroke="#5b9bd5"
+       stroke-width="1.5"
+       id="path68" />
+    <path
+       d="M 0,0 5,-5"
+       stroke="#5b9bd5"
+       stroke-width="1.5"
+       id="path69" />
+    <path
+       d="M 0,0 5,5"
+       stroke="#5b9bd5"
+       stroke-width="1.5"
+       id="path70" />
+    <circle
+       cx="-12"
+       cy="-1"
+       r="1"
+       fill="#000000"
+       id="circle70" />
+  </g>
+  <text
+     x="400"
+     y="498"
+     class="icon-title"
+     id="text70">Biologisk mångfald</text>
+  <!-- ===== LOCAL ECONOMY ===== -->
+  <circle
+     cx="625"
+     cy="400"
+     r="80"
+     fill="url(#economy-bg)"
+     class="icon-circle"
+     stroke="#ffc000"
+     id="circle71"
+     style="fill:url(#economy-bg)" />
+  <g
+     transform="translate(625,390)"
+     id="g80">
+    <!-- Market stall -->
+    <path
+       d="M -35,30 H 35 V 10 h -70 z"
+       fill="#ffffff"
+       stroke="#ffc000"
+       stroke-width="2"
+       id="path71" />
+    <path
+       d="m -35,10 10,-20 h 50 l 10,20"
+       fill="none"
+       stroke="#ffc000"
+       stroke-width="2"
+       id="path72" />
+    <path
+       d="M -25,-10 V 10"
+       stroke="#ffc000"
+       stroke-width="1.5"
+       id="path73" />
+    <path
+       d="M -5,-10 V 10"
+       stroke="#ffc000"
+       stroke-width="1.5"
+       id="path74" />
+    <path
+       d="M 15,-10 V 10"
+       stroke="#ffc000"
+       stroke-width="1.5"
+       id="path75" />
+    <!-- Awning stripes -->
+    <path
+       d="M -25,-10 H -5"
+       stroke="#ffc000"
+       stroke-width="8"
+       opacity="0.3"
+       id="path76" />
+    <path
+       d="M -5,-10 H 15"
+       stroke="#ffc000"
+       stroke-width="8"
+       opacity="0.4"
+       id="path77" />
+    <path
+       d="M 15,-10 H 25"
+       stroke="#ffc000"
+       stroke-width="8"
+       opacity="0.3"
+       id="path78" />
+    <!-- Products -->
+    <rect
+       x="-30"
+       y="15"
+       width="20"
+       height="10"
+       rx="2"
+       fill="#de87cd"
+       opacity="0.5"
+       id="rect78" />
+    <circle
+       cx="-10"
+       cy="20"
+       r="5"
+       fill="#37c8ab"
+       opacity="0.5"
+       id="circle78" />
+    <rect
+       x="0"
+       y="15"
+       width="10"
+       height="10"
+       fill="#916f6f"
+       opacity="0.4"
+       id="rect79" />
+    <circle
+       cx="20"
+       cy="20"
+       r="6"
+       fill="#70ad47"
+       opacity="0.5"
+       id="circle79" />
+    <path
+       d="m 25,18 5,4"
+       stroke="#ffc000"
+       stroke-width="1.5"
+       id="path79" />
+    <!-- Coin/currency symbol -->
+    <circle
+       cx="0"
+       cy="-25"
+       r="10"
+       fill="#ffc000"
+       opacity="0.8"
+       id="circle80" />
+    <text
+       x="0"
+       y="-21"
+       font-family="Arial, sans-serif"
+       font-size="14px"
+       text-anchor="middle"
+       font-weight="bold"
+       fill="#ffffff"
+       id="text80">kr</text>
+  </g>
+  <text
+     x="625"
+     y="498"
+     class="icon-title"
+     id="text81">Lokal ekonomi</text>
+  <!-- Bottom tagline -->
+  <text
+     x="400"
+     y="528"
+     font-family="Arial, sans-serif"
+     font-size="18px"
+     text-anchor="middle"
+     fill="#4a3e3e"
+     id="text82">Starka lokala system skapar ett motståndskraftigt samhälle</text>
+  <!-- Fjärilspartiet branding -->
+  <text
+     x="670"
+     y="565"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     fill="#6c5353"
+     id="text89">fjarilspartiet.se</text>
+</svg>

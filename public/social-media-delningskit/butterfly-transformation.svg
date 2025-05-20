@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 600"
+   version="1.1"
+   id="svg35"
+   sodipodi:docname="butterfly-transformation.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview35"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.41"
+     inkscape:cx="226.59574"
+     inkscape:cy="200.70922"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg35" />
+  <!-- Background with soft gradient -->
+  <defs
+     id="defs10">
+    <linearGradient
+       id="bg-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#f9f2f4"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#f0f7fa"
+         id="stop2" />
+    </linearGradient>
+    <!-- Cocoon gradient -->
+    <linearGradient
+       id="cocoon-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="0%">
+      <stop
+         offset="0%"
+         stop-color="#e6d2d5"
+         id="stop3" />
+      <stop
+         offset="100%"
+         stop-color="#d1bbc0"
+         id="stop4" />
+    </linearGradient>
+    <!-- Wing gradients -->
+    <linearGradient
+       id="wing-gradient-1"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#de87cd"
+         id="stop5" />
+      <stop
+         offset="100%"
+         stop-color="#e7a9db"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="wing-gradient-2"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#37c8ab"
+         id="stop7" />
+      <stop
+         offset="100%"
+         stop-color="#7ad7c1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="wing-gradient-3"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#f1c587"
+         id="stop9" />
+      <stop
+         offset="100%"
+         stop-color="#f5d6ae"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#cocoon-gradient"
+       id="linearGradient35"
+       x1="-34.641016"
+       y1="-17.320508"
+       x2="34.641016"
+       y2="-17.320508"
+       gradientTransform="matrix(0.4330127,0,0,2.3094011,150,280)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#wing-gradient-1"
+       id="linearGradient36"
+       x1="-73.35953"
+       y1="-37.531848"
+       x2="0"
+       y2="35.827683"
+       gradientTransform="matrix(0.84446658,0,0,1.1841795,150,280)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#wing-gradient-1"
+       id="linearGradient37"
+       x1="0"
+       y1="-37.531848"
+       x2="73.35953"
+       y2="35.827683"
+       gradientTransform="matrix(0.84446658,0,0,1.1841795,150,280)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#cocoon-gradient"
+       id="linearGradient38"
+       x1="-34.641016"
+       y1="-17.320508"
+       x2="34.641016"
+       y2="-17.320508"
+       gradientTransform="scale(0.4330127,2.3094011)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#wing-gradient-3"
+       id="linearGradient39"
+       x1="-73.35953"
+       y1="-33.309515"
+       x2="0"
+       y2="40.050015"
+       gradientTransform="scale(0.84446658,1.1841795)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#wing-gradient-3"
+       id="linearGradient40"
+       x1="0"
+       y1="-33.309515"
+       x2="73.35953"
+       y2="40.050015"
+       gradientTransform="scale(0.84446658,1.1841795)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <!-- Background -->
+  <rect
+     width="800"
+     height="600"
+     fill="url(#bg-gradient)"
+     id="rect10" />
+  <!-- Artist character (left) -->
+  <path
+     d="m 150,400 c -20,-40 -20,-120 0,-160 20,40 20,120 0,160"
+     fill="url(#cocoon-gradient)"
+     id="path10"
+     style="fill:url(#linearGradient35)" />
+  <circle
+     cx="150"
+     cy="238"
+     r="15"
+     fill="#f5d0ba"
+     id="circle10" />
+  <path
+     d="m 135,235 c 0,-10 30,-10 30,0 3,5 -10,-3 -15,-3 -5,0 -18,8 -15,3"
+     fill="#a68a64"
+     id="path11" />
+  <circle
+     cx="145"
+     cy="237"
+     r="2"
+     fill="#5b4431"
+     id="circle11" />
+  <circle
+     cx="155"
+     cy="237"
+     r="2"
+     fill="#5b4431"
+     id="circle12" />
+  <path
+     d="m 148,242 c 2,2 4,0 6,0"
+     fill="none"
+     stroke="#5b4431"
+     stroke-width="1.5"
+     id="path12" />
+  <path
+     d="m 146.04255,266.98582 5,-3 c 3,-2 5,3 3,5 l -5,3"
+     fill="#de87cd"
+     id="path13" />
+  <path
+     d="m 145,250 c -35,-30 -65,-10 -55,30 10,30 40,60 60,30 -10,-20 -10,-40 -5,-60"
+     fill="url(#wing-gradient-1)"
+     opacity="0.9"
+     id="path14"
+     style="fill:url(#linearGradient36)" />
+  <path
+     d="m 155,250 c 35,-30 65,-10 55,30 -10,30 -40,60 -60,30 10,-20 10,-40 5,-60"
+     fill="url(#wing-gradient-1)"
+     opacity="0.9"
+     id="path15"
+     style="fill:url(#linearGradient37)" />
+  <line
+     x1="132.67242"
+     y1="279.11716"
+     x2="147.67242"
+     y2="269.11719"
+     stroke="#8c6e54"
+     stroke-width="2"
+     id="line12" />
+  <!-- Parent character (middle) -->
+  <g
+     transform="translate(400, 300)"
+     id="g21">
+    <!-- Cocoon -->
+    <path
+       d="M0,120 C-20,80 -20,0 0,-40 C20,0 20,80 0,120"
+       fill="url(#cocoon-gradient)"
+       id="path16" />
+    <!-- Person emerging further -->
+    <g
+       transform="translate(0, -40)"
+       id="g19">
+      <!-- Head -->
+      <circle
+         cx="0"
+         cy="-22"
+         r="15"
+         fill="#e2c0a4"
+         id="circle16" />
+      <!-- Face -->
+      <circle
+         cx="-5"
+         cy="-23"
+         r="2"
+         fill="#5b4431"
+         id="circle17" />
+      <!-- Left eye -->
+      <circle
+         cx="5"
+         cy="-23"
+         r="2"
+         fill="#5b4431"
+         id="circle18" />
+      <!-- Right eye -->
+      <path
+         d="M-4,-18 C0,-15 4,-18 6,-18"
+         fill="none"
+         stroke="#5b4431"
+         stroke-width="1.5"
+         id="path18" />
+      <!-- Smile -->
+      <!-- Hair -->
+      <path
+         d="M-15,-30 C-10,-40 10,-40 15,-30"
+         fill="#724f3e"
+         id="path19" />
+      <!-- Child silhouette -->
+      <circle
+         cx="12"
+         cy="-10"
+         r="8"
+         fill="#f5d0ba"
+         id="circle19" />
+    </g>
+    <!-- Wings -->
+    <path
+       d="M-5,-35 C-50,-80 -80,-40 -70,10 C-60,40 -30,70 0,40 C-10,20 -10,-15 -5,-35"
+       fill="url(#wing-gradient-2)"
+       opacity="0.9"
+       id="path20" />
+    <path
+       d="M5,-35 C50,-80 80,-40 70,10 C60,40 30,70 0,40 C10,20 10,-15 5,-35"
+       fill="url(#wing-gradient-2)"
+       opacity="0.9"
+       id="path21" />
+  </g>
+  <!-- Programmer character (right) -->
+  <g
+     transform="translate(650,290)"
+     id="g27">
+    <!-- Cocoon -->
+    <path
+       d="M 0,120 C -20,80 -20,0 0,-40 20,0 20,80 0,120"
+       fill="url(#cocoon-gradient)"
+       id="path22"
+       style="fill:url(#linearGradient38)" />
+    <!-- Person emerging -->
+    <g
+       transform="translate(0,-30)"
+       id="g26">
+      <!-- Head -->
+      <circle
+         cx="0"
+         cy="-22"
+         r="15"
+         fill="#d3b49c"
+         id="circle22" />
+      <!-- Face -->
+      <circle
+         cx="-5"
+         cy="-23"
+         r="2"
+         fill="#5b4431"
+         id="circle23" />
+      <!-- Left eye -->
+      <circle
+         cx="5"
+         cy="-23"
+         r="2"
+         fill="#5b4431"
+         id="circle24" />
+      <!-- Right eye -->
+      <path
+         d="m -3,-18 c 2,2 6,0 8,0"
+         fill="none"
+         stroke="#5b4431"
+         stroke-width="1.5"
+         id="path24" />
+      <!-- Smile -->
+      <!-- Glasses -->
+      <rect
+         x="-10"
+         y="-25"
+         width="8"
+         height="6"
+         rx="2"
+         fill="none"
+         stroke="#5b4431"
+         stroke-width="1"
+         id="rect24" />
+      <rect
+         x="2"
+         y="-25"
+         width="8"
+         height="6"
+         rx="2"
+         fill="none"
+         stroke="#5b4431"
+         stroke-width="1"
+         id="rect25" />
+      <line
+         x1="-2"
+         y1="-22"
+         x2="2"
+         y2="-22"
+         stroke="#5b4431"
+         stroke-width="1"
+         id="line25" />
+      <!-- Code symbols -->
+      <text
+         x="-22"
+         y="-15"
+         font-family="monospace"
+         font-size="10px"
+         fill="#5b4431"
+         id="text25">{}</text>
+      <text
+         x="14"
+         y="-15"
+         font-family="monospace"
+         font-size="10px"
+         fill="#5b4431"
+         id="text26">&lt;/&gt;</text>
+    </g>
+    <!-- Wings -->
+    <path
+       d="M -5,-25 C -40,-55 -70,-35 -60,5 -50,35 -20,65 0,35 -10,15 -10,-5 -5,-25"
+       fill="url(#wing-gradient-3)"
+       opacity="0.9"
+       id="path26"
+       style="fill:url(#linearGradient39)" />
+    <path
+       d="M 5,-25 C 40,-55 70,-35 60,5 50,35 20,65 0,35 10,15 10,-5 5,-25"
+       fill="url(#wing-gradient-3)"
+       opacity="0.9"
+       id="path27"
+       style="fill:url(#linearGradient40)" />
+  </g>
+  <!-- Title text with serif font -->
+  <text
+     x="400"
+     y="160"
+     font-family="Georgia, serif"
+     font-size="48"
+     text-anchor="middle"
+     fill="#916f6f"
+     font-style="italic"
+     id="text27">
+    AUBI möjliggör liv
+  </text>
+  <!-- Subtext -->
+  <text
+     x="400"
+     y="460"
+     font-family="Helvetica, Arial, sans-serif"
+     font-size="18"
+     text-anchor="middle"
+     fill="#6c5353"
+     id="text28">
+    Adaptiv universell basinkomst. Ett första steg mot ett mänskligare samhälle.
+  </text>
+  <!-- Small butterfly logo at bottom -->
+  <g
+     id="g6349"
+     transform="matrix(0.16888814,0,0,0.16888814,378.23067,504.8395)">
+    <path
+       style="fill:#916f6f;fill-opacity:1;stroke:#000000;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 186.02665,214.41177 c -0.6473,-1.38039 -57.11486,-97.03295 -57.11486,-97.03295"
+       id="path857"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#de87cd;fill-opacity:1;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 124.91213,129.67987 c 0,0 -99.930879,-29.0738 -117.9066682,-13.68989 -4.7639298,4.56643 11.1116632,13.10254 19.9268132,23.79409 9.787402,11.87074 22.550028,13.73946 30.511727,22.59599 9.340043,10.38979 16.854238,23.1014 24.120002,29.22825 16.585672,13.98587 60.952926,-25.58086 63.003626,-23.39668 0.93324,0.994 -21.98985,26.38055 -32.65033,41.53564 -17.690553,25.14914 -12.052414,33.75789 9.19003,45.54453 18.41695,10.21888 51.15788,-2.89972 59.81143,-20.3735 4.59844,-9.28544 -8.85521,-29.77325 -8.85521,-29.77325 z"
+       id="path859"
+       sodipodi:nodetypes="ccssssssscc" />
+    <path
+       style="fill:#37c8ab;fill-opacity:1;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 140.61606,120.79857 c 0,0 23.22854,-98.652745 41.32862,-108.639375 6.87673,-3.7942009 13.22778,12.57948 17.41155,29.749287 3.13973,12.885242 -0.68393,26.698277 2.6072,39.235924 3.13509,11.943181 5.39564,26.131544 9.60557,34.918844 9.90706,20.67874 -46.39347,40.73378 -46.39347,40.73378 0,0 34.46532,-5.82285 51.77412,-6.86088 22.48158,-1.34824 28.81837,-2.76661 34.34583,27.36745 3.64826,19.88925 -20.54376,43.27205 -40.69161,44.99134 -11.58488,0.98858 -25.4329,-25.44458 -25.4329,-25.44458 z"
+       id="path861"
+       sodipodi:nodetypes="csssscssscc" />
+    <path
+       style="fill:none;stroke:#916f6f;stroke-width:2.408;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 118.02155,116.9044 66.030886,89.285014"
+       id="path863" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#916f6f;stroke-width:2.408;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 129.68602,108.95303 119.70286,58.862544"
+       id="path865"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;stroke:#000000;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 176.40313,207.11128 9.62352,7.30049 -2.86508,-13.64822"
+       id="path2264" />
+    <path
+       style="fill:#916f6f;fill-opacity:1;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 135.80237,130.15431 -10.89024,-0.47444 47.15142,75.46518 13.9631,9.26672 c -14.24817,-24.96933 -13.45029,-24.59059 -50.22428,-84.25746 z"
+       id="path3079"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.240799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 140.61606,120.79857 -4.81369,9.35574 50.22428,84.25746 -0.85568,-17.56141 z"
+       id="path3081"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#916f6f;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path895"
+       sodipodi:type="arc"
+       sodipodi:cx="129.95512"
+       sodipodi:cy="121.97241"
+       sodipodi:rx="13.327892"
+       sodipodi:ry="13.022045"
+       sodipodi:start="4.712389"
+       sodipodi:end="4.6921955"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m 129.95512,108.95037 a 13.327892,13.022045 0 0 1 13.32773,12.9563 13.327892,13.022045 0 0 1 -13.19316,13.08712 13.327892,13.022045 0 0 1 -13.46093,-12.82417 13.327892,13.022045 0 0 1 13.05725,-13.2166" />
+  </g>
+</svg>

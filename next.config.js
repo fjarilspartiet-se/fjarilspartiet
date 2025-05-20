@@ -2,11 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
+  images: {
+    unoptimized: true,
+  },
   // Only add basePath and image config for production
   ...(process.env.NODE_ENV === 'production' ? {
-    images: {
-      unoptimized: true,
-    },
   } : {}),
   // Remove experimental config as it's not needed for static export
   experimental: {
