@@ -64,7 +64,7 @@ export default function DocumentsPage() {
           id: "STR-206",
           title: "Individuell autonomi och personlig utveckling som social rättighet",
           description: "Vår syn på individuell utveckling och samhällsengagemang",
-          path: "STR/STR-200-politik/STR-206-individuell-autonomi-och-personlig-utveckling-som-social-rättighet.md"
+          path: "STR/STR-200-politik/STR-206-individuell-autonomi-personlig-utveckling-kärlek-mening-och-sammanhang-som-social-rättighet.md"
         },
         {
           id: "STR-228",
