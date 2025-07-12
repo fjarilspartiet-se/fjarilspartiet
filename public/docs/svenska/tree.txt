@@ -1,21 +1,6 @@
 .
-├── dokumenthierarki.md
-├── fil-och-katalogstruktur.txt
-├── fjärilsägg.png
-├── fjärilsägg.svg
-├── fjärilslarv.svg
-├── fjärilspartiet-intro.html
-├── fjärilspartiet-intro.md
-├── fjärilspartiet-intro.pdf
-├── fjärilspuppa.svg
-├── fjäril.svg
-├── guide-för-nya-medlemmar.md
-├── guide-till-nya-medlemmar.md
-├── guide-till-nya-medlemmar.pdf
-├── instagram-post.png
-├── instagram-post.svg
-├── instagram-post.txt
-├── introduktion-av-ChatGPT.md
+├── fallstudier-ggf
+│   └── FALLSTUDIE-GGF-001-Community-Work-Teams-i-praktiken.md
 ├── MED
 │   ├── MED-101-komma-igång.md
 │   ├── MED-102-organisera-möten.md
@@ -25,7 +10,6 @@
 │   ├── MED-106-kommunikation-och-samhällsdialog.md
 │   ├── MED-107-skalning-och-synergier.md
 │   └── MED-108-engagemangsväg-och-medlemsutveckling.md
-├── motivering-till-aubi.md
 ├── OPS
 │   ├── OPS-100-digital
 │   │   ├── OPS-101-partiets-operations-plattform-skiss.md
@@ -48,10 +32,6 @@
 │   │   └── OPS-300-teknologiska-ramverk.md
 │   └── OPS-400-internationellt
 │       └── OPS-400-internationella-samarbetsmekanismer.md
-├── personliga-manifest-mall.md
-├── qr-code-original-size.png
-├── qr-code.png
-├── qr-code.png~
 ├── STR
 │   ├── STR-100-grund
 │   │   ├── STR-001-långsiktig-vision-och-transformativa-mål.md
@@ -148,7 +128,5 @@
 │   │   └── TAK-403-ramverk-för-kulturell-innovation-och-bevarande.md
 │   └── TAK-500-land-och-lokal-utveckling
 │       └── TAK-501-landsbygdsutveckling-och-decentralisering.md
-├── tree.txt
-└── välkomstmeddelande.md
 
 18 directories, 133 files

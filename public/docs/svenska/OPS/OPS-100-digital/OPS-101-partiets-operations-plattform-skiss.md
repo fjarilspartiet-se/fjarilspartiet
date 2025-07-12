@@ -1,16 +1,17 @@
-OPS-101
-dokumentid: OPS-101  
-titel: Skiss av partiets operationsplattform  
-version: 1.0  
-senast-uppdaterad: 2024-10-29  
-ansvarig: Björn Kenneth Holmström  
-roll: Grundare och teknisk samordnare  
+# OPS-101
+---
+dokumentid: OPS-101
+titel: Skiss av partiets operationsplattform
+version: 1.0
+senast-uppdaterad: 2024-10-29
+ansvarig: Björn Kenneth Holmström
+roll: Grundare och teknisk samordnare
 relaterade-dokument:
-  - OPS-102: Specifikation för digital operationsplattform  
-  - OPS-103: Flexibelt styre inom digital operationsplattform  
-  - OPS-104: Försäkran om icke-korruption för digitala lösningar  
-  - TAK-101: Juridiskt ramverk  
-  - STR-100: Grundläggande ramverk - inledande skiss  
+- OPS-102: Specifikation för digital operationsplattform
+- OPS-103: Flexibelt styre inom digital operationsplattform
+- OPS-104: Försäkran om icke-korruption för digitala lösningar
+- TAK-101: Juridiskt ramverk
+- STR-100: Grundläggande ramverk - inledande skiss
 
 ---
 

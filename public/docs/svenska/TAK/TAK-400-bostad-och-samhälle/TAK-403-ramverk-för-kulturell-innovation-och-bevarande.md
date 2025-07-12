@@ -1,12 +1,12 @@
 # TAK-403
 ---
-dokumentid: TAK-403  
+dokumentid: TAK-403
 titel: Ramverk för kulturell innovation och bevarande
-version: 1.0  
-senast-uppdaterad: 2024-11-13  
-ansvarig: Björn Kenneth Holmström  
-roll: Grundare och Utvecklingssamordnare  
-relaterade-dokument:  
+version: 1.0
+senast-uppdaterad: 2024-11-13
+ansvarig: Björn Kenneth Holmström
+roll: Grundare och Utvecklingssamordnare
+relaterade-dokument:
 ---
 
 # Ramverk för kulturell innovation och bevarande

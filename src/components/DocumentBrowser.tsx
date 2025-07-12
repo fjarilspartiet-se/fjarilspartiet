@@ -65,6 +65,18 @@ export default function DocumentsPage() {
     }
 
     setFilteredDocuments(filtered);
+    
+    // Debug logging - remove this after fixing
+    console.log('Filter Debug:', {
+      selectedCategory,
+      selectedSubcategory,
+      searchTerm,
+      totalDocuments: documents.length,
+      filteredDocuments: filtered.length,
+      sampleDoc: documents[0],
+      availableCategories: [...new Set(documents.map(d => d.category))]
+    });
+    
   }, [searchTerm, selectedCategory, selectedSubcategory]);
 
   const toggleCategory = (categoryId: string) => {
@@ -78,6 +90,7 @@ export default function DocumentsPage() {
   };
 
   const handleCategorySelect = (categoryId: string) => {
+    console.log('Category selected:', categoryId);
     setSelectedCategory(categoryId === selectedCategory ? '' : categoryId);
     setSelectedSubcategory('');
     if (categoryId !== selectedCategory) {
@@ -103,13 +116,6 @@ export default function DocumentsPage() {
     setSelectedCategory('');
     setSelectedSubcategory('');
     setSearchTerm('');
-  };
-
-  // Get available subcategories for selected category
-  const getSubcategoriesForCategory = (categoryId: string) => {
-    const docsInCategory = documents.filter(doc => doc.category === categoryId);
-    const subcategories = [...new Set(docsInCategory.map(doc => doc.subcategory).filter(Boolean))];
-    return subcategories;
   };
 
   // Get current SEO info
@@ -260,75 +266,54 @@ export default function DocumentsPage() {
                     <h3 className="font-semibold mb-4">Kategorier</h3>
                     
                     <div className="space-y-2">
-                      {documentCategories.map((category) => {
-                        const subcategoriesInCategory = getSubcategoriesForCategory(category.id);
-                        const hasSubcategories = subcategoriesInCategory.length > 0;
-                        
-                        return (
-                          <div key={category.id}>
-                            <button
-                              onClick={() => {
-                                handleCategorySelect(category.id);
-                                if (hasSubcategories) {
-                                  toggleCategory(category.id);
-                                }
-                              }}
-                              className={`w-full text-left p-3 rounded-lg flex items-center justify-between ${
-                                selectedCategory === category.id 
-                                  ? 'bg-blue-50 text-blue-700 border border-blue-200' 
-                                  : 'hover:bg-gray-50'
-                              }`}
-                              style={{
-                                transition: 'none'
-                              }}
-                            >
-                              <div className="flex items-center">
-                                <span className="mr-2">{category.icon}</span>
-                                <div>
-                                  <div className="font-medium">{category.name}</div>
-                                  <div className="text-sm text-gray-500">{category.description}</div>
-                                </div>
+                      {documentCategories.map((category) => (
+                        <div key={category.id}>
+                          <button
+                            onClick={() => {
+                              handleCategorySelect(category.id);
+                              toggleCategory(category.id);
+                            }}
+                            className={`w-full text-left p-3 rounded-lg transition-colors flex items-center justify-between ${
+                              selectedCategory === category.id 
+                                ? 'bg-blue-50 text-blue-700 border border-blue-200' 
+                                : 'hover:bg-gray-50'
+                            }`}
+                          >
+                            <div className="flex items-center">
+                              <span className="mr-2">{category.icon}</span>
+                              <div>
+                                <div className="font-medium">{category.name}</div>
+                                <div className="text-sm text-gray-500">{category.description}</div>
                               </div>
-                              {hasSubcategories && (
-                                expandedCategories.has(category.id) 
-                                  ? <FolderOpen className="w-4 h-4" />
-                                  : <Folder className="w-4 h-4" />
-                              )}
-                            </button>
-
-                            {/* Subcategories */}
-                            {hasSubcategories && expandedCategories.has(category.id) && (
-                              <div className="ml-4 mt-2 space-y-1">
-                                {subcategoriesInCategory.map((subcategoryId) => {
-                                  const subcategoryInfo = category.subcategories?.[subcategoryId];
-                                  const subcategoryName = subcategoryInfo?.name || subcategoryId;
-                                  const subcategoryDesc = subcategoryInfo?.description || '';
-                                  
-                                  return (
-                                    <button
-                                      key={subcategoryId}
-                                      onClick={() => handleSubcategorySelect(subcategoryId)}
-                                      className={`w-full text-left p-2 rounded text-sm ${
-                                        selectedSubcategory === subcategoryId
-                                          ? 'bg-blue-50 text-blue-700'
-                                          : 'hover:bg-gray-50'
-                                      }`}
-                                      style={{
-                                        transition: 'none'
-                                      }}
-                                    >
-                                      <div className="font-medium">{subcategoryName}</div>
-                                      {subcategoryDesc && (
-                                        <div className="text-xs text-gray-500">{subcategoryDesc}</div>
-                                      )}
-                                    </button>
-                                  );
-                                })}
-                              </div>
+                            </div>
+                            {category.subcategories && (
+                              expandedCategories.has(category.id) 
+                                ? <FolderOpen className="w-4 h-4" />
+                                : <Folder className="w-4 h-4" />
                             )}
-                          </div>
-                        );
-                      })}
+                          </button>
+
+                          {/* Subcategories */}
+                          {category.subcategories && expandedCategories.has(category.id) && (
+                            <div className="ml-4 mt-2 space-y-1">
+                              {Object.entries(category.subcategories).map(([subcategoryId, subcategory]) => (
+                                <button
+                                  key={subcategoryId}
+                                  onClick={() => handleSubcategorySelect(subcategoryId)}
+                                  className={`w-full text-left p-2 rounded text-sm transition-colors ${
+                                    selectedSubcategory === subcategoryId
+                                      ? 'bg-blue-50 text-blue-700'
+                                      : 'hover:bg-gray-50'
+                                  }`}
+                                >
+                                  <div className="font-medium">{subcategory.name}</div>
+                                  <div className="text-xs text-gray-500">{subcategory.description}</div>
+                                </button>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
                     </div>
                   </div>
 
@@ -358,7 +343,11 @@ export default function DocumentsPage() {
                         )}
                         {selectedSubcategory && (
                           <div className="flex items-center justify-between">
-                            <span>Underkategori: {selectedSubcategory}</span>
+                            <span>Underkategori: {
+                              documentCategories
+                                .find(c => c.id === selectedCategory)
+                                ?.subcategories?.[selectedSubcategory]?.name
+                            }</span>
                             <button
                               onClick={() => setSelectedSubcategory('')}
                               className="text-blue-600 hover:text-blue-800"
@@ -385,7 +374,18 @@ export default function DocumentsPage() {
 
                 {/* Document List */}
                 <div className="lg:col-span-3">
-                  {filteredDocuments.length === 0 ? (
+                  {/* Debug information - remove after fixing */}
+              <div className="mb-4 bg-yellow-50 p-4 rounded-lg text-sm">
+                <strong>Debug Info:</strong>
+                <div>Total documents: {documents.length}</div>
+                <div>Filtered documents: {filteredDocuments.length}</div>
+                <div>Selected category: {selectedCategory || 'none'}</div>
+                <div>Selected subcategory: {selectedSubcategory || 'none'}</div>
+                <div>Available categories in documents: {[...new Set(documents.map(d => d.category))].join(', ')}</div>
+                <div>Available subcategories in documents: {[...new Set(documents.map(d => d.subcategory).filter(Boolean))].join(', ')}</div>
+              </div>
+
+              {filteredDocuments.length === 0 ? (
                     <div className="text-center py-12 text-gray-500">
                       <FileText className="w-12 h-12 mx-auto mb-4 text-gray-300" />
                       <p>Inga dokument hittades för de valda filtren.</p>
@@ -401,7 +401,7 @@ export default function DocumentsPage() {
                   ) : (
                     <div className="space-y-4">
                       {filteredDocuments.map((doc) => (
-                        <div key={doc.id} className="bg-white p-6 rounded-lg shadow-sm border hover:shadow-md transition-all duration-200">
+                        <div key={doc.id} className="bg-white p-6 rounded-lg shadow-sm border hover:shadow-md transition-shadow">
                           <div className="flex items-start justify-between mb-3">
                             <div className="flex-1">
                               <div className="flex items-center mb-2">
@@ -416,11 +416,6 @@ export default function DocumentsPage() {
                                 <span className="text-xs text-blue-600 bg-blue-50 px-2 py-1 rounded">
                                   {documentCategories.find(c => c.id === doc.category)?.name}
                                 </span>
-                                {doc.subcategory && (
-                                  <span className="text-xs text-green-600 bg-green-50 px-2 py-1 rounded ml-2">
-                                    {doc.subcategory}
-                                  </span>
-                                )}
                               </div>
                               <h4 className="text-lg font-semibold text-gray-900 mb-2">
                                 {doc.title}

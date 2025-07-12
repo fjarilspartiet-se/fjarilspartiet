@@ -240,7 +240,7 @@ export default function ManifestPage() {
     if (!permalink) {
       setPermalink(`https://fjarilspartiet.se/manifest/${Math.random().toString(36).substring(2, 10)}`);
     }
-  }, []); // Empty dependency array is now correct since we're not calling generatePermalink
+  }, [permalink]); // Include permalink in dependency array
 
   return (
     <>

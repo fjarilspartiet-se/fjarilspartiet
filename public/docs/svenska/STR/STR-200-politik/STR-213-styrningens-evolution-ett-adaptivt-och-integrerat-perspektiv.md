@@ -1,17 +1,17 @@
 # STR-213
 ---
-dokumentid: STR-213  
+dokumentid: STR-213
 titel: Styrningens Evolution: Ett adaptivt och integrerat perspektiv
-version: 1.0  
-senast-uppdaterad: 2024-10-30  
-ansvarig: Björn Kenneth Holmström  
-roll: Grundare och Visionär  
-relaterade-dokument:  
-  - STR-001 - Långsiktig Vision och Transformativa Mål  
-  - STR-202 - Globalt Medborgarskap och Rörelsefrihet  
-  - STR-203 - Individuell Utveckling och Självförverkligande  
-  - STR-204 - Ramverk för Global Ekonomisk Jämlikhet och Resursöverflöd  
-  - TAK-500 - Infrastruktur och Hållbar Utveckling  
+version: 1.0
+senast-uppdaterad: 2024-10-30
+ansvarig: Björn Kenneth Holmström
+roll: Grundare och Visionär
+relaterade-dokument:
+- STR-001 - Långsiktig Vision och Transformativa Mål
+- STR-202 - Globalt Medborgarskap och Rörelsefrihet
+- STR-203 - Individuell Utveckling och Självförverkligande
+- STR-204 - Ramverk för Global Ekonomisk Jämlikhet och Resursöverflöd
+- TAK-500 - Infrastruktur och Hållbar Utveckling
 ---
 
 # Styrningens evolution: Ett adaptivt och integrerat perspektiv

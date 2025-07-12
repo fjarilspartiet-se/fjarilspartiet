@@ -1,16 +1,16 @@
 # STR-503
 ---
-dokumentid: STR-503  
+dokumentid: STR-503
 titel: Riktlinjer för framväxande bioteknologier
-version: 1.0  
-senast-uppdaterad: 2024-11-13  
-ansvarig: Björn Kenneth Holmström  
-roll: Grundare och Visionär  
-relaterade-dokument:  
-  - STR-500 Digitalt Samhälle  
-  - STR-501 Digital etik och datasuveränitet  
-  - STR-502 Förhållande till Artificiell Intelligens  
-  - STR-503 Bioetik och framväxande tekniker
+version: 1.0
+senast-uppdaterad: 2024-11-13
+ansvarig: Björn Kenneth Holmström
+roll: Grundare och Visionär
+relaterade-dokument:
+- STR-500 Digitalt Samhälle
+- STR-501 Digital etik och datasuveränitet
+- STR-502 Förhållande till Artificiell Intelligens
+- STR-503 Bioetik och framväxande tekniker
 ---
 
 # Riktlinjer för framväxande bioteknologier
@@ -20,16 +20,16 @@ relaterade-dokument:
 
 #### 1.1 Tillåtna användningsområden
 - **Medicinska tillämpningar**
-  - Behandling av genetiska sjukdomar
-  - Cancerbehandling och immunterapi
-  - Regenerativ medicin
-  - Sällsynta sjukdomar utan nuvarande behandling
+- Behandling av genetiska sjukdomar
+- Cancerbehandling och immunterapi
+- Regenerativ medicin
+- Sällsynta sjukdomar utan nuvarande behandling
 
 - **Forskningsändamål**
-  - Grundforskning om genens funktion
-  - Utveckling av nya behandlingsmetoder
-  - Studier av sjukdomsmekanismer
-  - Validering av genetiska hypoteser
+- Grundforskning om genens funktion
+- Utveckling av nya behandlingsmetoder
+- Studier av sjukdomsmekanismer
+- Validering av genetiska hypoteser
 
 #### 1.2 Begränsningar och säkerhetsåtgärder
 - Förbud mot genetisk modifiering av könsceller
@@ -41,16 +41,16 @@ relaterade-dokument:
 
 #### 2.1 Medicinska tillämpningar
 - **Godkända användningsområden**
-  - Behandling av förlamning
-  - Återställande av sinnesfunktioner
-  - Kommunikationsstöd för funktionshindrade
-  - Behandling av neurologiska sjukdomar
+- Behandling av förlamning
+- Återställande av sinnesfunktioner
+- Kommunikationsstöd för funktionshindrade
+- Behandling av neurologiska sjukdomar
 
 - **Forskning och utveckling**
-  - Kartläggning av neural aktivitet
-  - Utveckling av mer precisa gränssnitt
-  - Studier av hjärnans plasticitet
-  - Förbättring av signal-brusförhållanden
+- Kartläggning av neural aktivitet
+- Utveckling av mer precisa gränssnitt
+- Studier av hjärnans plasticitet
+- Förbättring av signal-brusförhållanden
 
 #### 2.2 Integritetsskydd och datakontroll
 - Kryptering av neurala signaler
@@ -62,16 +62,16 @@ relaterade-dokument:
 
 #### 3.1 Godkända tillämpningar
 - **Medicinsk vävnadsteknik**
-  - Organodling för transplantation
-  - Hudvävnad för brännskador
-  - Benersättning och brosk
-  - Blodkärl och små vävnadsstrukturer
+- Organodling för transplantation
+- Hudvävnad för brännskador
+- Benersättning och brosk
+- Blodkärl och små vävnadsstrukturer
 
 - **Forskningsmodeller**
-  - Organoids för läkemedelstestning
-  - Sjukdomsmodellering
-  - Utvecklingsbiologiska studier
-  - Toxikologiska tester
+- Organoids för läkemedelstestning
+- Sjukdomsmodellering
+- Utvecklingsbiologiska studier
+- Toxikologiska tester
 
 #### 3.2 Säkerhetskrav och kontroller
 - Rigorösa sterilitetskontroller
@@ -83,16 +83,16 @@ relaterade-dokument:
 
 #### 4.1 Regulatoriskt ramverk
 - **Godkännandeprocess**
-  - Definierade faser för kliniska prövningar
-  - Krav på prekliniska säkerhetsstudier
-  - Etisk granskning och godkännande
-  - Kontinuerlig säkerhetsövervakning
+- Definierade faser för kliniska prövningar
+- Krav på prekliniska säkerhetsstudier
+- Etisk granskning och godkännande
+- Kontinuerlig säkerhetsövervakning
 
 - **Kvalitetskontroll**
-  - GMP-standarder för biotillverkning
-  - Validering av produktionsprocesser
-  - Dokumentationskrav
-  - Spårbarhetssystem
+- GMP-standarder för biotillverkning
+- Validering av produktionsprocesser
+- Dokumentationskrav
+- Spårbarhetssystem
 
 #### 4.2 Utbildning och certifiering
 - Obligatorisk certifiering för utövare

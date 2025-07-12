@@ -1,19 +1,18 @@
 # Fallstudie GGF-001: Gemenskapsarbetslag i praktiken
 ## Ett svenskt pilotprojekt som modellerar Global Governance Frameworks 
-
-**Dokumentid:** FALLSTUDIE-GGF-001  
-**Titel:** Gemenskapsarbetslag i praktiken - En svensk fallstudie  
-**Version:** 1.0  
-**Senast uppdaterad:** 2025-01-13  
-**Ansvarig:** Björn Kenneth Holmström  
-**Roll:** Grundare och teknisk samordnare  
-**Relaterade dokument:**
+---
+dokumentid: FALLSTUDIE-GGF-001
+titel: Gemenskapsarbetslag i praktiken - En svensk fallstudie
+version: 1.0 
+senast-uppdaterad: 2025-01-13
+ansvarig: Björn Kenneth Holmström
+roll: Grundare och teknisk samordnare
+relaterade-dokument:
 - STR-204 # AUBI fallstudie
 - Work in Liberation # Transformative Labour & Employment Governance Framework
 - Financial Systems Framework # Hearts och Leaves valutasystem
 - Indigenous & Traditional Knowledge Governance Framework # Bioregionala autonoma zoner
 - Treaty for Our Only Home # Planetär styrning
-
 ---
 
 ## Introduktion till gemenskapsarbetslag (GGF-koncept)

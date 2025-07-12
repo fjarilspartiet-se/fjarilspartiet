@@ -1,17 +1,17 @@
 # MED-108  
 ---  
-dokumentid: MED-108  
-titel: Engagemangsväg & Medlemsutveckling  
-version: 2.0  
-senast-uppdaterad: 2024-11-01  
-ansvarig: [Namn]  
-roll: Medlemskoordinator  
-relaterade-dokument:  
-  - MED-101 # Komma igång  
-  - MED-102 # Organisera möten  
-  - MED-104 # Lokala initiativ  
-  - TAK-105 # Intern demokrati  
-  - OPS-202 # Kommunikationsstrategi  
+dokumentid: MED-108
+titel: Engagemangsväg & Medlemsutveckling
+version: 2.0
+senast-uppdaterad: 2024-11-01
+ansvarig: Björn Kenneth Holmström
+roll: Medlemskoordinator
+relaterade-dokument:
+  - MED-101 # Komma igång
+  - MED-102 # Organisera möten
+  - MED-104 # Lokala initiativ
+  - TAK-105 # Intern demokrati
+  - OPS-202 # Kommunikationsstrategi
 ---  
 
 # Engagemangsväg & Medlemsutveckling  

@@ -7,7 +7,7 @@ senast-uppdaterad: 2024-10-30
 ansvarig: Björn Kenneth Holmström
 roll: Grundare och Teknisk Samordnare
 relaterade-dokument:
-  - STR-501 - Digital etik och datasuveränitet  
+  - STR-501 - Digital etik och datasuveränitet
 ---
 
 ## Förhållande till Artificiell Intelligens (AI)

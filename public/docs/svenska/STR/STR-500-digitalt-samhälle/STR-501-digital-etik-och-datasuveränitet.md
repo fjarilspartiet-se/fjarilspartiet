@@ -1,7 +1,7 @@
 # STR-501
 ---
 dokumentid: STR-501
-titel: Digital etik och datasuveränitet  
+titel: Digital etik och datasuveränitet
 version: 1.0
 senast-uppdaterad: 2024-10-30
 ansvarig: Björn Kenneth Holmström
