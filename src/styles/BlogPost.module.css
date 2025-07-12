@@ -1,0 +1,294 @@
+/* styles/BlogPost.module.css */
+.container {
+  max-width: 800px;
+  margin: 2rem auto 4rem;
+  padding: 0 20px;
+}
+
+.breadcrumb {
+  margin-bottom: 2rem;
+}
+
+.backLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6B7280;
+  text-decoration: none;
+  font-size: 0.875rem;
+  transition: color 0.2s;
+}
+
+.backLink:hover {
+  color: #2B4B8C;
+}
+
+.backLink svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+.postTitle {
+  font-size: 2.8rem;
+  color: #2B4B8C;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.postMeta {
+  font-size: 1rem;
+  color: #6B7280;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 1rem;
+}
+
+.postTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Enhanced markdown styles to match blog card aesthetic */
+.post-content :global(h2) {
+  font-size: 1.75rem;
+  color: #2B4B8C;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.post-content :global(h3) {
+  font-size: 1.375rem;
+  color: #4B5563;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content :global(h4) {
+  font-size: 1.125rem;
+  color: #6B7280;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-content :global(p) {
+  color: #4B5563;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+}
+
+.post-content :global(ul),
+.post-content :global(ol) {
+  color: #4B5563;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.post-content :global(li) {
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.post-content :global(ul li::marker) {
+  color: #2B4B8C;
+}
+
+.post-content :global(ol li::marker) {
+  color: #2B4B8C;
+  font-weight: 600;
+}
+
+.post-content :global(strong) {
+  font-weight: 600;
+  color: #2B4B8C;
+}
+
+.post-content :global(em) {
+  font-style: italic;
+  color: #6B7280;
+}
+
+.post-content :global(a) {
+  color: #2B4B8C;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.post-content :global(a:hover) {
+  color: #1e3a8a;
+  border-bottom-color: #2B4B8C;
+}
+
+.post-content :global(blockquote) {
+  border-left: 4px solid #2B4B8C;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-style: italic;
+  position: relative;
+}
+
+.post-content :global(blockquote::before) {
+  content: '"';
+  font-size: 3rem;
+  color: #2B4B8C;
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  opacity: 0.3;
+}
+
+.post-content :global(blockquote p) {
+  margin-bottom: 0;
+  padding-left: 2rem;
+  color: #374151;
+}
+
+.post-content :global(code) {
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  color: #2B4B8C;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid #e2e8f0;
+}
+
+.post-content :global(pre) {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  border: 1px solid #475569;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  overflow-x: auto;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-content :global(pre code) {
+  background: none;
+  color: #e2e8f0;
+  padding: 0;
+  border: none;
+  font-size: 0.875rem;
+}
+
+.post-content :global(img) {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+}
+
+.post-content :global(hr) {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #2B4B8C, transparent);
+  margin: 3rem 0;
+}
+
+.post-content :global(table) {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: white;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.post-content :global(th) {
+  background: #2B4B8C;
+  color: white;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.post-content :global(td) {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  color: #4B5563;
+}
+
+.post-content :global(tr:hover td) {
+  background-color: #f8fafc;
+}
+
+/* Special styling for first paragraph after headers */
+.post-content :global(h2 + p),
+.post-content :global(h3 + p) {
+  font-size: 1.1rem;
+  color: #374151;
+  font-weight: 400;
+}
+
+/* Enhanced list styling */
+.post-content :global(ul ul),
+.post-content :global(ol ol) {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-content :global(li p) {
+  margin-bottom: 0.5rem;
+}
+
+/* Add some visual breaks */
+.post-content :global(h2:not(:first-child)) {
+  margin-top: 3rem;
+}
+
+.tag {
+  background: rgba(43, 75, 140, 0.1);
+  color: #2B4B8C;
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .post-content :global(h2) {
+    font-size: 1.5rem;
+  }
+  
+  .post-content :global(h3) {
+    font-size: 1.25rem;
+  }
+  
+  .post-content :global(blockquote) {
+    margin: 1.5rem 0;
+    padding: 1rem;
+  }
+  
+  .post-content :global(blockquote::before) {
+    font-size: 2rem;
+    top: 0.25rem;
+    left: 0.75rem;
+  }
+  
+  .post-content :global(blockquote p) {
+    padding-left: 1.5rem;
+  }
+  
+  .post-content :global(pre) {
+    padding: 1rem;
+    margin: 1.5rem 0;
+  }
+}

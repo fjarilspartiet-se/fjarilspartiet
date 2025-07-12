@@ -158,9 +158,9 @@ export default function DocumentsPage() {
                         </span>
                       )}
                     </div>
-                    <h1 className="text-2xl font-bold text-gray-900 mb-2">
+                    <h4 className="text-xl font-semibold text-gray-900 mb-2 leading-tight">
                       {selectedDoc.title}
-                    </h1>
+                    </h4>
                     {selectedDoc.description && (
                       <p className="text-gray-600 mb-4">{selectedDoc.description}</p>
                     )}
@@ -300,9 +300,11 @@ export default function DocumentsPage() {
                             {hasSubcategories && expandedCategories.has(category.id) && (
                               <div className="ml-4 mt-2 space-y-1">
                                 {subcategoriesInCategory.map((subcategoryId) => {
-                                  const subcategoryInfo = category.subcategories?.[subcategoryId];
-                                  const subcategoryName = subcategoryInfo?.name || subcategoryId;
-                                  const subcategoryDesc = subcategoryInfo?.description || '';
+                                   if (!subcategoryId) return null;
+                                   
+                                   const subcategoryInfo = category.subcategories?.[subcategoryId];
+                                   const subcategoryName = subcategoryInfo?.name || subcategoryId;
+                                   const subcategoryDesc = subcategoryInfo?.description || '';
                                   
                                   return (
                                     <button

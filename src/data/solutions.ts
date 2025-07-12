@@ -118,46 +118,58 @@ export const HALLBARHET_CONTENT = {
   sections: [
     {
       title: 'Lokala matsystem',
-      description: 'Vårt program för lokal matsuveränitet kombinerar modern teknik med beprövade odlingsmetoder för att skapa motståndskraftiga matsystem.',
+      status: 'Koncept & Idéfas',
+      description: 'Vår vision är att skapa motståndskraftiga och regenerativa lokala matsystem där modern teknik och traditionell kunskap samverkar. Målet är att stärka den lokala ekonomin, öka den biologiska mångfalden genom skogsträdgårdar, och säkerställa att alla har tillgång till näringsrik mat.',
       items: [
         { icon: Leaf, text: 'Stadsodling minskar transportbehov' },
         { icon: Trees, text: 'Skogsträdgårdar ökar biologisk mångfald' },
         { icon: LeafyGreen, text: 'Lokala matmarknader stärker ekonomin' }
-      ]
+      ],
+      link: {
+        text: 'Grundas i principerna från STR-401',
+        href: '/dokument?doc=STR-401'
+      }
     },
     {
       title: 'Hälsosam stadsutveckling',
-      description: 'Ett alternativ till ohälsosam förtätning som prioriterar människors välmående:',
+      status: 'Koncept & Idéfas',
+      description: 'Vår vision är ett alternativ till ohälsosam förtätning som prioriterar människors välmående, sociala möten och närhet till natur.',
       items: [
         { icon: Users, text: 'Städer designade för människor, inte bilar' },
         { icon: Shrub, text: 'Integrerade grönytor och naturområden' },
-        { icon: Home, text: 'Varierad bebyggelse där lägre hus dominerar men högre byggnader tillåts där det är lämpligt' },
+        { icon: Home, text: 'Varierad bebyggelse med mänsklig skala' },
         { icon: Heart, text: 'Fokus på social sammanhållning och möten' }
-      ]
+      ],
+      link: {
+        text: 'Grundas i principerna från STR-222',
+        href: '/dokument?doc=STR-222'
+      }
     },
     {
       title: '15-minutersstaden',
-      description: 'Decentraliserad stadsplanering där allt viktigt finns nära:',
+      status: 'Koncept & Idéfas',
+      description: 'Vår vision är en decentraliserad stadsplanering där boende, arbete, service och rekreation finns inom 15 minuters gång- eller cykelavstånd, vilket minskar transportbehov och stärker lokala gemenskaper.',
       items: [
-        { icon: Clock, text: 'Alla vardagstjänster inom 15 minuters gång' },
-        { icon: Building, text: 'Decentraliserade centrum i varje område' },
-        { icon: Bike, text: 'Prioritet för gång och cykel' },
-        { icon: Store, text: 'Lokala verksamheter och service' }
+        { icon: Clock, text: 'Alla vardagstjänster inom 15 minuters gångavstånd' },
+        { icon: Building, text: 'Decentraliserade centrum i varje stadsdel' },
+        { icon: Bike, text: 'Prioritet för gång-, cykel- och kollektivtrafik' },
+        { icon: Store, text: 'Stöd för lokala verksamheter och service' }
       ]
     },
     {
       title: 'Energiomställning',
-      description: 'En kombination av förnybar energi och smart energianvändning:',
+      status: 'Policy under utveckling',
+      description: 'Vår vision är ett resilient och decentraliserat energisystem som bygger på förnybar energi, smart energianvändning och lokala energigemenskaper.',
       items: [
         { icon: Sun, text: 'Solceller på alla lämpliga tak' },
-        { icon: Users, text: 'Lokala energigemenskaper' },
-        { icon: Zap, text: 'Smart lastbalansering' },
-        { icon: Battery, text: 'Energilagring i batterier och vätgas' }
+        { icon: Users, text: 'Lokala energigemenskaper med rätt att sälja överskott' },
+        { icon: Zap, text: 'Smart lastbalansering för att optimera nätet' },
+        { icon: Battery, text: 'Stöd för energilagring i batterier och vätgas' }
       ]
     },
     {
       title: 'Cirkulära system',
-      description: 'Integrerade system för resurseffektivitet:',
+      description: 'Vår vision är integrerade system för resurseffektivitet:',
       items: [
         { icon: Droplets, text: 'Lokal dagvattenhantering och regnvatteninsamling' },
         { icon: Recycle, text: 'Cirkulär avfallshantering' },
@@ -167,7 +179,7 @@ export const HALLBARHET_CONTENT = {
     },
     {
       title: 'Social infrastruktur',
-      description: 'Strukturer som främjar gemenskap och välmående:',
+      description: 'Vår vision är strukturer som främjar gemenskap och välmående:',
       items: [
         { icon: Users, text: 'Gemenskapslokaler och mötesplatser' },
         { icon: Book, text: 'Bibliotek och kulturhus' },
@@ -212,6 +224,7 @@ export const DEMOKRATI_CONTENT = {
   sections: [
     {
       title: 'DidiS - Digital direktdemokrati',
+      status: 'Under utveckling',
       description: 'En öppen demokratiplattform som möjliggör deltagande på alla nivåer:',
       items: [
         { icon: Network, text: 'Säker digital röstning med öppen källkod' },
@@ -233,7 +246,11 @@ export const DEMOKRATI_CONTENT = {
         { icon: Users, text: '16-17 år: Rösträtt i kommunalval och folkomröstningar' },
         { icon: Wallet, text: 'Progressiv AUBI-implementation från 13 års ålder' },
         { icon: School, text: 'Reellt inflytande i skola och lokalsamhälle' }
-      ]
+      ],
+      link: {
+        text: 'Grundas i principerna från STR-210',
+        href: '/dokument?doc=STR-210'
+      }
     },
     {
       title: 'Integrerad flernivådemokrati',
@@ -243,7 +260,11 @@ export const DEMOKRATI_CONTENT = {
         { icon: Layers, text: 'Synkroniserade beslutsprocesser' },
         { icon: Link, text: 'Transparent ärendespårning mellan instanser' },
         { icon: Workflow, text: 'AI-stödd analys och syntes av input' }
-      ]
+      ],
+      link: {
+        text: 'Grundas i principerna från STR-218',
+        href: '/dokument?doc=STR-218'
+      }
     },
     {
       title: 'Digital infrastruktur',
@@ -319,7 +340,11 @@ export const UTBILDNING_CONTENT = {
         { icon: Network, text: 'Systemtänkande och förståelse för samband' },
         { icon: Heart, text: 'Emotionell intelligens och empatisk förmåga' },
         { icon: Stars, text: 'Stöd att upptäcka och utveckla personlig potential' }
-      ]
+      ],
+      link: {
+        text: 'Grundas i principerna från STR-210',
+        href: '/dokument?doc=STR-210'
+      }
     },
     {
       title: 'Radikal individualisering',
@@ -420,7 +445,11 @@ export const TRANSFORMATION_CONTENT = {
         { icon: Users, text: "Andliga center som neutrala mötesplatser för fredsförhandlingar" },
         { icon: Brain, text: "AI-stödda system för tidig konfliktidentifiering" },
         { icon: Globe, text: "Plattformar för gräsrotsdiplomati" }
-      ]
+      ],
+      link: {
+        text: 'Grundas i principerna från STR-305',
+        href: '/dokument?doc=STR-305'
+      }
     },
     {
       title: "Ekonomisk rättvisa",
@@ -430,7 +459,11 @@ export const TRANSFORMATION_CONTENT = {
         { icon: TrendingUp, text: "Avancerade ekonomiska simuleringar för rättvis resursfördelning" },
         { icon: Share2, text: "Teknologidemokratisering genom open source" },
         { icon: Network, text: "Decentraliserade forsknings- och utvecklingsnätverk" }
-      ]
+      ],
+      link: {
+        text: 'Grundas i principerna från STR-306',
+        href: '/dokument?doc=STR-306'
+      }
     },
     {
       title: "Vetenskaplig-spirituell integration",
@@ -440,7 +473,11 @@ export const TRANSFORMATION_CONTENT = {
         { icon: BookOpen, text: "Integration av kontemplativa praktiker i utbildning" },
         { icon: Users, text: "Internationella nätverk för kunskapsdelning" },
         { icon: Compass, text: "Etisk vägledning för teknologisk utveckling" }
-      ]
+      ],
+      link: {
+        text: 'Grundas i principerna från STR-307',
+        href: '/dokument?doc=STR-307'
+      }
     }
   ],
   evidence: [
@@ -503,7 +540,7 @@ export const PROJEKT_CONTENT = {
       ],
       linkText: 'Bidra till utvecklingen',
       linkHref: 'https://github.com/fjarilspartiet-se/MU'
-    },
+    }/*,
     {
       title: 'FUN(TIME) - Freedom and Unity Network',
       status: 'Under utveckling',
@@ -515,7 +552,7 @@ export const PROJEKT_CONTENT = {
       ],
       linkText: 'Bidra till utvecklingen',
       linkHref: 'https://github.com/BjornKennethHolmstrom/FUN'
-    }
+    }*/
   ],
   proposals: [
     {

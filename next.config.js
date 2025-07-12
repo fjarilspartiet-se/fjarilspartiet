@@ -25,10 +25,16 @@ const nextConfig = {
       {
         source: '/aubi',
         destination: '/losningar?tab=aubi',
-        permanent: true, // or false if it's a temporary redirect
+        permanent: true,
       },
     ];
   },
+  // Add trailing slash for static export
+  trailingSlash: true,
+  // Ensure all blog pages are generated at build time
+  async generateBuildId() {
+    return 'build-' + Date.now();
+  }
 };
 
 module.exports = nextConfig;

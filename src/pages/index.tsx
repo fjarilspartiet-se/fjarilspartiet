@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <SEO 
         title="Fjärilspartiet - Ett parti för systemisk samhällsförnyelse"
-        description="Vi utvecklar konkreta lösningar för ett samhälle där alla kan blomstra. Genom systemtänkande och evidensbaserad utveckling skapar vi strukturer som fungerar för både människor och miljö."
+        description="En inbjudan att tillsammans skapa ett samhälle där alla kan blomstra. Med systemtänkande som kompass och öppen utveckling som metod, lägger vi grunden för strukturer som fungerar för både människor och miljö."
         canonical="/"
       />
       <MainLayout>
@@ -61,7 +61,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-[var(--color-primary)] mb-4">
-                Konkreta lösningar för verkliga utmaningar
+                Tankefrön för verkliga utmaningar
               </h2>
               <p className="mt-4 text-lg text-[var(--color-text-muted)] max-w-2xl mx-auto">
                 Våra förslag bygger på forskning, praktisk erfarenhet och systemtänkande. 
@@ -80,12 +80,12 @@ export default function Home() {
                   Under aktiv utveckling
                 </div>
                 <p className="text-[var(--color-text-muted)] mb-4">
-                  Ett intelligent välfärdssystem som skapar möjligheter för alla:
+                  En vision om ett intelligent välfärdssystem som kan skapa möjligheter för alla:
                 </p>
                 <ul className="list-disc list-inside text-[var(--color-text-muted)] space-y-2 mb-4">
-                  <li>Garanterar ekonomisk grundtrygghet för alla</li>
+                  <li>Garantera ekonomisk grundtrygghet för alla</li>
                   <li>Frigör tid för personlig utveckling och företagande</li>
-                  <li>Stärker lokala gemenskaper och rättvis fördelning</li>
+                  <li>Stärk lokala gemenskaper och rättvis fördelning</li>
                   <li>Möjliggör meningsfullt bidragande till samhället</li>
                 </ul>
                 <div className="mt-auto">
@@ -105,13 +105,13 @@ export default function Home() {
                   Pilotprojekt behöver startas
                 </div>
                 <p className="text-[var(--color-text-muted)] mb-4">
-                  Praktiska lösningar för ett robust och blomstrande samhälle:
+                  En vision om praktiska lösningar för ett robust och blomstrande samhälle:
                 </p>
                 <ul className="list-disc list-inside text-[var(--color-text-muted)] space-y-2 mb-4">
-                  <li>Säkrar lokal matförsörjning och självständighet</li>
-                  <li>Skapar nya jobb och innovationsmöjligheter</li>
-                  <li>Bygger starka och rättvisa lokalsamhällen</li>
-                  <li>Återställer naturens balans genom systemlösningar</li>
+                  <li>Säkra lokal matförsörjning och självständighet</li>
+                  <li>Skapa nya jobb och innovationsmöjligheter</li>
+                  <li>Bygg starka och rättvisa lokalsamhällen</li>
+                  <li>Återställ naturens balans genom systemlösningar</li>
                 </ul>
                 <div className="mt-auto">
                   <Link href="/losningar?tab=hallbarhet" className="btn-primary inline-flex items-center">
@@ -130,12 +130,12 @@ export default function Home() {
                   Digital plattform i utveckling
                 </div>
                 <p className="text-[var(--color-text-muted)] mb-4">
-                  Ett demokratiskt system som ger verklig makt och inflytande:
+                  En vision om ett demokratiskt system som kan ge verklig makt och inflytande:
                 </p>
                 <ul className="list-disc list-inside text-[var(--color-text-muted)] space-y-2 mb-4">
-                  <li>Skyddar dina rättigheter och möjlighet att påverka</li>
-                  <li>Belönar goda idéer och effektiva lösningar</li>
-                  <li>Skapar inkluderande dialog och samförstånd</li>
+                  <li>Skydda dina rättigheter och möjlighet att påverka</li>
+                  <li>Belöna goda idéer och effektiva lösningar</li>
+                  <li>Skapa inkluderande dialog och samförstånd</li>
                   <li>Möjliggör samarbete för komplexa utmaningar</li>
                 </ul>
                 <div className="mt-auto">
@@ -155,13 +155,13 @@ export default function Home() {
                   Under utveckling
                 </div>
                 <p className="text-[var(--color-text-muted)] mb-4">
-                  Ett utbildningssystem som möter varje persons behov:
+                  En vision om ett utbildningssystem som möter varje persons behov:
                 </p>
                 <ul className="list-disc list-inside text-[var(--color-text-muted)] space-y-2 mb-4">
-                  <li>Skapar trygghet och stark grund för alla</li>
-                  <li>Uppmuntrar personlig drivkraft och talang</li>
-                  <li>Främjar samarbete och kulturell förståelse</li>
-                  <li>Utvecklar förmåga att lösa framtidens utmaningar</li>
+                  <li>Skapa trygghet och stark grund för alla</li>
+                  <li>Uppmuntra personlig drivkraft och talang</li>
+                  <li>Främja samarbete och kulturell förståelse</li>
+                  <li>Utveckla förmåga att lösa framtidens utmaningar</li>
                 </ul>
                 <div className="mt-auto">
                   <Link href="/losningar?tab=utbildning" className="btn-primary inline-flex items-center">

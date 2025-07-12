@@ -5,6 +5,9 @@ import ShareButtons from '../components/ShareButtons';
 import SEO from '../components/SEO';
 import { supabase } from '../lib/supabase';
 
+// Configuration: Set to true to enable Supabase, false to use only Formspree
+const USE_SUPABASE = false;
+
 export default function MembershipPage() {
   const [formData, setFormData] = useState({
     name: '',
@@ -21,52 +24,82 @@ export default function MembershipPage() {
     setError('');
 
     try {
-      if (!supabase) {
-        throw new Error('Database connection not available');
-      }
+      if (USE_SUPABASE && supabase) {
+        // Supabase approach (when enabled)
+        console.log('Using Supabase for member registration');
+        
+        const { error: supabaseError } = await supabase
+          .from('Members')
+          .insert([{
+            name: formData.name,
+            email: formData.email,
+            message: formData.message || ''
+          }]);
 
-      // Insert into database
-      const { error: supabaseError } = await supabase
-        .from('Members')
-        .insert([{
-          name: formData.name,
-          email: formData.email,
-          message: formData.message || ''
-        }]);
-
-      if (supabaseError) {
-        if (supabaseError.code === '23505') {
-          throw new Error('En medlem med denna e-postadress finns redan registrerad.');
+        if (supabaseError) {
+          if (supabaseError.code === '23505') {
+            throw new Error('En medlem med denna e-postadress finns redan registrerad.');
+          }
+          throw new Error('Ett fel uppstod vid registrering. Vänligen försök igen.');
         }
-        throw new Error('Ett fel uppstod vid registrering. Vänligen försök igen.');
-      }
 
-      // Directly call the Edge Function after successful insert
-      const functionResponse = await fetch(
-        'https://besgmmbnpqcoirbhemhl.supabase.co/functions/v1/welcome-new-member',
-        {
+        // Call Edge Function after successful insert
+        try {
+          const functionResponse = await fetch(
+            'https://besgmmbnpqcoirbhemhl.supabase.co/functions/v1/welcome-new-member',
+            {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY}`
+              },
+              body: JSON.stringify({
+                type: 'INSERT',
+                table: 'Members',
+                record: {
+                  name: formData.name,
+                  email: formData.email,
+                  message: formData.message || ''
+                }
+              })
+            }
+          );
+
+          if (!functionResponse.ok) {
+            console.error('Edge function error:', await functionResponse.text());
+          }
+        } catch (functionError) {
+          console.error('Edge function failed, but member was registered:', functionError);
+        }
+
+      } else {
+        // Formspree approach (default)
+        console.log('Using Formspree for member registration');
+        
+        const response = await fetch('https://formspree.io/f/mzzrrvlp', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': `Bearer ${process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY}`
           },
           body: JSON.stringify({
-            type: 'INSERT',
-            table: 'Members',
-            record: {
-              name: formData.name,
-              email: formData.email,
-              message: formData.message || ''
-            }
+            name: formData.name,
+            email: formData.email,
+            message: formData.message || '',
+            formType: 'membership',
+            timestamp: new Date().toISOString(),
+            source: 'website-membership-form'
           })
+        });
+        
+        if (!response.ok) {
+          const errorText = await response.text();
+          console.error('Formspree submission error:', errorText);
+          throw new Error(`Ett fel uppstod vid registrering (${response.status}). Vänligen försök igen eller kontakta oss om problemet kvarstår.`);
         }
-      );
-
-      if (!functionResponse.ok) {
-        console.error('Edge function error:', await functionResponse.text());
       }
 
       setIsSubmitted(true);
+      
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Ett fel uppstod. Vänligen försök igen.');
       console.error('Form submission error:', err);
@@ -110,8 +143,8 @@ export default function MembershipPage() {
                 </div>
 
                 {error && (
-                  <div className="mb-6 bg-error-light p-4 rounded-md">
-                    <p className="text-error-dark">{error}</p>
+                  <div className="mb-6 bg-red-50 border border-red-200 p-4 rounded-md">
+                    <p className="text-red-700">{error}</p>
                   </div>
                 )}
 
@@ -122,8 +155,8 @@ export default function MembershipPage() {
                   className="space-y-6"
                 >
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-primary-dark">
-                      Namn
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                      Namn *
                     </label>
                     <input
                       type="text"
@@ -132,13 +165,14 @@ export default function MembershipPage() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      placeholder="Ditt fullständiga namn"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-primary-dark">
-                      E-post
+                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                      E-post *
                     </label>
                     <input
                       type="email"
@@ -147,12 +181,13 @@ export default function MembershipPage() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      placeholder="din.epost@exempel.se"
                     />
                   </div>
 
                   <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-primary-dark">
+                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                       Berätta gärna kort om dig själv och varför du vill gå med (valfritt)
                     </label>
                     <textarea
@@ -161,7 +196,8 @@ export default function MembershipPage() {
                       rows={4}
                       value={formData.message}
                       onChange={handleChange}
-                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-primary focus:ring-primary"
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                      placeholder="Vad engagerar dig i Fjärilspartiets vision? Har du specifika områden du vill bidra inom?"
                     />
                   </div>
 
@@ -169,44 +205,59 @@ export default function MembershipPage() {
                     type="submit"
                     disabled={isSubmitting}
                     className={`w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white 
-                      ${isSubmitting ? 'bg-primary-light cursor-not-allowed' : 'bg-primary hover:bg-primary-dark'} 
-                      focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary`}
+                      ${isSubmitting 
+                        ? 'bg-gray-400 cursor-not-allowed' 
+                        : 'bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+                      }`}
                   >
                     {isSubmitting ? 'Skickar...' : 'Skicka medlemsansökan'}
                   </button>
                 </form>
+
+                {/* Debug info in development */}
+                {process.env.NODE_ENV === 'development' && (
+                  <div className="mt-4 p-4 bg-yellow-50 border border-yellow-200 rounded-md">
+                    <p className="text-sm text-yellow-800">
+                      <strong>Utvecklingsläge:</strong> Använder {USE_SUPABASE ? 'Supabase' : 'Formspree'} för medlemsregistrering
+                    </p>
+                  </div>
+                )}
               </>
             ) : (
-              <div className="bg-success-light p-6 rounded-lg">
-                <h2 className="text-xl font-semibold text-success-dark mb-4">
+              <div className="bg-green-50 border border-green-200 p-6 rounded-lg">
+                <h2 className="text-xl font-semibold text-green-800 mb-4">
                   Tack för din ansökan!
                 </h2>
-                <p className="text-success mb-4">
+                <p className="text-green-700 mb-4">
                   Vi har mottagit din medlemsansökan och kommer att kontakta dig via e-post inom kort. 
                   Vi ser fram emot att välkomna dig till Fjärilspartiet och diskutera hur vi tillsammans 
                   kan arbeta för positiv samhällsförändring.
                 </p>
-                <div className="mt-4">
-                  <p className="text-gray-700 mb-2">
-                    Under tiden är du välkommen att gå med i vår Discord-community:
-                  </p>
-                  <a 
-                    href="https://discord.gg/GxSxaYANU4"
-                    className="btn-primary inline-flex items-center"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Gå med i Discord-communityn →
-                  </a>
-                  <Link 
-                    href="/dokument"
-                    className="btn-secondary inline-flex items-center justify-center"
-                  >
-                    Utforska våra dokument →
-                  </Link>
+                <div className="mt-4 space-y-4">
+                  <div>
+                    <p className="text-gray-700 mb-2">
+                      Under tiden är du välkommen att gå med i vår Discord-community:
+                    </p>
+                    <div className="flex flex-col sm:flex-row gap-3">
+                      <a 
+                        href="https://discord.gg/GxSxaYANU4"
+                        className="btn-primary inline-flex items-center justify-center"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Gå med i Discord-communityn →
+                      </a>
+                      <Link 
+                        href="/dokument"
+                        className="btn-secondary inline-flex items-center justify-center"
+                      >
+                        Utforska våra dokument →
+                      </Link>
+                    </div>
+                  </div>
                 </div>
 
-                <div className="mt-8">
+                <div className="mt-8 pt-6 border-t border-green-200">
                   <p className="text-gray-600 mb-4">
                     Hjälp oss växa genom att dela Fjärilspartiet med andra som också vill bidra till positiv samhällsförändring:
                   </p>
@@ -219,19 +270,20 @@ export default function MembershipPage() {
             )}
 
             <div className="mt-12 border-t border-gray-200 pt-8">
-              <h2 className="text-2xl font-bold text-primary-dark mb-4">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Utvecklingsprojekt
               </h2>
-              <p className="text-secondary mb-4">
+              <p className="text-gray-600 mb-4">
                 Som medlem är du välkommen att delta i våra utvecklingsprojekt, bland annat:
               </p>
-              <ul className="list-disc list-inside text-secondary space-y-2">
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
                 <li>Utveckling av vår digitala plattform (DPOP)</li>
                 <li>Policyutveckling och dokumentation</li>
                 <li>Lokala initiativ och pilotprojekt</li>
                 <li>Kommunikation och utåtriktat arbete</li>
               </ul>
             </div>
+            
             <div className="card mt-8">
               <h2 className="text-xl font-semibold mb-4">Definiera din vision</h2>
               <p className="mb-4">

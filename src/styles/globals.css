@@ -136,7 +136,7 @@ button:hover,
 .btn-primary:hover,
 .btn-secondary:hover {
   background-color: var(--color-accent);
-  transform: translateY(-3px); /* More noticeable lift */
+  transform: translateY(-1px); /* More noticeable lift */
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -164,6 +164,8 @@ button:hover,
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
+
+.btn-primary-sm { @apply inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700; }
 
 .cta {
   font-size: 1.2rem;

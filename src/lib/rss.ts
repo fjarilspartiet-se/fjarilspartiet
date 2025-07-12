@@ -1,0 +1,78 @@
+// lib/rss.ts - RSS feed generation utility
+import { getAllPosts } from './blog';
+
+interface RSSItem {
+  title: string;
+  description: string;
+  link: string;
+  guid: string;
+  pubDate: string;
+  author: string;
+}
+
+interface RSSFeed {
+  title: string;
+  description: string;
+  link: string;
+  language: string;
+  lastBuildDate: string;
+  items: RSSItem[];
+}
+
+export function generateRSSFeed(): string {
+  const posts = getAllPosts();
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://fjarilspartiet.se';
+  
+  const feed: RSSFeed = {
+    title: 'Fjärilspartiet - Blogg och nyheter',
+    description: 'Senaste nyheterna och insikterna från Fjärilspartiet om systemisk samhällsförnyelse, politik och framtidslösningar.',
+    link: `${siteUrl}/blogg`,
+    language: 'sv-SE',
+    lastBuildDate: new Date().toUTCString(),
+    items: posts.slice(0, 20).map(post => ({
+      title: post.title,
+      description: post.description,
+      link: `${siteUrl}/blogg/${post.slug}`,
+      guid: `${siteUrl}/blogg/${post.slug}`,
+      pubDate: new Date(post.date).toUTCString(),
+      author: `${post.author} (${post.author})`
+    }))
+  };
+
+  return generateRSSXML(feed);
+}
+
+function generateRSSXML(feed: RSSFeed): string {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><![CDATA[${feed.title}]]></title>
+    <description><![CDATA[${feed.description}]]></description>
+    <link>${feed.link}</link>
+    <language>${feed.language}</language>
+    <lastBuildDate>${feed.lastBuildDate}</lastBuildDate>
+    <atom:link href="${feed.link}/rss.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>fjarilspartiet@gmail.com (Fjärilspartiet)</managingEditor>
+    <webMaster>fjarilspartiet@gmail.com (Fjärilspartiet)</webMaster>
+    <category>Politik</category>
+    <category>Samhälle</category>
+    <category>Systemisk förändring</category>
+    <image>
+      <url>${feed.link.replace('/blogg', '')}/favicon-192x192.png</url>
+      <title>${feed.title}</title>
+      <link>${feed.link}</link>
+    </image>
+    ${feed.items.map(item => `
+    <item>
+      <title><![CDATA[${item.title}]]></title>
+      <description><![CDATA[${item.description}]]></description>
+      <link>${item.link}</link>
+      <guid isPermaLink="true">${item.guid}</guid>
+      <pubDate>${item.pubDate}</pubDate>
+      <author>${item.author}</author>
+    </item>`).join('')}
+  </channel>
+</rss>`;
+}
+
+

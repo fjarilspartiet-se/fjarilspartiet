@@ -19,8 +19,8 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
             
             {/* Desktop navigation */}
             <div className="hidden sm:flex sm:space-x-8">
-              <Link href="/om-oss" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-                Om oss
+              <Link href="/manifest" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
+                Manifest
               </Link>
               <Link href="/vision" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Vision
@@ -31,11 +31,11 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
               <Link href="/helhet" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Helhet
               </Link>
-              <Link href="/manifest" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-                Manifest
+              <Link href="/blogg" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
+                Blogg
               </Link>
-              <Link href="/bli-medlem" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-                Bli medlem
+              <Link href="/om-oss" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
+                Om oss
               </Link>
               <Link href="/dokument" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Dokument
@@ -45,6 +45,9 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
               </Link>
               <Link href="/kontakt" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Kontakt
+              </Link>
+              <Link href="/bli-medlem" className="btn-primary-sm">
+                Bli medlem
               </Link>
             </div>
 

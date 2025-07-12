@@ -10,30 +10,110 @@ const OUTPUT_FILE = './src/data/documentIndex.ts';
 function parseDocumentMetadata(content) {
   const metadata = {};
   
-  // Look for YAML frontmatter or metadata section
-  const frontmatterMatch = content.match(/^---\s*\n([\s\S]*?)\n---/);
-  if (frontmatterMatch) {
-    const frontmatter = frontmatterMatch[1];
-    const lines = frontmatter.split('\n');
-    
-    lines.forEach(line => {
-      const match = line.match(/^(\w+(?:-\w+)*)\s*:\s*(.+)$/);
-      if (match) {
-        const [, key, value] = match;
-        metadata[key] = value.trim();
-      }
-    });
+  // Debug: Log the start of the content to see what we're working with
+  console.log(`    Content starts with: "${content.substring(0, 100)}..."`);
+  
+  // Look for YAML frontmatter - it can be at the start OR after a document ID heading
+  // Pattern 1: Standard frontmatter at beginning
+  let frontmatterMatch = content.match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
+  
+  // Pattern 2: Frontmatter after document ID heading (# STR-xxx)
+  if (!frontmatterMatch) {
+    frontmatterMatch = content.match(/^#\s+[A-Z]+-\d+\s*\r?\n---\s*\r?\n([\s\S]*?)\r?\n---/);
   }
   
-  // Extract title from content if not in metadata
-  if (!metadata.titel && !metadata.title) {
-    const titleMatch = content.match(/^#\s+(.+)$/m);
-    if (titleMatch) {
-      metadata.titel = titleMatch[1];
-    }
+  if (frontmatterMatch) {
+    console.log(`    Found frontmatter block`);
+    const frontmatter = frontmatterMatch[1];
+    const lines = frontmatter.split(/\r?\n/);
+    
+    console.log(`    Frontmatter lines: ${lines.length}`);
+    
+    lines.forEach((line, index) => {
+      // Skip empty lines and comments
+      if (!line.trim() || line.trim().startsWith('#')) {
+        return;
+      }
+      
+      // Handle lines that might be indented or have various whitespace
+      const trimmedLine = line.trim();
+      
+      // Look for key: value pairs, allowing for hyphens and various characters
+      const match = trimmedLine.match(/^([a-zA-Z0-9åäöÅÄÖ_-]+)\s*:\s*(.*)$/);
+      if (match) {
+        const [, key, value] = match;
+        const cleanKey = key.trim();
+        const cleanValue = value.trim();
+        
+        // Remove quotes if they exist
+        const finalValue = cleanValue.replace(/^["']|["']$/g, '');
+        
+        metadata[cleanKey] = finalValue;
+        
+        // Debug logging for metadata parsing
+        console.log(`    Found metadata: ${cleanKey} = "${finalValue}"`);
+      } else {
+        console.log(`    Could not parse line ${index}: "${trimmedLine}"`);
+      }
+    });
+  } else {
+    console.log(`    No frontmatter found`);
   }
   
   return metadata;
+}
+
+// Extract fallback title from content if not in metadata
+function extractFallbackTitle(content) {
+  const lines = content.split('\n');
+  let inFrontmatter = false;
+  let foundDocumentIdHeading = false;
+  
+  for (let i = 0; i < lines.length; i++) {
+    const trimmedLine = lines[i].trim();
+    
+    // Track frontmatter boundaries
+    if (trimmedLine === '---') {
+      inFrontmatter = !inFrontmatter;
+      continue;
+    }
+    
+    // Skip frontmatter content
+    if (inFrontmatter) {
+      continue;
+    }
+    
+    // Skip empty lines
+    if (!trimmedLine) {
+      continue;
+    }
+    
+    // Check if this is a heading
+    if (trimmedLine.startsWith('#')) {
+      const headingText = trimmedLine.replace(/^#+\s*/, '');
+      
+      // If this looks like just a document ID (STR-xxx, TAK-xxx, etc.), skip it
+      if (/^[A-Z]+-\d+$/.test(headingText)) {
+        foundDocumentIdHeading = true;
+        continue;
+      }
+      
+      // If we found a document ID heading before, or this doesn't look like a document ID,
+      // use this as the title
+      if (foundDocumentIdHeading || !/^[A-Z]+-\d+/.test(headingText)) {
+        return headingText;
+      }
+    }
+    
+    // If we've passed the frontmatter and haven't found a good title yet,
+    // and this line looks like it could be a title (starts with capital, has substance)
+    if (!inFrontmatter && trimmedLine.length > 10 && /^[A-ZÅÄÖ]/.test(trimmedLine) && !trimmedLine.includes(':')) {
+      // This might be a title that's not marked as a heading
+      return trimmedLine;
+    }
+  }
+  
+  return null;
 }
 
 // Get category info based on directory structure
@@ -118,13 +198,44 @@ function scanDirectory(dir, basePath = '') {
             documentId = item.replace('.md', '').toUpperCase().replace(/[^A-Z0-9]/g, '-');
           }
           
+          // Determine the title - prioritize metadata, then fallback to content parsing
+          let documentTitle;
+          
+          // Debug logging to see what we're getting
+          console.log(`Processing ${item}:`);
+          console.log(`  All metadata keys: ${Object.keys(metadata).join(', ')}`);
+          console.log(`  Metadata titel: "${metadata.titel}"`);
+          console.log(`  Metadata title: "${metadata.title}"`);
+          
+          if (metadata.titel && metadata.titel.trim() && metadata.titel !== 'undefined') {
+            documentTitle = metadata.titel.trim();
+            console.log(`  Using metadata titel: "${documentTitle}"`);
+          } else if (metadata.title && metadata.title.trim() && metadata.title !== 'undefined') {
+            documentTitle = metadata.title.trim();
+            console.log(`  Using metadata title: "${documentTitle}"`);
+          } else {
+            // Try to extract a meaningful title from content
+            const fallbackTitle = extractFallbackTitle(content);
+            if (fallbackTitle) {
+              documentTitle = fallbackTitle;
+              console.log(`  Using fallback title: "${documentTitle}"`);
+            } else {
+              // Last resort: use filename but make it more readable
+              documentTitle = item.replace('.md', '').replace(/-/g, ' ')
+                .split(' ')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                .join(' ');
+              console.log(`  Using filename title: "${documentTitle}"`);
+            }
+          }
+          
           // Create document entry
           const documentDescription = getDocumentDescription(content, metadata);
           const relatedDocsList = parseRelatedDocs(metadata['relaterade-dokument'] || metadata['related-documents']);
           
           const document = {
             id: documentId,
-            title: metadata.titel || metadata.title || item.replace('.md', '').replace(/-/g, ' '),
+            title: documentTitle,
             path: relativePath.replace(/\\/g, '/'),
             category,
             ...(subcategory && { subcategory }), // Only include subcategory if it exists

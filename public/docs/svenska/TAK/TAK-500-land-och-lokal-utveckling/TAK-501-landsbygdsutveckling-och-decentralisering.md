@@ -1,7 +1,7 @@
 # TAK-501
 ---
 dokumentid: TAK-501
-titel: Landsbygdsutveckling och Decentralisering
+titel: Landsbygdsutveckling och decentralisering
 version: 1.0
 senast-uppdaterad: 2024-10-30
 ansvarig: Björn Kenneth Holmström

@@ -54,6 +54,12 @@ export default function SEO({
 
   return (
     <Head>
+      <link 
+        rel="alternate" 
+        type="application/rss+xml" 
+        title="Fjärilspartiet - Blogg och nyheter" 
+        href="/rss.xml" 
+      />
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={fullUrl} />
