@@ -316,6 +316,251 @@ def beräkna_resursskatt(användning, resurstyp):
    - Sport- och fritidsaktiviteter
    - Kulturella aktiviteter
 
+### 6. Hearts och Leaves: Kompletterande valutor i det svenska skattesystemet
+
+#### 6.1. Översikt och integration med AUBI
+
+**Grundläggande principer:**
+Hearts och Leaves utgör kompletterande valutor inom det Adaptiva Universella Basinkomst-systemet (AUBI), designade för att belöna sociala bidrag och ekologisk förvaltning. Dessa valutor integreras med det befintliga svenska skattesystemet för att skapa incitament för samhällsnyttiga aktiviteter samtidigt som de bidrar till systemets hållbarhet.
+
+**Hearts (Hjärtan):**
+- Belönar omvårdnad, mentorskap, och samhällsengagemang
+- Baserat på validerad tid och påverkan på gemenskapen
+- Konverteringsformel: 100 omvårdspoäng = 1 Heart = ~100 SEK värde
+
+**Leaves (Löv):**
+- Belönar ekologiska bidrag och miljöförvaltning
+- Kopplade till verifierbara miljöförbättringar
+- Justerbart värde baserat på "Green Job Score" (1,0x-1,5x multiplikator)
+
+#### 6.2. Skattebehandling av Hearts och Leaves
+
+**Beskattningsmodell:**
+```python
+def beräkna_hearts_leaves_skatt(hearts_inkomst, leaves_inkomst, totala_inkomster):
+    # Hearts behandlas som förmån med reducerad skattesats
+    hearts_skattesats = 0.15  # 15% istället för normal kommunalskatt
+    
+    # Leaves med miljöbonus får ytterligare reduktion
+    leaves_skattesats = 0.10  # 10% för ekologiska bidrag
+    
+    hearts_skatt = hearts_inkomst * hearts_skattesats
+    leaves_skatt = leaves_inkomst * leaves_skattesats
+    
+    # Total förmånsbeskattning
+    return hearts_skatt + leaves_skatt
+```
+
+**Praktiska exempel:**
+
+*Exempel 1: Förskollärare i Malmö*
+- Anna, förskollärare
+- AUBI grundbelopp: 15,000 SEK
+- Arbetsinkomst: 28,000 SEK
+- Hearts från mentorskap: 2,000 SEK (månatligt värde)
+- Leaves från kompostprojekt: 500 SEK (månatligt värde)
+
+*Beskattning:*
+- Normal inkomst (43,000 SEK): Kommunalskatt 31% = 13,330 SEK
+- Hearts (2,000 SEK): Reducerad skatt 15% = 300 SEK  
+- Leaves (500 SEK): Miljöskatt 10% = 50 SEK
+- Total skatt: 13,680 SEK (30,1% effektiv skattesats istället för 31%)
+- Nettoinkomst: 31,820 SEK
+
+#### 6.3. Teknisk implementation med Love Ledger
+
+**Digital infrastruktur:**
+- Integration med Skatteverkets befintliga system
+- Blockchain-baserad Love Ledger för transparent spårning
+- Automatisk rapportering av Hearts/Leaves-transaktioner
+- BankID-verifiering för alla transaktioner
+
+**Valideringsprocess:**
+```python
+class LoveLedgerValidator:
+    def __init__(self):
+        self.community_validators = []
+        self.automated_verification = True
+        
+    def validate_hearts_contribution(self, aktivitet, tid, påverkan):
+        # Automatisk validering för standardaktiviteter
+        if aktivitet in self.approved_activities:
+            hearts_värde = tid * påverkan * self.activity_multiplier[aktivitet]
+            return hearts_värde
+        
+        # Gemenskapsvalidering för nya aktiviteter
+        return self.community_validation_process(aktivitet, tid, påverkan)
+    
+    def validate_leaves_contribution(self, miljöprojekt, påverkan, green_job_score):
+        verified_impact = self.verify_environmental_impact(miljöprojekt)
+        leaves_värde = verified_impact * green_job_score
+        return leaves_värde
+```
+
+#### 6.4. Administrativ integration
+
+**Skatteverkets roll:**
+- Automatisk mottagning av Love Ledger-data
+- Integration med befintliga deklarationssystem
+- Realtidsövervakning av Hearts/Leaves-flöden
+- Automatisk beräkning av reducerade skattesatser
+
+**Kommunal nivå:**
+- Lokala valideringsgrupper för gemenskapsaktiviteter
+- Kommunspecifika miljömål kopplade till Leaves-värdering
+- Integration med kommunala välfärdssystem
+- Lokal anpassning av aktivitetskategorier
+
+#### 6.5. Incitamentsstruktur och bidragskategorier
+
+**Hearts-kvalificerade aktiviteter:**
+1. **Omvårdnad och social välfärd**
+   - Äldreomsorg (50 Hearts/timme)
+   - Barnpassning (40 Hearts/timme)
+   - Handikappstöd (55 Hearts/timme)
+   - Mentorskap för unga (35 Hearts/timme)
+
+2. **Utbildning och kunskapsdelning**
+   - Språkcaféer för invandrare (30 Hearts/timme)
+   - Digital kompetens för äldre (35 Hearts/timme)
+   - Studiecirkelledning (25 Hearts/timme)
+
+3. **Samhällsengagemang**
+   - Föreningsarbete (20 Hearts/timme)
+   - Kulturella aktiviteter (25 Hearts/timme)
+   - Grannsamverkan (15 Hearts/timme)
+
+**Leaves-kvalificerade aktiviteter:**
+1. **Miljöförvaltning**
+   - Naturvård (Green Job Score 1,3x)
+   - Återvinningsprojekt (Green Job Score 1,2x)
+   - Urban odling (Green Job Score 1,4x)
+
+2. **Energi och transport**
+   - Solpanelsinstallation (Green Job Score 1,5x)
+   - Cykelinfrastruktur (Green Job Score 1,3x)
+   - Energieffektivisering (Green Job Score 1,4x)
+
+#### 6.6. Säkerhet och bedrägeriskydd
+
+**Blockchain-säkerhet:**
+- SHA-256 kryptering för alla transaktioner
+- Kvantresistent kryptografi för framtidssäkring
+- Distribuerad lagring med redundans
+- Automatisk integritetskontroll
+
+**Valideringsmekanism:**
+```python
+def prevent_hearts_leaves_fraud():
+    validation_methods = {
+        'multi_source_verification': True,
+        'community_consensus': 0.75,  # 75% consensus krävs
+        'ai_pattern_detection': True,
+        'random_audits': 0.05,  # 5% slumpmässiga revisioner
+        'reputation_decay': True  # Rykte minskar över tid utan aktivitet
+    }
+    return validation_methods
+```
+
+**Kvalitetssäkring:**
+- Regelbundna revisioner av valideringsgrupper
+- AI-driven upptäckt av misstänkta mönster
+- Community-based whistleblowing-system
+- Automatisk flaggning av ovanliga aktivitetsmönster
+
+#### 6.7. Ekonomisk påverkan och prognos
+
+**Förväntade effekter:**
+- 15% ökning av sociala aktiviteter inom första året
+- 25% förbättring av lokala miljöindikatorer
+- 8% minskning av kommunala vårdkostnader
+- 12% ökning av medborgerligt engagemang
+
+**Budgetpåverkan för Svenska staten:**
+```python
+def calculate_annual_impact():
+    # Skatteintäkter från Hearts/Leaves (reducerade satser)
+    hearts_tax_revenue = 2.8e9  # 2,8 miljarder SEK
+    leaves_tax_revenue = 0.9e9  # 0,9 miljarder SEK
+    
+    # Kostnadsbesparing från ökade sociala aktiviteter
+    healthcare_savings = 4.2e9  # 4,2 miljarder SEK
+    social_services_savings = 2.1e9  # 2,1 miljarder SEK
+    
+    # Miljöfördelar (värde)
+    environmental_benefits = 3.5e9  # 3,5 miljarder SEK
+    
+    net_benefit = (hearts_tax_revenue + leaves_tax_revenue + 
+                   healthcare_savings + social_services_savings + 
+                   environmental_benefits)
+    
+    return net_benefit  # ~13,5 miljarder SEK årlig nettoförda
+```
+
+#### 6.8. Implementeringsplan
+
+**Fas 1: Pilotimplementering (År 1)**
+- Testning i 3 kommuner: Stockholm (storstadsområde), Växjö (medelstor stad), Härjedalen (glesbygd)
+- 1,000 testanvändare per kommun
+- Basic Hearts/Leaves-funktionalitet
+- Integration med Skatteverkets testsystem
+
+**Fas 2: Regional expansion (År 2-3)**
+- Utvidgning till 15 kommuner
+- Full Love Ledger-funktionalitet
+- Avancerade valideringsalgoritmer
+- Integration med nationella välfärdssystem
+
+**Fas 3: Nationell utrullning (År 4-5)**
+- Fullskalig implementation
+- Integrering med EU:s framtida digitala valutainitiativ
+- Cross-border Hearts/Leaves-transaktioner
+- AI-driven systemoptimering
+
+#### 6.9. Juridiska överväganden
+
+**Lagstiftningsförändringar:**
+- Ny kategori i Inkomstskattelagen för kompletterande valutor
+- Ändringar i Kommunalskattelagen för lokala skattereduktioner
+- Integration med EU:s Digital Currency-regelverk
+- Dataskyddsförordningar för blockchain-baserade system
+
+**Internationell samordning:**
+- Avtal med EU för gränsöverskridande transaktioner
+- Samarbete med OECD för internationella skattestandarder
+- Integration med UN:s Sustainable Development Goals
+- Pilotprogram för nordiskt samarbete
+
+#### 6.10. Mätning och utvärdering
+
+**Nyckelindikatorer (KPI:er):**
+1. **Deltagande och adoption**
+   - Antal aktiva Hearts/Leaves-användare
+   - Månatlig transaktionsvolym
+   - Geografisk spridning av aktiviteter
+
+2. **Samhällsfördelar**
+   - LMCI-förbättringar (Love, Meaning, and Connection Index)
+   - Minskade vårdkostnader
+   - Förbättrade miljöindikatorer
+   - Ökad social sammanhållning
+
+3. **Systemeffektivitet**
+   - Transaktionskostnader
+   - Valideringstider
+   - Säkerhetsincidenter
+   - Användarnas nöjdhet
+
+**Rapportering:**
+- Månatliga transparensrapporter
+- Årliga effektbedömningar
+- Oberoende revisioner vartannat år
+- Offentliga dashboards med realtidsdata
+
+---
+
+Denna integration av Hearts och Leaves i det svenska skattesystemet skapar en innovativ modell för att belöna samhällsnyttiga aktiviteter samtidigt som den bibehåller systemets hållbarhet och rättvisa. Genom att kombinera skatteincitament med blockchain-teknologi och community-validering, etablerar Sverige sig som en global ledare inom adaptiv och hållbar ekonomisk policy.
+
 ### Övervakning och justering
 
 #### 1. Regelbunden utvärdering

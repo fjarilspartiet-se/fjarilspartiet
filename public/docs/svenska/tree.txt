@@ -1,0 +1,154 @@
+.
+├── dokumenthierarki.md
+├── fil-och-katalogstruktur.txt
+├── fjärilsägg.png
+├── fjärilsägg.svg
+├── fjärilslarv.svg
+├── fjärilspartiet-intro.html
+├── fjärilspartiet-intro.md
+├── fjärilspartiet-intro.pdf
+├── fjärilspuppa.svg
+├── fjäril.svg
+├── guide-för-nya-medlemmar.md
+├── guide-till-nya-medlemmar.md
+├── guide-till-nya-medlemmar.pdf
+├── instagram-post.png
+├── instagram-post.svg
+├── instagram-post.txt
+├── introduktion-av-ChatGPT.md
+├── MED
+│   ├── MED-101-komma-igång.md
+│   ├── MED-102-organisera-möten.md
+│   ├── MED-103-bidra-tekniskt.md
+│   ├── MED-104-lokala-initiativ.md
+│   ├── MED-105-forskning-och-policyutveckling.md
+│   ├── MED-106-kommunikation-och-samhällsdialog.md
+│   ├── MED-107-skalning-och-synergier.md
+│   └── MED-108-engagemangsväg-och-medlemsutveckling.md
+├── motivering-till-aubi.md
+├── OPS
+│   ├── OPS-100-digital
+│   │   ├── OPS-101-partiets-operations-plattform-skiss.md
+│   │   ├── OPS-102-digital-parti-operations-plattform-specifikation.md
+│   │   ├── OPS-103-digital-parti-operations-plattform-flexibelt-styre.md
+│   │   ├── OPS-104-försäkran-om-icke-korruption-för-digitala-lösningar.md
+│   │   ├── OPS-105-didis-ramverk-för-direktdemokrati.md
+│   │   └── OPS-106-vårt-förhållingssätt-till-A.I.-(artificiell-intelligens).md
+│   ├── OPS-200-riktlinjer
+│   │   ├── OPS-201-konkreta-åtgärdsplaner.md
+│   │   ├── OPS-202-kommunikationsstrategi.md
+│   │   ├── OPS-203-extern-kommunikation-om-individuell-autonomi-och-utvecklingsmöjligheter.md
+│   │   ├── OPS-204-symbol-riktlinjer.md
+│   │   ├── OPS-205-säkerhetsramverk.md
+│   │   ├── OPS-206-utbildning-implementeringsriktlinjer.md
+│   │   ├── OPS-207-exempel-på-utbildningsprojekt.md
+│   │   ├── OPS-208-krishantering-och-resiliensstrategier.md
+│   │   └── OPS-209-adaptiv-policyutveckling-och-feedbackmekanismer.md
+│   ├── OPS-300-teknik
+│   │   └── OPS-300-teknologiska-ramverk.md
+│   └── OPS-400-internationellt
+│       └── OPS-400-internationella-samarbetsmekanismer.md
+├── personliga-manifest-mall.md
+├── qr-code-original-size.png
+├── qr-code.png
+├── qr-code.png~
+├── STR
+│   ├── STR-100-grund
+│   │   ├── STR-001-långsiktig-vision-och-transformativa-mål.md
+│   │   ├── STR-009-individens-utveckling-och-självförverkligande-i-ett-transformativt-samhälle.md
+│   │   ├── STR-010-internationell-integration-och-global-enhetsstrategi.md
+│   │   ├── STR-011-internationell-integration-och-global-enhetsstrategi.md
+│   │   ├── STR-100-inledande-skiss-av-grundläggande-ramverk.md
+│   │   ├── STR-101-parti-grund.md
+│   │   ├── STR-102-bas-i-p(∞)=1.md
+│   │   ├── STR-103-etik-för-jämvikt-och-sammanlänkning .md
+│   │   ├── STR-104-fjärilsramverket.md
+│   │   ├── STR-105-bortom-symboler.md
+│   │   ├── STR-106-vanliga-frågor-om-bortom-symboler.md
+│   │   └── STR-107-regenerativa-system-och-metoder.md
+│   ├── STR-200-politik
+│   │   ├── STR-200-politisk-strategi.md
+│   │   ├── STR-201-adaptivt-skatteramverk.md
+│   │   ├── STR-202-svenskt-adaptivt-skatteramverk.md
+│   │   ├── STR-203-adaptivt-universellt-grundinkomstsystem.md
+│   │   ├── STR-204-adaptiv-universell-basinkomst-fallstudie.md
+│   │   ├── STR-205-AUBI-holistiskt-stödramverk.md
+│   │   ├── STR-206-individuell-autonomi-personlig-utveckling-kärlek-mening-och-sammanhang-som-social-rättighet.md
+│   │   ├── STR-207-ramverk-för-religiös-och-andlig-mångfald.md
+│   │   ├── STR-208-ramverk-för-alternativa-livsstilar.md
+│   │   ├── STR-209-invandrings-och-integrationspolitiskt-ramverk.md
+│   │   ├── STR-210-demokratiskt-deltagande-för-barn-och-ungdomar.md
+│   │   ├── STR-211-vägar-till-sjukdomsbekämpning-genom-teknologi-och-social-utveckling.md
+│   │   ├── STR-212-ramverk-för-global-ekonomisk-jämlikhet-och-resurs-överflöd.md
+│   │   ├── STR-213-styrningens-evolution-ett-adaptivt-och-integrerat-perspektiv.md
+│   │   ├── STR-214-aubi-ekonomisk-analys-och-finansiering.md
+│   │   ├── STR-215-mystik-och-kontemplation-ramverk.md
+│   │   ├── STR-216-enteogener-och-psykedelisk-forskning.md
+│   │   ├── STR-217-ungas-ekonomiska-och-demokratiska-rättigheter.md
+│   │   ├── STR-218-integrerad-flernivådemokrati.md
+│   │   ├── STR-219-ramverk-för-etisk-beskattning.md
+│   │   ├── STR-220-datasuveränitet-och-digital-autonomi.md
+│   │   ├── STR-221-ai-etik-och-utvecklingsriktlinjer.md
+│   │   ├── STR-222-ramverk-för-hållbar-och-hälsosam-stadsutveckling.md
+│   │   ├── STR-223-transformation-av-utbildningssystemet-frihet-och-individualisering.md
+│   │   ├── STR-224-vision-för-framtidens-integrerade-hälsovård.md
+│   │   ├── STR-225-digital-systemintegration.md
+│   │   ├── STR-226-ramverk-för-etiskt-försvar-och-konflikthantering.md
+│   │   ├── STR-227-ramverk-för-utvecklingspsykologi-och-samhällsförbättring.md
+│   │   ├── STR-228-utvecklingsramverk-och-systemförståelse.md
+│   │   ├── STR-229-evolution-av-medielandskapet.md
+│   │   ├── STR-230-aubi-värdeskapande-i-praktiken.md
+│   │   ├── STR-231-arbetslivsflexibilitet-och-livsvägsmångfald.md
+│   │   ├── STR-232-nödvändiga-lagreformer-för-aubi-och-livsstilsfrihet.md
+│   │   ├── STR-233-detaljerad-analys-av-nyckelreformer-för-aubi-och-livsstilsfrihet.md
+│   │   ├── STR-234-övergångsplan-från-nuvarande-socialförsäkringssystem-till-aubi.md
+│   │   └── STR-235-rekommenderade-resurser-för-utveckling-och-fördjupning.md
+│   ├── STR-300-internationellt
+│   │   ├── STR-301-internationell-strategi.md
+│   │   ├── STR-302-individuell-autonomi-och-utvecklingsmöjligheter-som-universell-rättighet.md
+│   │   ├── STR-303-konkreta-vägar-till-global-transformation.md
+│   │   └── STR-304-globalt-konstitutionellt-ramverk-och-etisk-styrning.md
+│   ├── STR-400-hållbarhetsstrategi
+│   │   ├── STR-400-hållbarhetsstrategi.md
+│   │   ├── STR-401-en-blomstrande-framtid-lokal-motståndskraft-och-hållbara-matsystem.md
+│   │   ├── STR-402-klimatresiliens-och-biologisk-mångfald-ramverk.md
+│   │   └── STR-403-etiskt-ramverk-för-relation-till-djur-växter-och-natur.md
+│   └── STR-500-digitalt-samhälle
+│       ├── STR-501-digital-etik-och-datasuveränitet.md
+│       ├── STR-502-förhållande-till-artificiell-intelligens.md
+│       ├── STR-503-bioetik-och-framväxande-tekniker.md
+│       ├── STR-504-riktlinjer-för-framväxande-bioteknologier.md
+│       └── STR-505-ai-styrning-för-mänskligt-blomstrande.md
+├── TAK
+│   ├── TAK-100-organisation
+│   │   ├── TAK-101-juridiskt-ramverk.md
+│   │   ├── TAK-102-svenskt-politiskt-integrations-ramverk.md
+│   │   ├── TAK-103-finansiellt-ramverk.md
+│   │   ├── TAK-104-kvalitetssäkringsramverk.md
+│   │   ├── TAK-105-intern-demokrati-och-hybridstyrning.md
+│   │   ├── TAK-106-konflikthantering-och-medling.md
+│   │   ├── TAK-107-lokala-kapitel-och-organisation.md
+│   │   └── TAK-108-riktlinjer-för-ekonomisk-struktur-och-hantering.md
+│   ├── TAK-200-utveckling
+│   │   ├── TAK-201-utbildnings-och-träningsramverk.md
+│   │   ├── TAK-202-forskning-och-utvecklingsramverk.md
+│   │   ├── TAK-203-utbildningspolitiskt-ramverk.md
+│   │   ├── TAK-204-svensk-utbildningsintegration.md
+│   │   └── TAK-205-självbestämmande-och-personlig-utveckling-inom-utbildning.md
+│   ├── TAK-300-hälsa
+│   │   ├── TAK-300-hälso-och-välfärdsramverk.md
+│   │   ├── TAK-301-hälsofrämjande-insatser.md
+│   │   ├── TAK-302-sjukvårdsramverk.md
+│   │   ├── TAK-303-tillgänglig-och-holistisk-vård.md
+│   │   ├── TAK-304-psykisk-hälsa-och-välbefinnande.md
+│   │   └── TAK-305-självbestämmande-och-personlig-utveckling-som-hälsokomponent.md
+│   ├── TAK-400-bostad-och-samhälle
+│   │   ├── TAK-401-bostäder-och-stadsutveckling-ramverk.md
+│   │   ├── TAK-402-rättsreform-och-social-rättvisa.md
+│   │   └── TAK-403-ramverk-för-kulturell-innovation-och-bevarande.md
+│   └── TAK-500-land-och-lokal-utveckling
+│       └── TAK-501-landsbygdsutveckling-och-decentralisering.md
+├── tree.txt
+└── välkomstmeddelande.md
+
+18 directories, 133 files

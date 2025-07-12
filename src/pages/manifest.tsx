@@ -234,10 +234,13 @@ export default function ManifestPage() {
 
   // Load draft on component mount
   useEffect(() => {
-    // Load draft and generate permalink once
+    // Load draft 
     loadDraft();
-    setPermalink(generatePermalink());
-  }, []); // Changed from useState to useEffect with empty dependency array
+    // Generate permalink once - moved inside useEffect to avoid dependency issue
+    if (!permalink) {
+      setPermalink(`https://fjarilspartiet.se/manifest/${Math.random().toString(36).substring(2, 10)}`);
+    }
+  }, []); // Empty dependency array is now correct since we're not calling generatePermalink
 
   return (
     <>

@@ -9,6 +9,7 @@ import AUBIKMSIEffectsDiagram from '../components/AUBIKMSIEffectsDiagram';
 import ProjectCard from '../components/ProjectCard';
 import ReferenceSection from '../components/ReferenceSection';
 import TransformationCases from '../components/TransformationCases';
+import CuriosityCard from '../components/CuriosityCard';
 import Link from 'next/link';
 import ShareButtons from '../components/ShareButtons';
 import { ArrowRight } from 'lucide-react';
@@ -44,6 +45,12 @@ const tabSEO = {
     title: "Aktiva projekt och pilotinitiativ",
     description: "Utforska våra pågående projekt och pilotinitiativ där vi testar och utvecklar framtidens samhällslösningar i praktiken."
   }
+};
+
+// Curiosity questions for different tabs
+const curiosityQuestions = {
+  aubi: "Vad är det första du skulle ägna din tid åt om din grundtrygghet var garanterad?",
+  hallbarhet: "Vilken är den viktigaste relationen mellan människan och naturen som du tycker vi behöver läka?"
 };
 
 export default function SolutionsPage() {
@@ -101,6 +108,15 @@ export default function SolutionsPage() {
               title={AUBI_CONTENT.title}
               contents={AUBI_CONTENT.sections}
             />
+
+            {/* AUBI Curiosity Card */}
+            <div className="mb-12">
+              <CuriosityCard 
+                question={curiosityQuestions.aubi}
+                category="Fråga att fundera på"
+                className="max-w-3xl mx-auto"
+              />
+            </div>
 
             <div className="mb-12">
               <h3 className="text-2xl font-bold text-center mb-6">
@@ -211,6 +227,15 @@ export default function SolutionsPage() {
               title={HALLBARHET_CONTENT.title}
               contents={HALLBARHET_CONTENT.sections}
             />
+
+            {/* Hållbarhet Curiosity Card */}
+            <div className="mb-12">
+              <CuriosityCard 
+                question={curiosityQuestions.hallbarhet}
+                category="Fråga att fundera på"
+                className="max-w-3xl mx-auto"
+              />
+            </div>
           </div>
 
           {/* Demokrati Section */}
