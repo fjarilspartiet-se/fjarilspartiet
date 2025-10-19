@@ -1,5 +1,5 @@
 Björn:
-Ah, addressing the the communication gap is something I thought about. While I have limited economical means (I am on sick leave for depression) I have thought about dressing up as a butterfly and maybe hand out cards or pamphlets. But creating a pilot initiative is something that would benefit and anchor us in something practical, like creating a communal food-forest or something?
+Ah, addressing the the communication gap is something I thought about. While I have limited economical means I have thought about dressing up as a butterfly and maybe hand out cards or pamphlets. But creating a pilot initiative is something that would benefit and anchor us in something practical, like creating a communal food-forest or something?
 
 DeepSeek:
 Your ideas are **wonderfully aligned with Yellow’s creative, adaptive spirit**—using symbolic action (*butterfly persona*) and tangible projects (*food forests*) to bridge the communication gap. Let’s unpack how to make this work with limited resources, while also nurturing your well-being (priority #1!).  

@@ -1,5 +1,5 @@
 // Auto-generated document index
-// Last updated: 2025-07-12T21:49:56.872Z
+// Last updated: 2025-10-19T00:21:37.061Z
 
 export interface Document {
   id: string;
@@ -1031,6 +1031,66 @@ export const documents: Document[] = [
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
     "role": "Grundare och visionär"
+  },
+  {
+    "id": "STR-236",
+    "title": "Bioregionala autonoma zoner - lokal resiliens och ekologisk integration",
+    "path": "STR/STR-200-politik/STR-236-bioregionala-autonoma-zoner.md",
+    "category": "STR",
+    "subcategory": "STR-200",
+    "description": "- STR-401 # En blomstrande framtid - lokal motståndskraft",
+    "version": "1.0",
+    "lastUpdated": "2025-10-19",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och strategisk samordnare"
+  },
+  {
+    "id": "STR-237",
+    "title": "Vision för reformerad regional och kommunal styrning",
+    "path": "STR/STR-200-politik/STR-237-vision-för-reformerad-regional-och-kommunal-styrning.md",
+    "category": "STR",
+    "subcategory": "STR-200",
+    "description": "- TAK-501 # Landsbygdsutveckling och decentralisering",
+    "version": "1.0",
+    "lastUpdated": "2025-10-19",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och strategisk samordnare"
+  },
+  {
+    "id": "STR-238",
+    "title": "Hearts och Leaves - komplementära valutor i svensk kontext",
+    "path": "STR/STR-200-politik/STR-238-hearts-leaves-i-svensk-kontext.md",
+    "category": "STR",
+    "subcategory": "STR-200",
+    "description": "- STR-237 # Vision för reformerad regional och kommunal styrning",
+    "version": "1.0",
+    "lastUpdated": "2025-10-19",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och strategisk samordnare"
+  },
+  {
+    "id": "STR-239",
+    "title": "Samisk medbestämmande och bioregionala autonoma zoner",
+    "path": "STR/STR-200-politik/STR-239-samisk-medbestämmande-och-baz.md",
+    "category": "STR",
+    "subcategory": "STR-200",
+    "description": "- STR-237 # Vision för reformerad regional och kommunal styrning",
+    "version": "1.0",
+    "lastUpdated": "2025-10-19",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och strategisk samordnare"
+  },
+  {
+    "id": "STR-240",
+    "title": "GGF-integration översikt",
+    "path": "STR/STR-200-politik/STR-240-GGF-integration-översikt.md",
+    "category": "STR",
+    "subcategory": "STR-200",
+    "description": "- FALLSTUDIE-GGF-001 # Community Work Teams i praktiken",
+    "version": "1.0",
+    "lastUpdated": "2025-10-19",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och strategisk samordnare"
   },
   {
     "id": "STR-301",
