@@ -28,7 +28,7 @@ Detta dokument beskriver hur bioregionala autonoma zoner (BAZ) i Sápmi kan impl
 **Historisk kontext:**
 - Det samiska folket har bott i Sápmi i över 10,000 år
 - Samisk rätt till land och vatten har systematiskt ignorerats av svenska staten
-- Nuvarande "konsultationsprocesser" ger samer vetorät t endast på papperet
+- Nuvarande "konsultationsprocesser" ger samer vetorätt endast på papperet
 - Rennäringen och samisk kultur hotas av gruvdrift, skogsavverkning och vindkraft
 
 **Fjärilspartiets position:**
