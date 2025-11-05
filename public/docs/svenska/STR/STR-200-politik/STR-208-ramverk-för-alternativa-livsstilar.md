@@ -72,7 +72,20 @@ relaterade-dokument:
 - Stöd för digital anslutning
 - Flexibla posttjänster
 
-#### 3. Alternativa gemenskaper
+#### 3 Praktisk implementering för romska och resande gemenskaper
+**Mobila serviceenheter:**
+- Registreringsbussar som besöker romska läger och mötesplatser
+- Samarbete med romska förtroendepersoner
+- Drop-in tjänster utan tidigare registrering
+- Akut AUBI-utbetalning vid kris (24-timmars service)
+
+**Kulturellt anpassad dokumentation:**
+- Godkännande av muntliga intyg från romska äldsteråd
+- Flexibla boendebevis (camping, bostadsvagn, temporärt boende)
+- Digital ID utan krav på fast adress
+- Stöd för familjeenheter snarare än individuella vuxna
+
+#### 4. Alternativa gemenskaper
 **Gemenskapsrättigheter**
 - Rätt att bilda alternativa samhällen
 - Markanvändning för hållbara gemenskaper
@@ -87,7 +100,7 @@ relaterade-dokument:
 - Lösningar för vattenåtkomst
 - Stöd för avfallshantering
 
-#### 4. Individuella alternativ
+#### 5. Individuella alternativ
 **Personliga rättigheter**
 - Stöd för eremitlivsstil
 - Individuell rörelsefrihet

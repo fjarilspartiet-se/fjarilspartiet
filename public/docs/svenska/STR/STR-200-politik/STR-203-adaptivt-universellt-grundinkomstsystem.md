@@ -2,8 +2,8 @@
 ---
 dokumentid: STR-203
 titel: Adaptiv universell basinkomst (AUBI)
-version: 1.1
-senast-uppdaterad: 2024-12-02
+version: 1.2
+senast-uppdaterad: 2025-11-05
 ansvarig: Björn Kenneth Holmström
 roll: Grundare och teknisk samordnare
 relaterade-dokument:
@@ -99,6 +99,20 @@ relaterade-dokument:
 - Baserat på verifierade bidrag
 - Flexibelt och anpassat till lokala behov
 - Transparenta kriterier
+
+#### 1.1 Särskilda grupper och mobila medborgare
+
+**Romska och resande gemenskaper:**
+- AUBI-utbetalning via mobila enheter och samarbetspunkter
+- Möjlighet till veckoutbetalningar för personer i ständig rörelse
+- Kulturmedlare vid alla kontaktpunkter
+- Barnspecifika tillägg oavsett föräldrars dokumentationsstatus
+
+**Personer utan uppehållstillstånd:**
+- Grundläggande AUBI på 8,000 SEK/månad som humanitärt stöd
+- Tillgång till nödvändig vård via AUBI-kortet
+- Skyddade uppgifter - ingen dataöverföring till Migrationsverket
+- Vägledning om regulariseringsmöjligheter
 
 #### 2. Finansieringsmekanismer
 

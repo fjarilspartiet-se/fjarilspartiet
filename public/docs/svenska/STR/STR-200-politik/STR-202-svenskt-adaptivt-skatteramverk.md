@@ -333,6 +333,26 @@ Hearts och Leaves utgör kompletterande valutor inom det Adaptiva Universella Ba
 - Kopplade till verifierbara miljöförbättringar
 - Justerbart värde baserat på "Green Job Score" (1,0x-1,5x multiplikator)
 
+#### **6.11 Särskilda bestämmelser för personer utan fast bosättning eller svenskt personnummer**
+
+**Utfärdande av temporärt skatte-ID:**
+- Personer utan fast bosättning eller svenskt personnummer kan ansöka om temporärt skatte-ID för AUBI och Hearts/Leaves
+- Ansökan sker via:
+  - Godkända romska organisationer (Romska Riksförbundet, RFSL)
+  - Socialtjänsten i den kommun där personen vistas
+  - Mobila registreringsenheter
+- Temporärt ID ger tillgång till:
+  - AUBI grundbelopp
+  - Hearts/Leaves-systemet
+  - Grundläggande sjukvård
+  - Skolplikt för barn
+
+**Förenklad skattehantering:**
+- Automatisk skattereduktion till 15% för Hearts/Leaves-intäkter under 50,000 SEK/år
+- Ingen krav på fast adress för utbetalning
+- Mobila utbetalningspunkter: postombud, bibliotek, socialkontor
+- Stöd på romani chib och andra relevanta språk
+
 #### 6.2. Skattebehandling av Hearts och Leaves
 
 **Beskattningsmodell:**
