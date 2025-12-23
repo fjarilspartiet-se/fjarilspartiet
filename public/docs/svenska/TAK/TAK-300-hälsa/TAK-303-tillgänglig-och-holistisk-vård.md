@@ -23,6 +23,7 @@ Att alla individer ska ha tillgång till vård av hög kvalitet, oavsett geograf
 1. **Rättvis och lika vård** – Ingen individ ska behöva avstå från vård på grund av kostnader, avstånd eller väntetider.
 2. **Personcentrerad vård** – Vården ska anpassas efter individens behov, med respekt för personens önskemål och kulturella bakgrund.
 3. **Holistisk behandling** – Vården ska omfatta både fysiska och psykiska behov och ta hänsyn till sociala faktorer som påverkar hälsa.
+- **4. Systemisk validitet** - Vården ska erkänna att många hälsoproblem har sina rötter i dysfunktionella samhällsstrukturer, och arbeta med både individanpassade lösningar och systemförändring.
 
 #### Huvudkomponenter
 1. **Ökad tillgänglighet till vård och resurser**
@@ -33,6 +34,7 @@ Att alla individer ska ha tillgång till vård av hög kvalitet, oavsett geograf
 2. **Integrerad vård för kropp och sinne**
    - Ökat samarbete mellan primärvård och psykisk hälsovård, där läkare och psykologer arbetar tillsammans för att ge en helhetssyn på patientens hälsa.
    - Utveckling av tvärvetenskapliga behandlingsplaner som omfattar läkare, psykologer, sjukgymnaster och andra specialister för att säkerställa omfattande vård.
+   - **Existensiell och samhällsmedveten vård**: Integration av perspektiv som erkänner att psykiskt välbefinnande ofta kräver meningsfulla sammanhang och autentiska sociala strukturer, särskilt för kognitivt sensitiva individer.
 
 3. **Hälsofrämjande och förebyggande insatser**
    - Fokusering på preventiva åtgärder genom utbildning, exempelvis näringslära, motionsrådgivning och stresshantering, för att minska behovet av akutvård.

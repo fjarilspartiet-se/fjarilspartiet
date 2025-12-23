@@ -95,27 +95,27 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Hållbarhet Card */}
+              {/* Hållbarhet Card -> Uppdaterat till RESILIENS */}
               <div className="card hover:shadow-lg transition-all group">
                 <div className="flex items-center mb-4">
                   <Sprout className="w-6 h-6 text-green-600 mr-2 group-hover:scale-110 transition-transform" />
-                  <h3 className="text-xl font-semibold text-[var(--color-primary)]">Hållbar omställning</h3>
+                  <h3 className="text-xl font-semibold text-[var(--color-primary)]">Resiliens & Beredskap</h3>
                 </div>
                 <div className="mb-2 text-xs font-medium text-green-600 bg-green-50 rounded-full px-2 py-1 inline-block">
-                  Pilotprojekt behöver startas
+                  Fokusområde: Stuga
                 </div>
                 <p className="text-[var(--color-text-muted)] mb-4">
-                  En vision om praktiska lösningar för ett robust och blomstrande samhälle:
+                  Praktiska lösningar för ett robust samhälle som klarar kriser:
                 </p>
                 <ul className="list-disc list-inside text-[var(--color-text-muted)] space-y-2 mb-4">
-                  <li>Säkra lokal matförsörjning och självständighet</li>
-                  <li>Skapa nya jobb och innovationsmöjligheter</li>
-                  <li>Bygg starka och rättvisa lokalsamhällen</li>
-                  <li>Återställ naturens balans genom systemlösningar</li>
+                  <li>Lokal matförsörjning och matskogar</li>
+                  <li>Civil beredskap och energioberoende</li>
+                  <li>Starka, självförsörjande lokalsamhällen</li>
+                  <li>Återställande av naturens buffertar</li>
                 </ul>
                 <div className="mt-auto">
-                  <Link href="/losningar?tab=hallbarhet" className="btn-primary inline-flex items-center">
-                    Se våra miljölösningar <ArrowRight className="w-4 h-4 ml-2" />
+                  <Link href="/losningar?tab=resiliens" className="btn-primary inline-flex items-center">
+                    Se beredskapsplanen <ArrowRight className="w-4 h-4 ml-2" />
                   </Link>
                 </div>
               </div>
@@ -193,51 +193,75 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Current Projects Section */}
+        {/* Current Projects Section - Nu med MANIFESTET inkluderat snyggt */}
         <section className="bg-[var(--color-background)] py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-[var(--color-primary)]">Aktuella utvecklingsprojekt</h2>
+              <h2 className="text-3xl font-bold text-[var(--color-primary)]">Verktyg & Projekt</h2>
               <p className="mt-4 text-lg text-[var(--color-text-muted)] max-w-2xl mx-auto">
-                Vi utvecklar öppen källkod och praktiska lösningar som alla kan använda och förbättra
+                Från digital kod till personliga visioner – vi bygger verktygen för förändring.
               </p>
             </div>
             
-            <div className="grid gap-8 grid-cols-1 md:grid-cols-2">
-              <div className="card">
-                <h3 className="text-xl font-semibold text-[var(--color-primary)] mb-4">DPOP - Digital demokratiplattform</h3>
+            {/* Ändrat till grid-cols-3 för att få plats med manifestet */}
+            <div className="grid gap-8 grid-cols-1 lg:grid-cols-3">
+              
+              {/* DPOP Card */}
+              <div className="card flex flex-col h-full">
+                <h3 className="text-xl font-semibold text-[var(--color-primary)] mb-4">DPOP - Digital Demokrati</h3>
                 <p className="text-[var(--color-text-muted)] mb-4">
-                  En öppen plattform för demokratiskt deltagande med:
+                  En öppen plattform för säkert demokratiskt deltagande och omröstningar.
                 </p>
-                <ul className="list-disc list-inside text-[var--color-text-muted] mb-6">
+                <ul className="list-disc list-inside text-[var--color-text-muted] mb-6 flex-grow">
                   <li>Säker digital röstning</li>
-                  <li>Transparenta beslutsprocesser</li>
-                  <li>Verktyg för medborgardialoger</li>
-                  <li>Integration med kommunala system</li>
+                  <li>Transparent beslutsblockkedja</li>
+                  <li>Open Source (GitHub)</li>
                 </ul>
                 <a href="https://github.com/BjornKennethHolmstrom/DPOP" 
-                   className="btn-primary inline-flex items-center">
-                  Bidra till utvecklingen <ArrowRight className="w-4 h-4 ml-2" />
+                   className="btn-secondary inline-flex items-center justify-center mt-auto">
+                  <Network className="w-4 h-4 mr-2"/> Bidra på GitHub
                 </a>
               </div>
 
-              <div className="card">
-                <h3 className="text-xl font-semibold text-[var(--color-primary)] mb-4">Lokala pilotprojekt</h3>
+              {/* Pilotprojekt Card */}
+              <div className="card flex flex-col h-full">
+                <h3 className="text-xl font-semibold text-[var(--color-primary)] mb-4">Lokala Piloter</h3>
                 <p className="text-[var(--color-text-muted)] mb-4">
-                  Vi vill testa praktiska lösningar i verkliga miljöer:
+                  Vi testar praktiska lösningar i verkliga miljöer ("Stugor").
                 </p>
-                <ul className="list-disc list-inside text-[var--color-text-muted] mb-6">
+                <ul className="list-disc list-inside text-[var--color-text-muted] mb-6 flex-grow">
                   <li>Gemensamma matskogar</li>
-                  <li>Lokala demokratiexperiment</li>
-                  <li>Delningsekonomiska initiativ</li>
-                  <li>Småskalig energiproduktion</li>
+                  <li>Delningsekonomiska noder</li>
+                  <li>Lokal energiproduktion</li>
                 </ul>
                 <div className="mt-auto">
-                  <Link href="/losningar?tab=projekt" className="btn-primary inline-flex items-center">
-                    Se våra projekt <ArrowRight className="w-4 h-4 ml-2" />
+                  <Link href="/losningar?tab=projekt" className="btn-secondary inline-flex items-center justify-center w-full">
+                    <Sprout className="w-4 h-4 mr-2"/> Se pilotprojekt
                   </Link>
                 </div>
               </div>
+
+              {/* MANIFEST CARD - Flyttat hit! */}
+              <div className="card hover:shadow-lg transition-all group border-2 border-purple-100 flex flex-col h-full">
+                <div className="flex items-center mb-4">
+                  <PenTool className="w-6 h-6 text-purple-600 mr-2 group-hover:scale-110 transition-transform" />
+                  <h3 className="text-xl font-semibold text-gray-900">Ditt Manifest</h3>
+                </div>
+                <p className="text-gray-600 mb-4">
+                  Politik börjar med din vision. Artikulera hur du vill att framtiden ska se ut.
+                </p>
+                <ul className="list-disc list-inside text-[var--color-text-muted] mb-6 flex-grow">
+                  <li>Formulera dina värderingar</li>
+                  <li>Dela din vision</li>
+                  <li>Hitta likasinnade</li>
+                </ul>
+                <div className="mt-auto">
+                  <Link href="/manifest" className="btn-primary inline-flex items-center justify-center w-full">
+                    Skapa manifest <ArrowRight className="w-4 h-4 ml-2" />
+                  </Link>
+                </div>
+              </div>
+
             </div>
           </div>
         </section>
@@ -268,25 +292,6 @@ export default function Home() {
             />
           </div>
         </section>
-
-        <div className="card hover:shadow-lg transition-all group">
-          <div className="flex items-center mb-4">
-            <PenTool className="w-6 h-6 text-purple-600 mr-2 group-hover:scale-110 transition-transform" />
-            <h3 className="text-xl font-semibold text-gray-900">Personligt Manifest</h3>
-          </div>
-          <div className="mb-2 text-xs font-medium text-purple-600 bg-purple-50 rounded-full px-2 py-1 inline-block">
-            Ny funktion
-          </div>
-          <p className="text-gray-600 mb-4">
-            Artikulera din vision för ett meningsfullt samhälle. Skapa, dela och bidra med ditt 
-            personliga manifest.
-          </p>
-          <div className="mt-auto">
-            <Link href="/manifest" className="btn-primary inline-flex items-center">
-              Skapa ditt manifest <ArrowRight className="w-4 h-4 ml-2" />
-            </Link>
-          </div>
-        </div>
       </MainLayout>
     </>
   );

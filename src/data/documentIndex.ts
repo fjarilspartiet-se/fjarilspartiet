@@ -1,5 +1,5 @@
 // Auto-generated document index
-// Last updated: 2025-10-19T00:21:37.061Z
+// Last updated: 2025-12-23T16:07:37.028Z
 
 export interface Document {
   id: string;
@@ -648,8 +648,8 @@ export const documents: Document[] = [
     "category": "STR",
     "subcategory": "STR-200",
     "description": "- STR-214 # AUBI - Ekonomisk analys och finansiering",
-    "version": "1.1",
-    "lastUpdated": "2024-12-02",
+    "version": "1.2",
+    "lastUpdated": "2025-11-05",
     "author": "Björn Kenneth Holmström",
     "role": "Grundare och teknisk samordnare"
   },
@@ -1091,6 +1091,14 @@ export const documents: Document[] = [
     "lastUpdated": "2025-10-19",
     "author": "Björn Kenneth Holmström",
     "role": "Grundare och strategisk samordnare"
+  },
+  {
+    "id": "STR-241",
+    "title": "Fjärilspartiets ansats för ekonomisk rättvisa utan gränser",
+    "path": "STR/STR-200-politik/STR-241-strategi-för-inkludering-av-statslösa-och-nomadiska-grupper.md",
+    "category": "STR",
+    "subcategory": "STR-200",
+    "description": "- STR-232 # Nödvändiga lagreformer för AUBI och livsstilsfrihet"
   },
   {
     "id": "STR-301",
@@ -1556,6 +1564,18 @@ export const documents: Document[] = [
     "role": "Grundare och Utvecklingssamordnare"
   },
   {
+    "id": "TAK-404",
+    "title": "Lokal bostadspolicy – En synoptisk policycykel",
+    "path": "TAK/TAK-400-bostad-och-samhälle/TAK-404-lokal-bostadspolicy.md",
+    "category": "TAK",
+    "subcategory": "TAK-400",
+    "description": "*Skapad genom SCI‑cykeln (Synthesis, Challenge, Integration) med stöd av Institutional Regeneration Framework och Synoptic Protocol*",
+    "version": "1.0",
+    "lastUpdated": "2025-12-02",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och Utvecklingssamordnare"
+  },
+  {
     "id": "TAK-501",
     "title": "Landsbygdsutveckling och decentralisering",
     "path": "TAK/TAK-500-land-och-lokal-utveckling/TAK-501-landsbygdsutveckling-och-decentralisering.md",
@@ -1565,6 +1585,18 @@ export const documents: Document[] = [
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
     "role": "Grundare och Strategisk Samordnare"
+  },
+  {
+    "id": "TAK-502",
+    "title": "Rätten att Stanna – Sveriges billigaste försäkring mot nästa kris",
+    "path": "TAK/TAK-500-land-och-lokal-utveckling/TAK-502-rätten-att-stanna.md",
+    "category": "TAK",
+    "subcategory": "TAK-500",
+    "description": "Fjärilspartiet är inte intresserat av att subventionera en livsstil.",
+    "version": "2.0",
+    "lastUpdated": "2025-12-03",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och Utvecklingssamordnare"
   }
 ];
 

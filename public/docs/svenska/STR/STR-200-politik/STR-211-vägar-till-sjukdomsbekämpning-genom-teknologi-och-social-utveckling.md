@@ -59,6 +59,8 @@ Denna vision kräver ett långsiktigt engagemang för teknologiutveckling, samh�
 5. **Global samverkan och delning av forskning**
  Sjukdomsbekämpning är en global angelägenhet. Vi stödjer internationellt samarbete inom forskning och utveckling samt delning av medicinska framsteg och resurser. Vår vision inkluderar en värld där nationer samverkar för att gemensamt eliminera sjukdomshot och där forskning är tillgänglig för alla.
 
+6. **Systemisk känslighet och kognitiv överensstämmelse**: Vi erkänner att psykisk ohälsa ofta är en naturlig reaktion på ett dysfunktionellt samhällssystem. Istället för att enbart patologisera individuella reaktioner, arbetar vi för att skapa ett samhälle som är bättre anpassat för människor med olika kognitiva profiler och sensitiviteter. Högkognitiv förmåga ska inte betraktas som en riskfaktor för psykisk ohälsa, utan som en resurs som kräver ett mer autentiskt och meningsfullt samhälle.
+
 ---
 
 ### Implementering och uppföljning
@@ -80,4 +82,6 @@ Denna vision kräver ett långsiktigt engagemang för teknologiutveckling, samh�
 ### Sammanfattning
 
 Fjärilspartiets vision för sjukdomsbekämpning genom teknologi och social utveckling strävar efter att skapa en värld fri från de sjukdomar som idag orsakar lidande och hinder för miljoner människor. Genom att kombinera banbrytande teknologiska lösningar med sociala och ekonomiska insatser kan vi bana väg för ett hälsosamt, jämlikt och hållbart samhälle där varje individ får möjlighet att uppnå sin fulla potential.
+Vår vision inkluderar ett samhälle där kognitiv sensitivhet och intelligens inte patologiseras, utan där samhällsstrukturer anpassas för att möta behoven hos människor med olika kognitiva profiler. Sanitet och anpassning till ett dysfunktionellt system är inte synonymt.
+
 

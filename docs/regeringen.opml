@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Regeringsbevakning - Fjärilspartiet</title>
+    </head>
+    <body>
+        <outline text="Regeringskansliet">
+            <outline 
+                text="Bevakning: Resiliens, Energi &amp; Miljö" 
+                description="Filtrerat flöde från regeringen.se baserat på valda departement och ämnesområden" 
+                htmlUrl="https://regeringen.se" 
+                xmlUrl="https://regeringen.se/Filter/RssFeed?filterType=Taxonomy&amp;filterByType=FilterablePageBase&amp;preFilteredCategories=1284%2C1285%2C1286%2C1287%2C1288%2C1290%2C1291%2C1292%2C1293%2C1294%2C1295%2C1296%2C1297%2C2425&amp;rootPageReference=0&amp;filteredContentCategories=2540%2C1334%2C1342%2C1327%2C2085%2C1329%2C1331%2C1332%2C1344&amp;filteredPoliticalLevelCategories=&amp;filteredPoliticalAreaCategories=2248%2C1219%2C1238%2C1226%2C1241%2C1243%2C1252&amp;filteredPublisherCategories=1286%2C1291%2C2425" 
+                type="rss" />
+        </outline>
+    </body>
+</opml>

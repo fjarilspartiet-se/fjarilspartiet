@@ -24,6 +24,8 @@ Ett samhälle där:
 - Ofrivillig ensamhet och isolering aktivt motverkas genom samhällsstrukturer
 - Grundorsakerna till psykisk ohälsa adresseras systematiskt
 - Förebyggande insatser är lättillgängliga och naturligt integrerade i samhället
+- Ett samhälle där kognitiv sensitivhet och intelligens inte patologiseras, utan där psykisk "ohälsa" ibland erkänns som en sund reaktion på osunda samhällsförhållanden.
+
 
 ## Grundprinciper
 
@@ -34,6 +36,7 @@ Ett samhälle där:
 - Samarbete kring behandlingsval bortom medicinering
 - Flexibilitet i stöd- och behandlingsformer
 - Individanpassade vårdplaner som går bortom symptombehandling
+- **Erkännande av systemisk dissonans**: Vården ska erkänna att psykiskt lidande ofta är en naturlig konsekvens av att leva i ett samhälle som inte är anpassat för autentiskt mänskligt välbefinnande, särskilt för personer med högre kognitiv sensitivitet.
 
 ### 2. Tillgänglighet och inkludering
 - Lättillgänglig första kontakt utan långa väntetider
@@ -65,6 +68,7 @@ Ett samhälle där:
 - Integration av sociala och existentiella perspektiv
 - Särskild kompetens kring både ensamhetsproblematik och behovet av solitude
 - Stödteam för social återintegrering för dem som önskar det
+- **Kognitivt anpassade stödformer**: Utveckling av specialiserade stöd för högkognitiva individer som fokuserar på att hitta meningsfulla sammanhang och autentiska uttryck snarare än enbart anpassning till normer.
 
 ### 3. Samhällsbaserat stöd för meningsfulla relationer
 - Frivilliga lokala stödgrupper och mötesplatser
@@ -118,6 +122,12 @@ Ett samhälle där:
 - Tillgänglighetsfokus
 - Riktade insatser baserade på individuella behov
 
+### 4. Högkognitiva individer**
+  - Erkännande av att konventionella diagnostiska kategorier ofta missar den existentiella dimensionen av högkognitivt lidande
+  - Stöd som fokuserar på att hitta meningsfulla sammanhang snarare än medicinsk normalisering
+  - Skapande av communityer där kognitivt likasinnade kan mötas utan att patologiseras
+  - Utbildning av vårdpersonal om skillnaden mellan patologiskt lidande och existentiell dissonans i ett meningslöst samhälle
+
 ## Kvalitetssäkring
 
 ### 1. Uppföljning
@@ -138,6 +148,8 @@ Ett samhälle där:
   - Behandlingens effektivitet och biverkningar
   - Tydlighet i kommunikation och information
 - Systemet möjliggör informerade vårdval genom tillgång till tidigare patienters anonymiserade erfarenheter
+- Dokumentation av huruvida vården erkänner systemiska orsaker till psykiskt lidande
+- Mätning av i vilken utsträckning vården validerar patienters upplevelser av samhällsabsurditet som legitima
 
 **Integritet och datasäkerhet**
 - Stark autentisering för att verifiera äkta patientupplevelser
