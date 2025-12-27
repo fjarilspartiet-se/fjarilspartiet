@@ -385,7 +385,7 @@ export default function SolutionsPage() {
 
                 <div className="mt-6 flex flex-wrap gap-4">
                   <a 
-                    href="https://www.msb.se/sv/amnesomraden/krisberedskap-och-civilt-forsvar/"
+                    href="https://www.msb.se/sv/amnesomraden/krisberedskap--civilt-forsvar/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-blue-600 hover:text-blue-800 inline-flex items-center gap-1"
