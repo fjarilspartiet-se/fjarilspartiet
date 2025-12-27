@@ -12,7 +12,7 @@ import TransformationCases from '../components/TransformationCases';
 import CuriosityCard from '../components/CuriosityCard';
 import Link from 'next/link';
 import ShareButtons from '../components/ShareButtons';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Shield, Network, Lightbulb, Code } from 'lucide-react';
 import { 
   TABS, AUBI_CONTENT, HALLBARHET_CONTENT, 
   DEMOKRATI_CONTENT, UTBILDNING_CONTENT, PROJEKT_CONTENT, TRANSFORMATION_CONTENT, REFERENCES 
@@ -282,6 +282,125 @@ export default function SolutionsPage() {
                 {PROJEKT_CONTENT.projects.map((project, index) => (
                   <ProjectCard key={index} {...project} />
                 ))}
+              </div>
+
+              {/* Policy Support Section - Digital Sovereignty */}
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-8 rounded-lg mb-12 border border-blue-100">
+                <div className="flex items-start gap-4 mb-6">
+                  <div className="bg-blue-600 p-3 rounded-lg">
+                    <Shield className="w-6 h-6 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-semibold mb-2">
+                      Policyområde: Digital suveränitet & krisberedskap
+                    </h3>
+                    <p className="text-gray-700">
+                      Fjärilspartiet förespråkar utveckling av öppen källkod infrastruktur 
+                      för svensk digital suveränitet och totalförsvar.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-6 mb-6">
+                  <div className="bg-white p-6 rounded-lg shadow-sm">
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Network className="w-5 h-5 text-blue-600" />
+                      Vad vi förespråkar
+                    </h4>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li className="flex items-start gap-2">
+                        <span className="text-blue-500 mt-1">•</span>
+                        <span>Peer-to-peer system som fungerar vid IT-avbrott</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-blue-500 mt-1">•</span>
+                        <span>Lokal-först datalagring (ej amerikanska moln)</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-blue-500 mt-1">•</span>
+                        <span>Distribuerad identitetshantering</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-blue-500 mt-1">•</span>
+                        <span>Offline-kapabla kommunikationssystem</span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className="bg-white p-6 rounded-lg shadow-sm">
+                    <h4 className="font-semibold mb-3 flex items-center gap-2">
+                      <Lightbulb className="w-5 h-5 text-blue-600" />
+                      Konkreta policyförslag
+                    </h4>
+                    <ul className="space-y-2 text-sm text-gray-700">
+                      <li className="flex items-start gap-2">
+                        <span className="text-blue-500 mt-1">1.</span>
+                        <span>Kommuner prioriterar krisberedskap i IT-upphandling</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-blue-500 mt-1">2.</span>
+                        <span>Staten finansierar öppen källkod alternativ till utländska moln</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-blue-500 mt-1">3.</span>
+                        <span>MCF inkluderar digital resiliens i totalförsvarsdoktrin</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <span className="text-blue-500 mt-1">4.</span>
+                        <span>Vinnova prioriterar krisberedskapsinfrastruktur i innovation</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg border-l-4 border-blue-600">
+                  <div className="flex items-start gap-3">
+                    <Code className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold mb-2">Exempel: CivicBase och Stuga</h4>
+                      <p className="text-sm text-gray-700 mb-3">
+                        <strong>CivicBase</strong> och konceptet <strong>Stuga</strong> är exempel 
+                        på den typ av öppen infrastruktur Sverige behöver för totalförsvar. Dessa planeras att 
+                        utvecklas med stöd från Vinnova och Myndigheten för civilt försvar (MCF) 
+                        som oberoende projekt för svenskt totalförsvar.
+                      </p>
+                      <div className="grid sm:grid-cols-2 gap-3 text-xs text-gray-600">
+                        <div className="bg-blue-50 p-3 rounded">
+                          <strong className="block mb-1">CivicBase (Plattform)</strong>
+                          Offline-först P2P-infrastruktur för krisberedskap
+                        </div>
+                        <div className="bg-blue-50 p-3 rounded">
+                          <strong className="block mb-1">Stuga (Applikation)</strong>
+                          Lokal grannsamverkan vid kriser
+                        </div>
+                      </div>
+                      <p className="text-xs text-gray-600 mt-3 italic">
+                        Fjärilspartiet stödjer denna typ av infrastruktur genom policy, men äger 
+                        eller driver inte projekten. Vi förespråkar att alla svenska kommuner bör 
+                        implementera liknande system för digital resiliens.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="mt-6 flex flex-wrap gap-4">
+                  <a 
+                    href="https://www.msb.se/sv/amnesomraden/krisberedskap-och-civilt-forsvar/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-blue-600 hover:text-blue-800 inline-flex items-center gap-1"
+                  >
+                    Läs mer om totalförsvar (MSB) <ArrowRight className="w-4 h-4" />
+                  </a>
+                  <a 
+                    href="https://github.com/fjarilspartiet-se/fjarilspartiet/blob/main/public/docs/svenska/STR-300-digital-suveränitet-och-integritet.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-blue-600 hover:text-blue-800 inline-flex items-center gap-1"
+                  >
+                    Vår policy: Digital suveränitet <ArrowRight className="w-4 h-4" />
+                  </a>
+                </div>
               </div>
 
               {/* Förslag på projekt */}
