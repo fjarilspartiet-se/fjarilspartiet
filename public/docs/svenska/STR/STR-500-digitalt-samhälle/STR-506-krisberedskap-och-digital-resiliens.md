@@ -159,7 +159,7 @@ Sverige saknar tillräcklig kompetens inom dessa områden. Vi måste bygga upp k
 
 ## 4. Exempel: CivicBase och Stuga
 
-**OBS:** CivicBase och Stuga är oberoende projekt som utvecklas med stöd från Vinnova och MCF. Fjärilspartiet äger eller driver inte dessa projekt, men förespråkar att fler liknande initiativ bör utvecklas och implementeras.
+**OBS:** CivicBase och Stuga är oberoende projekt som planeras att utvecklas med stöd från Vinnova och MCF. Fjärilspartiet äger eller driver inte dessa projekt, men förespråkar att fler liknande initiativ bör utvecklas och implementeras.
 
 ### 4.1 CivicBase (Plattform)
 

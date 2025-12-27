@@ -1,5 +1,5 @@
 // Auto-generated document index
-// Last updated: 2025-12-27T09:27:01.531Z
+// Last updated: 2025-12-27T09:37:08.344Z
 
 export interface Document {
   id: string;
@@ -1300,6 +1300,17 @@ export const documents: Document[] = [
     "lastUpdated": "2025-04-05",
     "author": "Björn Kenneth Holmström",
     "role": "Grundare och Teknisk Samordnare"
+  },
+  {
+    "id": "STR-506",
+    "title": "Krisberedskap och digital resiliens",
+    "path": "STR/STR-500-digitalt-samhälle/STR-506-krisberedskap-och-digital-resiliens.md",
+    "category": "STR",
+    "subcategory": "STR-500",
+    "version": "1.0",
+    "lastUpdated": "2025-12-27",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och teknisk samordnare"
   },
   {
     "id": "TAK-101",
