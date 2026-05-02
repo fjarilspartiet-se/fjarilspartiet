@@ -2,8 +2,8 @@
 ---
 dokumentid: STR-101
 titel: Partigrund
-version: 1.0
-senast-uppdaterad: 2024-10-29
+version: 2.0
+senast-uppdaterad: 2026-05-02
 ansvarig: Björn Kenneth Holmström
 roll: Grundare och teknisk samordnare
 relaterade-dokument:
@@ -11,280 +11,222 @@ relaterade-dokument:
   - STR-102 # Bas i p(∞)=1
   - STR-103 # Etik- och värderingsramverk
   - STR-104 # Fjärilsramverket
+  - STR-110 # Adaptiv styrningsmodell
+  - STR-200 # Politisk strategi och policybibliotek
+  - STR-300 # Internationell strategi
   - TAK-101 # Juridiskt ramverk
 ---
 
 # Fjärilspartiet  
-## Stiftelsedokument utkast 1.0
+## Partigrund — version 2.0
 
 ### Vision
-Att underlätta mänsklighetens övergång mot en blomstrande, hållbar framtid genom adaptiv, evidensbaserad styrning som omfamnar både enhet och mångfald där alla åldersgrupper, inklusive barn och ungdomar, är genuina medaktörer i demokratin.
 
-Fjärilspartiet är det enda systemisk-pragmatiska partiet i Sverige. Vi löser inte problem—vi designar system som löser dem själva. Genom adaptiv styrning (ASM), modulär policy, och municipala testbäddar skapar vi en framtid där samhället lär sig, anpassar sig, och blomstrar—utan ideologiska låsningar.
+Att underlätta mänsklighetens övergång mot en blomstrande, hållbar framtid genom adaptiv, evidensbaserad styrning som omfamnar både enhet och mångfald, där alla åldersgrupper, inklusive barn och ungdomar, är genuina medaktörer i demokratin.
+
+Vår metod är systemisk pragmatism. Vi formulerar politik som testbara hypoteser, inte som färdiga sanningar. Vi designar institutioner som kan lära sig, och vi tror att verklig förändring byggs underifrån — i kommuner, i praktiska piloter, i öppen dialog med medborgarna. Vårt mål är inte att ha rätt, utan att skapa system som gör det möjligt att tillsammans upptäcka vad som fungerar.
+
+---
 
 ### Grundläggande principer
 
-0. **Systemkompetens över ideologi**
-   - Styrning som hypotes, inte dogm: Policy formuleras som testbara antaganden, inte som färdiga sanningar.
-   - Modulär policyutveckling: Varje politiskt område (energi, bostad, integration) hanteras som en versionerad modul (inspirerat av öppen källkod och Wikipedia), öppen för kontinuerlig uppdatering och medborgarinput.
-   - "Testa innan vi skalar": Inga nationella reformer utan lokal beprövning. Piloter i kommuner, mätning av resultat, sedan beslut om uppskalning.
+1. **Systemintegration**
+   - Vi erkänner att ekologiska, sociala och ekonomiska system hänger samman.
+   - Vi eftersträvar holistiska lösningar som beaktar flera perspektiv och konsekvenser.
+   - Vi balanserar omedelbara behov med långsiktig hållbarhet.
+   - Varje politiskt område ses som en del av ett större, levande system — inte som isolerade frågor.
 
-1. **Systemintegration**  
-   - Erkännande av det sammanhängande i ekologiska, sociala och ekonomiska system  
-   - Åtagande för holistiska lösningar som beaktar flera perspektiv och konsekvenser  
-   - Balans mellan omedelbara behov och långsiktig hållbarhet  
+2. **Adaptiv och evidensbaserad styrning**
+   - Styrning som hypotes: Varje policy initieras som ett testbart antagande, inte som en slutgiltig sanning.
+   - Modulär policyutveckling: Politik organiseras i versionerade moduler som kan uppdateras, utvärderas och förbättras över tid.
+   - Lokal prövning före nationell skalning: Inga omfattande reformer utan föregående piloter på kommunal nivå, med tydliga mätbara mål och en solnedgångsklausul.
+   - Transparent beslutsfattande: Beslutsunderlag, data och modeller görs öppet tillgängliga. Medborgare ska kunna följa och förstå hur beslut fattas.
+   - Institutionellt lärande: När något inte fungerar dokumenterar och delar vi lärdomarna. Misstag är information, inte skam.
 
-2. **Adaptiv styrning**  
-   - Evidensbaserad policyutveckling med kontinuerlig utvärdering och justering  
-   - Beslutsfattande på flera nivåer (lokalt till globalt)  
-   - Flexibla ramar som kan utvecklas med ny information och nya omständigheter  
+3. **Teknologisk visdom**
+   - Etisk utveckling och implementering av teknik, med särskild omsorg om integritet och autonomi.
+   - Likvärdig tillgång till digital infrastruktur för alla medborgare.
+   - Öppen källkod och samhällsägda lösningar ska prioriteras där det är möjligt.
+   - Förebyggande av teknologiska monopol och osunda beroenden.
+   - Algoritmisk transparens: Automatiserade beslut ska kunna granskas och förklaras.
 
-3. **Teknologisk visdom**  
-   - Etisk utveckling och implementering av teknik  
-   - Likvärdig tillgång till digital infrastruktur  
-   - Skydd av integritet och individuell autonomi  
-   - Stöd för öppen källkod och samhällsägda lösningar  
-   - Förebyggande av teknologiska monopol och beroenden  
+4. **Ekonomisk mångfald**
+   - Stöd för olika ekonomiska modeller som verkar parallellt — marknad, offentlig sektor, kooperativ, ideell samverkan och informella nätverk.
+   - Övergång till regenerativa och cirkulära ekonomiska metoder.
+   - Välbefinnande och livskvalitet som centrala mått, vid sidan av BNP.
+   - Skydd av allmänningar och offentliga nyttigheter.
+   - Universella grundläggande tjänster som en långsiktig riktning för välfärden.
 
-4. **Ekonomisk mångfald**  
-   - Stöd för olika ekonomiska modeller som verkar parallellt  
-   - Övergång till hållbara och regenerativa metoder  
-   - Fokus på välbefinnande snarare än enbart tillväxt  
-   - Skydd av allmänningar och offentliga nyttigheter  
-   - Implementering av universella grundläggande tjänster 
+5. **Demokratisk innovation**
+   - Ökat medborgardeltagande genom både digitala och traditionella former, inklusive medborgarpaneler och dialogforum.
+   - Möjlighet till delegerad röstning (liquid democracy) i kommunala frågor, som komplement till representativ demokrati.
+   - Barn och unga är genuina medaktörer: barnkonsekvensanalyser, åldersintegrerade beslutsprocesser och särskilt utformade verktyg för ungas deltagande.
+   - Starkt skydd mot korruption, med öppen redovisning av intressekonflikter och visselblåsarskydd.
+   - Lokal autonomi inom ramen för globalt samarbete.
 
-5. **Demokratisk innovation**  
-   - Ökad medborgar- och digitalt deltagande genom både digitala och traditionella metoder  
-   - Transparenta beslutsprocesser  
-   - Skydd mot korruption och intressekonflikter  
-   - Stöd för lokal autonomi inom globalt samarbete  
-   - Barnkonsekvensanalyser i relevanta beslut
-   - Åldersintegrerade beslutsprocesser
-   - Barnanpassade demokratiska verktyg
-   - Stödsystem för barns politiska deltagande 
-
-6. **Radikal pragmatism**
-   - Resultat över ideologi: Vi bedömer policy utifrån dess effekt, inte dess politiska hemvist.
-   - Algoritmisk transparens: Offentliga, öppna källkodsmodeller för budgetar och beslut, så att medborgare kan se hur policy påverkar dem direkt.
-   - Dynamisk konsensus (Lagom 2.0): Digitala verktyg för att hitta den optimala balanspunkten mellan motstridiga intressen, baserat på data och medborgardialog.
-
-
+---
 
 ### Organisationsstruktur
 
-1. **Beslutsfattande**  
-   - Flerintressentmodeller för styrning  
-   - Modulbaserade arbetsgrupper: Varje policyområde (t.ex. "Energi", "Bostad") har en dedikerad arbetsgrupp som ansvarar för att:
-       - Utforma och versionera policymoduler (se STR-110).
-       - Samordna med experter, medborgare, och andra kommuner.
-       - Säkerställa att varje modul testas lokalt innan nationell skalning.
-   - Regelbundna medlemsförsamlingar  
-   - Digitala deltagarplattformar  
-   - Rådgivande expertgrupper  
-   - Ungdomsråd för framtidsfokuserad planering  
+1. **Beslutsfattande**
+   - Flerintressentmodeller för intern styrning.
+   - Modulbaserade arbetsgrupper: Varje policyområde (t.ex. energi, bostad, integration) hanteras av en dedikerad grupp med ansvar för att utforma, versionera och följa upp policymoduler enligt ASM (se STR-110).
+   - Regelbundna medlemsförsamlingar och digitala deltagarplattformar.
+   - Rådgivande expertgrupper och ett ungdomsråd för framtidsfokuserad planering.
 
-2. **Etik och tillsyn**  
-   - Oberoende etikkommitté  
-   - Transparenskrav för alla ledarskapspositioner  
-   - Regelbundna offentliga revisioner  
-   - Klara riktlinjer för intressekonflikter  
-   - Visselblåsarskydd  
+2. **Etik och tillsyn**
+   - Oberoende etikkommitté.
+   - Transparenskrav för alla ledarskapspositioner.
+   - Regelbundna offentliga revisioner.
+   - Tydliga riktlinjer för intressekonflikter.
+   - Visselblåsarskydd.
 
-3. **Arbetsgrupper**  
-   - Policyskapande  
-   - Teknologibedömning  
-   - Miljöstrategier  
-   - Initiativ för social rättvisa  
-   - Planering av ekonomisk övergång  
-   - Internationellt samarbete  
+3. **Arbetsgrupper (exempel på inriktningar)**
+   - Policyskapande och modulförvaltning
+   - Teknologibedömning
+   - Miljöstrategier
+   - Social rättvisa
+   - Planering av ekonomisk övergång
+   - Internationellt samarbete
 
-### Policyramverk
+---
 
-1. **Miljömässig hållbarhet**  
-   - Åtgärder för att mildra och anpassa sig till klimatförändringar  
-   - Skydd av biologisk mångfald  
-   - Implementering av cirkulär ekonomi  
-   - Lokal matsäkerhet  
-   - Övergång till ren energi  
-   - Energi-Självständighet 2035:
-     - Hyper-decentraliserad energi: Varje kommun ska kunna bli nättoenergiproducent genom en mix av småskalig kärnkraft (SMR), vind, sol, och geotermisk energi.
-     - Nationell kärnkrafts- och väteinfrastruktur: Investeringar i ny generation kärnkraft och grön väte som komplement till förnybar energi.
-     - Cirkulär ekonomi som standard: All kommunal upphandling ska kräva cirkulära materialflöden.
+### Policyramverk — övergripande inriktningar
 
+Fjärilspartiets politik utvecklas i öppna policymoduler (se STR-110 och STR-200). Nedan anges de huvudsakliga inriktningarna. Konkreta förslag och piloter specificeras i separata moduler.
 
-2. **Social utveckling**  
-   - Omdesign av utbildningssystemet  
-   - Innovation inom hälso- och sjukvård  
-   - Stöd till samhällsbyggande  
-   - Kulturell utveckling  
-   - Stöd för psykisk hälsa  
-   - Integration som systemdesign:
-     - Snabbspår för arbetsmarknadsintegration: Språkkurser med obligatorisk arbetsplatsförläggning + mentorskap från dag 1.
-     - Lokalt anpassade lösningar: Kommuner ges flexibla ramar att designa integrationsprogram utifrån lokala behov (t.ex. samarbete med näringsliv i industriorter).
-     - Ingen moralisk teater: Integration behandlas som ett tekniskt och socialt systemproblem, inte som en kulturell konflikt.
+1. **Miljömässig hållbarhet**
+   - Kraftfull klimatanpassning och utsläppsminskning.
+   - Skydd och återställande av biologisk mångfald.
+   - Cirkulär ekonomi som standard, med början i kommunal upphandling.
+   - Lokal matsäkerhet och robusta livsmedelssystem.
+   - Hyper-decentraliserad energiproduktion där kommuner kan bli nettoproducenter av förnybar energi, kombinerat med en nationell strategi för kärnkraft och grön väte.
+   - *Fördjupning: Se STR-200 (Energi, Miljö) och STR-400.*
 
+2. **Social utveckling**
+   - Utbildningssystem som främjar hela människors potential, inte bara mätbara resultat.
+   - Innovativ och jämlik hälso- och sjukvård, med stark betoning på psykisk hälsa.
+   - Stöd till samhällsbyggande och kulturell utveckling.
+   - Integration utformad som ett systemdesignproblem: snabba vägar till arbete och språk, lokalt anpassade lösningar, utan moralisk teater. Fokus på praktisk inkludering och ömsesidiga förväntningar.
+   - *Fördjupning: Se STR-200 (Social utveckling, Integration).*
 
-3. **Ekonomisk övergång**  
-   - Stöd för flera ekonomiska modeller  
-   - Universella grundläggande tjänster  
-   - Hållbara affärsmetoder  
-   - Rättvis implementering av teknik  
-   - Byggande av lokal motståndskraft  
-   - Bioekonomi 2.0:
-     - Rural Sweden som Europas gröna industrihub: Satsning på avancerad skogsindustri (t.ex. träbaserade skyskrapare), grönt stål (HYBRIT), och precision fermentation för livsmedel.
-     - Lokala valutor och tidsbanker: Utökad testning av Kommunal Tidbank (se STR-110) och andra alternativa ekonomiska modeller.
-   - Levande lokala ekonomier:
-     - "En väg in"-funktion: Förenklade processer för att starta småföretag, med noll byråkrati för de första 12 månaderna.
-     - Stöd för kooperativ och delningsekonomi: Kommunala lån och resursdelning för icke-traditionella företagsformer.
+3. **Ekonomisk övergång**
+   - Parallella ekonomiska modeller: stöd till kooperativ, lokal valuta- och tidsbankssystem (se Kommunal Tidbank i STR-110), samt delningsekonomi.
+   - Landsbygden som motor för en modern bioekonomi: avancerad skogsindustri, grönt stål och bioteknik.
+   - Levande lokala ekonomier genom förenklade regler för småskaligt företagande och resursdelning.
+   - Universella grundläggande tjänster som successivt införs.
+   - *Fördjupning: Se STR-200 (Ekonomisk övergång) och STR-110.*
 
+4. **Demokratisk innovation**
+   - Digitala plattformar för medborgardeltagande, budgetinsyn och policyåterkoppling.
+   - Algoritmisk transparens: interaktiva modeller som visar hur beslut och budgetar påverkar olika grupper.
+   - Medborgarinitiativ med bindande verkan på kommunal nivå.
+   - Dynamisk konsensus (Lagom 2.0): verktyg för att identifiera den punkt där flest medborgares behov tillgodoses med minsta möjliga friktion.
+   - *Fördjupning: Se STR-200 (Demokrati) och STR-110.*
 
-4. **Demokratisk innovation**  
-   - Digitala deltagarverktyg  
-   - Medborgarförsamlingar  
-   - Transparent styrning  
-   - Åtgärder mot korruption  
-   - Internationellt samarbete  
-   - Öppen Statsmaskin:
-     - Algoritmisk transparens: Offentliga, interaktiva modeller som visar hur budgetförslag påverkar kommuner, hushåll, och företag.
-     - Liquid Democracy för kommunala frågor: Medborgare kan delegera sin röst till experter eller föreningar för specifika ärenden (t.ex. trafikplanering).
-     - Medborgarinitiativ med bindande kraft: Om 10% av kommuninvånarna stödjer ett förslag, måste det behandlas av kommunfullmäktige.
+---
 
-### Implementeringsstrategi
+### Implementeringsstrategi: Den Kommunala Vägen
 
-1. **Pilotprojekt**  
-   - Experiment i lokala samhällen  
-   - Tekniktester  
-   - Testning av ekonomiska modeller  
-   - Regelbunden utvärdering och justering  
-   - Plattformar för kunskapsdelning  
+Fjärilspartiet har en municipal-first-strategi. Vi prioriterar kommunal och regional nivå före nationell politik, eftersom kommunen är den plats där styrning möter människors vardag — och där vi kan visa vad våra principer betyder i praktiken.
 
-1b. **Pilotprojekt (Kommunal Testbäddsstrategi)**
+1. **Varför kommunen först?**
+   - Lägre tröskel: Kommunval kräver cirka 2–3 % av rösterna, jämfört med 4 % till riksdagen.
+   - Snabb återkoppling: Lokala piloter kan ge svar på om en hypotes fungerar inom en mandatperiod.
+   - Beviskraft: Lyckade kommunala lösningar skapar trovärdighet för nationell uppskalning.
+   - Systemiskt lärande: Kommuner fungerar som levande laboratorier för Adaptiv Styrningsmodell (ASM).
 
-   - Municipal-First: Fjärilspartiet kommer prioritera kommunal och regional nivå före nationell politik. Anledningen:
-     - Lägre tröskel: Kommunval kräver ~2–3% av rösterna (vs. 4% nationellt).
-     - Bevis på koncept: Lokala framgångar skapar trovärdighet för nationell skalning.
-     - Systemisk lärande: Kommuner är levande laboratorier för ASM (se STR-110).
+2. **Kommunal testbäddsstrategi**
+   - Varje pilot utformas som en policymodul med en tydlig hypotes, mätbara indikatorer och en solnedgångsklausul (avslutas om den inte ger önskad effekt).
+   - Pilotområden prioriteras utifrån där behoven är stora och där kommunens rådighet är tillräcklig:
+     - *Energi*: Lokal energiomställning och självförsörjning.
+     - *Bostad*: Nya modeller för hyresreglering, bygglov och gemensamhetsboenden.
+     - *Integration*: Samordnade insatser mellan skola, socialtjänst, arbetsmarknad och civilsamhälle.
+     - *Demokrati*: Liquid Democracy-pilot, medborgarpaneler och barns deltagande.
+     - *Ekonomi*: Kommunal Tidbank, stöd till småskaliga initiativ och kooperativ.
+   - Resultat dokumenteras öppet och versioneras i respektive policymodul.
+   - Lyckade piloter skalas till fler kommuner eller regionalt, och bildar underlag för nationell politik.
 
-   - Prioriterade pilotområden:
-     - Energi: "Energi-Självständighet 2035" i 3 kommuner (t.ex. Västerås, Linköping, Skellefteå).
-     - Bostad: "BostadsLab" – test av dereglering + hyresreform i 2 kommuner med akut bostadsbrist.
-     - Integration: "Systemdesign för Inkludering" – samordnade insatser mellan skola, socialtjänst, och arbetsmarknad.
-     - Demokrati: "Liquid Democracy"-pilot i 1 kommun (t.ex. Uppsala).
+3. **Målbild för lokal närvaro**
+   - På sikt: egen majoritet i ett antal kommuner, samt deltagande i bredare lokala koalitioner.
+   - Regionala allianser för gemensamma piloter och kunskapsdelning.
+   - Samarbete med andra partier i enskilda sakfrågor där våra mål sammanfaller, utan att ge avkall på våra grundprinciper.
 
-   - "Testa – Mät – Skala":
-     - Varje pilot har en tydlig hypotes, mätbara mål, och en solnedgångsklausul (avslutas om det inte fungerar).
-     - Resultat dokumenteras öppet i en policymodul (se STR-110).
-     - Lyckade piloter skalas upp till regional/nationell nivå.
+4. **Kapacitetsuppbyggnad**
+   - Utbildning för medlemmar och förtroendevalda i systemtänkande, ASM och etisk tech.
+   - Stöd till samhällsorganisering och lokala initiativ.
+   - Plattformar för kunskapsdelning mellan kommuner, inklusive öppen dokumentation av både framgångar och misslyckanden.
 
-2. **Kapacitetsuppbyggnad**  
-   - Utbildnings- och träningsprogram  
-   - Stöd till samhällsorganisering  
-   - Teknisk assistans  
-   - Internationellt kunskapsutbyte  
-   - Utveckling av ungdomsledarskap  
+5. **Uppföljning och utvärdering**
+   - Indikatorer för välbefinnande, social sammanhållning, ekologisk hälsa och demokratiskt deltagande — utöver traditionella ekonomiska mått.
+   - Regelbunden offentlig rapportering om partiets egna piloter och lärande.
 
-3. **Uppföljning och utvärdering**  
-   - Välbefinnandeindikatorer  
-   - Miljömässiga mått  
-   - Mått på social sammanhållning  
-   - Uppföljning av ekonomisk mångfald  
-   - Regelbunden offentlig rapportering  
+---
 
 ### Etiska riktlinjer
 
-1. **Teknikutveckling och implementering**  
-   - Skydd av integritet  
-   - Likvärdig tillgång  
-   - Öppna standarder  
-   - Alternativ för samhällsägd teknik  
-   - Miljökonsekvensbedömning  
+1. **Teknikutveckling och implementering**
+   - Skydd av integritet och personlig autonomi.
+   - Likvärdig tillgång.
+   - Öppna standarder och öppen källkod som förstahandsval.
+   - Alternativ för samhällsägd teknik.
+   - Miljökonsekvensbedömning vid all teknikimplementering.
 
-2. **Beslutsfattande**  
-   - Krav på transparens  
-   - Förebyggande av intressekonflikter  
-   - Offentligt deltagande  
-   - Evidensbaserad bedömning  
-   - Beaktande av långsiktiga konsekvenser  
-   - Krav på öppen data: Alla beslutsunderlag (data, modeller, antaganden) ska vara öppet tillgängliga i maskinläsbart format.
-   - Dynamisk konsensus: Beslut ska sträva efter Lagom 2.0 – den punkt där flest medborgares behov tillgodoses med minsta möjliga friktion. 
-   - Felkultur: Offentligt erkännande av misstag och dokumentation av lärdomar är en etisk skyldighet.
+2. **Beslutsfattande**
+   - Full transparens kring beslutsunderlag, data, modeller och antaganden.
+   - Alla beslutsunderlag ska vara öppet tillgängliga i maskinläsbart format (öppen data).
+   - Offentligt deltagande i de frågor som berör medborgarna.
+   - Evidensbaserad bedömning och beaktande av långsiktiga konsekvenser.
+   - Aktiv förvaltning av en felkultur: offentligt erkännande av misstag och systematisk dokumentation av lärdomar är en etisk skyldighet, inte en svaghet.
 
+3. **Ekonomiska aktiviteter**
+   - Rättvis konkurrens.
+   - Miljöansvar i alla led.
+   - Sociala förmånskrav vid offentlig upphandling.
+   - Åtgärder mot monopol och osund maktkoncentration.
+   - Avtal om samhällsnytta.
 
-3. **Ekonomiska aktiviteter**  
-   - Rättvis konkurrens  
-   - Miljöansvar  
-   - Sociala förmånskrav  
-   - Åtgärder mot monopol  
-   - Avtal om samhällsnytta  
+---
 
 ### Internationellt samarbete
 
-1. **Kunskapsutbyte**  
-   - Öppen källkodslösningar  
-   - Utbyte av bästa praxis  
-   - Gränsöverskridande samarbete  
-   - Kulturellt utbyte  
-   - Forskningssamarbeten  
+1. **Kunskapsutbyte**
+   - Öppna lösningar och delning av bästa praxis över gränser.
+   - Gränsöverskridande forsknings- och innovationssamarbeten.
+   - Kulturellt utbyte och ömsesidigt lärande.
 
-2. **Global samordning**  
-   - Klimatåtgärder  
-   - Teknologistandarder  
-   - Ekonomiskt samarbete  
-   - Fredsbyggande  
-   - Humanitärt stöd  
-   - Nordisk-Baltisk Totalförsvarspakt:
-     - Energi: Gemensam strategi för energisäkerhet (inkl. kärnkraft, vätgas, och förnybar energi).
-     - Försvar: Djupare integration av luftförsvar, cyberförsvar, och civilförsvar.
-     - Mat och resurser: Gemensamma lagrings- och distributionssystem för krisberedskap.
+2. **Global samordning**
+   - Gemensamma klimatåtgärder.
+   - Utveckling av internationella teknologistandarder med etisk grund.
+   - Ekonomiskt samarbete som minskar ojämlikhet mellan länder.
+   - Fredsbyggande, konfliktförebyggande diplomati och humanitärt stöd.
+   - Förstärkt nordiskt-baltiskt totalförsvarssamarbete med fokus på energi, cyberförsvar och civil krisberedskap.
+   - *Fördjupning: Se STR-300.*
 
+---
 
 ### Specifik svensk kontext
 
-1. **Integration med befintliga system**  
-   - Anpassning till svenska demokratiska traditioner  
-   - Förstärkning av välfärdsmodellen  
-   - Miljöledarskap  
-   - Teknisk innovation  
-   - Internationellt samarbete  
+1. **Integration med befintliga system**
+   - Vår politik bygger vidare på svenska demokratitraditioner och den nordiska välfärdsmodellen, samtidigt som vi förnyar dem.
+   - Vi ser Sveriges historia av miljöledarskap, teknisk innovation och internationell solidaritet som en grund att stå på — och att utveckla.
 
-2. **Lokal implementering**  
-   - Pilotprojekt på kommunal nivå  
-   - Regionalt samarbete  
-   - Nationell policyförespråkande  
-   - Nordiskt samarbete  
-   - Europeiska partnerskap  
+2. **Lokal implementering**
+   - Vår primära arena är kommunen. Där kommer våra idéer att prövas först.
+   - Pilotprojekt utformas i nära samarbete med lokala aktörer och anpassas efter lokala förhållanden.
+   - Vi söker samarbete med kommuner, regioner, lärosäten och det civila samhället för att bygga en bred rörelse för systemisk förnyelse.
 
-2b. **Lokal implementering (Kommunal Vägen till Förändring)**
-
-   - Fokus på kommuner: Fjärilspartiet kommer prioritera kommunal och regional politik under de första 4–6 åren.
-
-     - Mål: Vinna majoritet i 3–5 kommuner fram till 2028, och bilda regionala allianser för gemensamma piloter.
-     - Varför kommuner?:
-       - Nära medborgarna: Kommuner kan snabbt testa och anpassa policy.
-       - Bevis på skalbarhet: Lyckade kommunala lösningar kan tvinga nationell förändring.
-       - Resurser: Kommuner har befintlig budget och mandat att driva förändring.
-     - Prioriterade kommuner:
-       - Storstäder med progressiv tradition: Uppsala, Västerås, Linköping.
-       - Industriorter: Skellefteå (grön industri), Borås (textilinnovation).
-       - Landsbygdskommuner: För att test rural bioekonomi och lokal självförsörjning.
-     - Samarbete med andra partier:
-       - Lokala koalitioner: Samarbeta med S, MP, C, och L i kommuner där vi deltar i majoritet.
-       - Policyallianser: Driva enstaka frågor (t.ex. energipolitik, digitalisering) med partier som delar våra mål, även om vi skiljs åt ideologiskt.
-
+---
 
 ### Nästa steg
 
-1. **Partiregistrering**  
-   - Juridiska krav  
-   - Medlemsrekrytering  
-   - Organisationsstruktur  
-   - Inledande finansiering  
-   - Kommunikationsstrategi  
+1. **Partiregistrering**
+   - Uppfylla juridiska krav.
+   - Medlemsrekrytering och organisationsuppbyggnad.
+   - Inledande finansiering.
+   - Kommunikationsstrategi.
 
-2. **Plattformsutveckling**  
-   - Policydetaljer  
-   - Handlingsplaner  
-   - Digital infrastruktur  
-   - Samhällsengagemang  
-   - Partnerskapsbyggande  
-
+2. **Plattformsutveckling**
+   - Fördjupning av policymoduler och handlingsplaner.
+   - Digital infrastruktur för internt arbete och medborgardialog.
+   - Samhällsengagemang och partnerskapsbyggande.
