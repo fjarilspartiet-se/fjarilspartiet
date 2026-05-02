@@ -1,5 +1,5 @@
 // Auto-generated document index
-// Last updated: 2025-12-27T09:37:08.344Z
+// Last updated: 2026-05-02T00:48:43.553Z
 
 export interface Document {
   id: string;
@@ -604,6 +604,18 @@ export const documents: Document[] = [
     "lastUpdated": "2025-02-24",
     "author": "Björn Kenneth Holmström",
     "role": "Grundare och visionär"
+  },
+  {
+    "id": "STR-110",
+    "title": "Adaptiv Styrningsmodell (ASM)",
+    "path": "STR/STR-100-grund/STR-110-adaptiv-styrningsmodell.md",
+    "category": "STR",
+    "subcategory": "STR-100",
+    "description": "- STR-001 # Långsiktig vision och transformativa mål",
+    "version": "1.0",
+    "lastUpdated": "2026-05-02",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och teknisk samordnare"
   },
   {
     "id": "STR-200",

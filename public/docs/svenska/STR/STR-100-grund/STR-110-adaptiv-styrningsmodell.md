@@ -674,3 +674,101 @@ Pilot — planerad
 Nästa beslutspunkt: [datum]
 
 ---
+
+### Kommunal Tidbank — tid som gemensam valuta
+
+**Vilket behov vi ser**
+
+Många människor vill bidra till sitt lokalsamhälle men saknar tydliga vägar in. Samtidigt finns behov av mer gemenskap, mer ömsesidig hjälp, och ett sätt att värdesätta insatser som pengar inte fångar. Äldre sitter ensamma. Unga söker meningsfull tillhörighet. Nyanlända behöver språkträning och nätverk. Föräldrar behöver avlastning. Och många bär på färdigheter och tid som ingen frågar efter.
+
+Dagens system bygger på två valutor: pengar (marknaden) och rättigheter (staten). Ingen av dem fångar värdet av att en granne läser för ett barn, att en pensionär lär ut snickeri, eller att en tonåring följer en äldre till affären. Vi saknar en valuta för det mellanmänskliga.
+
+---
+
+**Vår hypotes**
+
+Vi tror att:
+
+*Om kommunen tillhandahåller en plattform där alla invånare kan tjäna och använda tidskrediter för insatser i lokalsamhället — där en timme alltid är värd en timme, oavsett insatsens art — kommer det att stärka gemenskap, öka det ömsesidiga hjälpandet, och synliggöra värdet av bidrag som marknaden och staten inte ser.*
+
+---
+
+**Vad vi är osäkra på — genomförande (Nivå 1–2)**
+
+- Kommer tillräckligt många att delta för att systemet ska bli självbärande?
+- Hur validerar vi insatser utan att skapa en tung byråkrati som kväver spontaniteten?
+- Hur når vi dem som inte är digitalt vana — äldre, nyanlända med begränsad språkkunskap, personer med funktionsnedsättning?
+- Hur hanterar vi risken för fusk eller utnyttjande?
+
+---
+
+**Vad vi är osäkra på — djupare frågor (Nivå 3–4)**
+
+- Tänk om människor inte vill ha en "valuta" för medmänsklighet — att själva idén att mäta och registrera hjälpsamhet förstör det spontana och genuina i att hjälpa?
+- Tänk om systemet främst används av de redan resursstarka — och därmed blir ytterligare en plattform för dem som redan har nätverk och kapital?
+- Tänk om en timme inte alls är lika mycket värd som en annan timme, och vår vägran att erkänna detta upplevs som orättvis? (Är en timmes läxhjälp från en outbildad pensionär verkligen lika mycket värd som en timmes juridisk rådgivning?)
+- Tänk om tidsbanken, i praktiken, blir ett sätt för kommunen att spara pengar — att det som tidigare var avlönat arbete nu förväntas göras ideellt, fast med tidskrediter som ersättning?
+- Tänk om själva premissen — att gemenskap kan byggas genom ett system — är motsägelsefull? Att äkta gemenskap uppstår spontant, inte genom kommunala plattformar?
+
+---
+
+**Hur vi testar detta**
+
+En pilot i en eller två kommundelar:
+
+- **Digital plattform** (öppen källkod, integritetsskyddad) där invånare kan registrera sig, erbjuda insatser, efterfråga hjälp, och se sina krediter
+- **Fysiska noder** på bibliotek, medborgarkontor och fritidsgårdar för dem som inte vill eller kan använda digitala verktyg
+- **En liten koordineringsgrupp** (2-3 personer) som validerar insatser, matchar behov, och stöttar deltagare
+- **Samarbete med föreningslivet** för att nå befintliga nätverk och bygga förtroende
+- **Ingen övre gräns för intjänande**, men en övre gräns för hur många krediter som kan sparas — för att uppmuntra cirkulation
+- **Särskilda insatser** för att nå grupper som sällan deltar: uppsökande verksamhet, information på flera språk, stöd att komma igång
+
+---
+
+**Hur vi lyssnar och mäter**
+
+- Antal deltagare, och vilka de är (ålder, bakgrund, område)
+- Antal genomförda tidsbyten
+- Vilka typer av insatser som erbjuds och efterfrågas
+- Deltagares upplevelse: känsla av gemenskap, meningsfullhet, och tillit
+- Oväntade effekter: nya relationer, spontana initiativ, förändringar i hur människor ser på sin plats i lokalsamhället
+- Kritik och motstånd: vem deltar inte, och varför?
+- Tecken på att systemet skapar ojämlikhet eller tränger undan genuin medmänsklighet
+
+---
+
+**Vad som händer sedan**
+
+Efter pilotperioden (12-18 månader) delar vi öppet:
+
+- Vad fungerade — och för vem?
+- Vad fungerade inte — och varför?
+- Oväntade effekter, positiva och negativa
+- Om vår grundläggande idé om "tid som gemensam valuta" håller
+
+Beslut:
+- Skala upp till hela kommunen
+- Justera modellen
+- Ompröva konceptet
+- Eller avsluta
+
+---
+
+**Hur medborgare kan delta**
+
+- Genom att registrera sig och delta i tidsbyten
+- Genom att hjälpa till att utforma plattformen och dess regler
+- Genom att nå ut till grannar och nätverk
+- Genom att utmana våra antaganden — säg ifrån om det känns krystat, orättvist eller onödigt
+
+---
+
+**Vad detta betyder för den nationella visionen**
+
+Denna kommunala pilot är ett första steg mot det nationella Livstidskontot. Den visar att tidsbaserat värde fungerar i praktiken. Den bygger den digitala infrastrukturen. Och den skapar en berättelse: "I vår kommun är din tid värd lika mycket som din plånbok. Tänk om hela Sverige fungerade så."
+
+---
+
+**Status (exempel)**
+Pilot — planerad
+Nästa beslutspunkt: [datum]
