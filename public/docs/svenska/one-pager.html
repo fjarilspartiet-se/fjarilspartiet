@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fjärilspartiet – Ett politiskt hem för dig som vill bygga framtiden med omsorg</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* PRINT-FRIENDLY & SCREEN STYLING */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 13pt;
+            line-height: 1.6;
+            color: #2c3e4e;
+            background: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2cm 1.5cm;
+        }
+
+        @media print {
+            body {
+                padding: 1cm 1.5cm;
+                font-size: 11pt;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            color: #1e4b4a; /* soft teal */
+        }
+
+        h1 {
+            font-size: 2.2em;
+            margin: 0.3em 0 0.1em 0;
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.4em;
+            margin: 1.8em 0 0.6em 0;
+            border-bottom: 2px solid #d4af37; /* warm gold */
+            padding-bottom: 0.1em;
+            display: inline-block;
+        }
+
+        h3 {
+            font-size: 1.1em;
+            margin-top: 1.5em;
+            color: #d4af37;
+        }
+
+        p {
+            margin-bottom: 0.8em;
+            font-weight: 300;
+        }
+
+        .strong {
+            font-weight: 600;
+        }
+
+        /* LOGO & HEADER */
+        .logo-container {
+            text-align: center;
+            margin-bottom: 1.8em;
+        }
+
+        .logo-container img {
+            width: 90px;
+            height: auto;
+            filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
+        }
+
+        .party-name {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5em;
+            font-weight: 600;
+            color: #1e4b4a;
+            letter-spacing: 1px;
+            margin-top: 0.2em;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #5c7a78;
+            font-style: italic;
+            margin-bottom: 1.8em;
+            text-align: center;
+        }
+
+        /* SECTIONS */
+        .intro {
+            font-size: 1.1em;
+            margin-bottom: 2em;
+        }
+
+        .highlight-box {
+            background: #f4faf9;
+            border-left: 5px solid #d4af37;
+            padding: 1.2em 1.5em;
+            margin: 2em 0;
+            border-radius: 0 12px 12px 0;
+            font-style: italic;
+            color: #2c4b4a;
+        }
+
+        .value-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .value-list li {
+            margin-bottom: 1em;
+            padding-left: 2.2em;
+            position: relative;
+        }
+
+        .value-list li::before {
+            content: "🦋";
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 2.5em 0 1.5em 0;
+        }
+
+        .cta a {
+            display: inline-block;
+            background: #d4af37;
+            color: white;
+            padding: 0.8em 2em;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: background 0.2s;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .cta a:hover {
+            background: #b3922e;
+        }
+
+        .footer {
+            margin-top: 2.5em;
+            text-align: center;
+            font-size: 0.9em;
+            color: #6b7f7d;
+            border-top: 1px solid #e0eded;
+            padding-top: 1.5em;
+        }
+
+        .footer a {
+            color: #1e4b4a;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+<div class="logo-container">
+    <img src="fjäril.svg" alt="Fjärilspartiet logotyp – fjäril med kretsmönster i vingarna">
+    <div class="party-name">Fjärilspartiet</div>
+    <div class="tagline">System som fungerar. För människor som bryr sig.</div>
+</div>
+
+<div class="intro">
+    <p>Hej.</p>
+    <p>Du är förmodligen här för att du känner, liksom vi, att politiken skulle kunna vara <span class="strong">något annat</span>. Något klokare, vänligare, mer levande. Inte bara ett spel om röster, utan ett verkligt försök att ta hand om varandra och den värld vi delar.</p>
+    <p>Vi är ett ungt parti, men vi bär på en gammal insikt: <span class="strong">samhällen förändras inte genom ideologiska förklaringar – de förändras när vi tillsammans vågar tänka i system, testa idéer i verkligheten, och lyssna ödmjukt på vad som faktiskt fungerar.</span></p>
+</div>
+
+<div class="highlight-box">
+    <p>Vi tror på en politik som <span class="strong">andas</span>. Som ställer hypoteser, inte ultimatum. Som vågar säga: <em>“Vi vet inte allt – men vi lovar att lära oss tillsammans med er.”</em> Det är inte svaghet. Det är ärlighet.</p>
+</div>
+
+<h2>Vad vi står för</h2>
+
+<ul class="value-list">
+    <li><span class="strong">Systemtänkande med hjärtat.</span> Vi ser helheten, men glömmer aldrig individen bakom siffrorna. Varje policy föds ur frågan: <em>Hur påverkar detta en människa, en familj, ett grannskap?</em></li>
+    <li><span class="strong">Politik som lär sig.</span> Vi behandlar varje reform som ett experiment – testa i en kommun, mät, lyssna, justera. Misslyckas något är det inte en skandal; det är en guldgruva av insikter vi delar öppet.</li>
+    <li><span class="strong">Alla åldrar är medskapare.</span> Barn och unga är inte framtidens medborgare – de är medborgare nu. Vi bygger verktyg så att även en 12-åring kan påverka besluten som formar hens liv.</li>
+    <li><span class="strong">Omsorgsekonomi på riktigt.</span> Vi vill synliggöra det arbete som håller samhället vid liv men sällan syns i statistiken: omsorgen om barn, gamla föräldrar, grannar, det gemensamma. Det är inte mjuka värden – det är fundamentet.</li>
+    <li><span class="strong">Transparens är respekt.</span> Våra beslutsunderlag, våra tvivel, våra misstag – allt ligger öppet. Du ska inte behöva lita blint; du ska kunna se själv.</li>
+</ul>
+
+<h2>Hur vi arbetar – från fjäril till svärm</h2>
+<p>Vi börjar <span class="strong">i Upplands Väsby</span>. Inte för att det är det enda stället som behöver förändring – utan för att äkta förändring måste börja någonstans, och vi börjar där vi är. Här vill vi skapa ett levande laboratorium för en ny sorts styrning: tillsammans med invånare, med öppna kort, och med genuint nyfikenhet på vad som faktiskt fungerar.</p>
+<p>Det som fungerar sprider vi. Det som inte fungerar lär vi oss av. <span class="strong">Inga tomma löften – bara verkliga resultat, upptäckta tillsammans.</span></p>
+
+<div class="highlight-box">
+    <p>Fjärilen är vår symbol av en anledning: <span class="strong">förvandling tar tid, sker inifrån, och kräver modet att helt gå in i processen.</span> Vi är inte intresserade av snabba poänger. Vi är här för den verkliga förändringen – den som börjar med att vi ser varandra, lyssnar på varandra, och bygger något hållbart tillsammans.</p>
+</div>
+
+<h2>Bli en del av resan</h2>
+<p>Fjärilspartiet är inte en åskådarplats. Det är ett <span class="strong">politiskt hem</span> för dig som längtar efter en annan ton i samhällsdebatten – en som är klok, varm, och inriktad på verklig förbättring snarare än konflikt.</p>
+<p>Vi söker inga perfekta människor. Vi söker nyfikna, omtänksamma, och ibland lagom frustrerade själar. Just nu är det mest värdefulla du kan göra att <span class="strong">ta ett samtal med oss</span> — berätta vad du tänker, vad du drömmer om, vad du är trött på. Vi lyssnar på riktigt.</p>
+
+<div class="cta">
+    <a href="https://fjarilspartiet.se/bli-medlem/" target="_blank">🦋 Gå med oss idag</a>
+</div>
+
+<p style="text-align:center; margin-top:1em;">Eller anslut till våra samtal på <a href="https://discord.gg/GxSxaYANU4" target="_blank">Discord</a> – du är varmt välkommen precis som du är.</p>
+
+<div class="footer">
+    <p><strong>Fjärilspartiet</strong> – Partiet för dig som tror att framtiden byggs med omsorg, systemförståelse och gemensamt lärande.<br>
+    <a href="https://fjarilspartiet.se" target="_blank">fjarilspartiet.se</a></p>
+</div>
+
+</body>
+</html>
