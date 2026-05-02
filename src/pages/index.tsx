@@ -227,7 +227,7 @@ export default function Home() {
               <div className="card flex flex-col h-full">
                 <h3 className="text-xl font-semibold text-[var(--color-primary)] mb-4">Lokala Piloter</h3>
                 <p className="text-[var(--color-text-muted)] mb-4">
-                  Vi testar praktiska lösningar i verkliga miljöer ("Stugor").
+                  Vi testar praktiska lösningar i verkliga miljöer (&quot;Stugor&quot;).
                 </p>
                 <ul className="list-disc list-inside text-[var--color-text-muted] mb-6 flex-grow">
                   <li>Gemensamma matskogar</li>
