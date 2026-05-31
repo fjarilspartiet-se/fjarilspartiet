@@ -1,10 +1,10 @@
 // data/solutions.ts
 
-import { Shield, Sprout, Network, Target, Calculator, HeartHandshake, 
+import { Shield, Sprout, Network, Target, Calculator,  
          Users, Leaf, Trees, LeafyGreen, Compass, Heart, Book, Stars, 
          Layers, Wind, Rocket, Building, Route, Clock, Layout, Microscope,
-         TreeDeciduous, Brain, Workflow, Recycle, Bot, Mountain, TrendingUp,
-         Minimize, Flower, Home, Store, Sun, Zap, Battery, Droplets, 
+         TreeDeciduous, Brain, Workflow, Recycle, Bot, TrendingUp,
+         Minimize, Home, Store, Sun, Zap, Battery, Droplets, 
          GitBranch, Globe, TreePine, HeartPulse, Palette, Shrub, Bike, Lock,
          User, Wallet, School, Link, Eye, MessageCircle, BookOpen, Scale, 
          Coins, Share2, Lightbulb, Map as MapIcon } from 'lucide-react';
