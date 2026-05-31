@@ -364,7 +364,7 @@ export default function Home() {
                   <h3 className="text-xl font-semibold text-[var(--color-primary)]">Öppna projekt</h3>
                 </div>
                 <p className="text-[var(--color-text-muted)] mb-4 flex-grow">
-                  Några av oss har skissat på öppna verktyg i partiets anda – för demokratiskt
+                  Partiets grundare Björn har skissat på öppna verktyg i partiets anda – för demokratiskt
                   deltagande och utbildning. De lever och utvecklas fristående, och partiet varken
                   äger eller driver dem.
                 </p>
