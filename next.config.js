@@ -24,7 +24,12 @@ const nextConfig = {
     return [
       {
         source: '/aubi',
-        destination: '/losningar?tab=aubi',
+        destination: '/forslag?tab=aubi',
+        permanent: true,
+      },
+      {
+        source: '/losningar',
+        destination: '/forslag',
         permanent: true,
       },
     ];

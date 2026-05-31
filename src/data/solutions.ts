@@ -10,16 +10,44 @@ import { Shield, Sprout, Network, Target, Calculator, HeartHandshake,
          Coins, Share2, Lightbulb, Map as MapIcon } from 'lucide-react';
 
 export const TABS = [
-  { id: 'aubi', label: 'AUBI', icon: Shield },
+  { id: 'framtidskommuner', label: 'Närmare människorna', icon: MapIcon },
+  { id: 'aubi', label: 'Trygghet', icon: Shield },
   { id: 'hallbarhet', label: 'Hållbarhet', icon: Sprout },
   { id: 'demokrati', label: 'Demokrati', icon: Network },
-  { id: 'utbildning', label: 'Utbildning', icon: Book },
-  { id: 'transformation', label: 'Global transformation', icon: Globe },
-  { id: 'projekt', label: 'Pilotprojekt', icon: Target }
+  { id: 'utbildning', label: 'Utbildning', icon: Book }
 ];
 
+export const FRAMTIDSKOMMUNER_CONTENT = {
+  title: 'Närmare människorna',
+  sections: [
+    {
+      title: 'Framtidskommuner',
+      description: 'Vårt främsta förslag: flytta makt, pengar och frihet närmare människorna, så att problem kan lösas där de uppstår – inte i panik långt borta.',
+      items: [
+        { icon: MapIcon, text: 'Beslut och resurser flyttas till den nivå som faktiskt ser problemet' },
+        { icon: Building, text: 'Kommuner får friheten och resurserna att testa nya lösningar i liten skala' },
+        { icon: Recycle, text: 'Det som fungerar sprids vidare – det som inte fungerar skrotas' },
+        { icon: Users, text: 'Vi gör inte anspråk på att veta svaret för varje kommun – vi vill ge den kraften att hitta det' }
+      ]
+    },
+    {
+      title: 'Ett samhälle som ser och rättar sig självt',
+      description: 'Tre konkreta sätt att bryta mönstret där problem upptäcks för sent:',
+      items: [
+        { icon: Recycle, text: 'Reformer med inbyggt omtag: testas i liten skala, får en bortre tidsgräns och en oberoende granskning – och görs om om de inte löste problemet' },
+        { icon: Network, text: 'Myndigheter som delar information för att se helheten istället för var sin bit – integritetssäkert, utan övervakningssamhälle' },
+        { icon: Eye, text: 'Tidiga varningar: medborgarråd och oberoende röster som får lyfta obekväma signaler medan problemen ännu är små' }
+      ],
+      link: {
+        text: 'Grundas i principerna från STR-110',
+        href: '/dokument?doc=STR-110'
+      }
+    }
+  ]
+};
+
 export const AUBI_CONTENT = {
-  title: 'AUBI - Adaptiv Universell Basinkomst',
+  title: 'Trygghet när jobben förändras',
   sections: [
     {
       title: 'Mänsklig och samhällelig dimension',
@@ -40,42 +68,13 @@ export const AUBI_CONTENT = {
       }  
     },
     {
-      title: 'Grundprinciper',
-      description: 'Ett intelligent och etiskt grundat ekonomiskt trygghetssystem som anpassar sig efter individuella behov. Beräkningarna är baserade på djupgående ekonomisk analys och forskning:',
+      title: 'Hur det skulle fungera',
+      description: 'Grundtanken är en trygg ekonomisk grund för alla som anpassar sig efter livssituation och det man bidrar med – inte en klumpsumma lika för alla oavsett behov. Exakta nivåer och finansiering spikar vi inte här; det behöver räknas fram noggrant och prövas, gärna först i en eller flera kommuner.',
       items: [
-        { icon: Shield, text: 'Grundbelopp: 15,000 kr/månad för alla vuxna' },
-        { icon: Calculator, text: 'Behovstillägg upp till 5,000 kr baserat på livssituation' },
-        { icon: HeartHandshake, text: 'Bidragstillägg upp till 3,000 kr för samhällsinsatser' },
-        { icon: Target, text: 'Transparent och förutsägbar grund för alla' }
-      ]
-    },
-    {
-      title: 'Finansieringsmodell',
-      description: 'Ett hållbart finansieringssystem baserat på etisk beskattning och systemeffektivisering. Beräkningarna baseras på detaljerad ekonomisk analys av dagens system:',
-      items: [
-        { icon: Bot, text: 'Automatiseringsdividend från robotisering och AI (400-500 miljarder/år)' },
-        { icon: Mountain, text: 'Resursbeskattning från natur-, data- och markresurser (500-700 miljarder/år)' },
-        { icon: TrendingUp, text: 'Finansiella transaktionsskatter (200-250 miljarder/år)' },
-        { icon: Globe, text: 'Sekundära källor som koldioxidskatt och digital ekonomi (380 miljarder/år)' }
-      ]
-    },
-    {
-      title: 'Systemiska besparingar',
-      description: 'Effektiviseringar och förebyggande effekter. Beräkningarna baseras på detaljerade studier av nuvarande system:',
-      items: [
-        { icon: Minimize, text: 'Direkt administrativ besparing genom systemförenkling (230 miljarder/år)' },
-        { icon: Heart, text: 'Hälsorelaterade besparingar genom förebyggande effekter (180 miljarder/år)' },
-        { icon: Shield, text: 'Sociala besparingar genom minskad kriminalitet och bättre utbildning (90 miljarder/år)' },
-        { icon: Flower, text: 'Ekonomiska effekter genom ökad entreprenörskap och innovation (120 miljarder/år)' }
-      ]
-    },
-    {
-      title: 'Implementation',
-      description: 'Fasad införing för säker övergång:',
-      items: [
-        { icon: Target, text: 'Fas 1: Pilotprojekt i utvalda kommuner (1 år)' },
-        { icon: GitBranch, text: 'Fas 2: Regional expansion med kontinuerlig utvärdering (2 år)' },
-        { icon: Globe, text: 'Fas 3: Nationell utrullning med systematisk uppföljning (3+ år)' }
+        { icon: Shield, text: 'En grundtrygghet för alla vuxna, oberoende av jobb eller livsfas' },
+        { icon: Calculator, text: 'Tillägg utifrån livssituation och utifrån de samhällsinsatser man gör' },
+        { icon: Bot, text: 'Finansieras genom en kombination av bland annat automatiserings-, resurs- och transaktionskällor' },
+        { icon: Minimize, text: 'Delvis självfinansierande genom enklare administration och förebyggande effekter' }
       ]
     }
   ],
@@ -114,7 +113,7 @@ export const AUBI_CONTENT = {
 };
 
 export const HALLBARHET_CONTENT = {
-  title: 'Hållbar samhällsomställning',
+  title: 'Ett samhälle som klarar kriser',
   sections: [
     {
       title: 'Lokala matsystem',
@@ -220,23 +219,17 @@ export const HALLBARHET_CONTENT = {
 };
 
 export const DEMOKRATI_CONTENT = {
-  title: 'Digital demokrati och flernivådeltagande',
+  title: 'Mer inflytande mellan valen',
   sections: [
     {
-      title: 'DidiS - Digital direktdemokrati',
-      status: 'Under utveckling',
-      description: 'En öppen demokratiplattform som möjliggör deltagande på alla nivåer:',
+      title: 'Mer inflytande mellan valen',
+      description: 'Demokrati borde vara mer än en röst vart fjärde år. Vi vill öppna trygga och transparenta vägar för fler att påverka besluten som rör deras vardag:',
       items: [
-        { icon: Network, text: 'Säker digital röstning med öppen källkod' },
-        { icon: Lock, text: 'Transparent och spårbar beslutsprocess' },
-        { icon: Users, text: 'Medborgardialoger och deltagarprocesser' },
-        { icon: Globe, text: 'Integration med kommunala och regionala system' }
-      ],
-      link: {
-        text: 'Utforska DidiS på GitHub',
-        action: 'navigate',
-        url: 'https://github.com/fjarilspartiet-se/DidiS'
-      }
+        { icon: MessageCircle, text: 'Medborgardialoger och deltagarprocesser där besluten faktiskt fattas' },
+        { icon: Users, text: 'Lokala folkomröstningar och medborgarråd i viktiga frågor' },
+        { icon: Eye, text: 'Transparent och spårbar beslutsprocess' },
+        { icon: Lock, text: 'Säker digital röstning med öppen källkod – om och när tekniken är mogen' }
+      ]
     },
     {
       title: 'Progressiv demokrati för unga',
@@ -330,13 +323,13 @@ export const DEMOKRATI_CONTENT = {
 };
 
 export const UTBILDNING_CONTENT = {
-  title: 'Transformation av utbildningssystemet',
+  title: 'En skola som ser varje elev',
   sections: [
     {
       title: 'Ett nytt syfte med utbildning',
       description: 'Vi vill skapa ett utbildningssystem som inte bara förmedlar kunskap, utan ger unga människor möjlighet att utforska vad de vill leva för och utveckla verktygen för att förverkliga detta.',
       items: [
-        { icon: Compass, text: 'Rum för existentiell reflektion och livsfrågor' },
+        { icon: Compass, text: 'Rum att utforska intressen och vad man vill med livet' },
         { icon: Network, text: 'Systemtänkande och förståelse för samband' },
         { icon: Heart, text: 'Emotionell intelligens och empatisk förmåga' },
         { icon: Stars, text: 'Stöd att upptäcka och utveckla personlig potential' }
@@ -391,7 +384,7 @@ export const UTBILDNING_CONTENT = {
       description: 'Ett flexibelt system som erkänner olika sätt att lära och utvecklas:',
       items: [
         { icon: Layers, text: 'Projektbaserat lärande kopplat till samhällsutmaningar' },
-        { icon: Wind, text: 'Integration av meditation och reflektion i vardagen' },
+        { icon: Wind, text: 'Tid för återhämtning, rörelse och reflektion' },
         { icon: Rocket, text: 'Stöd för elevinitierade projekt och utforskande' },
         { icon: Building, text: 'Samarbete med lokala föreningar och initiativ' }
       ]

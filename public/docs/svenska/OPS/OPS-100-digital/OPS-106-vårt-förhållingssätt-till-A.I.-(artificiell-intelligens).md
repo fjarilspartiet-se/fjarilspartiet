@@ -1,7 +1,7 @@
 ## OPS-106:
 ---
 dokumentid: OPS-106
-titel: Vårt förhållningssätt till A.I. (Artificiell Intelligens)
+titel: Vårt förhållningssätt till A.I. (artificiell intelligens)
 version: 1.0
 senast-uppdaterad: 2024-05-13
 ansvarig: Björn Kenneth Holmström
@@ -14,7 +14,7 @@ relaterade-dokument:
   - OPS-205 # Säkerhetsramverk
 ---
 
-### Vårt förhållningssätt till A.I. (Artificiell Intelligens)
+### Vårt förhållningssätt till A.I. (artificiell intelligens)
 
 #### **Sammanfattning**  
 Fjärilspartiet har valt att använda artificiell intelligens (A.I.) som en hjälpande resurs för att förbättra effektiviteten och kvaliteten i vårt arbete. Vi är medvetna om att det finns farhågor kring A.I., särskilt kring dess etiska användning och potentiella risker, och vill därför vara fullständigt transparenta om hur vi använder dessa verktyg. 

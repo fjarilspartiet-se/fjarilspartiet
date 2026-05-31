@@ -1,7 +1,7 @@
 # STR-110
 ---
 dokumentid: STR-110
-titel: Adaptiv Styrningsmodell (ASM)
+titel: Adaptiv styrningsmodell (ASM)
 version: 1.0
 senast-uppdaterad: 2026-05-02
 ansvarig: Björn Kenneth Holmström
@@ -15,7 +15,7 @@ relaterade-dokument:
 
 ---
 
-# Adaptiv Styrningsmodell (ASM)
+# Adaptiv styrningsmodell (ASM)
 
 ## Ett levande ramverk för styrning som lär sig tillsammans med sina medborgare
 

@@ -1,7 +1,7 @@
 # OPS-209
 ---
 dokumentid: OPS-209
-titel: Adaptiv Policyutveckling & Feedbackmekanismer
+titel: Adaptiv policyutveckling och feedbackmekanismer
 version: 1.0
 senast-uppdaterad: 2024-10-30
 ansvarig: Björn Kenneth Holmström
@@ -13,7 +13,7 @@ relaterade-dokument:
 - MED-106 # Kommunikation och samhällsdialog
 ---
 
-# Adaptiv Policyutveckling & Feedbackmekanismer
+# Adaptiv policyutveckling och feedbackmekanismer
 ## Fjärilspartiet
 
 ### Sammanfattning
@@ -23,18 +23,18 @@ Denna policy definierar ett dynamiskt system för att kontinuerligt utveckla par
 
 ## Grundprinciper
 
-### 1. **Lärande över Perfektion**
+### 1. **Lärande över perfektion**
 - Policys är **levande dokument** med regelbundna uppdateringscykler.
 - "**Testa, utvärdera, justera**"-metodik tillämpas på alla större förslag.
 
-### 2. **Inkluderande Design**
+### 2. **Inkluderande design**
 - Feedback insamlas från:
 - Medlemmar (via DPOP och lokala kapitel)
 - Externa experter
 - Berörda grupper i samhället
 - Pilotprojektsdeltagare
 
-### 3. **Transparens i Processen**
+### 3. **Transparens i processen**
 - Alla policyförslag och feedback publiceras öppet i realtid.
 - Beslutsunderlag inkluderar **minoritetsperspektiv** och motargument.
 
@@ -42,7 +42,7 @@ Denna policy definierar ett dynamiskt system för att kontinuerligt utveckla par
 
 ## Policyutvecklingscykel
 
-### Steg 1: **Identifiering & Förslag**
+### Steg 1: **Identifiering & förslag**
 - **Källor**:
 - Medlemsmotioner (via DPOP)
 - Samhällstrender och forskning
@@ -53,7 +53,7 @@ Denna policy definierar ett dynamiskt system för att kontinuerligt utveckla par
 - Förslag på lösning
 - Mätbara mål
 
-### Steg 2: **Granskning & Feedback**
+### Steg 2: **Granskning & feedback**
 - **Expertpanel**: Tvärvetenskapligt team bedömer genomförbarhet.
 - **Medborgardialog**:
 - DidiS-plattformen för digital input
@@ -68,7 +68,7 @@ Denna policy definierar ett dynamiskt system för att kontinuerligt utveckla par
 - Kvantitativt: Nyckeltal (t.ex. deltagande, ekonomisk påverkan)
 - Kvalitativt: Narrativ feedback från deltagare
 
-### Steg 4: **Iteration & Beslut**
+### Steg 4: **Iteration & beslut**
 - **Adaptionsmöte**:
 - Sammanställ data från piloten.
 - Justera förslag med "**80/20-regeln**" (snabb effektiv optimering).
@@ -77,7 +77,7 @@ Denna policy definierar ett dynamiskt system för att kontinuerligt utveckla par
 - "**Pausad**" (behöver mer data)
 - "**Avslagen**" (med publicerad motivering)
 
-### Steg 5: **Långsiktig Uppföljning**
+### Steg 5: **Långsiktig uppföljning**
 - **Årlig utvärdering**:
 - Uppnådda effekter vs. förväntningar
 - Oplanerade konsekvenser
@@ -88,14 +88,14 @@ Denna policy definierar ett dynamiskt system för att kontinuerligt utveckla par
 
 ## Feedbackmekanismer
 
-### 1. **Digitala Plattformar**
+### 1. **Digitala plattformar**
 | Verktyg | Användning |
 |---------|------------|
 | **DidiS** | Strukturerade omröstningar och kommentarer |
 | **DPOP Feedback-modul** | Specifik input på policyutkast |
 | **Sociala Medier** | Öppna diskussioner med hashtag #Fjärilspolitik |
 
-### 2. **Fysiska Format**
+### 2. **Fysiska format**
 - **Policy Caféer**: Månatliga lokala möten med teman.
 - **Skuggning**: Medlemmar följer policyimplementering på plats.
 - **Konstbaserad feedback**: Teater/konstverk som uttrycker perspektiv.
@@ -123,7 +123,7 @@ Denna policy definierar ett dynamiskt system för att kontinuerligt utveckla par
 
 ## Bilagor
 
-### Bilaga 1: Policy Pitch-mall
+### Bilaga 1: Policy pitch-mall
 ```markdown
 # [Policy Namn]
 ## Problem

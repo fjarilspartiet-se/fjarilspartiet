@@ -1,11 +1,11 @@
 # STR-402
 ---
 dokumentid: STR-402
-titel: Klimatresiliens och Biologisk Mångfald - Ramverk
+titel: Klimatresiliens och biologisk mångfald - ramverk
 version: 1.0
 senast-uppdaterad: 2024-10-30
 ansvarig: Björn Kenneth Holmström
-roll: Grundare och Hållbarhetssamordnare
+roll: Grundare och hållbarhetssamordnare
 relaterade-dokument:
 - STR-401 - En blomstrande framtid - Lokal motståndskraft och hållbara matsystem
 - STR-400 - Hållbarhetsstrategi

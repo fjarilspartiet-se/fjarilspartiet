@@ -7,3 +7,22 @@
 
 [build.environment]
   NEXT_USE_NETLIFY_EDGE = "true"
+
+# /losningar bytte namn till /forslag (behåller gamla länkar och SEO)
+[[redirects]]
+  from = "/losningar"
+  to = "/forslag"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/losningar/*"
+  to = "/forslag/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/aubi"
+  to = "/forslag/?tab=aubi"
+  status = 301
+  force = true

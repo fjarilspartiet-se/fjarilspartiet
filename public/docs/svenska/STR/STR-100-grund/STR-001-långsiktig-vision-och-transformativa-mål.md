@@ -1,7 +1,7 @@
 # STR-001
 ---
 dokumentid: STR-001
-titel: Långsiktig Vision och Transformativa Mål
+titel: Långsiktig vision och transformativa mål
 version: 1.0
 senast-uppdaterad: 2024-10-30
 ansvarig: Björn Kenneth Holmström

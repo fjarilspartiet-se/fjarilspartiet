@@ -25,8 +25,8 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
               <Link href="/vision" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Vision
               </Link>
-              <Link href="/losningar" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-                Lösningar
+              <Link href="/forslag" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
+                Förslag
               </Link>
               <Link href="/helhet" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Helhet
@@ -37,12 +37,28 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
               <Link href="/om-oss" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Om oss
               </Link>
-              <Link href="/dokument" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-                Dokument
-              </Link>
-              <Link href="/resurser" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
-                Resurser
-              </Link>
+              {/* Material dropdown (Dokument + Resurser) */}
+              <div className="relative group inline-flex items-center">
+                <button
+                  type="button"
+                  className="inline-flex items-center bg-transparent border-0 rounded-none px-1 pt-1 pb-0 text-sm font-medium text-gray-900 hover:text-gray-900"
+                  aria-haspopup="true"
+                >
+                  Material
+                  <svg className="ml-1 h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                {/* Opens on hover or keyboard focus; top-full keeps it gap-free so hover doesn't drop */}
+                <div className="absolute left-0 top-full z-10 hidden w-44 rounded-md bg-white py-1 shadow-lg ring-1 ring-black/5 group-hover:block group-focus-within:block">
+                  <Link href="/dokument" className="block px-4 py-2 text-sm text-gray-700 no-underline hover:bg-gray-50">
+                    Dokument
+                  </Link>
+                  <Link href="/resurser" className="block px-4 py-2 text-sm text-gray-700 no-underline hover:bg-gray-50">
+                    Resurser
+                  </Link>
+                </div>
+              </div>
               <Link href="/kontakt" className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900">
                 Kontakt
               </Link>
@@ -83,10 +99,10 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
           <div className="sm:hidden">
             <div className="pt-2 pb-3 space-y-1">
               <Link
-                href="/om-oss"
+                href="/manifest"
                 className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
               >
-                Om oss
+                Manifest
               </Link>
               <Link
                 href="/vision"
@@ -95,10 +111,10 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
                 Vision
               </Link>
               <Link
-                href="/losningar"
+                href="/forslag"
                 className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
               >
-                Lösningar
+                Förslag
               </Link>
               <Link
                 href="/helhet"
@@ -107,34 +123,46 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
                 Helhet
               </Link>
               <Link
-                href="/manifest"
+                href="/blogg"
                 className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
               >
-                Manifest
+                Blogg
+              </Link>
+              <Link
+                href="/om-oss"
+                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
+              >
+                Om oss
+              </Link>
+
+              {/* Material grouping */}
+              <p className="pl-3 pr-4 pt-3 pb-1 text-xs font-semibold uppercase tracking-wider text-gray-400">
+                Material
+              </p>
+              <Link
+                href="/dokument"
+                className="block pl-6 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
+              >
+                Dokument
+              </Link>
+              <Link
+                href="/resurser"
+                className="block pl-6 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
+              >
+                Resurser
+              </Link>
+
+              <Link
+                href="/kontakt"
+                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
+              >
+                Kontakt
               </Link>
               <Link
                 href="/bli-medlem"
                 className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
               >
                 Bli medlem
-              </Link>
-              <Link
-                href="/dokument"
-                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
-              >
-                Dokument
-              </Link>
-              <Link
-                href="/resurser"
-                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
-              >
-                Resurser
-              </Link>
-              <Link
-                href="/kontakt"
-                className="block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50"
-              >
-                Kontakt
               </Link>
             </div>
           </div>
@@ -173,7 +201,7 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
           </div>
           <div className="mt-8 border-t border-gray-200 pt-8">
             <p className="text-base text-gray-400 text-center">
-              &copy; {new Date().getFullYear()} Fjärilspartiet. Alla rättigheter förbehållna.
+              &copy; {new Date().getFullYear()} Fjärilspartiet &middot; Innehållet delas öppet under Creative Commons (CC BY-SA 4.0)
             </p>
           </div>
         </div>

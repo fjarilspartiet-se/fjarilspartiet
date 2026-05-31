@@ -1,7 +1,7 @@
 # OPS-208
 ---
 dokumentid: OPS-208
-titel: Krishantering och Resiliensstrategier
+titel: Krishantering och resiliensstrategier
 version: 1.0
 senast-uppdaterad: 2025-05-21
 ansvarig: Björn Kenneth Holmström
@@ -13,7 +13,7 @@ relaterade-dokument:
   - TAK-104 # Kvalitetssäkringsramverk
 ---
 
-# Krishantering och Resiliensstrategier  
+# Krishantering och resiliensstrategier  
 ## Fjärilspartiet  
 
 ### Sammanfattning  
@@ -23,16 +23,16 @@ Detta dokument definierar Fjärilspartiets systemiska tillvägagångssätt för 
 
 ## Grundprinciper  
 
-### 1. **Systemisk Resiliens**  
+### 1. **Systemisk resiliens**  
 - **Helhetsperspektiv**: Alla kriser analyseras som delar av större sammanhang (socialt, tekniskt, politiskt).  
 - **Redundans**: Kritiska funktioner har backup-system (t.ex. kommunikation, beslutsfattande).  
 - **Modulär design**: Partiorganisationen kan anpassas snabbt utan att kollapsa.  
 
-### 2. **Transparens under Press**  
+### 2. **Transparens under press**  
 - **"Öppna böcker"-policy**: Dela fakta om kriser i realtid (med undantag för säkerhetskänslig info).  
 - **Felmedvetenhet**: Erkänn misstag och lärdomar offentligt.  
 
-### 3. **Medlemsbaserad Styrka**  
+### 3. **Medlemsbaserad styrka**  
 - **Lokala krisnätverk**: Kapitel utbildas i att hantera lokala incidenter självständigt.  
 - **Snabbmobilisering**: Protokoll för att aktivera volontärer vid behov.  
 
@@ -50,7 +50,7 @@ Detta dokument definierar Fjärilspartiets systemiska tillvägagångssätt för 
 
 ## Krisresponsprotokoll  
 
-### Steg 1: **Omedelbara Åtgärder**  
+### Steg 1: **Omedelbara åtgärder**  
 - **Faktainsamling**: Använd standardiserad checklista (bilaga 1).  
 - **Intern alert**: Aktivera relevanta team via DPOP-nödkanaler.  
 - **Externt meddelande**: Skicka preliminärt uttalande inom 2 timmar (mallar finns i OPS-202).  
@@ -59,23 +59,23 @@ Detta dokument definierar Fjärilspartiets systemiska tillvägagångssätt för 
 - **Rum för reflektion**: 24-timmars "adaptiv paus" innan långsiktiga beslut.  
 - **Medlemsdialog**: Håll digitalt öppet möte för frågor inom 48 timmar.  
 
-### Steg 3: **Långsiktig Anpassning**  
+### Steg 3: **Långsiktig anpassning**  
 - **Systemgranskning**: Identifiera rotorsaker med 5-varför-metoden.  
 - **Policyiteration**: Uppdatera relaterade dokument inom 30 dagar.  
 
 ---
 
-## Resiliensbyggande Åtgärder  
+## Resiliensbyggande åtgärder  
 
-### 1. **Regelbundna Scenarioträningar**  
+### 1. **Regelbundna scenarioträningar**  
 - **Kvartalsvisa simuleringar**: Testa respons på olika kriser (cyberattacker, mediakriser, etc.).  
 - **Efterarbete**: Dokumentera lärdomar i delbart format.  
 
-### 2. **Psykosocialt Stöd**  
+### 2. **Psykosocialt stöd**  
 - **Krisjour**: Utbildade medlemmar erbjuder peer-support vid traumatiska händelser.  
 - **Återhämtningsplaner**: Individuella strategier för nyckelpersoner.  
 
-### 3. **Ekonomisk Buffert**  
+### 3. **Ekonomisk buffert**  
 - **Reservfond**: 10% av partibudgeten avsatt för kriser.  
 - **Decentraliserade resurser**: Lokala kapitel har tillgång till små nödutbetalningar.  
 

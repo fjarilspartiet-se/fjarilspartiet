@@ -2,7 +2,7 @@
 ---
 version: 2.0 – efter full SCI-cykel (Synthesis → Challenge → Integration)  
 dokumentid: TAK-502  
-titel: Rätten att Stanna – Sveriges billigaste försäkring mot nästa kris  
+titel: Rätten att stanna – Sveriges billigaste försäkring mot nästa kris  
 version: 2.0  
 senast-uppdaterad: 2025-12-03  
 ansvarig: Björn Kenneth Holmström  
@@ -19,12 +19,12 @@ Detta är totalförsvarspolitik i grön kostym.
 
 ### De fyra pelarna i TAK-502 (alla överlevde Challenge-fasen)
 
-#### Pelare 1 – Teknikneutral Uppkopplingsgaranti  
+#### Pelare 1 – Teknikneutral uppkopplingsgaranti  
 Från 2027 garanterar staten varje permanentbostad och företag i Zon 3–4 minst 500/100 Mbit/s stabil uppkoppling samt redundant reservkommunikation.  
 Genomförande: LEO-satellit (Starlink/OneWeb) + 5G + Försvarsmaktens reservnät.  
 Kostnad: 1,8–2,4 mdr kr/år – finansieras genom ombudgetering från Totalförsvarets anslag för civil-militär samverkan (redan beslutade medel).
 
-#### Pelare 2 – Civilplikt: Biosfär & Beredskap  
+#### Pelare 2 – Civilplikt: Biosfär och beredskap  
 Alla svenska medborgare 19–25 år genomför 12 månaders civilplikt.  
 Den som väljer placering i en biosfär- och beredskapszon får:  
 - utbildning i brandbekämpning, regenerativt jordbruk, krisvård, lokal cyberberedskap  
@@ -32,7 +32,7 @@ Den som väljer placering i en biosfär- och beredskapszon får:
 - garanterad högskolebehörighet och meritpoäng till bristyrken  
 Resultat: 8 000–12 000 kompetenta unga per år + dramatiskt ökad nationell beredskap.
 
-#### Pelare 3 – Regional Skatteväxling Zon 3  
+#### Pelare 3 – Regional skatteväxling Zon 3  
 Från 2028 sänks arbetsgivaravgiften med 15 procentenheter i de 47 mest glesa kommunerna.  
 Finansieras genom motsvarande höjning av fastighetsskatten på kapitalintensiva industriella anläggningar (vindkraftverk, vattenkraft, gruvor, massa- och pappersbruk) i samma zoner.  
 Effekt:  
@@ -41,7 +41,7 @@ Effekt:
 - netto fler jobb + mer skatteintäkter till staten  
 Helt lagligt, redan prövat och godkänt i Finland och Norge.
 
-#### Pelare 4 – Nationell Resilienspremie (den nya berättelsen)  
+#### Pelare 4 – Nationell resilienspremie (den nya berättelsen)  
 Vi betalar inte för att människor ska ”få bo kvar”.  
 Vi betalar en försäkringspremie för att Sverige ska ha redundant livsmedels-, energi- och kommunikationskapacitet.  
 Kostnaden för att ha kvar denna kapacitet är lägre än en veckas totalförsvarsövning.  
@@ -75,5 +75,5 @@ Detta förslag är omöjligt att säga nej till:
 > Detta är inte nostalgi.  
 > Detta är framtidens Sverige – decentraliserat, motståndskraftigt och levande från Ystad till Treriksröset.
 
-**Fjärilspartiet – Systemförnyelse för ett Blomstrande Sverige**  
+**Fjärilspartiet – Systemförnyelse för ett blomstrande Sverige**  
 Dokumentet är skapat genom full SCI-cykel med stöd av Institutional Regeneration Framework & Synoptic Protocol, december 2025.

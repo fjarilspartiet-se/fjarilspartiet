@@ -1,5 +1,5 @@
 // Auto-generated document index
-// Last updated: 2026-05-02T01:15:17.984Z
+// Last updated: 2026-05-31T15:59:29.721Z
 
 export interface Document {
   id: string;
@@ -291,7 +291,7 @@ export const documents: Document[] = [
   },
   {
     "id": "OPS-106",
-    "title": "Vårt förhållningssätt till A.I. (Artificiell Intelligens)",
+    "title": "Vårt förhållningssätt till A.I. (artificiell intelligens)",
     "path": "OPS/OPS-100-digital/OPS-106-vårt-förhållingssätt-till-A.I.-(artificiell-intelligens).md",
     "category": "OPS",
     "subcategory": "OPS-100",
@@ -380,7 +380,7 @@ export const documents: Document[] = [
   },
   {
     "id": "OPS-208",
-    "title": "Krishantering och Resiliensstrategier",
+    "title": "Krishantering och resiliensstrategier",
     "path": "OPS/OPS-200-riktlinjer/OPS-208-krishantering-och-resiliensstrategier.md",
     "category": "OPS",
     "subcategory": "OPS-200",
@@ -391,7 +391,7 @@ export const documents: Document[] = [
   },
   {
     "id": "OPS-209",
-    "title": "Adaptiv Policyutveckling & Feedbackmekanismer",
+    "title": "Adaptiv policyutveckling och feedbackmekanismer",
     "path": "OPS/OPS-200-riktlinjer/OPS-209-adaptiv-policyutveckling-och-feedbackmekanismer.md",
     "category": "OPS",
     "subcategory": "OPS-200",
@@ -402,7 +402,7 @@ export const documents: Document[] = [
   },
   {
     "id": "OPS-300",
-    "title": "Teknologiska Ramverk",
+    "title": "Teknologiska ramverk",
     "path": "OPS/OPS-300-teknik/OPS-300-teknologiska-ramverk.md",
     "category": "OPS",
     "subcategory": "OPS-300",
@@ -467,7 +467,7 @@ export const documents: Document[] = [
   },
   {
     "id": "STR-001",
-    "title": "Långsiktig Vision och Transformativa Mål",
+    "title": "Långsiktig vision och transformativa mål",
     "path": "STR/STR-100-grund/STR-001-långsiktig-vision-och-transformativa-mål.md",
     "category": "STR",
     "subcategory": "STR-100",
@@ -530,8 +530,8 @@ export const documents: Document[] = [
     "category": "STR",
     "subcategory": "STR-100",
     "description": "- STR-100 # Inledande skiss av grundläggande ramverk",
-    "version": "1.0",
-    "lastUpdated": "2024-10-29",
+    "version": "2.0",
+    "lastUpdated": "2026-05-02",
     "author": "Björn Kenneth Holmström",
     "role": "Grundare och teknisk samordnare"
   },
@@ -549,11 +549,11 @@ export const documents: Document[] = [
   },
   {
     "id": "STR-103",
-    "title": "Etik för Jämvikt och Sammanlänkning",
-    "path": "STR/STR-100-grund/STR-103-etik-för-jämvikt-och-sammanlänkning .md",
+    "title": "Etik för jämvikt och sammanlänkning",
+    "path": "STR/STR-100-grund/STR-103-etik-för-jämvikt-och-sammanlänkning.md",
     "category": "STR",
     "subcategory": "STR-100",
-    "description": "- STR-206 Individuell Autonomi och Personlig Utveckling som en Social Rättighet",
+    "description": "- STR-206 Individuell autonomi och personlig utveckling som en social rättighet",
     "version": "1.0",
     "lastUpdated": "2024-11-06",
     "author": "Björn Kenneth Holmström",
@@ -607,7 +607,7 @@ export const documents: Document[] = [
   },
   {
     "id": "STR-110",
-    "title": "Adaptiv Styrningsmodell (ASM)",
+    "title": "Adaptiv styrningsmodell (ASM)",
     "path": "STR/STR-100-grund/STR-110-adaptiv-styrningsmodell.md",
     "category": "STR",
     "subcategory": "STR-100",
@@ -759,27 +759,27 @@ export const documents: Document[] = [
   },
   {
     "id": "STR-212",
-    "title": "Ramverk för Global Ekonomisk Jämlikhet och Resursöverflöd",
+    "title": "Ramverk för global ekonomisk jämlikhet och resursöverflöd",
     "path": "STR/STR-200-politik/STR-212-ramverk-för-global-ekonomisk-jämlikhet-och-resurs-överflöd.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "- STR-001 - Långsiktig Vision och Transformativa Mål",
+    "description": "- STR-001 - Långsiktig vision och transformativa mål",
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Visionär"
+    "role": "Grundare och visionär"
   },
   {
     "id": "STR-213",
-    "title": "Styrningens Evolution: Ett adaptivt och integrerat perspektiv",
+    "title": "Styrningens evolution: Ett adaptivt och integrerat perspektiv",
     "path": "STR/STR-200-politik/STR-213-styrningens-evolution-ett-adaptivt-och-integrerat-perspektiv.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "- STR-001 - Långsiktig Vision och Transformativa Mål",
+    "description": "- STR-001 - Långsiktig vision och transformativa mål",
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Visionär"
+    "role": "Grundare och visionär"
   },
   {
     "id": "STR-214",
@@ -1233,7 +1233,7 @@ export const documents: Document[] = [
   },
   {
     "id": "STR-402",
-    "title": "Klimatresiliens och Biologisk Mångfald - Ramverk",
+    "title": "Klimatresiliens och biologisk mångfald - ramverk",
     "path": "STR/STR-400-hållbarhetsstrategi/STR-402-klimatresiliens-och-biologisk-mångfald-ramverk.md",
     "category": "STR",
     "subcategory": "STR-400",
@@ -1241,7 +1241,7 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Hållbarhetssamordnare"
+    "role": "Grundare och hållbarhetssamordnare"
   },
   {
     "id": "STR-403",
@@ -1280,7 +1280,7 @@ export const documents: Document[] = [
   },
   {
     "id": "STR-503",
-    "title": "Bioetik och Framväxande Tekniker",
+    "title": "Bioetik och framväxande tekniker",
     "path": "STR/STR-500-digitalt-samhälle/STR-503-bioetik-och-framväxande-tekniker.md",
     "category": "STR",
     "subcategory": "STR-500",
@@ -1288,7 +1288,7 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-06",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Visionär"
+    "role": "Grundare och visionär"
   },
   {
     "id": "STR-504",
@@ -1553,11 +1553,11 @@ export const documents: Document[] = [
   },
   {
     "id": "TAK-401",
-    "title": "Bostäder och stadsutveckling - Ramverk",
+    "title": "Bostäder och stadsutveckling - ramverk",
     "path": "TAK/TAK-400-bostad-och-samhälle/TAK-401-bostäder-och-stadsutveckling-ramverk.md",
     "category": "TAK",
     "subcategory": "TAK-400",
-    "description": "- OPS-102 - Digital partioperationsplattform - Specifikation",
+    "description": "- OPS-102 - Digital partioperationsplattform - specifikation",
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
@@ -1565,14 +1565,14 @@ export const documents: Document[] = [
   },
   {
     "id": "TAK-402",
-    "title": "Rättsreform och Social Rättvisa",
+    "title": "Rättsreform och social rättvisa",
     "path": "TAK/TAK-400-bostad-och-samhälle/TAK-402-rättsreform-och-social-rättvisa.md",
     "category": "TAK",
     "subcategory": "TAK-400",
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Rättspolicy Samordnare"
+    "role": "Grundare och rättspolicysamordnare"
   },
   {
     "id": "TAK-403",
@@ -1596,7 +1596,7 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-12-02",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Utvecklingssamordnare"
+    "role": "Grundare ochu utvecklingssamordnare"
   },
   {
     "id": "TAK-501",
@@ -1611,7 +1611,7 @@ export const documents: Document[] = [
   },
   {
     "id": "TAK-502",
-    "title": "Rätten att Stanna – Sveriges billigaste försäkring mot nästa kris",
+    "title": "Rätten att stanna – Sveriges billigaste försäkring mot nästa kris",
     "path": "TAK/TAK-500-land-och-lokal-utveckling/TAK-502-rätten-att-stanna.md",
     "category": "TAK",
     "subcategory": "TAK-500",

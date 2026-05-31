@@ -5,18 +5,18 @@ titel: Lokal bostadspolicy – En synoptisk policycykel
 version: 1.0
 senast-uppdaterad: 2025-12-02
 ansvarig: Björn Kenneth Holmström
-roll: Grundare och Utvecklingssamordnare
+roll: Grundare ochu utvecklingssamordnare
 relaterade-dokument:
 ---
 
-# **Fjärilspartiet: Lokalt Bostadspolicy – En Synoptisk Policycykel**
+# **Fjärilspartiet: Lokal bostadspolicy – En synoptisk policycykel**
 
 *Version 1.0 | Demo av 21st Century Policy Making*
 *Skapad genom SCI‑cykeln (Synthesis, Challenge, Integration) med stöd av Institutional Regeneration Framework och Synoptic Protocol*
 
 ---
 
-## **1. Inledning: Varför en Synoptisk Policycykel?**
+## **1. Inledning: Varför en synoptisk policycykel?**
 
 Fjärilspartiet är inte bara ett parti – det är en **larv** som ska förvandlas till en **fjäril**. För att lyckas med systemförnyelse måste vi bygga en policyprocess som är **öppen, inkluderande, kunskapsdriven och motståndskraftig mot polarisering**. Den här policycykeln är ett praktiskt test av hur våra globala ramverk (Institutional Regeneration Framework och Synoptic Protocol) kan appliceras på en konkret svensk fråga: **lokalt bostadsbyggande**.
 
@@ -27,7 +27,7 @@ Vi använder **SCI‑cykeln** (Synthesis, Challenge, Integration) för att säke
 
 ---
 
-## **2. Synthesis: Samla och Kartlägg**
+## **2. Synthesis: Samla och kartlägg**
 
 ### **2.1. Perspektivinsamling**
 Vi har aktivt sökt input från:
@@ -49,15 +49,15 @@ Vi har aktivt sökt input från:
 
 ### 3. Strategi: Hur vi vinner utan att bryta mot lagen eller marknaden
 
-## **3. Challenge: Kritiskt Granska och Stressa**
+## **3. Challenge: Kritiskt granska och stressa**
 
-### **3.1. Epistemisk Stress‑test (Synoptic Protocol)**
+### **3.1. Epistemisk stress‑test (Synoptic Protocol)**
 - **Källor:** Har vi lyssnat på de som oftast överhörs? (t.ex. personer med funktionsnedsättning, nyinflyttade)
 - **Intressen:** Finns det dolda ekonomiska eller politiska intressen som kan påverka policy?
 - **Framtidsrobusthet:** Hur ser policyn ut om klimatkrisen accelererar? Om befolkningen åldras snabbare?
 - **Motstånd:** Vilka narrativ kan användas mot oss? (“Fjärilspartiet vill förbjuda villaområden”)
 
-### **3.2. Institutionell Regenerations‑test**
+### **3.2. Institutionell regenerations‑test**
 - **Är processen agile?** Kan vi snabbt justera om ny forskning kommer?
 - **Är den inkluderande?** Har unga och infödda samer fått lika inflytande som etablerade intressen?
 - **Är den transparent?** Kan vem som helst följa hur besluten togs?
@@ -75,7 +75,7 @@ Vi slutar slåss mot fysikens och juridikens lagar. Istället använder vi dem s
 
 ### 4. Mekanismer – De sex pelarna
 
-#### Pelare 1 – Densitet som Valuta (”Bygg mer – gör rätt”)
+#### Pelare 1 – Densitet som valuta (”Bygg mer – gör rätt”)
 Kommunen inför ett poängsystem i alla markanvisningar från 2026:
 
 | Åtagande                                      | Bonus-exploateringsgrad (extra BTA) |
@@ -90,7 +90,7 @@ Maximal bonus: +80 % exploateringsgrad.
 En byggherre som bygger vanligt får bygga 8 000 kvm. En byggherre som gör allt rätt får bygga 14 400 kvm på samma mark.  
 Detta är fullt lagligt enligt PBL 4 kap 15 § och praxis från Mark- och miljööverdomstolen.
 
-#### Pelare 2 – Nyckelpersonsbostäder (”Trygghet & Funktion”)
+#### Pelare 2 – Nyckelpersonsbostäder (”Trygghet och funktion”)
 - Minst 40 % av bostäderna i varje projekt reserveras i 15 år för personer som arbetar inom samhällsviktig verksamhet i Upplands Väsby (sjuksköterska, polis, lärare, brandman, förskollärare etc).
 - Hyran/köpeskillingen = max 30 % av hushållets bruttoinkomst.
 - Ingen moralisk stigmatisering – detta är bostäder för dem som gör kommunen trygg och fungerande.
@@ -105,12 +105,12 @@ Resultat: NIMBY-grannen kan inte längre säga ”bidragstagare” – hen måst
 - Fullt frivilligt för byggherren – men ger +20–25 % extra byggrätt (se pelare 1).
 - Juridiskt vattentätt: samma modell används redan i Burlöv, Göteborg och Växjö utan prövning i domstol.
 
-#### Pelare 4 – Det Rådgivande Organet med Tänderna Utåt (f.d. ”bindande medborgarassemblé”)
+#### Pelare 4 – Det rådgivande organet med tänderna utåt (f.d. ”bindande medborgarassemblé”)
 - 45 lottade medborgare + 5 ungdomar under 25 + 5 experter.
 - Organet är rådgivande – men alla avvikelser från deras rekommendationer måste motiveras skriftligt av kommunstyrelsen och publiceras i en särskild ”Avvikelserapport” som går till fullmäktige och lokalmedia.
 - Politiskt självmord att systematiskt strunta i dem, men 100 % lagligt enligt kommunallagen.
 
-#### Pelare 5 – Klimatpositivitet som Lönsamhet (inte krav)
+#### Pelare 5 – Klimatpositivitet som lönsamhet (inte krav)
 - Kommunen blir Sveriges första certifieringsorgan för ”Klimatpositiv livscykel” (via egen bolag eller samverkan med Sweden Green Building Council).
 - Byggherrar som uppnår certifikatet får:
   - Bonus exploateringsgrad (+25 %)
@@ -118,38 +118,38 @@ Resultat: NIMBY-grannen kan inte längre säga ”bidragstagare” – hen måst
   - Kommunal medfinansiering av anslutningsavgifter (vatten/avlopp/värme) upp till 30 mnkr per projekt
 - Efter 3–4 år blir det marknadens nya normal – ingen vill bygga ”klimatnegativt” när det ger sämre lönsamhet.
 
-#### Pelare 6 – Policy-laboratoriet & Pilotkvarteret
+#### Pelare 6 – Policy-laboratoriet och pilotkvarteret
 - Första projektet: kommunens egen mark vid Väsbyskogen (fd industriområde).
 - Här testar vi alla pelare på riktigt 2027–2030.
 - All data (kostnader, försäljningspriser, bokö, trivsel, energiprestanda) blir öppen källkod.
 - Om det fungerar → omöjligt för andra kommuner att inte kopiera.
 
-#### Pelare 7. – Skatteväxling Light
+#### Pelare 7. – Skatteväxling light
    Kommunen ansöker hos Finansdepartementet om ett 5-årigt försök där fastighetsskatten på nyproduktion inom pilotområdena sänks med 70 % i 15 år – mot att byggherren binder sig till pelarsystemet.  
    Staten förlorar lite kortsiktigt men vinner enormt på ökat byggande och minskad bostadsbrist. Redan testat i Finland 2023–2025 med extrem succé.
 
 ---
 
-## **5. Implementering – Steg‑för‑Steg**
+## **5. Implementering – steg‑för‑steg**
 
-### **Fas 1: 2025–2026 – Pilot och Prototyper**
+### **Fas 1: 2025–2026 – Pilot och prototyper**
 - Välj 3 pilotkommuner (en storstad, en medelstad, en landsbygdskommun).
 - Etablera **Planeringscirkel‑assembléer** med lottade medlemmar.
 - Bygg första **klimatpositiva bostadsblocket** i varje pilotkommun.
 
-### **Fas 2: 2027–2030 – Skalning och Systemförändring**
+### **Fas 2: 2027–2030 – Skalning och systemförändring**
 - Inför **klimatpositivt‑byggkrav** i alla kommunala markanvisningar.
 - Etablera **Bostadscirkeln** som ett kommunalt finansieringsverktyg.
 - **Utbilda 500 facilitatörer** i demokratisk planering och konflikthantering.
 
-### **Fas 3: 2031–2035 – Norm och Kultur**
+### **Fas 3: 2031–2035 – Norm och kultur**
 - Alla nya bostadsområden följer **Fjärilspartiets sex pelare**.
 - **Bostadshälsa‑index** publiceras öppet för alla kommuner.
 - **Sammanslagning av bostads‑ och klimatpolitik** på nationell nivay.
 
 ---
 
-## **6. Demo‑värde: Vad Visar Denna Policycykel?**
+## **6. Demo‑värde: Vad visar denna policycykel?**
 
 1. **Den är synoptisk** – den integrerar många röster och perspektiv.
 2. **Den är regenerativ** – den bygger institutionell kapacitet för att lära och anpassa.
@@ -158,7 +158,7 @@ Resultat: NIMBY-grannen kan inte längre säga ”bidragstagare” – hen måst
 
 ---
 
-## **7. Nästa Steg för Fjärilspartiet**
+## **7. Nästa steg för Fjärilspartiet**
 
 - **Öppna denna policy för offentlig kommentering** via vår digitala plattform.
 - **Använd Synoptic Protocol’s “Bridging Dialogues”** för att samla feedback från både kritiker och förespråkare.
@@ -169,5 +169,5 @@ Resultat: NIMBY-grannen kan inte längre säga ”bidragstagare” – hen måst
 > *Denna policy är inte slutpunkten – den är början på en ny typ av politik: öppen, adaptiv och visdomsdriven. Vi bygger inte bara bostäder. Vi bygger samhällen som kan tänka, känna och växa – tillsammans.*
 
 ---
-**Fjärilspartiet – Systemförnyelse för ett Blomstrande Sverige**  
+**Fjärilspartiet – Systemförnyelse för ett blomstrande Sverige**  
 *Dokument skapat med stöd av Institutional Regeneration Framework & Synoptic Protocol, 2025*

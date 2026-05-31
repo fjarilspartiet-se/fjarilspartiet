@@ -1,7 +1,7 @@
 # OPS-300
 ---
 dokumentid: OPS-300
-titel: Teknologiska Ramverk
+titel: Teknologiska ramverk
 version: 1.0
 senast-uppdaterad: 2024-10-30
 ansvarig: Björn Kenneth Holmström

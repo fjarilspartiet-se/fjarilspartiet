@@ -1,13 +1,13 @@
 # TAK-402
 ---
 dokumentid: TAK-402
-titel: Rättsreform och Social Rättvisa
+titel: Rättsreform och social rättvisa
 version: 1.0
 senast-uppdaterad: 2024-10-30
 ansvarig: Björn Kenneth Holmström
-roll: Grundare och Rättspolicy Samordnare
+roll: Grundare och rättspolicysamordnare
 relaterade-dokument:
-- STR-103 - Etik och Värderingsramverk
+- STR-103 - Etik och värderingsramverk
 - TAK-104 - Kvalitetssäkringsramverk
 - OPS-205 - Säkerhetsramverk
 ---
@@ -24,29 +24,29 @@ Syftet med detta ramverk är att föreslå reformer inom rättssystemet som möj
 4. **Minimering av systematiska ojämlikheter**
 5. **Skydd av individens rättigheter oavsett socioekonomisk bakgrund**
 
-### Centrala Principer och Riktlinjer
+### Centrala principer och riktlinjer
 
 #### 1. Proportionerliga och meningsfulla påföljder
 För att minska risken för återfall och främja samhällsnytta fokuserar detta ramverk på påföljder som står i proportion till brottet och som ger utrymme för positiv personlig utveckling. Detta kan inkludera samhällstjänst, utbildning och terapibaserade åtgärder.
 
-#### 2. Rehabilitering och Återintegration
+#### 2. Rehabilitering och återintegration
 Vi tror att rehabilitering är en grundläggande komponent för att minska brottsligheten i samhället. Program som fokuserar på mentalt och emotionellt stöd, utbildning och arbetsförberedande insatser är centrala i våra reformförslag.
 
-#### 3. Jämlikhet inför Lagen
+#### 3. Jämlikhet inför lagen
 För att säkerställa att rättssystemet behandlar alla rättvist, oavsett ekonomisk status eller bakgrund, vill vi stärka rättigheterna för rättshjälp och advokatstöd för låginkomsttagare och andra utsatta grupper. Systematiska ojämlikheter ska kartläggas och åtgärdas.
 
-#### 4. Förutsägbarhet och Transparens
+#### 4. Förutsägbarhet och transparens
 Fjärilspartiet förespråkar ett rättssystem som är förutsägbart, där påföljder och processer är tydliga och transparenta för alla. En tydlig, lättillgänglig och begriplig kommunikation av lagar och rättsprocesser ska vara ett krav.
 
-#### 5. Förebyggande Insatser
+#### 5. Förebyggande insatser
 Brottsförebyggande arbete är en viktig del av vårt ramverk för rättvisa. Insatser som riktar sig mot unga i riskzonen, inklusive sociala program, utbildning och mentorskap, kan minska brottsligheten och främja positiv utveckling.
 
-### Implementering och Utvärdering
+### Implementering och utvärdering
 
-#### Utbildning och Stöd till Rättspersonal
+#### Utbildning och stöd till rättspersonal
 För att främja rättvisa processer och stödja ovanstående principer är kontinuerlig utbildning av domare, åklagare och försvarsadvokater nödvändig, särskilt kring frågor om rehabilitering och social rättvisa.
 
-#### Utvärderingssystem för Rättssäkerhet
+#### Utvärderingssystem för rättssäkerhet
 För att säkerställa att rättssystemet når sina mål kommer vi att införa regelbunden utvärdering och kvalitetskontroll. Feedback från dem som berörs av rättssystemet, inklusive brottsoffer och dömda personer, bör beaktas i reformprocesserna.
 
 #### Samhällsengagemang

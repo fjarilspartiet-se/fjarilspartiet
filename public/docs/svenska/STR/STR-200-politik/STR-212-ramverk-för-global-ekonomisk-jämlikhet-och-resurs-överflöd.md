@@ -1,16 +1,16 @@
 # STR-212
 ---
 dokumentid: STR-212
-titel: Ramverk för Global Ekonomisk Jämlikhet och Resursöverflöd
+titel: Ramverk för global ekonomisk jämlikhet och resursöverflöd
 version: 1.0
 senast-uppdaterad: 2024-10-30
 ansvarig: Björn Kenneth Holmström
-roll: Grundare och Visionär
+roll: Grundare och visionär
 relaterade-dokument:
- - STR-001 - Långsiktig Vision och Transformativa Mål
- - STR-200 - Politisk Strategi
- - TAK-500 - Infrastruktur och Hållbar Utveckling
- - OPS-500 - Internationella Samarbetsmekanismer
+ - STR-001 - Långsiktig vision och transformativa mål
+ - STR-200 - Politisk strategi
+ - TAK-500 - Infrastruktur och hållbar utveckling
+ - OPS-500 - Internationella samarbetsmekanismer
 ---
 
 ### Inledning

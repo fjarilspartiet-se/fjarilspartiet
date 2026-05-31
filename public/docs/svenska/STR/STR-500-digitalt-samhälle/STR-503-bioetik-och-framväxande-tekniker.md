@@ -1,15 +1,15 @@
 # STR-503
 ---
 dokumentid: STR-503
-titel: Bioetik och Framväxande Tekniker
+titel: Bioetik och framväxande tekniker
 version: 1.0
 senast-uppdaterad: 2024-11-06
 ansvarig: Björn Kenneth Holmström
-roll: Grundare och Visionär
+roll: Grundare och visionär
 relaterade-dokument:
-- STR-500 Digitalt Samhälle
+- STR-500 Digitalt samhälle
 - STR-501 Digital etik och datasuveränitet
-- STR-502 Förhållande till Artificiell Intelligens
+- STR-502 Förhållande till artificiell intelligens
 - STR-504 Riktlinjer för framväxande bioteknologier
 ---
 
