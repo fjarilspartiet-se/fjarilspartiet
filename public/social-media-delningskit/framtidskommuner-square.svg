@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 800 800"
+   version="1.1"
+   id="svg27"
+   sodipodi:docname="framtidskommuner-square.svg"
+   inkscape:export-filename="framtidskommuner-square.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.085"
+     inkscape:cx="400"
+     inkscape:cy="400"
+     inkscape:window-width="2520"
+     inkscape:window-height="1048"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg27" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="bg-gradient"
+       x1="0%"
+       y1="0%"
+       x2="100%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#f8f6f6"
+         id="stop1" />
+      <stop
+         offset="100%"
+         stop-color="#f0f0f2"
+         id="stop2" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect
+     width="800"
+     height="800"
+     fill="url(#bg-gradient)"
+     id="rect2" />
+  <!-- Title -->
+  <text
+     x="400"
+     y="78"
+     font-family="Arial, sans-serif"
+     font-size="40"
+     font-weight="bold"
+     text-anchor="middle"
+     fill="#4a3e3e"
+     id="text2">Framtidskommuner</text>
+  <text
+     x="400"
+     y="120"
+     font-family="Arial, sans-serif"
+     font-size="22"
+     text-anchor="middle"
+     fill="#6c5353"
+     id="text3">Rätt beslut på rätt nivå — närmare människorna.</text>
+  <!-- Promise card -->
+  <rect
+     x="110"
+     y="158"
+     width="580"
+     height="128"
+     rx="18"
+     fill="#ffffff"
+     stroke="#e7dede"
+     stroke-width="2"
+     id="rect3" />
+  <text
+     x="400"
+     y="206"
+     font-family="sans-serif"
+     font-size="34"
+     text-anchor="middle"
+     id="text4">🏡</text>
+  <text
+     x="400"
+     y="244"
+     font-family="Arial, sans-serif"
+     font-size="19"
+     text-anchor="middle"
+     fill="#4a3e3e"
+     id="text5">Ge kommuner friheten och resurserna att</text>
+  <text
+     x="400"
+     y="270"
+     font-family="Arial, sans-serif"
+     font-size="19"
+     text-anchor="middle"
+     fill="#4a3e3e"
+     id="text6">testa nya lösningar — där problemen finns.</text>
+  <!-- Flow label -->
+  <text
+     x="400"
+     y="338"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     text-anchor="middle"
+     fill="#6c5353"
+     id="text7">Testa smått. Sprid det som fungerar.</text>
+  <!-- Flow arrows -->
+  <line
+     x1="266"
+     y1="448"
+     x2="314"
+     y2="448"
+     stroke="#6c5353"
+     stroke-width="3"
+     id="line7" />
+  <path
+     d="M 0,-8 L 12,0 L 0,8 Z"
+     fill="#6c5353"
+     transform="translate(316,448)"
+     id="path7" />
+  <line
+     x1="476"
+     y1="448"
+     x2="524"
+     y2="448"
+     stroke="#6c5353"
+     stroke-width="3"
+     id="line8" />
+  <path
+     d="M 0,-8 L 12,0 L 0,8 Z"
+     fill="#6c5353"
+     transform="translate(526,448)"
+     id="path8" />
+  <!-- Flow node 1 -->
+  <g
+     transform="translate(190,448)"
+     id="g10">
+    <circle
+       cx="0"
+       cy="0"
+       r="72"
+       fill="#37c8ab"
+       stroke="#ffffff"
+       stroke-width="4"
+       id="circle8" />
+    <text
+       x="0"
+       y="-28"
+       font-family="sans-serif"
+       font-size="26"
+       text-anchor="middle"
+       id="text8">🌱</text>
+    <text
+       x="0"
+       y="4"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text9">Testa i</text>
+    <text
+       x="0"
+       y="23"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text10">liten skala</text>
+  </g>
+  <!-- Flow node 2 -->
+  <g
+     transform="translate(400,448)"
+     id="g13">
+    <circle
+       cx="0"
+       cy="0"
+       r="72"
+       fill="#de87cd"
+       stroke="#ffffff"
+       stroke-width="4"
+       id="circle10" />
+    <text
+       x="0"
+       y="-28"
+       font-family="sans-serif"
+       font-size="26"
+       text-anchor="middle"
+       id="text11">📈</text>
+    <text
+       x="0"
+       y="4"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text12">Det som</text>
+    <text
+       x="0"
+       y="23"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text13">funkar sprids</text>
+  </g>
+  <!-- Flow node 3 -->
+  <g
+     transform="translate(610,448)"
+     id="g16">
+    <circle
+       cx="0"
+       cy="0"
+       r="72"
+       fill="#916f6f"
+       stroke="#ffffff"
+       stroke-width="4"
+       id="circle13" />
+    <text
+       x="0"
+       y="-28"
+       font-family="sans-serif"
+       font-size="26"
+       text-anchor="middle"
+       id="text14">🧹</text>
+    <text
+       x="0"
+       y="4"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text15">Resten</text>
+    <text
+       x="0"
+       y="23"
+       font-family="Arial, sans-serif"
+       font-size="14"
+       font-weight="bold"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text16">skrotas</text>
+  </g>
+  <!-- Principle pills -->
+  <g
+     font-family="Arial, sans-serif"
+     font-size="14"
+     fill="#6c5353"
+     text-anchor="middle"
+     id="g19">
+    <rect
+       x="65"
+       y="585"
+       width="210"
+       height="46"
+       rx="23"
+       fill="#f3ecf0"
+       stroke="#e7dede"
+       stroke-width="1.5"
+       id="rect16" />
+    <text
+       x="170"
+       y="613"
+       id="text17">Beslut på rätt nivå</text>
+    <rect
+       x="295"
+       y="585"
+       width="210"
+       height="46"
+       rx="23"
+       fill="#f3ecf0"
+       stroke="#e7dede"
+       stroke-width="1.5"
+       id="rect17" />
+    <text
+       x="400"
+       y="613"
+       id="text18">Reformer med omtag</text>
+    <rect
+       x="525"
+       y="585"
+       width="210"
+       height="46"
+       rx="23"
+       fill="#f3ecf0"
+       stroke="#e7dede"
+       stroke-width="1.5"
+       id="rect18" />
+    <text
+       x="630"
+       y="613"
+       id="text19">Tidiga varningar</text>
+  </g>
+  <!-- Butterfly mark -->
+  <g
+     transform="matrix(0.16564008,0,0,0.16564008,378.8,700)"
+     id="g27">
+    <path
+       style="fill:#916f6f;stroke:#000000;stroke-width:0.240799px"
+       d="m 186.02665,214.41177 c -0.6473,-1.38039 -57.11486,-97.03295 -57.11486,-97.03295"
+       id="path19" />
+    <path
+       style="fill:#de87cd;stroke:none;stroke-width:0.240799px"
+       d="m 124.91213,129.67987 c 0,0 -99.930879,-29.0738 -117.9066682,-13.68989 -4.7639298,4.56643 11.1116632,13.10254 19.9268132,23.79409 9.787402,11.87074 22.550028,13.73946 30.511727,22.59599 9.340043,10.38979 16.854238,23.1014 24.120002,29.22825 16.585672,13.98587 60.952926,-25.58086 63.003626,-23.39668 0.93324,0.994 -21.98985,26.38055 -32.65033,41.53564 -17.690553,25.14914 -12.052414,33.75789 9.19003,45.54453 18.41695,10.21888 51.15788,-2.89972 59.81143,-20.3735 4.59844,-9.28544 -8.85521,-29.77325 -8.85521,-29.77325 z"
+       id="path20" />
+    <path
+       style="fill:#37c8ab;stroke:none;stroke-width:0.240799px"
+       d="m 140.61606,120.79857 c 0,0 23.22854,-98.652745 41.32862,-108.639375 6.87673,-3.7942009 13.22778,12.57948 17.41155,29.749287 3.13973,12.885242 -0.68393,26.698277 2.6072,39.235924 3.13509,11.943181 5.39564,26.131544 9.60557,34.918844 9.90706,20.67874 -46.39347,40.73378 -46.39347,40.73378 0,0 34.46532,-5.82285 51.77412,-6.86088 22.48158,-1.34824 28.81837,-2.76661 34.34583,27.36745 3.64826,19.88925 -20.54376,43.27205 -40.69161,44.99134 -11.58488,0.98858 -25.4329,-25.44458 -25.4329,-25.44458 z"
+       id="path21" />
+    <path
+       style="fill:none;stroke:#916f6f;stroke-width:2.408;stroke-linecap:round"
+       d="M 118.02155,116.9044 66.030886,89.285014"
+       id="path22" />
+    <path
+       style="fill:none;stroke:#916f6f;stroke-width:2.408;stroke-linecap:round"
+       d="M 129.68602,108.95303 119.70286,58.862544"
+       id="path23" />
+    <path
+       style="fill:#916f6f;stroke:#000000;stroke-width:0.240799px"
+       d="m 176.40313,207.11128 9.62352,7.30049 -2.86508,-13.64822"
+       id="path24" />
+    <path
+       style="fill:#916f6f;stroke:none;stroke-width:0.240799px"
+       d="m 135.80237,130.15431 -10.89024,-0.47444 47.15142,75.46518 13.9631,9.26672 c -14.24817,-24.96933 -13.45029,-24.59059 -50.22428,-84.25746 z"
+       id="path25" />
+    <path
+       style="fill:#6c5353;stroke:none;stroke-width:0.240799px"
+       d="m 140.61606,120.79857 -4.81369,9.35574 50.22428,84.25746 -0.85568,-17.56141 z"
+       id="path26" />
+    <path
+       style="fill:#916f6f;stroke:none;stroke-width:0.264583"
+       d="m 129.95512,108.95037 a 13.327892,13.022045 0 0 1 13.32773,12.9563 13.327892,13.022045 0 0 1 -13.19316,13.08712 13.327892,13.022045 0 0 1 -13.46093,-12.82417 13.327892,13.022045 0 0 1 13.05725,-13.2166"
+       id="path27" />
+  </g>
+  <!-- Link -->
+  <text
+     x="400"
+     y="782"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     text-anchor="middle"
+     fill="#4a3e3e"
+     id="text27">https://fjarilspartiet.se/forslag</text>
+</svg>

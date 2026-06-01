@@ -32,7 +32,7 @@ const SocialMediaKitPage = () => {
       category: "templates"
     },
     {
-      title: "AUBI Infographic - Landscape",
+      title: "AUBI infographic - landskap",
       description: "Visuell förklaring av Adaptiv Universell Basinkomst i landskapsformat.",
       thumbnailPath: "/social-media-delningskit/aubi-infographic-landscape.png",
       files: {
@@ -42,7 +42,7 @@ const SocialMediaKitPage = () => {
       category: "infographics"
     },
     {
-      title: "AUBI Infographic - Square",
+      title: "AUBI infographic - kvadratisk",
       description: "Visuell förklaring av Adaptiv Universell Basinkomst i kvadratiskt format.",
       thumbnailPath: "/social-media-delningskit/aubi-infographic-square.png",
       files: {
@@ -52,7 +52,27 @@ const SocialMediaKitPage = () => {
       category: "infographics"
     },
     {
-      title: "Bli Medlem - Landskapsformat",
+      title: "Driftslingan – varför vi inte ser krisen i tid",
+      description: "Mönstret bakom Sveriges problem: byggs upp i tysthet, slår till som kris, möts av panik – och glöms tills nästa gång.",
+      thumbnailPath: "/social-media-delningskit/driftslingan-square.png",
+      files: {
+        png: "/social-media-delningskit/driftslingan-square.png",
+        svg: "/social-media-delningskit/driftslingan-square.svg"
+      },
+      category: "infographics"
+    },
+    {
+      title: "Framtidskommuner",
+      description: "Vårt främsta förslag: flytta beslut, pengar och frihet närmare människorna – testa smått och sprid det som fungerar.",
+      thumbnailPath: "/social-media-delningskit/framtidskommuner-square.png",
+      files: {
+        png: "/social-media-delningskit/framtidskommuner-square.png",
+        svg: "/social-media-delningskit/framtidskommuner-square.svg"
+      },
+      category: "infographics"
+    },
+    {
+      title: "Bli medlem - landskapsformat",
       description: "Inbjudan att bli medlem i Fjärilspartiet i landskapsformat.",
       thumbnailPath: "/social-media-delningskit/bli-medlem-landskap-mall.png",
       files: {
@@ -62,7 +82,7 @@ const SocialMediaKitPage = () => {
       category: "templates"
     },
     {
-      title: "Bli Medlem - Kvadratiskt Format",
+      title: "Bli medlem - kvadratiskt format",
       description: "Inbjudan att bli medlem i Fjärilspartiet i kvadratiskt format.",
       thumbnailPath: "/social-media-delningskit/bli-medlem-mall.png",
       files: {
@@ -82,7 +102,7 @@ const SocialMediaKitPage = () => {
       category: "graphics"
     },
     {
-      title: "Citatmall - Kvadratisk",
+      title: "Citatmall - kvadratisk",
       description: "Mall för inspirerande citat i kvadratiskt format.",
       thumbnailPath: "/social-media-delningskit/citat-mall-kvadrat.png",
       files: {
@@ -92,7 +112,7 @@ const SocialMediaKitPage = () => {
       category: "templates"
     },
     {
-      title: "Citatmall - Landskap",
+      title: "Citatmall - landskap",
       description: "Mall för inspirerande citat i landskapsformat.",
       thumbnailPath: "/social-media-delningskit/citat-mall-landskap.png",
       files: {
@@ -112,7 +132,7 @@ const SocialMediaKitPage = () => {
       category: "posters"
     },
     {
-      title: "Social Poster",
+      title: "Social poster",
       description: "Poster optimerad för sociala medier.",
       thumbnailPath: "/social-media-delningskit/fjp-social-poster.png",
       files: {
@@ -122,7 +142,7 @@ const SocialMediaKitPage = () => {
       category: "posters"
     },
     {
-      title: "Lokal Resiliens Ikoner",
+      title: "Lokal resiliens ikoner",
       description: "Ikoner för att illustrera lokal motståndskraft.",
       thumbnailPath: "/social-media-delningskit/lokal-resiliens-ikoner.png",
       files: {
@@ -132,7 +152,7 @@ const SocialMediaKitPage = () => {
       category: "graphics"
     },
     {
-      title: "Minimalistisk Skandinavisk Design",
+      title: "Minimalistisk skandinavisk design",
       description: "Ren, minimalistisk design i skandinavisk stil.",
       thumbnailPath: "/social-media-delningskit/minimalist-skandinavisk-svg.png",
       files: {
