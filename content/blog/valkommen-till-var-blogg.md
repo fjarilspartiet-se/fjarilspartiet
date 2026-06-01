@@ -2,7 +2,7 @@
 title: "Välkommen till Fjärilspartiets blogg"
 description: "Vi lanserar vår nya blogg för att hålla dig uppdaterad om vårt arbete med systemisk samhällsförnyelse och de senaste utvecklingarna inom partiet."
 date: "2025-07-12"
-author: "Björn Kenneth Holmström"
+author: "Fjärilspartiet"
 tags: ["lansering", "blogg", "systemisk förändring"]
 featured: true
 ---
