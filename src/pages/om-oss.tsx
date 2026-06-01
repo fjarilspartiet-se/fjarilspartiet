@@ -1,39 +1,16 @@
 import MainLayout from '../layouts/MainLayout';
 import Link from 'next/link';
-import { Network, Lightbulb, Code, ExternalLink, CircleUser, Sprout, Globe, Layers, GitBranch } from 'lucide-react';
+import { Network, Lightbulb, Code, CircleUser, Sprout, Layers, GitBranch } from 'lucide-react';
 import EngagementSection from '../components/EngagementSection';
 import ShareButtons from '../components/ShareButtons';
 import SEO from '../components/SEO';
-
-const ProjectStatus = ({ status }: { status: string }) => {
-  const getStatusColor = (status: string) => {
-    switch (status) {
-      case 'Aktiv utveckling':
-        return 'bg-green-100 text-green-800';
-      case 'Pilot':
-        return 'bg-blue-100 text-blue-800';
-      case 'Planering':
-        return 'bg-yellow-100 text-yellow-800';
-      case 'Policy':
-        return 'bg-blue-100 text-blue-800';
-      default:
-        return 'bg-gray-100 text-gray-800';
-    }
-  };
-
-  return (
-    <span className={`inline-block px-2 py-1 text-xs font-semibold rounded-full ${getStatusColor(status)}`}>
-      {status}
-    </span>
-  );
-};
 
 export default function AboutPage() {
   return (
     <>
       <SEO 
         title="Om Fjärilspartiet"
-        description="Lär känna Fjärilspartiet - ett parti som kombinerar systemtänkande och evidensbaserad politik för att skapa positiv samhällsförändring. Vi befinner oss i äggstadiet där vi noggrant utvecklar grunden för framtidens politik."
+        description="Lär känna Fjärilspartiet – ett parti som vill flytta besluten närmare människorna och fånga upp samhällsproblem i tid. Vi bygger en process som du kan vara med och forma."
         canonical="/om-oss"
       />
       <MainLayout>
@@ -45,11 +22,10 @@ export default function AboutPage() {
                 Om Fjärilspartiet
               </h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-                Ett parti som kombinerar systemtänkande, evidensbaserad politik och 
-                praktiska lösningar för att skapa positiv samhällsförändring. Varje steg vi tar 
-                leder mot vår vision om ett blomstrande samhälle. Som en fjäril genomgår vi en 
-                medveten transformation - just nu befinner vi oss i äggstadiet där vi bygger grunden 
-                för något extraordinärt, vackert och livskraftigt.
+                Vi vill flytta makt och beslut närmare människorna – och fånga upp
+                samhällsproblem i tid, innan de hinner växa till kriser. Vi är i början av något,
+                och det är medvetet: vi bygger inte ett färdigt partiprogram, utan en process där
+                människor som du kan vara med och forma vad som växer fram.
               </p>
             </div>
             {/* Vision Summary Cards */}
@@ -58,21 +34,21 @@ export default function AboutPage() {
                 <CircleUser className="w-8 h-8 text-purple-600 mb-3" />
                 <h3 className="font-semibold mb-2">Individuell blomstring</h3>
                 <p className="text-sm text-gray-600">
-                  Vi bygger system som möjliggör verklig frihet och självförverkligande för varje person.
+                  Vi vill skapa förutsättningar för verklig frihet och självförverkligande för varje person.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
                 <Sprout className="w-8 h-8 text-green-600 mb-3" />
                 <h3 className="font-semibold mb-2">Hållbar samhällsutveckling</h3>
                 <p className="text-sm text-gray-600">
-                  Genom systemiskt tänkande skapar vi lösningar som gynnar både människor och miljö.
+                  Lösningar som gynnar både människor och miljö – och som håller i längden.
                 </p>
               </div>
               <div className="bg-white p-6 rounded-lg shadow-sm">
-                <Globe className="w-8 h-8 text-blue-600 mb-3" />
-                <h3 className="font-semibold mb-2">Global transformation</h3>
+                <Network className="w-8 h-8 text-blue-600 mb-3" />
+                <h3 className="font-semibold mb-2">Närmare människorna</h3>
                 <p className="text-sm text-gray-600">
-                  Vi arbetar för en värld där resursöverflöd och fred möjliggörs genom teknologi och samarbete.
+                  Beslut och resurser hör hemma där problemen märks – så nära människorna som möjligt.
                 </p>
               </div>
             </div>
@@ -81,8 +57,8 @@ export default function AboutPage() {
               <Link href="/vision" className="btn-secondary inline-flex items-center">
                 Utforska vår vision
               </Link>
-              <Link href="/losningar" className="btn-primary inline-flex items-center">
-                Se våra lösningar
+              <Link href="/forslag" className="btn-primary inline-flex items-center">
+                Se våra förslag
               </Link>
             </div>
           </div>
@@ -90,21 +66,22 @@ export default function AboutPage() {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           {/* Approach Section */}
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="max-w-3xl mx-auto mb-12">
             <div className="card">
               <h2 className="text-2xl font-bold mb-6">Vårt tillvägagångssätt</h2>
               <div className="space-y-6">
                 <div className="flex items-start group hover:bg-blue-50 p-3 rounded-lg transition-colors">
                   <Network className="w-6 h-6 text-blue-600 mt-1 mr-3 group-hover:scale-110 transition-transform" />
                   <div>
-                    <h3 className="font-semibold">Systemtänkande</h3>
+                    <h3 className="font-semibold">Vi fångar upp problem i tid</h3>
                     <p className="text-gray-600 mb-2">
-                      Vi förstår att samhällsutmaningar är sammankopplade och kräver 
-                      helhetslösningar som adresserar grundorsaker, inte bara symptom.
+                      Samhällsproblem hänger ihop och byggs ofta upp långsamt och tyst. Istället för
+                      att vänta på krisen vill vi fånga de tidiga signalerna och rätta kursen medan
+                      problemen fortfarande är små – och åtgärda orsaker, inte bara symptom.
                     </p>
                     <div className="text-sm text-gray-500 pl-4 border-l-2 border-blue-200">
-                      Exempel: Vårt AUBI-system integrerar ekonomisk trygghet med samhällsengagemang 
-                      och lokala utvecklingsmöjligheter.
+                      Exempel: AUBI – en grundtrygghet som gör det möjligt att byta bana eller
+                      vidareutbilda sig innan jobben försvinner.
                     </div>
                   </div>
                 </div>
@@ -114,12 +91,12 @@ export default function AboutPage() {
                   <div>
                     <h3 className="font-semibold">Evidensbaserad politik</h3>
                     <p className="text-gray-600 mb-2">
-                      Våra förslag bygger på forskning, praktisk erfarenhet och 
-                      systematisk utvärdering av resultat.
+                      Våra förslag bygger på forskning och praktisk erfarenhet – och de hålls som
+                      förslag att pröva, inte tvärsäkra svar. Det som fungerar behåller vi, det som
+                      inte gör det görs om.
                     </p>
                     <div className="text-sm text-gray-500 pl-4 border-l-2 border-blue-200">
-                      Exempel: Vi genomför pilotprojekt och utvärderar resultaten innan 
-                      vi föreslår storskalig implementation.
+                      Exempel: vi vill att reformer testas i liten skala och utvärderas innan de skalas upp.
                     </div>
                   </div>
                 </div>
@@ -129,12 +106,10 @@ export default function AboutPage() {
                   <div>
                     <h3 className="font-semibold">Öppen utveckling</h3>
                     <p className="text-gray-600 mb-2">
-                      Vi utvecklar våra lösningar öppet och transparent, med möjlighet 
-                      för alla att bidra och granska.
+                      Vi arbetar öppet och transparent, så att vem som helst kan följa, granska och bidra.
                     </p>
                     <div className="text-sm text-gray-500 pl-4 border-l-2 border-blue-200">
-                      Exempel: All vår kod är öppen källkod och våra policydokument 
-                      utvecklas offentligt på GitHub.
+                      Exempel: våra policydokument utvecklas offentligt, och idéerna bakom dem är fria att bygga vidare på.
                     </div>
                   </div>
                 </div>
@@ -142,12 +117,13 @@ export default function AboutPage() {
                 <div className="flex items-start group hover:bg-blue-50 p-3 rounded-lg transition-colors">
                   <Layers className="w-6 h-6 text-blue-600 mt-1 mr-3 group-hover:scale-110 transition-transform" />
                   <div>
-                    <h3 className="font-semibold">Adaptiv Utveckling</h3>
+                    <h3 className="font-semibold">Adaptiv utveckling</h3>
                     <p className="text-gray-600 mb-2">
-                      Fjärilspartiets plattform är utformad för att vara ofullständig och ständigt i utveckling. 
-                      Alla politiska partier som påstår sig ha alla svar ignorerar verklighetens grundläggande natur. 
-                      Vår styrka ligger inte i att ha en perfekt slutgiltig plan, utan i att ha den mest 
-                      motståndskraftiga och anpassningsbara processen för att upptäcka vad som behövs.
+                      Vår plattform är medvetet ofullständig och hela tiden i rörelse. Ett parti som
+                      påstår sig ha alla svar blundar för hur verkligheten fungerar. Vår styrka är inte
+                      en perfekt slutgiltig plan, utan en motståndskraftig process för att upptäcka vad
+                      som faktiskt behövs. Det är samma tanke som "reformer med inbyggt omtag" på
+                      startsidan – fast på det stora hela: byggd för att kunna ändras.
                     </p>
                   </div>
                 </div>
@@ -155,71 +131,14 @@ export default function AboutPage() {
                 <div className="flex items-start group hover:bg-blue-50 p-3 rounded-lg transition-colors">
                   <GitBranch className="w-6 h-6 text-blue-600 mt-1 mr-3 group-hover:scale-110 transition-transform" />
                   <div>
-                    <h3 className="font-semibold">Fraktal Styrning</h3>
+                    <h3 className="font-semibold">Fraktal styrning</h3>
                     <p className="text-gray-600">
-                      Vår vision för demokrati är som en levande geometri. Principerna om autonomi, ansvar och omsorg 
-                      bör vara självliknande på varje nivå i samhället – från den enskilda individen till grannskapet, 
-                      kommunen och nationen. Ett hälsosamt mönster som upprepas i olika skalor skapar ett resilient 
-                      och sammanhängande samhälle.
+                      Samma princip – att beslut fattas så nära människorna som möjligt – ska löpa som
+                      en röd tråd genom hela samhället: från individen till grannskapet, kommunen och
+                      nationen. Vi kallar det fraktal styrning, men det är egentligen bara ett annat ord
+                      för att makt och ansvar hör hemma där effekterna märks.
                     </p>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Development Areas */}
-            <div className="card">
-              <h2 className="text-2xl font-bold mb-6">Aktiva utvecklingsområden</h2>
-              <div className="space-y-6">
-                <div className="group hover:bg-blue-50 p-3 rounded-lg transition-colors">
-                  <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-semibold">DPOP - Digital demokratiplattform</h3>
-                    <ProjectStatus status="Aktiv utveckling" />
-                  </div>
-                  <p className="text-gray-600 mb-2">
-                    En öppen plattform för demokratiskt deltagande och transparent 
-                    partiverksamhet, byggd på modern teknik och säkerhetsprinciper.
-                  </p>
-                  <Link 
-                    href="https://github.com/yourusername/DPOP" 
-                    className="text-blue-600 text-sm inline-flex items-center hover:underline"
-                  >
-                    Utforska på GitHub <ExternalLink className="w-4 h-4 ml-1" />
-                  </Link>
-                </div>
-
-                <div className="group hover:bg-blue-50 p-3 rounded-lg transition-colors">
-                  <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-semibold">AUBI - Adaptiv basinkomst</h3>
-                    <ProjectStatus status="Policy" />
-                  </div>
-                  <p className="text-gray-600 mb-2">
-                    Ett intelligent välfärdssystem som ger grundtrygghet och 
-                    uppmuntrar samhällsengagemang.
-                  </p>
-                  <Link 
-                    href="/losningar#aubi" 
-                    className="text-blue-600 text-sm inline-flex items-center hover:underline"
-                  >
-                    Läs mer om AUBI <ExternalLink className="w-4 h-4 ml-1" />
-                  </Link>
-                </div>
-
-                <div className="group hover:bg-blue-50 p-3 rounded-lg transition-colors">
-                  <div className="flex justify-between items-start mb-2">
-                    <h3 className="font-semibold">Lokala pilotprojekt</h3>
-                    <ProjectStatus status="Planering" />
-                  </div>
-                  <p className="text-gray-600 mb-2">
-                    Praktiska experiment med nya lösningar för lokal demokrati, 
-                    hållbarhet och samhällsengagemang.
-                  </p>
-                  <Link 
-                    href="/losningar#projekt" 
-                    className="text-blue-600 text-sm inline-flex items-center hover:underline"
-                  >
-                    Se aktiva projekt <ExternalLink className="w-4 h-4 ml-1" />
-                  </Link>
                 </div>
               </div>
             </div>
@@ -232,12 +151,12 @@ export default function AboutPage() {
           <div className="mt-16 text-center bg-blue-50 rounded-lg p-8">
             <h2 className="text-2xl font-bold mb-4">Dela vårt budskap</h2>
             <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-              Hjälp oss sprida ordet om vårt arbete för systemisk samhällsförnyelse. 
-              Varje delning bidrar till att fler får möjlighet att engagera sig i skapandet av ett bättre samhälle.
+              Hjälp oss nå fler. Varje delning gör att fler får syn på ett parti som vill fånga upp
+              problemen i tid och flytta besluten närmare människorna.
             </p>
             <ShareButtons 
-              title="Om Fjärilspartiet - Systemisk samhällsförnyelse"
-              description="Lär känna ett parti som kombinerar systemtänkande och evidensbaserad politik för att skapa positiv samhällsförändring. Vi bygger framtidens politik tillsammans."
+              title="Om Fjärilspartiet"
+              description="Ett parti som vill flytta besluten närmare människorna och fånga upp samhällsproblem i tid – innan de växer till kriser."
             />
           </div>
 

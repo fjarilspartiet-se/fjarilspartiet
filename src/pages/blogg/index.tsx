@@ -137,7 +137,8 @@ export default function BlogIndex({ posts }: BlogIndexProps) {
                               <Calendar className="w-4 h-4 mr-1" />
                               <span>
                                 {new Date(post.date).toLocaleDateString('sv-SE', {
-                                  month: 'short',
+                                  year: 'numeric',
+                                  month: 'long',
                                   day: 'numeric'
                                 })}
                               </span>
