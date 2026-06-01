@@ -122,7 +122,7 @@ export default function AboutPage() {
                       Vår plattform är medvetet ofullständig och hela tiden i rörelse. Ett parti som
                       påstår sig ha alla svar blundar för hur verkligheten fungerar. Vår styrka är inte
                       en perfekt slutgiltig plan, utan en motståndskraftig process för att upptäcka vad
-                      som faktiskt behövs. Det är samma tanke som "reformer med inbyggt omtag" på
+                      som faktiskt behövs. Det är samma tanke som &quot;reformer med inbyggt omtag&quot; på
                       startsidan – fast på det stora hela: byggd för att kunna ändras.
                     </p>
                   </div>
