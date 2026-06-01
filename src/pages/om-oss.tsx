@@ -144,6 +144,33 @@ export default function AboutPage() {
             </div>
           </div>
 
+          {/* What we believe */}
+          <div className="max-w-3xl mx-auto mb-12">
+            <div className="card">
+              <h2 className="text-2xl font-bold mb-6">Vad vi tror</h2>
+              <p className="text-gray-600 mb-4">
+                Att vara med i Fjärilspartiet handlar mindre om att ha rätt svar och mer om en hållning:
+                ett öppet hjärta och ett öppet sinne inför möjligheten till positiv förändring. Vi släpper
+                en del av den rädsla som så ofta präglar nyhetsflödet – utan att för den skull bli naiva
+                eller utopiska.
+              </p>
+              <p className="text-gray-600 mb-4">
+                Lägg märke till skillnaden mellan att vara öppen <em>inför möjligheten</em> att samhället
+                kan bli bättre, och att <em>lova</em> att det blir det. Ingen känner framtiden – men vi kan
+                välja hur vi möter den.
+              </p>
+              <blockquote className="border-l-4 border-blue-500 bg-blue-50 p-4 my-6 text-gray-700 italic">
+                Hoppfulla nog att tro att förändring är möjlig, ödmjuka nog att fortsätta lära, och
+                praktiska nog att pröva vad som faktiskt fungerar.
+              </blockquote>
+              <p className="text-gray-600">
+                Det betyder att vi inte är de som påstår oss se hela bilden medan alla andra sitter fast.
+                Ingen av oss ser hela systemet. Men vi kan bli bättre på att lyssna, lära och anpassa oss
+                – tillsammans. Det är vad det innebär att vara fjärilspartist.
+              </p>
+            </div>
+          </div>
+
           {/* Engagement Section */}
           <EngagementSection />
 

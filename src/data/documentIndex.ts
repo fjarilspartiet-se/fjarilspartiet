@@ -1,5 +1,5 @@
 // Auto-generated document index
-// Last updated: 2026-06-01T09:25:40.870Z
+// Last updated: 2026-06-01T17:53:14.254Z
 
 export interface Document {
   id: string;
