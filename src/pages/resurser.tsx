@@ -105,7 +105,27 @@ export default function ResourcesPage() {
                 <Network className="w-6 h-6 text-blue-600 mr-2" />
                 <h2 className="text-2xl font-bold">Interaktiva verktyg</h2>
               </div>
-              <div className="space-y-4">
+              <div className="space-y-8">
+
+                {/* Svensk Subsidiaritet */}
+                <div className="mt-10 pt-6 border-t border-gray-200">
+                  <h3 className="font-semibold mb-2">Svensk Subsidiaritet</h3>
+                  <p className="text-gray-600 mb-2">
+                    En forsknings- och policyplattform som analyserar övercentralisering i det 
+                    svenska samhället och utvecklar verktyg för distribuerad styrning. Här finns 
+                    det globala subsidiaritetsindexet (GSI) samt konkreta förslag för hur Sverige 
+                    kan stärka subsidiariteten – rätt beslut på rätt nivå.
+                  </p>
+                  <a 
+                    href="https://svensksubsidiaritet.se" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="btn-primary inline-flex items-center"
+                  >
+                    Besök SvenskSubsidiaritet.se
+                  </a>
+                </div>
+
                 <div>
                   <h3 className="font-semibold mb-2">Spiralize.org</h3>
                   <p className="text-gray-600 mb-2">
