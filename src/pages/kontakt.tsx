@@ -51,11 +51,11 @@ export default function ContactPage() {
                   <p>
                     <strong>Hemsida:</strong>{' '}
                     <a 
-                      href="https://bjornkennethholmstrom.wordpress.com/contact"
+                      href="https://bjornkennethholmstrom.org/contact"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      bjornkennethholmstrom.wordpress.com/contact
+                      bjornkennethholmstrom.org/contact
                     </a>
                   </p>
                 </div>
@@ -97,7 +97,7 @@ export default function ContactPage() {
                     </a>
 
                     <a 
-                      href="https://github.com/fjarilspartiet-se/DPOP"
+                      href="https://github.com/BjornKennethHolmstrom/DPOP"
                       className="btn-primary"
                       target="_blank"
                       rel="noopener noreferrer"
