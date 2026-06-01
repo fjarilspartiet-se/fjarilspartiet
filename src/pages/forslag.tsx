@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 import MainLayout from '../layouts/MainLayout';
 import Tabs from '../components/Tabs';
 import ContentSection from '../components/ContentSection';
@@ -94,6 +95,11 @@ export default function SolutionsPage() {
               De flesta partier säljer färdiga lösningar. Vi tror på något annat: att skapa
               förutsättningarna för att rätt lösningar ska kunna växa fram, testas och rättas till –
               där problemen finns. Förslagen nedan är just det – förslag att pröva, inte färdiga sanningar.
+            </p>
+            <p className="mt-4 text-base">
+              <Link href="/det-har-star-vi-for" className="text-[var(--color-primary)] underline underline-offset-2 hover:opacity-80">
+                Vill du se var vi står i de stora frågorna? →
+              </Link>
             </p>
           </div>
           <Tabs 

@@ -69,6 +69,11 @@ export default function Home() {
                   Bli medlem
                 </Link>
               </div>
+              <div className="mt-4">
+                <Link href="/det-har-star-vi-for" className="text-[var(--color-primary)] underline underline-offset-2 hover:opacity-80">
+                  Var står vi i sakfrågorna?
+                </Link>
+              </div>
             </div>
           </div>
         </section>
@@ -364,7 +369,7 @@ export default function Home() {
                   <h3 className="text-xl font-semibold text-[var(--color-primary)]">Öppna projekt</h3>
                 </div>
                 <p className="text-[var(--color-text-muted)] mb-4 flex-grow">
-                  Partiets grundare Björn har skissat på öppna verktyg i partiets anda – för demokratiskt
+                  Några av oss har skissat på öppna verktyg i partiets anda – för demokratiskt
                   deltagande och utbildning. De lever och utvecklas fristående, och partiet varken
                   äger eller driver dem.
                 </p>
