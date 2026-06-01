@@ -194,7 +194,10 @@ const MainLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
             <div>
               <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Fjärilspartiet</h3>
-              <p className="mt-4 text-base text-gray-500">
+              <p className="mt-4 text-base font-medium text-gray-600">
+                Hjälper Sverige att blomstra
+              </p>
+              <p className="mt-1 text-sm text-gray-400">
                 Ett parti för systemisk samhällsförnyelse
               </p>
             </div>
