@@ -274,35 +274,45 @@ function scanDirectory(dir, basePath = '') {
 
 // Extract description from document content
 function getDocumentDescription(content, metadata) {
-  // Check if description is in metadata
+  // 1. Prefer an explicit metadata description
   if (metadata.beskrivning || metadata.description) {
     return metadata.beskrivning || metadata.description;
   }
-  
-  // Look for first paragraph after title
-  const lines = content.split('\n');
+
+  const lines = content.split(/\r?\n/);
   let descriptionStartIndex = -1;
-  
-  // Find the end of frontmatter and title
+
+  // 2. Find the first non‑empty line that is not a heading, frontmatter delimiter,
+  //    a key‑value pair (contains ':') or a list item.
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i].trim();
-    if (line && !line.startsWith('#') && !line.startsWith('---') && !line.includes(':')) {
-      descriptionStartIndex = i;
-      break;
-    }
+    if (!line) continue;                                  // skip empty lines
+    if (line.startsWith('#')) continue;                   // headings
+    if (line === '---') continue;                         // frontmatter bounds
+    if (line.includes(':')) continue;                     // metadata key‑value
+    if (/^[-*+]\s/.test(line)) continue;                  // bullet points / list items
+    // If we get here, it’s a plausible paragraph candidate
+    descriptionStartIndex = i;
+    break;
   }
-  
+
   if (descriptionStartIndex !== -1) {
-    // Get first meaningful paragraph
+    // 3. Look at the next few lines for a meaningful block of text
     for (let i = descriptionStartIndex; i < Math.min(descriptionStartIndex + 5, lines.length); i++) {
       const line = lines[i].trim();
-      if (line && line.length > 50) {
-        return line.substring(0, 200) + (line.length > 200 ? '...' : '');
+      // Also skip list items in the sliding window
+      if (!line || line.startsWith('#') || line === '---' || line.includes(':') || /^[-*+]\s/.test(line)) {
+        continue;
+      }
+      if (line.length > 50) {
+        // Truncate if too long
+        return line.length > 200 ? line.substring(0, 200) + '...' : line;
       }
     }
   }
-  
-  return undefined; // Return undefined instead of null
+
+  // No suitable paragraph found – leave description undefined
+  return undefined;
 }
 
 // Parse related documents list

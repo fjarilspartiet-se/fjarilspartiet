@@ -9,61 +9,71 @@ const positions = [
     Icon: Shield,
     title: 'Trygghet och grov brottslighet',
     vill: 'Ta grov brottslighet på största allvar – tydliga konsekvenser och resurser till polis och rättsväsende – och samtidigt ta lika allvarligt på varför unga rekryteras. Båda delarna, inte den ena eller den andra.',
-    prova: 'Fånga risksignaler tidigt genom bättre samordning mellan skola, socialtjänst och polis – integritetssäkert – och sprid de lokala metoder som faktiskt minskar nyrekryteringen.'
+    prova: 'Fånga risksignaler tidigt genom bättre samordning mellan skola, socialtjänst och polis – integritetssäkert – och sprid de lokala metoder som faktiskt minskar nyrekryteringen.',
+    docId: 'STR-242'
   },
   {
     Icon: HeartPulse,
     title: 'Vården',
     vill: 'En vård som lär av dem som faktiskt utför arbetet – personal, patienter och resultat – i stället för fler krav uppifrån. En stor del av problemet är att besluten fattas för långt från patienten och personalen, och att 21 regioner blir svåra att överblicka. Mindre administration som stjäl tid från patienterna.',
-    prova: 'Låt vårdens egna förbättringar testas och spridas, rensa bland mätningar som blivit självändamål, och pröva en tydligare ansvarsfördelning mellan stat, region och kommun. Vi vill inte avskaffa regionerna – men deras roll behöver bli tydligare.'
+    prova: 'Låt vårdens egna förbättringar testas och spridas, rensa bland mätningar som blivit självändamål, och pröva en tydligare ansvarsfördelning mellan stat, region och kommun. Vi vill inte avskaffa regionerna – men deras roll behöver bli tydligare.',
+    docId: 'STR-243'
   },
   {
     Icon: GraduationCap,
     title: 'Skolan',
     vill: 'En skola som ger alla en trygg och stark grund, samtidigt som varje elevs nyfikenhet får växa. Sluta med de ständiga reformerna uppifrån som missar klassrummets verklighet.',
-    prova: 'Färre toppstyrda reformer, fler förbättringar som prövas lokalt och sprids när de fungerar – med lärarnas erfarenhet som grund.'
+    prova: 'Färre toppstyrda reformer, fler förbättringar som prövas lokalt och sprids när de fungerar – med lärarnas erfarenhet som grund.',
+    docId: 'STR-244'
   },
   {
     Icon: Wallet,
     title: 'Jobb och trygghet i omställning',
     vill: 'Att fler ska våga byta bana, vidareutbilda sig eller starta eget – utan att riskera allt – i en tid då automatiseringen förändrar arbetslivet.',
-    prova: 'AUBI, en adaptiv grundtrygghet, är vårt förslag här. Vi har inget färdigt finansieringsförslag och är öppna med det – därför vill vi testa i en kommun först, utvärdera, och bygga vidare på evidens innan något görs i större skala.'
+    prova: 'AUBI, en adaptiv grundtrygghet, är vårt förslag här. Vi har inget färdigt finansieringsförslag och är öppna med det – därför vill vi testa i en kommun först, utvärdera, och bygga vidare på evidens innan något görs i större skala.',
+    docId: 'STR-245'
   },
   {
     Icon: Coins,
     title: 'Skatter och statens pengar',
-    vill: 'Vi låser oss inte vid en bestämd skattenivå. Vi bedömer skatter och utgifter efter en sak: gör pengarna nytta? Hellre att rätta det som inte fungerar än att reflexmässigt höja eller sänka.',
-    prova: 'Oberoende utvärdering och bortre tidsgränser på stora satsningar, så att det som inte ger resultat kan avvecklas i stället för att leva vidare av gammal vana.'
+    vill: 'Vi låser oss inte vid en bestämd skattenivå – men vi gömmer oss inte heller bakom det. Vi bedömer skatter och utgifter efter en sak: gör pengarna nytta? Hellre att rätta det som inte fungerar än att reflexmässigt höja eller sänka – och program ska förtjäna sin plats, även våra egna.',
+    prova: 'Oberoende utvärdering och bortre tidsgränser på stora satsningar, så att det som inte ger resultat kan avvecklas i stället för att leva vidare av gammal vana. Behövs nya pengar vill vi först omfördela från det som inte fungerar – och hellre beskatta kapital- och automationsvinster än arbete och konsumtion.',
+    docId: 'STR-246'
   },
   {
     Icon: Users,
     title: 'Migration och integration',
     vill: 'En ordnad och förutsägbar migrationspolitik – och en integration som faktiskt fungerar, så att de som är här kan lära sig språket, försörja sig och bli en del av samhället. Varken att vifta undan problemen eller att skylla allt på invandring.',
-    prova: 'Bedöm integrationsinsatser efter resultat – jobb, språk, trygghet – behåll det som fungerar och lägg ner det som inte gör det.'
+    prova: 'Bedöm integrationsinsatser efter resultat – jobb, språk, trygghet – behåll det som fungerar och lägg ner det som inte gör det.',
+    docId: 'STR-247'
   },
   {
     Icon: Zap,
     title: 'Klimat och energi',
-    vill: 'En realistisk klimat- och energipolitik som både håller nere utsläppen och håller igång hushåll och industri. Varken förnekelse eller panik.',
-    prova: 'Teknikneutralt: vi bedömer lösningar efter vad de faktiskt levererar i utsläppsminskning och i pålitlig, rimligt prissatt energi – inte efter vilken teknik som är inne. Och vi vill stärka den lokala energiberedskapen.'
+    vill: 'En klimat- och energipolitik som tar klimatvetenskapen på allvar – och just därför söker lösningar som faktiskt fungerar, inte sådana som mest känns rätt. Både att hålla nere utsläppen och att hålla igång hushåll och industri.',
+    prova: 'Teknikneutralt: vi bedömer lösningar efter vad de faktiskt levererar i utsläppsminskning och i pålitlig, rimligt prissatt energi – inte efter vilken teknik som är inne. Och vi vill stärka den lokala energiberedskapen.',
+    docId: 'STR-248'
   },
   {
     Icon: Home,
     title: 'Bostäder',
-    vill: 'Göra det möjligt att faktiskt hitta någonstans att bo.',
-    prova: 'Ge kommuner utrymme att pröva olika sätt att bygga och fördela bostäder, ta bort onödiga flaskhalsar – och sprid snabbt det som visar sig fungera.'
+    vill: 'Göra det möjligt att faktiskt hitta någonstans att bo – både fler bostäder och rätt bostäder, så att också unga och de med små marginaler kommer in.',
+    prova: 'Ge kommuner utrymme att pröva olika sätt att bygga och fördela bostäder, ta bort flaskhalsar i bygg- och planprocessen, och sprid snabbt det som fungerar. Vi vågar också pröva svårare frågor, som hur hyresregleringen kan reformeras utan att de mest utsatta drabbas.',
+    docId: 'STR-249'
   },
   {
     Icon: Network,
     title: 'Demokrati och inflytande',
     vill: 'Mer inflytande mellan valen, och beslut så nära människorna som möjligt.',
-    prova: 'Medborgardialoger och lokala folkomröstningar i viktiga frågor, mer öppenhet om hur beslut fattas – och Framtidskommuner som får friheten att pröva nytt.'
+    prova: 'Lottade, representativa medborgarpaneler som får tid och underlag att väga svåra frågor på djupet, mer öppenhet om hur beslut fattas, och Framtidskommuner som får friheten att pröva nya metoder. Folkomröstningar och dialoger är bra komplement – starkast i tydliga värde- och vägvalsfrågor.',
+    docId: 'STR-250'
   },
   {
     Icon: Sprout,
     title: 'Beredskap och hållbarhet',
-    vill: 'Ett samhälle som står starkare när kriser slår till – från lokal matförsörjning till energi – och lösningar som håller i längden, för både människor och miljö.',
-    prova: 'Stärk lokal försörjning och beredskap, och stöd hållbara lösningar som prövas lokalt och sprids när de fungerar.'
+    vill: 'Ett samhälle som står starkare när kriser slår till – mat, vatten, värme, energi och betalningar som fungerar även när annat fallerar. Och lösningar som håller i längden, för både människor och miljö.',
+    prova: 'Stärk den lokala beredskapen för det den faktiskt klarar – snabb respons, vatten, värme och distribution – och var ärliga med att försörjningstryggheten i stort vilar på nationell och europeisk nivå. Hållbarhet vägleder valen, men i en skarp kris går förmågan att klara sig först.',
+    docId: 'STR-251'
   }
 ];
 
@@ -104,9 +114,16 @@ export default function PositionsPage() {
                 <p className="text-gray-700 mb-2">
                   <span className="font-semibold text-[var(--color-primary)]">Vi vill: </span>{p.vill}
                 </p>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-600 text-sm mb-3">
                   <span className="font-semibold">Så vill vi pröva det: </span>{p.prova}
                 </p>
+                <Link
+                  href={`/dokument?doc=${p.docId}`}
+                  className="inline-flex items-center text-sm font-medium text-blue-600 hover:text-blue-800"
+                >
+                  Läs hela resonemanget ({p.docId})
+                  <span aria-hidden="true" className="ml-1">→</span>
+                </Link>
               </div>
             ))}
           </div>
