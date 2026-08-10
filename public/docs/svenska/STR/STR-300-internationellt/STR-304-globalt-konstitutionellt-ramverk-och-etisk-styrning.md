@@ -2,489 +2,190 @@
 ---
 dokumentid: STR-304
 titel: Globalt konstitutionellt ramverk och etisk styrning
-version: 1.0
-senast-uppdaterad: 2025-02-27
+version: 2.0
+status: Utkast för diskussion – omarbetning efter strukturell granskning
+senast-uppdaterad: 2026-08-10
 ansvarig: Björn Kenneth Holmström
-roll: Grundare och visionär
+roll: Grundare och teknisk samordnare
 relaterade-dokument:
+  - STR-250 # Adaptiv demokrati- och inflytandepolitik (subsidiaritetsprincipen)
+  - STR-218 # Integrerad flernivådemokrati (kanaluppdelningen)
+  - STR-213 # Styrningens evolution (övergångsteori)
   - STR-301 # Internationell strategi
-  - STR-302 # Individuell autonomi och utvecklingsmöjligheter som universell rättighet
   - STR-303 # Konkreta vägar till global transformation
-  - OPS-400 # Internationella samarbetsmekanismer
-  - STR-103 # Etik för jämvikt och sammanlänkning
-  - STR-213 # Styrningens evolution - ett adaptivt och integrerat perspektiv
+  - STR-306 # Global ekonomisk rättvisa och resursfördelning
   - STR-220 # Datasuveränitet och digital autonomi
+  - OPS-400 # Internationella samarbetsmekanismer
 ---
 
 # Globalt konstitutionellt ramverk och etisk styrning
-## En vision för etisk global samordning med bevarad kulturell mångfald
+## Vad en global nivå kan bära – och vad den inte kan
 
-### 1. Vision och syfte
+### Sammanfattning
 
-Fjärilspartiet föreställer sig en global konstitutionell ordning som skiljer sig markant från historiska imperialistiska strukturer och nutida institutioner där makt koncentreras till de ekonomiskt eller militärt starkaste. Vår vision är ett decentraliserat, transparent och adaptivt ramverk som:
+Version 1.0 lovade direkt röstning om globala policyer för varje människa på jorden. Det löftet går inte att hålla, och inte av praktiska skäl som teknik eller resurser kan lösa. En preferens som ska färdas från en enskild människa till en planetär beslutsnivå passerar så många sammanfattande led att det som kommer fram inte längre bär information om vad någon faktiskt ville. Kanalen finns, men den transporterar brus.
 
-- Säkerställer grundläggande mänskliga rättigheter och planetär hållbarhet
-- Bevarar och stärker kulturell mångfald och lokal autonomi
-- Balanserar global koordinering med lokalt självbestämmande
-- Fördelar resurser rättvist och eliminerar strukturell fattigdom
-- Skyddar individens integritet i en alltmer digitaliserad värld
-- Utvecklas organiskt underifrån genom demokratiska processer
+Det betyder inte att en global nivå är meningslös. Det betyder att den har en annan uppgift än vi tidigare påstod. En global nivå kan förvalta gemensamma resurser, upprätthålla protokoll och miniminivåer, jämna ut resurser mellan rika och fattiga delar av världen, och observera tillståndet på planeten. Det är omfattande, omfördelande och radikalt nog. Det är bara inte representation av enskilda medborgares vilja.
 
-Detta ramverk är inte tänkt att ersätta lokala styresskick, utan att skapa en etisk grund som överspänner mänsklig aktivitet på alla nivåer, från individen till det globala samfundet. Det representerar vår arts mognad till ett planetärt medvetande där vi erkänner vårt ömsesidiga beroende och gemensamma ansvar för jordens framtid.
+Den här versionen byter ut representationslöftet mot de fyra funktionerna, ärver den försonade subsidiaritetsprincipen från STR-250, och lägger till ett avsnitt om det vi inte har löst: vem som ska verkställa ett globalt ramverk och varför de skulle vilja det.
 
-### 2. Grundläggande principer
+## 1. Tes: koordination, inte representation
 
-Ett globalt konstitutionellt ramverk måste vila på tydliga etiska principer som balanserar universella värden med respekt för mångfald. Dessa principer utgör stommen i vår vision:
+Ju längre från människorna ett beslut fattas, desto mindre kan det handla om att representera deras preferenser och desto mer måste det handla om att sätta ramar som alla vinner på att alla följer.
 
-#### 2.1 Decentraliserad auktoritet (subsidiaritet)
+Detta är inte en reträtt från demokrati. Det är en fördelning av arbetet. Bindande inflytande över hur människor lever hör hemma nära dem, där kanalen är kort nog att bära verklig information om vad de vill. Den globala nivån gör det som ingen lokal nivå kan göra ensam – och den gör det bäst om den inte samtidigt låtsas vara en världsriksdag.
 
-**Princip**: Beslut fattas på lägsta effektiva nivå, med högre instanser som endast hanterar frågor som inte kan lösas lokalt.
+Ett globalt organ som påstår sig representera mänsklighetens vilja gör två saker på en gång: det kan inte leverera vad det lovar, och det använder löftet som legitimitet för beslut som i praktiken fattas av ett fåtal. Det är den kombinationen som gjort människor med rätta misstänksamma mot global styrning, och den misstänksamheten möter vi bäst genom att sluta göra påståendet.
 
-**I praktiken**:
-- Lokala gemenskaper behåller autonomi över vardagligt beslutsfattande
-- Regioner koordinerar mellan gemenskaper
-- Global styrning fokuserar uteslutande på planetära utmaningar
-- Ingen central myndighet kan överrida lokalt självbestämmande utan tydlig motivering
+## 2. Vad vi tagit bort ur version 1.0
 
-Denna princip förhindrar maktkoncentration samtidigt som den möjliggör effektiv koordinering kring genuint globala utmaningar som klimatförändringar, pandemier och teknologisk reglering.
+**Direkt global röstning.** §2.3 i version 1.0 föreskrev direktröstning om globala policyer via DidiS och flytande demokrati på global nivå. Borttaget, av skälen i avsnitt 1. DidiS behåller sin roll på kommunal och regional nivå, där kanalen faktiskt bär.
 
-#### 2.2 Radikal transparens
+**Globala folkomröstningar om konstitutionella principer.** Samma problem, förvärrat av att en enda global fråga med en enda formulering aggregerar bort just den variation som gör svaret meningsfullt.
 
-**Princip**: Alla styrningsprocesser måste vara fullt synliga och tillgängliga för medborgare, utan hemligt beslutsfattande eller dold resursallokering.
+**Fastagsatta faser med årtal.** 2025–2030, 2030–2040, 2040–2050. Vi är förbi halva den första perioden och nästan inget i den har inträffat. Kalenderfaser förutsätter att förändringen driver sig själv. Ersatta av villkorade steg (avsnitt 12), enligt samma logik som STR-213.
 
-**I praktiken**:
-- Blockchain-verifiering av beslut, röster och resursallokering
-- Öppen data för all styrningsaktivitet
-- AI-assisterad övervakning och analys tillgänglig för alla medborgare
-- Multipla verifieringsmetoder för att förhindra teknologiska hinder
+**Kosmisk etik och utomjordiska civilisationer.** Vi behåller det som är närliggande och verkligt – omloppsbanan som allmänning, rymdskrot, resursutvinning i rymden – och tar bort principer för kontakt med utomjordiskt liv. De kostar mer i trovärdighet än de tillför i vägledning, och den som avfärdar hela dokumentet på grund av dem har inte helt fel att göra det.
 
-Transparens är god styrnings immunsystem – den förhindrar korruption, bygger förtroende och säkerställer ansvarighet gentemot folket snarare än eliten.
+**"Blockchain-verifiering" som princip.** Kravet på verifierbar spårbarhet står kvar. Kravet på en särskild teknik gör det inte.
 
-#### 2.3 Direkt deltagande
+**"AI-assisterad övervakning tillgänglig för alla medborgare".** Analys av ett underlag där variationen redan komprimerats bort producerar övertygande svar på fel fråga. Se avsnitt 11.
 
-**Princip**: Varje individ har rätt att delta i beslut som påverkar dem, genom flera olika engagemangskanaler.
+**"Planetärt medvetande" som styrningsargument.** Föreställningen om ett växande mänskligt medvetande är en tro vi kan bära privat. Den kan inte bära vikten av en institutionell konstruktion, och den är inte prövbar. Kvar står de skäl som håller utan den.
 
-**I praktiken**:
-- Direkt röstning om globala policyer genom digitala plattformar som DidiS
-- Medborgarförsamlingar på lokal, regional och global nivå
-- Flytande demokrati som möjliggör röstdelegering till betrodda representanter
-- Lika tillgång oavsett förmögenhet, plats eller status
+## 3. Vilka frågor som faktiskt är globala
 
-Deltagande säkerställer att styrning reflekterar kollektiv visdom snarare än elitintressen, samtidigt som det skapar en känsla av ägandeskap och legitimitet.
+En vanlig svaghet i visioner om global styrning är att listan över globala frågor växer tills den omfattar nästan allt. Vi behöver ett test som håller emot.
 
-#### 2.4 Universella mänskliga rättigheter
+**Testet:** en fråga hör hemma på global nivå bara om konsekvenserna av ett beslut i väsentlig grad bärs av människor som inte deltog i det, *och* ingen lägre nivå kan förhindra att de gör det.
 
-**Princip**: Vissa rättigheter är icke-förhandlingsbara och måste skyddas för alla människor, oavsett nationalitet, kultur eller omständighet.
+Frågor som passerar testet: atmosfärens sammansättning och klimatet, pandemier och biologiska hot, havens tillstånd bortom nationella zoner, omloppsbanor och rymdskrot, kärnvapen, de mest kapabla AI-systemens utveckling, gränsöverskridande finansiell smitta, och den grundläggande fördelningen av resurser mellan världens delar.
 
-**I praktiken**:
-- Yttrande-, tros- och mötesfrihet
-- Kroppslig autonomi och fysisk säkerhet
-- Mental suveränitet (skydd från påtvingat teknologiskt inflytande)
-- Tillgång till grundläggande behov genom AUBI
-- Skydd från diskriminering och exploatering
+Frågor som ofta antas passera men inte gör det: skolsystem, vårdorganisation, kulturpolitik, bostadsförsörjning, de flesta arbetsmarknadsfrågor, och nästan allt som rör hur människor väljer att leva. Att dessa ser lika ut i flera länder betyder inte att de behöver avgöras på samma nivå.
 
-Mänskliga rättigheter etablerar den etiska grund under vilken inget styrningssystem får falla, samtidigt som det säkerställer att mångfald inte blir en ursäkt för förtryck.
+Listan är avsiktligt kortare än i version 1.0. Ett globalt ramverk som gör få saker och gör dem verkligt bindande är mer värt än ett som gör anspråk på allt och binder ingenting.
 
-#### 2.5 Miljöförvaltning
+## 4. Fyra funktioner för en global nivå
 
-**Princip**: Jordens ekosystem har inneboende rättigheter och måste skyddas, med resurser förvaltade för långsiktig regeneration snarare än kortsiktig utvinning.
+**Förvaltning av gemensamma allmänningar.** Atmosfär, hav bortom nationella zoner, djuphav, omloppsbanor, genetiska resurser, och grundläggande kunskap och digital infrastruktur. Här finns en verklig förvaltningsuppgift som ingen annan nivå kan bära, och intäkter från användningen av dessa allmänningar är en av få finansieringskällor som inte är beroende av enskilda staters välvilja.
 
-**I praktiken**:
-- Juridisk personlighet för naturliga system (floder, skogar, etc.)
-- Global allmänningsförvaltning av essentiella resurser
-- Intergenerationell rättvisa i resursbeslut
-- AI-övervakade ekologiska konsekvensanalyser
+**Protokoll och miniminivåer.** Standarder som gör att system hänger ihop över gränser, och golv under vilka ingen får falla: kroppslig integritet, skydd mot förtryck och exploatering, grundläggande försörjning. Protokollnivån behöver inte hög upplösning nedifrån för att fungera – det är dess styrka.
 
-Denna princip erkänner att mänskligheten är en del av jordens levande system, inte separat från det, och att styrning måste operera inom planetära gränser.
+**Utjämning och finansiering.** Överföringar mellan världens rika och fattiga delar, beräknade på behovsspridning snarare än på förhandlingsstyrka. Detta är den mest omfördelande funktionen och den som möter mest motstånd.
 
-#### 2.6 Kulturell autonomi
+**Observation.** Att veta hur det faktiskt står till med planeten, med spridningen bevarad. Ett globalt system som bara känner till medelvärden kan inte se den region där något håller på att kollapsa. Kravet på bevarad spridning från STR-218 gäller med särskild kraft här, eftersom kedjan är som längst.
 
-**Princip**: Gemenskaper behåller rätten att bevara och utveckla sina kulturella praktiker, språk och styrningsmodeller inom det etiska ramverket för universella rättigheter.
+Ingen av dessa funktioner kräver att den globala nivån vet vad enskilda människor vill. Alla fyra kräver att den vet hur det står till – vilket är en annan sorts information, med andra krav.
 
-**I praktiken**:
-- Skydd av kulturarv och språklig mångfald
-- Självbestämmande i kulturella frågor
-- Ingen påtvingad kulturell assimilering
-- Tvärkulturell dialog och utbyte
+## 5. Subsidiaritet i global form
 
-Kulturell autonomi säkerställer att global styrning stärker mångfald snarare än att påtvinga enformighet, medan universella rättigheter förhindrar att kulturrelativism möjliggör förtryck.
+Vi ärver den försonade principen från STR-250 och tillämpar den uppåt.
 
-#### 2.7 Etisk teknologisk styrning
+Beslut fattas så nära människorna som möjligt, men inte längre ner än den nivån har **räckvidd och kapacitet**. Räckvidd betyder att nivån bär konsekvenserna av sitt beslut. En nation som släpper ut i atmosfären fattar ett beslut vars konsekvenser bärs av människor som inte röstar i den nationen – det är per definition ett beslut utan räckvidd, och att flytta det uppåt är inte ett brott mot suveräniteten utan en tillämpning av subsidiariteten.
 
-**Princip**: AI och avancerade teknologier måste förbli under transparent mänsklig översikt, tjänande mänskligheten snarare än att kontrollera den.
+Formulerat som i STR-250: **maximalt utrymme att avgöra *hur* gemensamma åtaganden uppfylls, minimalt utrymme att avvika från *vilket* ansvar som bärs.**
 
-**I praktiken**:
-- Öppen källkod för AI-system i styrning
-- Medborgerlig översikt av teknologisk utveckling
-- Skydd av mental suveränitet
-- Förebyggande av teknologisk monopolisering
+Och samma ärliga medgivande som där: gränsen mellan "bärs inom" och "bärs utanför" är ett politiskt avgörande, inte ett tekniskt. På global nivå är det värre, eftersom det inte finns något opartiskt organ att lämna avgörandet till. Vi säger det hellre än att gömma det bakom "rätt nivå".
 
-När teknologin blir alltmer kraftfull måste styrning säkerställa att den förblir i linje med mänskliga värderingar och demokratiskt kontrollerad.
+## 6. Etiskt golv och kulturell autonomi
 
-#### 2.8 Resursmässig rättvisa
+Vi behåller version 1.0:s uppdelning, som håller.
 
-**Princip**: Essentiella resurser måste fördelas rättvist, vilket förhindrar både brist och överdriven koncentration av rikedom och makt.
+**Etiska minimikrav** är icke-förhandlingsbara: kroppslig integritet, frihet från förtryck och exploatering, yttrande- och trosfrihet, tillgång till grundläggande försörjning. En kultur kan inte åberopa tradition för att legitimera kränkningar av dessa.
 
-**I praktiken**:
-- Adaptiv universell basinkomst (AUBI)
-- Progressiv beskattning av automation, resursutvinning och finansiell spekulation
-- Förebyggande av resursmonopolisering
-- Regenerativa ekonomiska modeller
+**Kulturella uttryck** – språk, seder, konstnärliga traditioner, styrningsmodeller, sociala praktiker – förblir autonoma inom det golvet.
 
-Resursmässig rättvisa säkerställer att teknologiska framsteg och naturligt överflöd gynnar hela mänskligheten, inte bara en privilegierad minoritet.
+Vad vi lägger till är en ärlighet om vem som formulerat golvet. De universella rättigheter vi lutar oss mot bär en historia och en geografi. Att säga att de ändå ska gälla överallt är ett värdeval, inte en neutral observation, och vi gör det valet med öppna ögon: vi tror att skyddet mot att bli torterad, såld eller tystad är giltigt oavsett var det formulerades. Men vi låtsas inte att det är ett tekniskt konstaterande, och vi räknar med att den som utsätts för golvets tillämpning kommer att uppleva den som utifrån kommande. Det är ett skäl att hålla golvet lågt och smalt, inte att avstå från det.
 
-#### 2.9 Fredlig konfliktlösning
+## 7. Mental suveränitet
 
-**Princip**: Global styrning måste tillhandahålla mekanismer för att lösa tvister utan våld, med övergång från militär konkurrens till samarbete.
+Detta avsnitt behålls i sak från version 1.0, eftersom det handlar om verkliga och närliggande frågor och inte innehåller de strukturella felen.
 
-**I praktiken**:
-- Globala konfliktmedlingssystem
-- AI-assisterad tidig varning för potentiella konflikter
-- Omdirigering av militära resurser mot humanitära och ekologiska behov
-- Kooperativ säkerhet snarare än konkurrensbetonad upprustning
+**Hoten:** AI-baserad påverkan på känslor och övertygelser i stor skala, hjärn-datorgränssnitt med potential för extern kontroll och för avläsning av data ingen tidigare kunnat avläsa, djupgående övervakning som eliminerar mental integritet, och system designade för att skapa beroende.
 
-Denna princip erkänner att våld är ineffektivt, destruktivt och i slutändan onödigt i ett väldesignat styrningssystem.
+**Rättigheterna:** kognitiv frihet (tankefrihet utan övervakning, kontroll över egna neurala data), informationell självbestämmanderätt (kontroll över insamling och användning av persondata, insyn i algoritmiska system som påverkar en), och neurala rättigheter (informerat samtycke som krav för neurala gränssnitt, förbud mot tvingande neuroteknik).
 
-#### 2.10 Adaptiv evolution
+**Skyddet:** juridiskt genom konstitutionellt skydd och strikt ansvar för kränkningar; tekniskt genom decentraliserade identitets- och datasystem; och genom utbildning i vad som faktiskt påverkar en.
 
-**Princip**: Styrningssystem måste utformas för att utvecklas genom regelbunden granskning och revision, vilket möjliggör systemiskt lärande och anpassning.
+Detta hör till de få områden där ett globalt golv är både angeläget och realistiskt, eftersom teknikerna utvecklas i ett fåtal jurisdiktioner och sprids överallt. Ett förbud som gäller i tio länder är verkningsfullt om de tio är där systemen byggs.
 
-**I praktiken**:
-- Regelbundna konstitutionella granskningar och uppdateringar
-- Evidensbaserad policyutvärdering
-- Medborgarledda reformprocesser
-- Experimentella styrningszoner för att testa nya tillvägagångssätt
+## 8. Global AUBI och gemensamma allmänningar
 
-Adaptiv styrning undviker att bli rigid eller föråldrad, och utvecklas istället med nya utmaningar, teknologier och förståelse.
+Intäkter från användningen av globala allmänningar – utsläppsutrymme, havsresurser, omloppsbanor, resursutvinning – kan finansiera en global grundtrygghet, med belopp anpassade efter lokala levnadskostnader och lokalt utformade utbetalningsvägar.
 
-#### 2.11 Balans mellan integration och mångfald
+Vi behåller förslaget och skärper redovisningen av vad som är osäkert. Finansieringen förutsätter att någon kan ta ut avgifter av dem som använder allmänningarna, vilket förutsätter det som avsnitt 9 handlar om. Automatiseringsskatter och globala transaktionsskatter förutsätter dessutom att tillräckligt många jurisdiktioner deltar för att undvikande inte ska vara lönsamt.
 
-**Princip**: Global enhet får inte ske på bekostnad av homogenisering – styrning bör stärka både enhet och mångfald samtidigt.
+Det gör inte förslaget fel. Det gör det beroende av en förutsättning vi inte kan anta som given, och som version 1.0 antog utan att säga det.
 
-**I praktiken**:
-- Flernivåstyrning som respekterar lokala variationer
-- Firande av olika styrningsapproacher inom delade etiska ramverk
-- Tvärkulturell dialog och ömsesidigt lärande
-- Integration utan påtvingad enformighet
+## 9. Frågan vi inte har löst: vem verkställer, och varför?
 
-Denna princip avvisar det falska valet mellan fragmentering och homogenisering, och söker istället en enhet som förstärker snarare än förminskar mångfald.
+Detta är det svagaste ledet i vår globala politik, och vi lyfter fram det i stället för att låta det ligga i fotnoterna.
 
-#### 2.12 Kosmisk etik
+Varje bindande globalt arrangemang förutsätter att någon kan påföra kostnader på den som inte deltar. Version 1.0 beskrev vad ramverket skulle innehålla och hur det skulle spridas genom förebilder och frivilliga allianser, men förklarade aldrig varför en tillräckligt mäktig koalition skulle bildas, hålla ihop över tid, och vara villig att bära kostnaden för att verkställa mot en motsträvig stormakt. Den koalitionen antogs. Den förklarades inte.
 
-**Princip**: När mänskligheten expanderar bortom jorden gäller samma etiska principer för rymdstyrning, vilket förhindrar exploatering och säkerställer hållbar expansion.
+Vi ser tre hederliga hållningar, och vi tar inte ännu ställning mellan dem:
 
-**I praktiken**:
-- Rymden som global allmänning, ej underkastad nationell eller företagsmässig tillägnelse
-- Etisk behandling av potentiellt utomjordiskt liv
-- Hållbar och rättvis rymdresursanvändning
-- Demokratisk styrning av bosättningar utanför jorden
+**Klubbnyttor.** Arrangemanget utformas så att medlemskap ger fördelar som bara medlemmar får – tillgång till marknad, data, forskning, försäkring – och utträde blir kostsamt av sig självt. Fördel: kräver ingen världspolis. Nackdel: fungerar dåligt just för allmänningar, där den som står utanför kan tjäna på andras återhållsamhet.
 
-Kosmisk etik utvidgar våra styrningsprinciper bortom jorden, vilket säkerställer att rymdexpansion blir en kraft för samarbete snarare än en ny gräns för konkurrens och exploatering.
+**Marknadstillträde som hävstång.** En koalition av stora ekonomier villkorar tillträde till sina marknader mot efterlevnad, ungefär som EU:s gränsjusteringsmekanism för koldioxid. Fördel: fungerar redan i verkligheten, i liten skala. Nackdel: det är de rikas makt som verkställer, vilket gör resultatet legitimt i vissa ögon och kolonialt i andra – en invändning som förtjänar att tas på allvar snarare än viftas bort.
 
-### 3. Balans mellan universella rättigheter och kulturell autonomi
+**Ingen verkställighet ännu.** Vi erkänner att ramverket beskriver vad som borde gälla när en koalition finns, och att vårt arbete tills dess är att bidra till att den bildas. Fördel: ärligt. Nackdel: det gör dokumentet till en beskrivning av ett mål snarare än en väg dit.
 
-En av de mest utmanande aspekterna av global styrning är att balansera universella etiska principer med respekt för kulturell mångfald. Fjärilspartiet erkänner detta som en produktiv spänning snarare än en konflikt som måste lösas genom att välja en sida.
+Vår nuvarande bedömning lutar mot en kombination av de två första för de frågor där de fungerar, och den tredje hållningen som ärlig beskrivning av läget i övrigt. Men vi har inte en teori för hur koalitionen bildas, och det är en verklig lucka. Den som vill kritisera vår globala politik bör börja här.
 
-#### 3.1 Etiska minimikrav vs. kulturella uttryck
+## 10. Legitimitet kan inte härledas ur struktur
 
-Vi skiljer mellan grundläggande etiska principer och kulturella uttryck:
+Ett globalt arrangemang kan vara aldrig så välkonstruerat och ändå sakna legitimitet. Att en ordning fungerar är inte samma sak som att de som lever under den erkänner den som sin.
 
-- **Etiska minimikrav**: Icke-förhandlingsbara rättigheter som kroppslig integritet, yttrandefrihet, och frihet från förtryck och exploatering
-- **Kulturella uttryck**: Språk, seder, konstnärliga traditioner, styrningsmodeller, och sociala praktiker som förblir autonoma så länge de respekterar de etiska minimikraven
+Strukturen ger ett golv, inte ett tak: ett system som inte ens kan uppfatta hur det står till för de människor det styr kan inte vara legitimt i någon demokratisk mening, oavsett formella procedurer. Men att klara det testet gör ingen ordning legitim. Det avgörs politiskt, kulturellt och över tid, genom historisk uppgörelse och långsamt byggt förtroende – och det är inget vi kan konstruera fram.
 
-**I praktiken**:
-- En kultur kan inte åberopa "tradition" för att legitimera kränkningar av mänskliga rättigheter
-- Samtidigt har kulturer rätt att utveckla sina egna uttryck och styrningssystem inom det etiska ramverket
-- Fokus på principer snarare än specifika implementeringar möjliggör kulturell anpassning
+Praktiskt betyder det att vi inte vill se ett globalt ramverk införas snabbt genom en handfull staters överenskommelse, även om innehållet vore vårt eget. Ett golv som saknar förankring hos dem det gäller kommer att följas i formen och kringgås i sak, och den erfarenheten gör nästa försök svårare.
 
-#### 3.2 Dialogisk utveckling av etiska ramverk
+## 11. Observationens mångfald
 
-Istället för att påtvinga ett färdigt etiskt ramverk, förespråkar vi en kontinuerlig global dialog:
+Ett globalt observationssystem som bygger på en gemensam infrastruktur – en modellfamilj, ett mätprotokoll, ett dataflöde – har inte många ögon utan många kopior av samma öga. Systematiska fel som delas av alla mätpunkter är osynliga från insidan, eftersom det inte finns någon avvikande observation att jämföra mot. På global nivå är det särskilt farligt, eftersom det inte finns någon utanförliggande nivå som kan upptäcka felet.
 
-- Interkulturella dialogforum där olika perspektiv kan utbyta insikter
-- Gemensam utveckling av etiska ramverk genom deltagande processer
-- Gradvis konvergens mot delade grundprinciper genom förståelse snarare än påtvingande
-- Erkännande av att etiska ramverk själva utvecklas och förfinas över tid
+Vi ställer därför tre krav på global observation: att mätningar av samma sak görs av minst två av varandra oberoende system, att lokalt och traditionellt förvaltarskap räknas som en egen observationskanal och inte som lokalfärg, och att den som finansierar en mätning inte är den som utvärderas av den.
 
-#### 3.3 Flernivåtillvägagångssätt för etiska normer
+Detta är också ett skäl att motstå frestelsen att harmonisera all global miljöövervakning till ett enda system, hur mycket effektivare det än vore.
 
-Vi erkänner att etiska normer kan variera över olika nivåer av styrning:
+## 12. Villkorade steg i stället för kalender
 
-- **Globala**: Minimala, universella principer som gäller för hela mänskligheten
-- **Regionala**: Delade normer bland kulturellt eller geografiskt besläktade samhällen
-- **Lokala**: Mer detaljerade etiska ramverk unika för specifika gemenskaper
+**Steg 1 – något att visa.** Förutsätter att principerna prövas där vi faktiskt har rådighet: i vår egen organisation, i kommuner, i det internationella nätverket. Med utgångsvärden och oberoende utvärdering. *Om det inte sker:* vi har en text, inte en politik.
 
-Detta tillåter både universell etik och kulturell variation utan att de kommer i konflikt.
+**Steg 2 – en koalition som bär en enda fråga.** Förutsätter att tillräckligt många aktörer binder sig i *en* avgränsad fråga där avsnitt 3:s test är uppfyllt och där klubbnyttor eller marknadshävstång faktiskt fungerar. Ett fungerande arrangemang i en fråga är värt mer än en heltäckande deklaration i alla. *Om ingen koalition bildas:* diagnosen ligger i avsnitt 9, och det är den vi ska arbeta med.
 
-### 4. Decentraliserad implementation
+**Steg 3 – utvidgning genom demonstrerad funktion.** Förutsätter att det första arrangemanget levererar mätbart och att kostnaden för att stå utanför blivit synlig. *Om resultaten uteblir:* vi publicerar det. Ett ramverk som bara redovisar sina framgångar har ingen evidensbas.
 
-Ett globalt konstitutionellt ramverk som påtvingas uppifrån skulle motverka sina egna principer. Vår vision kräver en organisk, bottom-up implementation som återspeglar de principer den förespråkar.
+**Steg 4 – formalisering.** Förutsätter att arrangemanget överlever de personer och regeringar som drev fram det.
 
-#### 4.1 Implementeringsmetoder
+Inget steg blir bättre av att tas innan det föregående är uppfyllt. Version 1.0 började i praktiken vid steg fyra.
 
-Vi föreslår följande metoder för att etablera ett globalt konstitutionellt ramverk:
+## 13. Förhållande till befintliga institutioner
 
-**Pilotprojekt och förebilder**:
-- Experimentella gemenskaper och regioner som implementerar principerna frivilligt
-- Dokumentation och delning av resultat för att inspirera andra
-- Gradvis spridning genom demonstration snarare än påtvingande
+Vi bygger vidare snarare än ersätter. FN-systemets deklarationer och konventioner är den bredaste existerande överenskommelsen om ett etiskt golv, och dess svaghet ligger i verkställigheten, inte i innehållet. Att bygga en parallell struktur som saknar samma förankring löser inte det problemet, det upprepar det med färre deltagare.
 
-**Distribuerade nätverksallianser**:
-- Frivilliga allianser mellan gemenskaper, städer, regioner och nationer
-- Ömsesidigt erkännande av delade principer och skydd
-- Skapande av kritisk massa för global förändring
+Regionala organisationer – EU, AU, ASEAN – är där koalitioner faktiskt kan bildas i praktiken, och där avsnitt 9:s marknadshävstång redan används. Det är en mer realistisk startpunkt än den globala nivån.
 
-**Integrering i befintliga strukturer**:
-- Inbäddning av principerna i existerande internationella avtal
-- Reformation av befintliga institutioner inifrån
-- Gradvis övergång till nya strukturer
+Version 1.0:s beskrivning av parallella globala demokratiska strukturer som "etableras genom användning snarare än formellt godkännande" tas bort. En struktur som saknar formellt godkännande saknar också befogenhet att verkställa något, och att kalla den demokratisk gör den inte representativ – deltagarna i en frivillig global plattform är inte ett urval av mänskligheten.
 
-**Digital infrastruktur**:
-- Användning av DidiS, blockchain och AI för att skapa parallella globala demokratiska strukturer
-- Systemet etableras genom användning snarare än formellt godkännande
-- Teknologiskt stöd för transparent global demokrati
+## 14. Vad vi inte vet
 
-#### 4.2 Gradvis utveckling
+**Koalitionsbildningen** (avsnitt 9). Vår största lucka.
 
-Vi ser utvecklingen av ett globalt konstitutionellt ramverk som en organisk process i flera faser:
+**Var golvet ska ligga.** Vi säger att golvet ska vara lågt och smalt. Vi har inte en process för att avgöra exakt var det går, och den processen kan inte vara vår egen.
 
-**Fas 1: Konceptuell förankring (2025-2030)**
-- Global dialog kring grundprinciper
-- Pilotprojekt och experimentella gemenskaper
-- Utveckling av nödvändig teknologi
-- Skapande av initiala allianser
+**Om testet i avsnitt 3 håller.** Det är formulerat för att kunna avgränsa, men gränsdragningar av det slaget tenderar att glida när något känns tillräckligt angeläget.
 
-**Fas 2: Växande implementering (2030-2040)**
-- Expansion av fungerande modeller
-- Integration med existerande institutioner
-- Etablering av parallella strukturer
-- Ökande legitimitet genom demonstrerad framgång
+**Om vi själva är immuna mot symbolisk anpassning.** Vi kan anta det här dokumentet och fortsätta precis som förut. Det finns ingen mekanism här som säkert upptäcker det.
 
-**Fas 3: Systemtransformation (2040-2050)**
-- Kritisk massa av deltagande
-- Formalisering av globala strukturer
-- Fullständig implementation av decentraliserade system
-- Kontinuerlig evolution och anpassning
+## 15. Förhållande till övriga dokument
 
-### 5. Mental suveränitet och dataskydd
+STR-250 bär subsidiaritetsprincipen; avsnitt 5 är dess globala tillämpning. STR-218 bär kanaluppdelningen; avsnitt 1 och 4 är dess globala konsekvens. STR-213 bär övergångsteorin; avsnitt 12 följer dess villkorade logik.
 
-I en tid av accelererande teknologisk utveckling, särskilt inom AI, neuroteknologi och digital övervakning, måste ett globalt konstitutionellt ramverk aktivt skydda mental suveränitet – individens rätt att kontrollera sin egen medvetandeprocess.
+STR-301, STR-303, STR-305 och STR-306 behöver samma omarbetning. STR-306 innehåller globala ekonomiska demokratiråd med representationsanspråk som faller under avsnitt 1, och STR-011 innehåller formuleringen att varje individ har en röst i globalt beslutsfattande, som bör strykas.
 
-#### 5.1 Hot mot mental suveränitet
+---
 
-Vi identifierar flera framväxande hot:
-
-- AI-baserad manipulation av känslor, övertygelser och beteenden
-- Hjärn-dator gränssnitt med potential för extern kontroll
-- Djupgående övervakning som eliminerar mental integritet
-- Algoritmsystem som begränsar informationsexponering och val
-- "Digital drog"-teknologier designade för att skapa beroende
-
-#### 5.2 Rättigheter relaterade till mental suveränitet
-
-Vi föreslår följande som grundläggande rättigheter:
-
-**Kognitiv frihet**:
-- Rätt till tankefrihet utan övervakning
-- Skydd från ofrivillig mental påverkan
-- Kontroll över ens egna hjärndata
-
-**Informationell självbestämmanderätt**:
-- Rätt att kontrollera insamling och användning av persondata
-- Ägandeskap över ens digitala data
-- Transparens kring algoritmiska system som påverkar en
-
-**Neurala rättigheter**:
-- Kontroll över teknologier som interagerar med ens hjärna
-- Krav på informerat samtycke för neurala gränssnitt
-- Förbud mot tvingande neuroteknologier
-
-#### 5.3 Praktiska skyddsmekanismer
-
-För att förverkliga dessa rättigheter föreslår vi:
-
-**Juridiska ramverk**:
-- Konstitutionellt skydd för mental suveränitet
-- Reglering av neuroteknologi och AI-system
-- Strikt ansvarsskyldighet för kränkningar
-
-**Teknologiska skydd**:
-- Personliga datasköldar och krypteringsverktyg
-- Decentraliserade identitets- och datasystem
-- AI-guardian system som skyddar mental integritet
-
-**Utbildning och medvetenhet**:
-- Medvetandegörande kring hot mot mental suveränitet
-- Träning i kognitiv motståndskraft
-- Kulturellt värde på mental autonomi
-
-### 6. Rättvis resursfördelning och AUBI i global kontext
-
-Ett globalt konstitutionellt ramverk måste adressera den fundamentala frågan om resursfördelning för att vara meningsfullt. Fjärilspartiets AUBI-koncept (Adaptiv Universell Basinkomst) utgör en central komponent i vår vision för global ekonomisk rättvisa.
-
-#### 6.1 Globala allmänningar
-
-Vi föreslår att vissa resurser behandlas som globala allmänningar, tillhörande hela mänskligheten:
-
-- Luft, vatten och viktiga ekosystem
-- Genetiska resurser och biodiversitet
-- Digital infrastruktur och kunskap
-- Rymdresurser och orbital rymd
-- Djuphavsresurser
-
-Intäkter från användningen av dessa allmänningar skulle delvis finansiera ett globalt AUBI-system.
-
-#### 6.2 Global AUBI-implementation
-
-En global AUBI skulle implementeras enligt följande principer:
-
-**Gradvis utrullning**:
-- Början med pilotprojekt i olika regioner
-- Ökning av omfattning baserat på framgång
-- Eventuell global omfattning
-
-**Adaptivitet efter lokala förhållanden**:
-- Belopp justerade efter lokala levnadskostnader
-- Kulturellt anpassade implementeringsmetoder
-- Flexibla distributionsmekanismer
-
-**Finansieringsmekanismer**:
-- Automatiseringsskatt på AI och robotik
-- Globala finansiella transaktionsskatter
-- Avgifter på globala allmänningar
-- Progressiv koldioxidbeskattning
-
-#### 6.3 Systemiska fördelar
-
-En global AUBI skulle direkt stödja det konstitutionella ramverket genom att:
-
-- Säkerställa att grundläggande mänskliga rättigheter till försörjning uppfylls
-- Minska den ekonomiska pressen som driver konflikt och migration
-- Möjliggöra meningsfullt deltagande i globala demokratiska processer
-- Stärka individuell autonomi och självbestämmande
-- Främja lokala ekonomier och kulturell utveckling
-
-### 7. Praktisk implementation
-
-Att förverkliga ett globalt konstitutionellt ramverk kräver konkreta, stegvisa åtgärder. Fjärilspartiet föreslår följande:
-
-#### 7.1 Initiala steg (2025-2030)
-
-**Medvetenhet och dialog**:
-- Internationella forum för konstitutionella principer
-- Utbildningskampanjer om behovet av globalt ramverk
-- Akademisk och samhällelig forskning
-
-**Pilotprogrammering**:
-- Implementation av principerna i Fjärilspartiets internationella nätverk
-- Samarbeten med progressiva nationer för pilotprojekt
-- Utveckling av modeller för bredare antagning
-
-**Teknologisk infrastruktur**:
-- Utveckling av DidiS för global användning
-- Blockchain-baserade verifieringssystem
-- AI-verktyg för konstitutionell övervakning
-- Översättningssystem för att överbrygga språkbarriärer
-
-#### 7.2 Utökad implementation (2030-2040)
-
-**Regional integration**:
-- Integrering av principerna i regionala avtal
-- Skapande av regionala konstitutionella domstolar
-- Gradvis harmonisering av regionala ramverk
-
-**Institutionell transformation**:
-- Reformation av FN och andra internationella organisationer
-- Skapande av nya globala institutioner baserade på principerna
-- Integration med existerande juridiska ramverk
-
-**Samhällsengagemang**:
-- Globala folkomröstningar om konstitutionella principer
-- Medborgarförsamlingar för konstitutionell utveckling
-- Gräsrotsrörelser för konstitutionell implementation
-
-#### 7.3 Kontinuerlig utveckling
-
-**Utvärderingsmekanismer**:
-- Regelbundna konstitutionella översyner
-- Datainsamling om effektivitet och efterlevnad
-- Anpassning baserad på erfarenheter
-
-**Adaptiva revideringar**:
-- Strukturerade processer för konstitutionell förändring
-- Balans mellan stabilitet och anpassning
-- Medborgardriven utveckling
-
-### 8. Integration med befintliga mekanismer
-
-Ett globalt konstitutionellt ramverk måste realistiskt relatera till existerande internationella strukturer och Fjärilspartiets egna samarbetsmekanismer.
-
-#### 8.1 Relation till befintliga internationella institutioner
-
-**FN-systemet**:
-- Bygga vidare på befintliga deklarationer och konventioner
-- Stegvis reformation snarare än ersättning
-- Adressera strukturella begränsningar
-
-**Internationella rättssystem**:
-- Stärka befintliga mekanismer (ICC, ICJ, etc.)
-- Skapa kompletterande strukturer där det behövs
-- Gradvis harmonisering mot konstitutionella principer
-
-**Regionala organisationer**:
-- Arbeta med EU, AU, ASEAN, etc. för regional implementation
-- Stödja delade ramverk anpassade för regionala kontexter
-- Koppla regionala strukturer i ett bredare nätverk
-
-#### 8.2 Integration med Fjärilspartiets internationella strukturer
-
-**Tre-nivå samarbetsmodell (OPS-400)**:
-- Politisk nivå: Fjärilspartiet driver principerna inom svensk och nordisk politik
-- Social rörelsesnivå: Fjärilsrörelsen sprider principerna globalt
-- Global nätverksnivå: FUN(TIME) implementerar principerna i praktiken
-
-**Implementeringsmekanismer**:
-- Digitala plattformar som DidiS används för deliberation och beslut
-- Kunskapsbas för bästa praktiker i konstitutionell implementation
-- Koordinering genom existerande samarbetsstrukturer
-
-**Resursdelning**:
-- Delning av teknologisk infrastruktur för konstitutionellt stöd
-- Gemensam utveckling av utbildningsmaterial
-- Koordinering av forskningsprojekt
-
-### 9. Framtidsvisioner
-
-Ett globalt konstitutionellt ramverk är inte ett statiskt dokument utan en levande process som utvecklas med mänskligheten. Vår långsiktiga vision omfattar:
-
-#### 9.1 Planetärt medvetande
-
-Vi ser ett framtida medvetande där mänskligheten:
-- Erkänner vår fundamentala sammankoppling och ömsesidiga beroende
-- Balanserar individuell frihet med kollektivt ansvar
-- Utvecklar institutioner som reflekterar detta medvetande
-- Kultiverar bredare identitet som inkluderar icke-mänskligt liv
-
-#### 9.2 Evolutionär styrning
-
-Vi föreställer oss styrningssystem som:
-- Utvecklas organiskt med mänskligt medvetande
-- Anpassas till nya teknologier och utmaningar
-- Integrerar djupare förståelse av mänsklig psykologi och sociala system
-- Transcenderar nuvarande begränsningar i politiskt tänkande
-
-#### 9.3 Kosmisk civilisation
-
-Med tiden kan ett globalt konstitutionellt ramverk utvecklas till:
-- Ett etiskt ramverk för mänsklig expansion bortom jorden
-- Principer för fredlig interaktion med potentiella utomjordiska civilisationer
-- Styrningsmodeller för mänskliga bosättningar i solsystemet
-- Långsiktig planering för mänsklighetens framtid över kosmiska tidsskalor
-
-### 10. Slutsats
-
-Fjärilspartiets vision för ett globalt konstitutionellt ramverk representerar en balanserad approach som erkänner både behovet av globala etiska principer och vikten av kulturell mångfald och lokal autonomi. Genom decentraliserad implementation, skydd för mental suveränitet, rättvis resursfördelning, och adaptiv evolution, kan ett sådant ramverk hjälpa mänskligheten att navigera kommande utmaningar samtidigt som det främjar blomstrande av individuell och kollektiv potential.
-
-Detta ramverk är inte en utopisk dröm utan en praktisk nödvändighet i en värld där vår teknologi och våra utmaningar har blivit genuint globala. Genom stegvis implementation, respektfull dialog, och kontinuerlig anpassning, kan vi skapa de strukturer som behövs för en rättvis, hållbar och meningsfull global civilisation.
-
-Varje steg i denna process måste förkroppsliga de principer vi strävar efter att förverkliga. Vägen till ett globalt konstitutionellt ramverk måste själv vara demokratisk, transparent, respektfull av mångfald, och skyddande av grundläggande rättigheter. Endast då kan resultatet genuint representera mänsklighetens kollektiva visdom och vara förankrat i de värderingar vi önskar för vår gemensamma framtid.
+**Dokumentstatus:** Utkast för diskussion. Ersätter version 1.0 i sin helhet.
+**Nästa steg:** OPS-105 (DidiS), därefter STR-306 och STR-011.

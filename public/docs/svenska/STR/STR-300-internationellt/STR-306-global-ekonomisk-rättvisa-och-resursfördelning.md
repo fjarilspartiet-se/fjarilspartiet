@@ -2,353 +2,155 @@
 ---
 dokumentid: STR-306
 titel: Global ekonomisk rättvisa och resursfördelning
-version: 1.0
-senast-uppdaterad: 2024-12-15
+version: 2.0
+status: Utkast för diskussion – omarbetning efter strukturell granskning
+senast-uppdaterad: 2026-08-10
 ansvarig: Björn Kenneth Holmström
-roll: Grundare och strategisk samordnare
+roll: Grundare och teknisk samordnare
 relaterade-dokument:
-  - STR-203 # Adaptiv universell basinkomst (AUBI)
-  - STR-212 # Ramverk för global ekonomisk jämlikhet och resurs-överflöd
-  - STR-301 # Internationell strategi
-  - STR-304 # Globalt konstitutionellt ramverk och etisk styrning
-  - STR-214 # AUBI - Ekonomisk analys och finansiering
+  - STR-304 # Globalt konstitutionellt ramverk (kanaluppdelning och verkställighetsfrågan)
+  - STR-250 # Adaptiv demokrati- och inflytandepolitik (subsidiaritetsprincipen)
+  - STR-218 # Integrerad flernivådemokrati
+  - STR-203 # Adaptivt universellt grundinkomstsystem
+  - STR-214 # AUBI - ekonomisk analys och finansiering
   - STR-219 # Ramverk för etisk beskattning
-  - TAK-103 # Finansiellt ramverk
+  - STR-212 # Ramverk för global ekonomisk jämlikhet och resursöverflöd
   - OPS-400 # Internationella samarbetsmekanismer
 ---
 
 # Global ekonomisk rättvisa och resursfördelning
-## Ett systemiskt ramverk för ekonomisk demokrati och planetär välmåga
+## Omfördelning skalar. Planering gör det inte.
 
-### Introduktion
+### Sammanfattning
 
-I en värld där de rikaste 1% äger mer än hälften av världens tillgångar medan miljarder människor saknar grundläggande behov, står vi inför en av vår tids mest avgörande utmaningar: att skapa en ekonomisk ordning som tjänar alla jordens invånare inom planetens gränser. Den nuvarande globala ekonomin, byggd på principer om obegränsad tillväxt och resursextraktion, har skapat en ohållbar situation där ekonomisk ojämlikhet, klimatförstöring och social fragmentering förstärker varandra i destruktiva spiraler.
+Version 1.0 innehöll två saker som drog åt olika håll utan att dokumentet märkte det. Den ena var omfördelning: skatter, fonder, teknologiöverföring, skuldavskrivning, grundtrygghet. Den andra var planering: globala demokratiråd som fastställer produktionsmål, deltagande ekonomisk planering med modelleringsverktyg som optimerar resursflöden mellan världens delar.
 
-Fjärilspartiets vision om global ekonomisk rättvisa utgår från insikten att ekonomisk demokrati är lika viktig som politisk demokrati. När en liten elit kontrollerar ekonomiska resurser och beslutsfattande, undergrävs demokratins grundvalar oberoende av vilka politiska strukturer som finns på plats. Samtidigt visar växande forskning att samhällen med större ekonomisk jämlikhet är mer innovativa, produktiva och motståndskraftiga mot kriser.
+De två kräver helt olika saker av informationssystemet. Omfördelning behöver veta vem som har mycket och vem som har lite – det är grov information som tål att sammanfattas och som faktiskt finns. Planering behöver veta vad människor behöver, vad som går att göra på en viss plats, vad som håller på att förändras och varför. Den informationen finns bara nära, och den överlever inte resan uppåt.
 
-Detta ramverk presenterar en transformativ vision där ekonomisk aktivitet organiseras för att maximera mänskligt och ekologiskt välmående snarare än kapitalackumulation. Genom att kombinera systemtänkande med praktiska mekanismer för resursomfördelning, skapar vi förutsättningar för en ekonomi som tjänar livet istället för att exploatera det. Central för denna transformation är principen att alla människor har rätt till ekonomisk säkerhet och meningsfull delaktighet i ekonomiska beslut som påverkar deras liv.
+Den här versionen bygger på den skillnaden. Den globala nivån flyttar resurser och sätter golv. Vad som ska produceras och hur avgörs där informationen finns. Det som var svagast i version 1.0 – de globala planeringsorganen – tas bort. Det som var starkast – omfördelningsmekanismerna – blir kärnan.
 
-### 1. Grundläggande principer för ekonomisk rättvisa
+## 1. Tes: två uppgifter som kräver olika information
 
-Det globala ekonomiska rättvisesystemet vilar på flera sammankopplade principer som tillsammans formar en ny förståelse av ekonomins syfte och funktion. Dessa principer erkänner att ekonomisk aktivitet aldrig är värdeneutral utan alltid reflekterar djupare antaganden om mänsklig natur, samhällsorganisation och vår relation till naturen.
+**Omfördelning** förutsätter att man vet fördelningen: inkomster, förmögenheter, utsläpp, resursuttag. Detta är information som redan samlas in, som tål aggregering utan att bli oanvändbar, och som kan verifieras utifrån. Uppgiften är i grunden inte informationskrävande utan maktkrävande – svårigheten ligger i att få någon att betala, inte i att veta vem.
 
-#### 1.1 Ekonomisk demokrati som mänsklig rättighet
+**Allokering** – vad som ska produceras, av vem, med vilka resurser – förutsätter kunskap om lokala förhållanden, förändringar och prioriteringar som ingen sammanställning bevarar. Ett globalt organ som fastställer produktionsmål gör det utifrån ett underlag där variationen redan komprimerats bort, och kan därför inte upptäcka att det har fel förrän utfallet redan inträffat.
 
-Ekonomisk demokrati innebär att alla människor har rätt att delta i de ekonomiska beslut som påverkar deras liv och samhälle. Detta går bortom traditionella förtroendedemokratier för att inkludera direkt deltagande i ekonomisk planering, resursallokering och produktionsbeslut. Ekonomisk demokrati manifesteras genom:
+Detta är inte ett argument för marknaden mot planering. Planering fungerar bra på den nivå där den som planerar också ser vad som händer – i ett företag, i ett kooperativ, i en kommun, i ett vårdsystem. Det är ett argument om **avstånd**: samma planering som fungerar nära misslyckas långt bort, av skäl som inte har med planerarnas kompetens eller demokratiska mandat att göra.
 
-- Medarbetarägarskap och kooperativ som ger arbetare kontroll över sina arbetsplatser
-- Samhällsbudgetering där medborgare direkt beslutar om offentliga investeringar
-- Deltagande i regionala och globala ekonomiska planeringsprocesser
-- Kollektiv förvaltning av gemensamma resurser som vatten, skog och mineral
+Version 1.0 antog att demokratisk sammansättning löser problemet. Ett demokratiskt sammansatt organ som inte kan se det det styr har samma synfält som ett odemokratiskt sammansatt organ som inte kan se det det styr.
 
-#### 1.2 Universell ekonomisk grundtrygghet
+## 2. Vad vi tagit bort ur version 1.0
 
-Alla människor har rätt till ekonomisk säkerhet som möjliggör ett värdigt liv utan rädsla för fattigdom eller existentiell osäkerhet. Denna grundtrygghet skapas inte genom välgörenhet utan genom systemiska förändringar som garanterar tillgång till livsnödvändiga resurser. Komponenter inkluderar:
+**Globala ekonomiska demokratiråd som fastställer produktionsmål.** Borttaget. Uppgifterna delas: fördelning av globala allmänningar och förvaltning av gemensamma fonder flyttas till avsnitt 4, medling och övervakning av transnationella företag till avsnitt 5. Ingen instans behåller uppgiften att bestämma vad världen ska producera.
 
-- Universell basinkomst som säkerställer ekonomisk autonomi
-- Garanterad tillgång till grundläggande tjänster som hälsovård, utbildning och boende
-- Kollektiva försäkringssystem som skyddar mot ekonomiska chocker
-- Progressiva skattesystem som omfördelar resurser från överflöd till behov
+**Deltagande ekonomisk planering på global och regional nivå** (version 1.0 §4.1). Borttaget av samma skäl. Metoden behålls där den fungerar: i kommunen, i kooperativet, på arbetsplatsen.
 
-#### 1.3 Ekologisk ekonomi inom planetens gränser
+**"Koordinering med regionala och globala ekonomiska planer"** som beslutsområde för lokala assemblés. Borttaget – det förutsatte planerna.
 
-Ekonomisk aktivitet måste operera inom planetens ekologiska gränser för att vara hållbar över tid. Detta kräver en fundamental omtänkning av tillväxtparadigmet från kvantitativ expansion till kvalitativ utveckling. Ekologisk ekonomi bygger på:
+**Representationsanspråket.** Version 1.0 lät de globala råden vara representativa för mänskligheten via geografisk och sektoriell sammansättning. Ett urval av organisationer är inte ett urval av människor, och att kalla det representation gör det inte till det. Se STR-304 avsnitt 1.
 
-- Cirkulära produktionssystem som eliminerar avfall
-- Förnybara energisystem som respekterar naturens cykler
-- Biologisk mångfald som värdesätts och skyddas
-- Lokala ekonomier som minimerar transport och miljöpåverkan
+**Berättelsen om spontan global spridning** (version 1.0 §7). Exemplet lät en svensk deltagandebudget växa till global systemtransformation genom inspiration. Ersatt av avsnitt 8.
 
-#### 1.4 Global solidaritet och reparativ rättvisa
+## 3. Principer
 
-Historiska orättvisor som kolonialism, slaveri och exploitation har skapat djupgående ojämlikheter som fortsätter att forma dagens ekonomiska relationer. Reparativ rättvisa erkänner dessa historiska skador och arbetar aktivt för att rätta till dem genom:
+**Omfördela globalt, besluta lokalt.** Den globala nivån flyttar resurser och sätter golv. Vad som görs med resurserna avgörs där konsekvenserna bärs.
 
-- Resursöverföringar från före detta kolonialmakter till utsatta länder
-- Teknologiöverföring som möjliggör hållbar utveckling
-- Skuldavskrivning för länder som drabbats av exploatering
-- Stöd för ursprungsfolks landrätt och kulturella autonomi
+**Ekonomisk demokrati där kanalen bär.** Medarbetarägande, kooperativ och deltagandebudgetering är starka just för att avståndet mellan den som beslutar och den som berörs är kort. Det är inte en mindre ambitiös form av ekonomisk demokrati än ett globalt råd – det är den form som faktiskt kan fungera.
 
-### 2. Institutionella innovationer för ekonomisk rättvisa
+**Golv, inte tak.** Vi anger vad ingen ska falla under. Vi anger inte vad varje samhälle ska sträva mot.
 
-Implementeringen av global ekonomisk rättvisa kräver nya former av institutioner som kan koordinera ekonomisk aktivitet på lokala, nationella och globala nivåer samtidigt som de bevarar demokratisk kontroll och kulturell mångfald. Dessa institutioner måste vara både effektiva och legitimerade genom bred delaktighet.
+**Ärlighet om makt.** Omfördelning i den skala vi föreslår sker inte för att den är rättvis. Den sker om, och bara om, någon kan påföra kostnader på dem som inte deltar. Se avsnitt 6.
 
-#### 2.1 Globala ekonomiska demokratiråd
+## 4. Mekanismer för omfördelning
 
-På global nivå etableras ekonomiska demokratiråd som koordinerar internationell ekonomisk planering och resursfördelning. Dessa råd skiljer sig från traditionella internationella ekonomiska institutioner genom sin demokratiska struktur och fokus på välmående snarare än tillväxt.
+### 4.1 Beskattning som kräver koalition, inte världsregering
 
-**Sammansättning och representation:**
-- Geografisk representation baserad på befolkning snarare än ekonomisk makt
-- Sektorrepresentation från arbetarorganisationer, bondeföreningar och civilsamhället
-- Ursprungsfolks representation genom permanent rådgivande status
-- Ungdomsrepresentation för att säkerställa intergenerationell rättvisa
-- Rotation av ledarskap för att förhindra maktkoncentration
+Globala minimiskattenivåer, automatiskt informationsutbyte mellan skattemyndigheter, gemensamma definitioner av skattebas, och konsekvenser för jurisdiktioner som underlättar undvikande.
 
-**Funktioner och befogenheter:**
-- Fastställande av globala produktionsmål baserade på planetära gränser
-- Koordinering av teknologi- och kunskapsöverföring
-- Medling i internationella ekonomiska konflikter
-- Övervakning av transnationella företags aktiviteter
-- Fördelning av globala gemensamma resurser
+Detta är version 1.0:s starkaste avsnitt och det behålls i sak. Det som läggs till är att mekanismen inte kräver ett globalt beslutsorgan. Den kräver att tillräckligt många stora ekonomier binder sig samtidigt för att undvikande ska sluta löna sig. Det är en koalitionsfråga, inte en institutionsfråga, och det finns fungerande om än begränsade exempel att bygga vidare på.
 
-#### 2.2 Regionala ekonomiska kooperativ
+**Vad vi är osäkra på:** var tröskeln går. Ett arrangemang som omfattar för få ekonomier flyttar bara kapital i stället för att beskatta det, och kan göra deltagarna sämre ställda utan att någon annan blir bättre.
 
-På regional nivå bildas ekonomiska kooperativ som samordnar produktion och handel mellan närliggande områden. Dessa kooperativ fungerar som mellanled mellan lokala ekonomier och globala system, och möjliggör stordriftsfördelar samtidigt som de bevarar lokal kontroll.
+### 4.2 Avgifter på globala allmänningar
 
-**Organisationsform:**
-- Federativa strukturer där lokala enheter behåller autonomi
-- Roterande representation i regionala beslutsprocesser
-- Specialiserade kommittéer för olika ekonomiska sektorer
-- Konfliktlösningsmekanismer baserade på medling och konsensus
+Utsläppsutrymme, havsresurser bortom nationella zoner, djuphav, omloppsbanor, resursutvinning. Den som använder det som tillhör alla betalar för det.
 
-**Verksamhetsområden:**
-- Koordinering av produktionsplanering för att undvika dubbelarbete
-- Delning av infrastruktur som transportnätverk och energisystem
-- Gemensamma forsknings- och utvecklingsprojekt
-- Utjämning av resurser mellan rikare och fattigare områden
+Fördelen framför inkomst- och förmögenhetsskatter är att bruket ofta är fysiskt observerbart och svårt att flytta. Ett fartyg, en satellit, en gruva och ett utsläpp går att se. Detta gör allmänningsavgifter till den mest verkställbara av de globala intäktskällorna, och det är skälet att prioritera dem först.
 
-#### 2.3 Lokala ekonomiska assemblés
+### 4.3 Gemensamma fonder byggda som kapital, inte som anslag
 
-På lokal nivå etableras ekonomiska assemblés där alla samhällsmedlemmar kan delta i beslut om ekonomisk utveckling och resursanvändning. Dessa assemblés utgör basen för ekonomisk demokrati och säkerställer att ekonomisk planering förankras i verkliga behov och lokala förhållanden.
+Klimatanpassning, pandemiberedskap, grundläggande hälsa och utbildning, gränsöverskridande infrastruktur.
 
-**Deltagandeformer:**
-- Regelbundna församlingar öppna för alla samhällsmedlemmar
-- Arbetsgrupper för specifika ekonomiska frågor
-- Digital deltagande för de som inte kan närvara fysiskt
-- Konsultationer med olika intressegrupper och expertområden
+Vi skärper version 1.0 på en punkt: fonder som lever på årliga bidrag lever på årlig politisk välvilja, och är därför svagast precis när de behövs mest. Fonder som byggs upp som kapital och delar ut avkastning är långsammare att bygga men överlever regeringsskiften och kriser. Vi förespråkar den senare formen för det som ska vara varaktigt, och anslagsfinansiering bara för det som är akut.
 
-**Beslutsområden:**
-- Prioritering av lokala investeringar och infrastrukturprojekt
-- Allokering av gemensamma resurser som mark och vatten
-- Fastställande av lokala produktionsmål och utvecklingsstrategier
-- Koordinering med regionala och globala ekonomiska planer
+**Förvaltning:** öppen redovisning, oberoende revision, och lokal implementering med lokalt utformade utbetalningsvägar. Fonden bestämmer att pengarna ska nå ett ändamål. Den bestämmer inte hur arbetet organiseras på plats.
 
-### 3. Mekanismer för resursomfördelning
+### 4.4 Teknologi- och kunskapsöverföring
 
-För att skapa verklig ekonomisk rättvisa krävs kraftfulla mekanismer som kan omfördela resurser från områden med överflöd till områden med behov. Dessa mekanismer måste vara både effektiva och legitimerade genom demokratiska processer.
+Öppen källkod och licensfrihet för grundläggande teknologier inom hälsa och energi, forskningssamarbeten som bygger lokal kapacitet snarare än beroende, och skuldlättnad.
 
-#### 3.1 Global progressiv beskattning
+Här finns en avvägning vi inte ska gömma: tvingad licensfrihet minskar incitamenten att utveckla nya läkemedel och tekniker, och det argumentet är inte enbart industripropaganda. Vår hållning är att avvägningen ser olika ut för olika produkter – för det som redan är utvecklat och prissatt bortom räckhåll väger tillgången tyngre, för det som ännu inte finns väger utvecklingsincitamentet tyngre – och att det är en avvägning som måste göras produkt för produkt snarare än avgöras av en princip.
 
-Ett globalt progressivt skattesystem säkerställer att de som har mest bidrar proportionellt mer till gemensamma behov. Detta system måste vara koordinerat internationellt för att förhindra skatteflykt och skatteparadis.
+### 4.5 Reparativ rättvisa
 
-**Skattetyper och struktur:**
-- Progressiv inkomstskatt med högre satser för extremt höga inkomster
-- Förmögenhetsskatt på stora kapitaltillgångar
-- Finansiell transaktionsskatt för att minska spekulation
-- Koldioxidskatt som internaliserar miljökostnader
-- Robotskatt för att finansiera omställning när automatisering ersätter jobb
+Historiska orättvisor – kolonialism, slaveri, resursutvinning under tvång – har format dagens fördelning och gör det fortfarande.
 
-**Implementeringsmekanismer:**
-- Internationella avtal om minimiskattenivåer
-- Automatisk informationsutbyte mellan skattemyndigheter
-- Gemensamma definitioner av skattebas för att förhindra manipulation
-- Sanktioner mot jurisdiktioner som underlättar skatteflykt
+Vi behåller ståndpunkten och lägger till en ärlighet om svårigheten. Vem som ska betala, till vem, och för vad, går inte att räkna fram objektivt; varje modell innehåller värdeval om generationers ansvar och om hur skada mäts. Vi menar ändå att kravet är riktigt, och att den praktiska svårigheten inte är ett skäl att avfärda det, bara ett skäl att inte låtsas att det finns en teknisk lösning.
 
-#### 3.2 Teknologi- och kunskapsöverföring
+## 5. Ekonomisk demokrati på den nivå där den fungerar
 
-Systematisk överföring av teknologi och kunskap från utvecklade till utvecklingsländer är central för att minska globala ojämlikheter och möjliggöra hållbar utveckling överallt.
+Detta avsnitt bär version 1.0:s starkaste konkreta innehåll, nu placerat där det hör hemma.
 
-**Organiserade överföringsmekanismer:**
-- Öppen källkod för grundläggande teknologier som mediciner och energilösningar
-- Utbildningsprogram som bygger lokal kapacitet
-- Forskningssamarbeten mellan institutioner i olika länder
-- Tekniska experter som arbetar med lokala motparter
+**Kooperativ och medarbetarägande.** Arbetarkooperativ, flerintressentkooperativ, plattformskooperativ, bostadskooperativ. Stöd genom finansiering vid etablering, utbildning i demokratisk ledning, och lagstiftning som gör överlåtelse till de anställda till ett realistiskt alternativ vid ägarskiften. Här är avståndet mellan beslut och konsekvens kort, informationen finns hos dem som beslutar, och den demokratiska formen är därför inte bara rättvisare utan också informationsmässigt bättre.
 
-**Finansiering och stöd:**
-- Dedikerade fonder för teknologiöverföring finansierade genom globala skatter
-- Rabatter och subventioner för utvecklingsländer
-- Långfristiga lån med låga räntor för infrastrukturinvesteringar
-- Skuldavskrivning kopplad till hållbara utvecklingsmål
+**Deltagandebudgetering i kommunen.** Ett led mellan invånare och beslut. Fungerar, och är prövbart enligt STR-110.
 
-#### 3.3 Globala gemensamma fonder
+**Kollektiv förvaltning av lokala allmänningar** – mark, vatten, skog, fiske. Här har lokala och traditionella förvaltare ofta en observationsförmåga som ingen förvaltning utifrån kan matcha, byggd på kontinuerlig iakttagelse över generationer. Det är inte lokalkännedom som artighetsfras, det är den avgörande resursen, och det är ett självständigt skäl utöver rättighetsskälen i STR-239.
 
-Etablering av globala fonder som finansierar gemensamma behov och kollektiva nyttigheter som ingen enskild nation kan lösa på egen hand.
+**Gåvoekonomi och ömsesidighet** – tidbanker, verktygsbibliotek, delad omsorg. Behålls, med reservationen att detta kompletterar och inte ersätter grundtrygghet. Ömsesidig hjälp fungerar bäst mellan människor som redan har något att ge, och sämst där behoven är störst.
 
-**Fondtyper och syften:**
-- Klimatfond för anpassning och begränsning av klimatförändringar
-- Hälsofond för pandemiförberedelse och grundläggande hälsovård
-- Utbildningsfond för universell tillgång till kvalitetsutbildning
-- Infrastrukturfond för gränsöverskridande transportnätverk och kommunikation
+**Övervakning av transnationella företag** flyttas hit i praktiken: den sker genom nationell och regional lagstiftning om ansvar i leverantörskedjor, med globala minimikrav som golv. Ingen global myndighet behöver skapas för uppgiften.
 
-**Förvaltning och kontroll:**
-- Demokratisk kontroll genom globala ekonomiska demokratiråd
-- Transparent budgetering och offentlig redovisning
-- Lokal implementering med respekt för kulturella skillnader
-- Regelbunden utvärdering och anpassning av program
+## 6. Verkställighetsfrågan
 
-### 4. Transformativa ekonomiska modeller
+Detta avsnitt speglar STR-304 avsnitt 9 och gäller med full kraft här, eftersom det som föreslås ovan är omfördelning från dem som har makt till dem som inte har det.
 
-Övergången till ekonomisk rättvisa kräver utveckling av nya ekonomiska modeller som kan operera enligt andra logiker än kapitalistisk profit och marknadskonkurrens. Dessa modeller måste visa att effektiv ekonomisk koordinering är möjlig utan exploitation.
+Varje mekanism i avsnitt 4 förutsätter att någon kan påföra kostnader på den som inte deltar. Version 1.0 beskrev sanktioner mot skatteflyktsjurisdiktioner utan att förklara vem som utfärdar dem och varför. Vi har ingen teori för hur den koalitionen bildas och håller ihop, och det är den verkliga svagheten i vår globala ekonomiska politik – inte utformningen av mekanismerna.
 
-#### 4.1 Deltagande ekonomisk planering
+De hållningar vi ser är desamma: klubbnyttor som gör utträde dyrt, marknadstillträde som hävstång, eller ärligt erkännande att arrangemanget beskriver ett mål och inte en väg. Vi lutar mot att börja med allmänningsavgifter (avsnitt 4.2), eftersom de är fysiskt observerbara och därför lättast att verkställa med den koalition som faktiskt går att samla.
 
-Deltagande ekonomisk planering kombinerar demokratisk input med teknisk expertis för att skapa ekonomiska planer som reflekterar verkliga behov och preferenser snarare än marknadsförutsägelser eller elitintressen.
+## 7. Mätning
 
-**Planeringsprocesser:**
-- Lokala assemblés identifierar behov och prioriteringar
-- Tekniska experter analyserar genomförbarhet och resursåtgång
-- Regionala koordineringsprocesser löser konflikter och optimerar allokering
-- Iterativ feedback mellan olika nivåer förfinar planerna
-- Kontinuerlig övervakning och anpassning under implementering
+Vi behåller version 1.0:s indikatorer i sak – fördelning inom och mellan länder, tillgång till grundläggande tjänster, resursanvändning mot planetära gränser – och lägger till tre krav.
 
-**Teknologi och verktyg:**
-- Digitala plattformar för bred delaktighet i planeringsprocesser
-- Modelleringsverktyg för att förutsäga konsekvenser av olika val
-- Resursflödesanalys för att optimera material- och energianvändning
-- Realtidsdata för att övervaka plangenomförande
+**Spridningen ska redovisas, inte bara medelvärdet.** Ett globalt genomsnitt som förbättras samtidigt som den sämst ställda tiondelen försämras ser i en sammanställning ut som framgång. Kravet från STR-218 gäller med särskild kraft här.
 
-#### 4.2 Kooperativ och medarbetarägarskap
+**Mätningen ska göras av någon annan än den som utvärderas.** Ett land som rapporterar sin egen efterlevnad rapporterar den fördelaktigt, och det gäller oss lika mycket som andra.
 
-Kooperativ och medarbetar-ägda företag ger arbetare kontroll över sina arbetsplatser och säkerställer att ekonomiska vinster fördelas rättvist snarare än koncentreras till kapitalägare.
+**Måtten ska bytas innan de korrumperas.** Så snart ett mått styr pengar rapporteras det strategiskt. Vi har ingen lösning på det utöver oberoende granskning och beredskap att byta.
 
-**Organisationsformer:**
-- Arbetarkooperativ där alla anställda äger och kontrollerar företaget
-- Multiintressent-kooperativ som inkluderar arbetare, konsumenter och samhälle
-- Plattformskooperativ som ger användare kontroll över digitala tjänster
-- Bostadskooperativ som säkerställer hållbara och prisvärda bostäder
+## 8. Vad vi faktiskt driver
 
-**Stödmekanismer:**
-- Offentlig finansiering för etablering av nya kooperativ
-- Utbildning i kooperativ organisering och demokratisk ledning
-- Teknisk assistans för affärsutveckling och marknadsföring
-- Nätverk för kunskapsdelning mellan kooperativ
+Version 1.0 slutade i en berättelse om hur en svensk deltagandebudget växer till global systemtransformation. Det som gör den berättelsen otillfredsställande är att inget steg i den kräver att någon avstår makt.
 
-#### 4.3 Gåvoekonomi och ömsesidighet
+Vad ett svenskt parti faktiskt kan driva är smalare och mer konkret. I svensk politik: stöd för överlåtelse till anställda vid ägarskiften, deltagandebudgetering i kommuner vi styr i, offentlig upphandling som inte belönar aggressiv skatteplanering, och att Sverige driver på inom EU för allmänningsavgifter och minimiskattenivåer. I EU-politiken: gränsjusteringsmekanismer och ansvar i leverantörskedjor, som är den koalition som faktiskt finns. Internationellt: kunskapsdelning och stöd till rörelser som driver samma sak i sina länder.
 
-Gåvoekonomiska element kompletterar marknadsutbyte och planering genom att skapa system för ömsesidig hjälp och solidaritet som stärker sociala band och kollektiv motståndskraft.
+Det är inte en global transformation. Det är vad vi har rådighet över, och att säga det är mer användbart än att beskriva en väg vi inte kan gå.
 
-**Praktiska tillämpningar:**
-- Tidbanker där människor byter tjänster utan pengar
-- Verktygsbibliotek och delade resurser som minskar individuellt ägande
-- Kunskapsdelning genom öppna utbildningsresurser
-- Kollektiv barnomsorg och äldreomsorg
+## 9. Vad vi inte vet
 
-**Integration med andra system:**
-- Koppling till digitala plattformar för att underlätta utbyte
-- Erkännande av gåvoekonomiskt arbete i beräkningar av ekonomiska bidrag
-- Offentligt stöd för infrastruktur som möjliggör gåvoekonomi
-- Forskning om gåvoekonomins potential för att lösa samhällsproblem
+**Koalitionsbildningen** (avsnitt 6). Samma lucka som i STR-304, och vår viktigaste.
 
-### 5. Övergångsstrategier och implementering
+**Var tröskeln går** för att ett skattearrangemang ska beskatta i stället för att flytta kapital.
 
-Transformationen till global ekonomisk rättvisa kommer att ske gradvis genom sammanhängande reformer som successivt bygger upp alternativa ekonomiska strukturer samtidigt som de utmanar befintliga maktförhållanden.
+**Om avgränsningen i avsnitt 1 håller.** Gränsen mellan omfördelning och allokering är skarp i teorin och glidande i praktiken – en fond som villkorar sina utbetalningar tillräckligt hårt planerar, oavsett vad den kallas. Vi har ingen färdig regel för var villkoren blir styrning.
 
-#### 5.1 Pilotprojekt och demonstrationszoner
+**Om reparativ rättvisa går att omsätta** i något annat än symbolik utan en koalition som inte finns.
 
-Utveckling av pilotprojekt och demonstrationszoner där nya ekonomiska modeller kan testas i mindre skala innan de implementeras bredare.
+## 10. Förhållande till övriga dokument
 
-**Typer av pilotprojekt:**
-- Lokala ekonomier som opererar enligt kooperativa principer
-- Regionala handelsavtal baserade på ömsesidighet snarare än konkurrens
-- Deltagande budgetprocesser i städer och regioner
-- Experimentella grundinkomstprogram i olika sammanhang
+STR-304 bär det globala ramverket och verkställighetsfrågan; det här dokumentet är dess ekonomiska tillämpning. STR-203 och STR-214 bär AUBI i svensk kontext; den globala varianten i version 1.0 är beroende av avsnitt 4 och 6 och ska läsas med den reservationen. STR-212 innehåller en äldre och mer expansiv överflödsvision som behöver stämmas av mot avsnitt 1.
 
-**Utvärdering och skalning:**
-- Systematisk dokumentation av erfarenheter och lärdomar
-- Kvantitativa mått på ekonomisk jämlikhet och välmående
-- Kvalitativa studier av deltagarupplevelser och samhällseffekter
-- Gradvis expansion av framgångsrika modeller till nya områden
+---
 
-#### 5.2 Institutionell transformation
-
-Samtidig transformation av befintliga institutioner och skapande av nya strukturer som kan hantera ekonomisk koordinering på demokratisk basis.
-
-**Reformering av befintliga institutioner:**
-- Demokratisering av centralbanker och finansiella institutioner
-- Omorganisering av internationella handelsavtal för att prioritera rättvisa
-- Förändring av företagsstyrning för att inkludera intressentrepresentation
-- Modifiering av skattesystem för att öka progressivitet och minska ojämlikhet
-
-**Skapande av nya strukturer:**
-- Etablering av ekonomiska demokratiråd på olika nivåer
-- Utveckling av kooperativa finansieringsinstitutioner
-- Byggande av alternativa handelsnatverk
-- Skapande av nya former av kollektiv ägande
-
-#### 5.3 Internationell koordinering och diplomati
-
-Ekonomisk transformation måste koordineras internationellt för att undvika att länder konkurrerar bort sociala och miljömässiga standarder.
-
-**Diplomatiska strategier:**
-- Bygga allianser mellan länder som är intresserade av ekonomisk rättvisa
-- Förhandla internationella avtal som stödjer kooperativ utveckling
-- Utveckla gemensamma standarder för hållbar ekonomisk aktivitet
-- Skapa mekanismer för att lösa konflikter utan våld eller ekonomisk krigföring
-
-**Teknisk samverkan:**
-- Samordning av ekonomisk planering över nationsgränser
-- Delning av bästa praxis för demokratisk ekonomisk organisering
-- Gemensam utveckling av teknologier för hållbar produktion
-- Koordinerad respons på globala ekonomiska kriser
-
-### 6. Mätning och utvärdering av framsteg
-
-För att säkerställa att transformationen mot ekonomisk rättvisa verkligen sker krävs robusta system för att mäta framsteg och identifiera områden som behöver förstärkning eller kurskorrigering.
-
-#### 6.1 Nya ekonomiska indikatorer
-
-Traditionella ekonomiska mått som BNP fångar inte upp viktig information om välmående, hållbarhet och rättvisa. Nya indikatorer måste utvecklas som bättre reflekterar målsättningarna för ekonomisk rättvisa.
-
-**Välfärdsindikatorer:**
-- Andel av befolkningen med ekonomisk grundtrygghet
-- Tillgång till grundläggande tjänster som hälsovård och utbildning
-- Grad av ekonomisk delaktighet och demokratiskt inflytande
-- Livskvalitetsmått som inkluderar social sammanhållning och miljökvalitet
-
-**Rättviseindikatorer:**
-- Inkomst- och förmögenhetsfördelning inom och mellan länder
-- Könsskillnader i ekonomisk status och delaktighet
-- Etniska och rasmässiga ojämlikheter i ekonomiska möjligheter
-- Intergenerationell ekonomisk rörlighet
-
-**Hållbarhetsindikatorer:**
-- Resursanvändning i relation till planetära gränser
-- Koldioxidavtryck per capita och totalt
-- Biologisk mångfald och ekosystemhälsa
-- Cirkuläritet i ekonomiska processer
-
-#### 6.2 Deltagande utvärderingsprocesser
-
-Utvärdering av ekonomisk rättvisa måste inkludera röster från de som påverkas av ekonomiska system, särskilt marginaliserade grupper vars erfarenheter ofta exkluderas från formell ekonomisk analys.
-
-**Metoder för deltagande:**
-- Regelbundna samhällsundersökningar om ekonomiska erfarenheter
-- Fokusgrupper med representanter från olika socioekonomiska grupper
-- Berättelseprojekt som fångar kvalitativa erfarenheter av ekonomisk förändring
-- Medborgarjurys som utvärderar ekonomiska policyer och program
-
-**Integration av perspektiv:**
-- Systematisk inkludering av marginaliserade röster i utvärderingsprocesser
-- Kulturellt anpassade utvärderingsmetoder som respekterar olika kunskapstraditioner
-- Kombinering av kvantitativa data med kvalitativa berättelser
-- Kontinuerlig feedback från lokala samhällen om effekterna av ekonomiska förändringar
-
-### 7. Praktiskt exempel: Från lokal innovation till global transformation
-
-För att illustrera hur detta ramverk kan fungera i praktiken, följer här ett exempel på hur en lokal innovation i ekonomisk demokrati kan sprida sig och bidra till global transformation.
-
-I en medelstor svensk stad beslutar invånarna att experimentera med deltagande budgetering för att demokratisera beslutsfattandet om kommunala investeringar. Processen börjar med lokala assemblés där medborgare identifierar prioriteringar som förbättrad kollektivtrafik, renovering av skolor och satsningar på förnybar energi.
-
-**Lokal implementation och lärande:**
-Staden utvecklar digitala verktyg som gör det möjligt för alla invånare att delta i budgetprocessen, oavsett ålder, språk eller teknisk kompetens. Genom iterativa processer där förslag diskuteras, förfinas och prioriteras skapar staden en modell för ekonomisk demokrati som inte bara förbättrar beslutskvaliteten utan också stärker social sammanhållning och medborgerligt engagemang.
-
-**Regional spridning och anpassning:**
-När andra kommuner i regionen ser de positiva resultaten börjar de anpassa modellen till sina egna förhållanden. En regional samverkan utvecklas där kommuner delar erfarenheter, tekniska lösningar och bästa praxis. Regionala ekonomiska kooperativ bildas för att koordinera investeringar i infrastruktur som gynnar alla deltagande kommuner.
-
-**Nationell integration och policy:**
-Framgången med regional ekonomisk demokrati uppmärksammas på nationell nivå och inspirerar till förändringar i riksdagens arbetsformer. Sveriges regering börjar experimentera med nationella medborgarassemblés för att hantera komplexa ekonomiska frågor som pensionssystemets framtid och energiomställningens finansiering.
-
-**Internationell inspiration och koordinering:**
-Svenska erfarenheter av ekonomisk demokrati delas med andra länder genom internationella nätverk och diplomatiska kanaler. Land efter land börjar utveckla sina egna varianter av deltagande ekonomisk planering, anpassade till lokala kulturer och politiska system. Gradvis växer det fram en global rörelse för ekonomisk demokrati som utmanar både auktoritära regimer och oreglerade marknader.
-
-**Systemisk transformation:**
-När allt fler länder adopterar principer för ekonomisk demokrati blir det möjligt att koordinera internationell ekonomisk planering för att ta itu med globala utmaningar som klimatförändringar och ojämlikhet. Multinationella företag tvingas anpassa sig till demokratiska krav från de samhällen de verkar i, och nya former av internationellt ekonomiskt samarbete utvecklas baserade på ömsesidighet snarare än konkurrens.
-
-Detta exempel visar hur transformation kan börja lokalt med konkreta experiment och gradvis växa till systemisk förändring genom lärande, anpassning och koordinering mellan olika nivåer av samhälle.
-
-### 8. Slutsats: En ekonomi för livet
-
-Global ekonomisk rättvisa är inte bara en fråga om omfördelning av befintliga resurser, utan om att fundamentalt omorganisera ekonomisk aktivitet för att tjäna mänskligt och ekologiskt välmående. Detta kräver mod att utmana djupt rotade antaganden om ekonomins natur och syfte, men det erbjuder också möjligheten att skapa en värld där alla kan blomstra.
-
-Transformationen mot ekonomisk rättvisa kommer att möta motstånd från de som gynnas av nuvarande ojämlikheter, men den har också potential att mobilisera enorma krafter för positiv förändring. När människor över hela världen upplever ekonomisk trygghet och meningsfull delaktighet i ekonomiska beslut, frigörs kreativ energi som kan lösa även de mest komplexa globala utmaningarna.
-
-Detta ramverk erbjuder en vägkarta för denna transformation, men dess framgång beror på att miljoner människor på alla nivåer av samhället väljer att engagera sig i arbetet för ekonomisk demokrati och rättvisa. Genom att börja lokalt och bygga uppåt kan vi skapa den ekonomiska ordning som vår tid kräver - en ekonomi som tjänar livet istället för att exploatera det.
+**Dokumentstatus:** Utkast för diskussion. Ersätter version 1.0 i sin helhet.

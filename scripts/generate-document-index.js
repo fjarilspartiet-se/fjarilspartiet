@@ -13,49 +13,89 @@ function parseDocumentMetadata(content) {
   // Debug: Log the start of the content to see what we're working with
   console.log(`    Content starts with: "${content.substring(0, 100)}..."`);
   
-  // Look for YAML frontmatter - it can be at the start OR after a document ID heading
-  // Pattern 1: Standard frontmatter at beginning
-  let frontmatterMatch = content.match(/^---\s*\r?\n([\s\S]*?)\r?\n---/);
-  
-  // Pattern 2: Frontmatter after document ID heading (# STR-xxx)
-  if (!frontmatterMatch) {
-    frontmatterMatch = content.match(/^#\s+[A-Z]+-\d+\s*\r?\n---\s*\r?\n([\s\S]*?)\r?\n---/);
+  // Find the YAML frontmatter block: the first '---' fenced block in the file.
+  // It may be preceded by heading lines (e.g. "# STR-246: ..." plus a "## subtitle"),
+  // so we don't require the fence on line 0 - but only blank or heading lines may
+  // precede it, so a mid-body '---' rule is never mistaken for frontmatter.
+  const allLines = content.split(/\r?\n/);
+  let fmStart = -1;
+  for (let i = 0; i < allLines.length; i++) {
+    const t = allLines[i].trim();
+    if (t === '---') { fmStart = i; break; }
+    if (t === '' || t.startsWith('#')) continue;
+    break; // real content before any fence -> no frontmatter
   }
-  
-  if (frontmatterMatch) {
+  let frontmatter = null;
+  if (fmStart !== -1) {
+    for (let j = fmStart + 1; j < allLines.length; j++) {
+      if (allLines[j].trim() === '---') {
+        frontmatter = allLines.slice(fmStart + 1, j).join('\n');
+        break;
+      }
+    }
+  }
+
+  if (frontmatter !== null) {
     console.log(`    Found frontmatter block`);
-    const frontmatter = frontmatterMatch[1];
     const lines = frontmatter.split(/\r?\n/);
     
     console.log(`    Frontmatter lines: ${lines.length}`);
     
-    lines.forEach((line, index) => {
-      // Skip empty lines and comments
-      if (!line.trim() || line.trim().startsWith('#')) {
+    // Track block-list keys (e.g. "relaterade-dokument:" followed by "  - ITEM" lines)
+    let currentListKey = null;
+    let currentListItems = [];
+
+    const flushList = () => {
+      if (currentListKey) {
+        metadata[currentListKey] = currentListItems.join('\n');
+      }
+      currentListKey = null;
+      currentListItems = [];
+    };
+
+    lines.forEach((line) => {
+      const trimmedLine = line.trim();
+
+      // Skip empty lines and full-line YAML comments (list context is preserved)
+      if (!trimmedLine || trimmedLine.startsWith('#')) {
         return;
       }
-      
-      // Handle lines that might be indented or have various whitespace
-      const trimmedLine = line.trim();
-      
+
+      // Block-sequence item ("- ITEM"): belongs to the most recent empty-valued key
+      if (trimmedLine.startsWith('-')) {
+        if (currentListKey) {
+          currentListItems.push(trimmedLine);
+        }
+        return;
+      }
+
       // Look for key: value pairs, allowing for hyphens and various characters
       const match = trimmedLine.match(/^([a-zA-Z0-9åäöÅÄÖ_-]+)\s*:\s*(.*)$/);
       if (match) {
+        // A new key closes any list we were accumulating
+        flushList();
+
         const [, key, value] = match;
         const cleanKey = key.trim();
-        const cleanValue = value.trim();
-        
+
         // Remove quotes if they exist
-        const finalValue = cleanValue.replace(/^["']|["']$/g, '');
-        
+        const finalValue = value.trim().replace(/^["']|["']$/g, '');
+
         metadata[cleanKey] = finalValue;
-        
+
+        // An empty value may introduce a block list on the following lines
+        if (finalValue === '') {
+          currentListKey = cleanKey;
+          currentListItems = [];
+        }
+
         // Debug logging for metadata parsing
         console.log(`    Found metadata: ${cleanKey} = "${finalValue}"`);
-      } else {
-        console.log(`    Could not parse line ${index}: "${trimmedLine}"`);
       }
     });
+
+    // Close any list that ran to the end of the frontmatter
+    flushList();
   } else {
     console.log(`    No frontmatter found`);
   }
@@ -274,45 +314,46 @@ function scanDirectory(dir, basePath = '') {
 
 // Extract description from document content
 function getDocumentDescription(content, metadata) {
-  // 1. Prefer an explicit metadata description
+  // Check if description is in metadata
   if (metadata.beskrivning || metadata.description) {
     return metadata.beskrivning || metadata.description;
   }
-
+  
+  // Look for the first real paragraph in the body (after the frontmatter block).
   const lines = content.split(/\r?\n/);
-  let descriptionStartIndex = -1;
 
-  // 2. Find the first non‑empty line that is not a heading, frontmatter delimiter,
-  //    a key‑value pair (contains ':') or a list item.
+  // Locate the end of the frontmatter by counting "---" fences. The opening fence
+  // may be preceded by a "# STR-xxx" document-id heading, so we don't assume line 0.
+  let fenceCount = 0;
+  let bodyStart = 0;
+  let sawFrontmatter = false;
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i].trim();
-    if (!line) continue;                                  // skip empty lines
-    if (line.startsWith('#')) continue;                   // headings
-    if (line === '---') continue;                         // frontmatter bounds
-    if (line.includes(':')) continue;                     // metadata key‑value
-    if (/^[-*+]\s/.test(line)) continue;                  // bullet points / list items
-    // If we get here, it’s a plausible paragraph candidate
-    descriptionStartIndex = i;
-    break;
-  }
-
-  if (descriptionStartIndex !== -1) {
-    // 3. Look at the next few lines for a meaningful block of text
-    for (let i = descriptionStartIndex; i < Math.min(descriptionStartIndex + 5, lines.length); i++) {
-      const line = lines[i].trim();
-      // Also skip list items in the sliding window
-      if (!line || line.startsWith('#') || line === '---' || line.includes(':') || /^[-*+]\s/.test(line)) {
-        continue;
-      }
-      if (line.length > 50) {
-        // Truncate if too long
-        return line.length > 200 ? line.substring(0, 200) + '...' : line;
+    if (lines[i].trim() === '---') {
+      fenceCount++;
+      if (fenceCount === 2) {
+        bodyStart = i + 1;
+        sawFrontmatter = true;
+        break;
       }
     }
   }
+  if (!sawFrontmatter) {
+    bodyStart = 0;
+  }
 
-  // No suitable paragraph found – leave description undefined
-  return undefined;
+  // First meaningful paragraph: non-empty, not a heading, not a list item or
+  // block-quote, and long enough to be a real summary. Never a frontmatter line.
+  for (let i = bodyStart; i < lines.length; i++) {
+    const line = lines[i].trim();
+    if (!line) continue;
+    if (line.startsWith('#')) continue;    // headings, including the title
+    if (line.startsWith('---')) continue;  // stray horizontal rules
+    if (line.startsWith('-') || line.startsWith('>')) continue; // lists, quotes
+    if (line.length <= 50) continue;
+    return line.length > 200 ? line.substring(0, 200) + '...' : line;
+  }
+
+  return undefined; // Return undefined instead of null
 }
 
 // Parse related documents list
@@ -326,8 +367,10 @@ function parseRelatedDocs(relatedString) {
       .map(line => line.trim())
       .filter(line => line.startsWith('-'))
       .map(line => {
-        const match = line.match(/- (.+?)(?:\s*#|$)/);
-        return match ? match[1].trim() : null;
+        // Grab the leading document-id token (e.g. "MED-101"), ignoring any
+        // trailing "# comment" or "- description" text.
+        const match = line.match(/([A-ZÅÄÖ]{2,}-\d+)/);
+        return match ? match[1] : null;
       })
       .filter(Boolean);
   }

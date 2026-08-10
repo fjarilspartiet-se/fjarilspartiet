@@ -1,5 +1,5 @@
 // Auto-generated document index
-// Last updated: 2026-06-04T11:27:03.295Z
+// Last updated: 2026-08-10T09:42:26.524Z
 
 export interface Document {
   id: string;
@@ -129,11 +129,18 @@ export const documentCategories: DocumentCategory[] = [
 export const documents: Document[] = [
   {
     "id": "FALLSTUDIE-GGF-001",
-    "title": "Fallstudie GGF-001: Gemenskapsarbetslag i praktiken",
+    "title": "Gemenskapsarbetslag i praktiken - En svensk fallstudie",
     "path": "fallstudier-ggf/FALLSTUDIE-GGF-001-Community-Work-Teams-i-praktiken.md",
     "category": "FALLSTUDIE",
     "subcategory": "GGF",
-    "description": "Björn, 44 år med bakgrund som civilingenjör inom teknisk fysik och systemutveckling, står inför utmaningar med mental hälsa men har en stark önskan att bidra till samhällsutveckling. Han utvecklar fle..."
+    "description": "**Definition:** Gemenskapsarbetslag (Community Work Teams) är självorganiserande grupper som utför meningsfullt arbete inom en bioregional autonom zon (BAZ), belönade med Hearts och Leaves och loggade...",
+    "version": "1.0",
+    "lastUpdated": "2025-01-13",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-204"
+    ]
   },
   {
     "id": "GUIDE-101",
@@ -147,7 +154,7 @@ export const documents: Document[] = [
     "title": "Guide för nya medlemmar i Fjärilspartiet",
     "path": "guide-till-nya-medlemmar.md",
     "category": "MED",
-    "description": "Varmt välkommen till Fjärilspartiet! Vi är glada att du vill vara med på denna spännande resa mot ett bättre samhälle. Hos oss finns plats för både djärva visioner och praktiska lösningar – här får du..."
+    "description": "* Bekanta dig med våra tankar och idéer på det sätt som passar dig"
   },
   {
     "id": "MED-101",
@@ -158,37 +165,65 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "MED-102",
+      "MED-103",
+      "MED-104",
+      "STR-101",
+      "TAK-105"
+    ]
   },
   {
     "id": "MED-102",
     "title": "Organisera möten",
     "path": "MED/MED-102-organisera-möten.md",
     "category": "MED",
+    "description": "Material: Några diskussionsfrågor, anteckningsblock",
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "MED-101",
+      "MED-104",
+      "TAK-105",
+      "TAK-107"
+    ]
   },
   {
     "id": "MED-103",
     "title": "Bidra tekniskt",
     "path": "MED/MED-103-bidra-tekniskt.md",
     "category": "MED",
+    "description": "<h2 className=\"text-xl font-bold\">Rösta i frågan</h2>",
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "MED-101",
+      "OPS-102",
+      "OPS-103",
+      "OPS-104"
+    ]
   },
   {
     "id": "MED-104",
     "title": "Lokala initiativ",
     "path": "MED/MED-104-lokala-initiativ.md",
     "category": "MED",
+    "description": "Ett lokalt initiativ kan vara nästan vad som helst som bidrar till partiets vision på lokal nivå:",
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "MED-101",
+      "MED-102",
+      "TAK-107",
+      "STR-401"
+    ]
   },
   {
     "id": "MED-105",
@@ -198,17 +233,30 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "MED-101",
+      "TAK-202",
+      "STR-103",
+      "STR-102"
+    ]
   },
   {
     "id": "MED-106",
     "title": "Kommunikation och samhällsdialog",
     "path": "MED/MED-106-kommunikation-och-samhällsdialog.md",
     "category": "MED",
+    "description": "Detta är vad AUBI (Adaptiv Universell Basinkomst) handlar om.",
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "MED-101",
+      "MED-104",
+      "OPS-202",
+      "OPS-203"
+    ]
   },
   {
     "id": "MED-107",
@@ -218,7 +266,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "MED-104",
+      "MED-102",
+      "TAK-107",
+      "STR-401"
+    ]
   },
   {
     "id": "MED-108",
@@ -229,7 +283,14 @@ export const documents: Document[] = [
     "version": "2.0",
     "lastUpdated": "2024-11-01",
     "author": "Björn Kenneth Holmström",
-    "role": "Medlemskoordinator"
+    "role": "Medlemskoordinator",
+    "relatedDocs": [
+      "MED-101",
+      "MED-102",
+      "MED-104",
+      "TAK-105",
+      "OPS-202"
+    ]
   },
   {
     "id": "OPS-101",
@@ -240,7 +301,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-102",
+      "OPS-103",
+      "OPS-104",
+      "TAK-101",
+      "STR-100"
+    ]
   },
   {
     "id": "OPS-102",
@@ -252,7 +320,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-101",
+      "OPS-103",
+      "OPS-104",
+      "TAK-104",
+      "OPS-205"
+    ]
   },
   {
     "id": "OPS-103",
@@ -260,10 +335,17 @@ export const documents: Document[] = [
     "path": "OPS/OPS-100-digital/OPS-103-digital-parti-operations-plattform-flexibelt-styre.md",
     "category": "OPS",
     "subcategory": "OPS-100",
+    "description": "type: 'democracy' | 'leader-led' | 'consensus' | 'anarchy' | 'hybrid',",
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-101",
+      "OPS-102",
+      "STR-103",
+      "TAK-101"
+    ]
   },
   {
     "id": "OPS-104",
@@ -271,21 +353,39 @@ export const documents: Document[] = [
     "path": "OPS/OPS-100-digital/OPS-104-försäkran-om-icke-korruption-för-digitala-lösningar.md",
     "category": "OPS",
     "subcategory": "OPS-100",
+    "description": "Detta är en avgörande etisk punkt. En politisk rörelse som främjar teknologiska lösningar måste ha starka skyddsåtgärder mot intressekonflikter och orättvisa fördelar. Här är hur detta kan hanteras:",
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-101",
+      "OPS-102",
+      "OPS-205",
+      "STR-103",
+      "TAK-101"
+    ]
   },
   {
     "id": "OPS-105",
-    "title": "DidiS - Ramverk för digital direktdemokrati",
-    "path": "OPS/OPS-100-digital/OPS-105-didis-ramverk-för-direktdemokrati.md",
+    "title": "DidiS - ramverk för digitalt deltagande",
+    "path": "OPS/OPS-100-digital/OPS-105-didis-ramverk-för-digitalt-deltagande.md",
     "category": "OPS",
     "subcategory": "OPS-100",
-    "version": "1.0",
-    "lastUpdated": "2024-11-13",
+    "description": "Version 1.0 hette \"ramverk för digital direktdemokrati\" och beskrev ett system: förslag, deliberation, röstning, delegering, utrullning från kommun till nation. Det saknade två saker som avgör om syst...",
+    "version": "2.0",
+    "lastUpdated": "2026-08-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-250",
+      "STR-218",
+      "STR-304",
+      "STR-210",
+      "OPS-102",
+      "OPS-205",
+      "TAK-105"
+    ]
   },
   {
     "id": "OPS-106",
@@ -293,7 +393,18 @@ export const documents: Document[] = [
     "path": "OPS/OPS-100-digital/OPS-106-vårt-förhållingssätt-till-A.I.-(artificiell-intelligens).md",
     "category": "OPS",
     "subcategory": "OPS-100",
-    "description": "Fjärilspartiet har valt att använda artificiell intelligens (A.I.) som en hjälpande resurs för att förbättra effektiviteten och kvaliteten i vårt arbete. Vi är medvetna om att det finns farhågor kring..."
+    "description": "Fjärilspartiet har valt att använda artificiell intelligens (A.I.) som en hjälpande resurs för att förbättra effektiviteten och kvaliteten i vårt arbete. Vi är medvetna om att det finns farhågor kring...",
+    "version": "1.0",
+    "lastUpdated": "2024-05-13",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-102",
+      "OPS-103",
+      "TAK-105",
+      "STR-210",
+      "OPS-205"
+    ]
   },
   {
     "id": "OPS-201",
@@ -304,7 +415,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-100",
+      "TAK-101",
+      "TAK-103",
+      "OPS-202",
+      "OPS-205"
+    ]
   },
   {
     "id": "OPS-202",
@@ -316,7 +434,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-203",
+      "OPS-204",
+      "STR-104",
+      "STR-206",
+      "TAK-104"
+    ]
   },
   {
     "id": "OPS-203",
@@ -328,7 +453,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-202",
+      "STR-206",
+      "STR-302",
+      "TAK-305"
+    ]
   },
   {
     "id": "OPS-204",
@@ -336,10 +467,17 @@ export const documents: Document[] = [
     "path": "OPS/OPS-200-riktlinjer/OPS-204-symbol-riktlinjer.md",
     "category": "OPS",
     "subcategory": "OPS-200",
+    "description": "Fjärilspartiet ser svensk demokrati som en vacker äng, där olika politiska partier är som mångsidiga blommor – var och en med sin egen viktiga roll och rätt att existera. I denna äng väljer vi att var...",
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-104",
+      "STR-105",
+      "STR-106",
+      "OPS-202"
+    ]
   },
   {
     "id": "OPS-205",
@@ -351,7 +489,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-102",
+      "OPS-104",
+      "TAK-101",
+      "TAK-104"
+    ]
   },
   {
     "id": "OPS-206",
@@ -362,7 +506,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-207",
+      "TAK-201",
+      "TAK-203",
+      "TAK-204",
+      "TAK-205"
+    ]
   },
   {
     "id": "OPS-207",
@@ -373,7 +524,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-206",
+      "TAK-201",
+      "TAK-203",
+      "TAK-204"
+    ]
   },
   {
     "id": "OPS-208",
@@ -385,7 +542,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-05-21",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-202",
+      "OPS-205",
+      "STR-107",
+      "TAK-104"
+    ]
   },
   {
     "id": "OPS-209",
@@ -397,7 +560,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-104",
+      "OPS-105",
+      "TAK-104",
+      "MED-106"
+    ]
   },
   {
     "id": "OPS-300",
@@ -409,7 +578,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Teknologiansvarig"
+    "role": "Grundare och Teknologiansvarig",
+    "relatedDocs": [
+      "STR-400",
+      "OPS-205",
+      "TAK-300",
+      "STR-300"
+    ]
   },
   {
     "id": "OPS-400",
@@ -417,10 +592,18 @@ export const documents: Document[] = [
     "path": "OPS/OPS-400-internationellt/OPS-400-internationella-samarbetsmekanismer.md",
     "category": "OPS",
     "subcategory": "OPS-400",
+    "description": "Detta ramverk skapar grunden för effektivt internationellt samarbete mellan Fjärilspartiet, Fjärilsrörelsen och FUN(TIME), med målet att facilitera global transformation mot ett mer hållbart och menin...",
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och internationell samordnare"
+    "role": "Grundare och internationell samordnare",
+    "relatedDocs": [
+      "STR-301",
+      "STR-302",
+      "OPS-202",
+      "OPS-203",
+      "TAK-102"
+    ]
   },
   {
     "id": "DOKUMENTHIERARKI",
@@ -433,7 +616,7 @@ export const documents: Document[] = [
     "title": "Fjärilspartiet",
     "path": "fjärilspartiet-intro.md",
     "category": "other",
-    "description": "*Vi befinner oss i äggstadiet - en tid av gemensam utforskning, omsorgsfull utveckling, organisk utveckling och förberedelse*"
+    "description": "* Skapar transparenta och inkluderande beslutsprocesser"
   },
   {
     "id": "INTRODUKTION-AV-CHATGPT",
@@ -454,7 +637,7 @@ export const documents: Document[] = [
     "title": "**2. Min Definition av en Meningsfull Tillvaro**",
     "path": "personliga-manifest-mall.md",
     "category": "other",
-    "description": "*— Ett personligt manifest för en meningsfull tillvaro —*"
+    "description": "*\"För mig handlar ett meningsfullt liv om att vara närvarande i små stunder—familjefikat, vilda blommor som bryter igenom asfalten, och att bidra till något som överlever mig själv.\"*"
   },
   {
     "id": "V-LKOMSTMEDDELANDE",
@@ -473,7 +656,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Visionär"
+    "role": "Grundare och Visionär",
+    "relatedDocs": [
+      "STR-200",
+      "STR-300",
+      "STR-400",
+      "TAK-200",
+      "OPS-100"
+    ]
   },
   {
     "id": "STR-009",
@@ -485,7 +675,12 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Visionär"
+    "role": "Grundare och Visionär",
+    "relatedDocs": [
+      "STR-001",
+      "STR-006",
+      "STR-200"
+    ]
   },
   {
     "id": "STR-010",
@@ -497,19 +692,32 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Visionär"
+    "role": "Grundare och Visionär",
+    "relatedDocs": [
+      "STR-001",
+      "STR-011",
+      "STR-212",
+      "STR-009"
+    ]
   },
   {
     "id": "STR-011",
-    "title": "Internationell integration och global enhetsstrategi, version 2",
-    "path": "STR/STR-100-grund/STR-011-internationell-integration-och-global-enhetsstrategi.md",
+    "title": "Internationell integration och global samverkan",
+    "path": "STR/STR-100-grund/STR-011-internationell-integration-och-global-samverkan.md",
     "category": "STR",
     "subcategory": "STR-100",
-    "description": "Detta dokument beskriver Fjärilspartiets vision för hur internationell integration och global enhet kan uppnås genom decentraliserad och etisk samverkan. Visionen omfattar ett världssamhälle där samar...",
-    "version": "2.1",
-    "lastUpdated": "2025-02-24",
+    "description": "Detta är ett visionsdokument. Det säger vad vi vill uppnå internationellt och varför. Det säger inte hur institutionerna ska konstrueras – det gör STR-304 – och inte hur ekonomin ska fungera, vilket S...",
+    "version": "3.0",
+    "lastUpdated": "2026-08-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-304",
+      "STR-306",
+      "STR-301",
+      "STR-001",
+      "STR-250"
+    ]
   },
   {
     "id": "STR-100",
@@ -517,10 +725,18 @@ export const documents: Document[] = [
     "path": "STR/STR-100-grund/STR-100-inledande-skiss-av-grundläggande-ramverk.md",
     "category": "STR",
     "subcategory": "STR-100",
+    "description": "**Tankar om hur ett \"övergångsfokuserat parti\" kan se ut:**",
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-101",
+      "STR-102",
+      "STR-103",
+      "STR-104",
+      "OPS-101"
+    ]
   },
   {
     "id": "STR-101",
@@ -532,7 +748,17 @@ export const documents: Document[] = [
     "version": "2.0",
     "lastUpdated": "2026-05-02",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-100",
+      "STR-102",
+      "STR-103",
+      "STR-104",
+      "STR-110",
+      "STR-200",
+      "STR-300",
+      "TAK-101"
+    ]
   },
   {
     "id": "STR-102",
@@ -540,10 +766,18 @@ export const documents: Document[] = [
     "path": "STR/STR-100-grund/STR-102-bas-i-p(∞)=1.md",
     "category": "STR",
     "subcategory": "STR-100",
+    "description": "Artikeln *p(∞)=1* [https://bjornkennethholmstrom.wordpress.com/2024/10/20/what-if-the-probability-of-infinity-equals-one/] presenterar några fascinerande filosofiska perspektiv som kan informera en ba...",
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-100",
+      "STR-101",
+      "STR-103",
+      "STR-206",
+      "STR-302"
+    ]
   },
   {
     "id": "STR-103",
@@ -551,10 +785,16 @@ export const documents: Document[] = [
     "path": "STR/STR-100-grund/STR-103-etik-för-jämvikt-och-sammanlänkning.md",
     "category": "STR",
     "subcategory": "STR-100",
+    "description": "3. Balansera individuella behov med det gemensamma goda",
     "version": "1.0",
     "lastUpdated": "2024-11-06",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Visionär"
+    "role": "Grundare och Visionär",
+    "relatedDocs": [
+      "STR-102",
+      "STR-206",
+      "STR-400"
+    ]
   },
   {
     "id": "STR-104",
@@ -565,7 +805,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-101",
+      "STR-105",
+      "STR-106",
+      "OPS-204",
+      "OPS-202"
+    ]
   },
   {
     "id": "STR-105",
@@ -577,7 +824,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-104",
+      "STR-106",
+      "OPS-204",
+      "OPS-202"
+    ]
   },
   {
     "id": "STR-106",
@@ -585,11 +838,17 @@ export const documents: Document[] = [
     "path": "STR/STR-100-grund/STR-106-vanliga-frågor-om-bortom-symboler.md",
     "category": "STR",
     "subcategory": "STR-100",
-    "description": "Varje ändring kommuniceras tydligt till medlemmar och allmänheten.",
+    "description": "**F: Varför har ni ingen permanent symbol som andra partier?**",
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-104",
+      "STR-105",
+      "OPS-204",
+      "OPS-203"
+    ]
   },
   {
     "id": "STR-107",
@@ -601,7 +860,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-02-24",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och visionär",
+    "relatedDocs": [
+      "STR-203",
+      "STR-401",
+      "STR-402",
+      "STR-213"
+    ]
   },
   {
     "id": "STR-110",
@@ -609,11 +874,18 @@ export const documents: Document[] = [
     "path": "STR/STR-100-grund/STR-110-adaptiv-styrningsmodell.md",
     "category": "STR",
     "subcategory": "STR-100",
-    "description": "Likt fjärilen som inte kan skynda sin förvandling — och som genomgår den fullständigt, inte halvhjärtat — tror vi att verklig samhällsförändring kräver tålamod, helhet och mod att faktiskt testa vad v...",
+    "description": "Styrning är inte ett tekniskt problem som väntar på rätt lösning. Det är ett mänskligt projekt — fyllt av osäkerhet, lärande och ständig förändring. Fjärilspartiet tror att den mest ärliga och respekt...",
     "version": "1.0",
     "lastUpdated": "2026-05-02",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-101",
+      "STR-001",
+      "OPS-100",
+      "TAK-200",
+      "STR-200"
+    ]
   },
   {
     "id": "STR-200",
@@ -625,7 +897,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-001",
+      "STR-215",
+      "STR-203",
+      "STR-401",
+      "TAK-102"
+    ]
   },
   {
     "id": "STR-201",
@@ -633,10 +912,18 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-201-adaptivt-skatteramverk.md",
     "category": "STR",
     "subcategory": "STR-200",
+    "description": "def beräkna_effektiv_skattesats(basskatt, faktorer):",
     "version": "1.1",
     "lastUpdated": "2024-12-03",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-202",
+      "STR-203",
+      "TAK-103",
+      "STR-205",
+      "STR-214"
+    ]
   },
   {
     "id": "STR-202",
@@ -648,7 +935,14 @@ export const documents: Document[] = [
     "version": "1.1",
     "lastUpdated": "2024-12-03",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-201",
+      "STR-203",
+      "STR-214",
+      "TAK-102",
+      "TAK-103"
+    ]
   },
   {
     "id": "STR-203",
@@ -656,10 +950,22 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-203-adaptivt-universellt-grundinkomstsystem.md",
     "category": "STR",
     "subcategory": "STR-200",
+    "description": "* Återför värdet av teknologisk utveckling till samhället",
     "version": "1.2",
     "lastUpdated": "2025-11-05",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-204",
+      "STR-205",
+      "STR-201",
+      "STR-202",
+      "STR-214",
+      "STR-232",
+      "STR-233",
+      "STR-234",
+      "TAK-103"
+    ]
   },
   {
     "id": "STR-204",
@@ -667,10 +973,21 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-204-adaptiv-universell-basinkomst-fallstudie.md",
     "category": "STR",
     "subcategory": "STR-200",
+    "description": "2. Utveckling av demokratiska digitala verktyg (DidiS, DPOP)",
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-203",
+      "STR-205",
+      "STR-206",
+      "STR-214",
+      "STR-232",
+      "STR-233",
+      "STR-234",
+      "TAK-103"
+    ]
   },
   {
     "id": "STR-205",
@@ -681,7 +998,18 @@ export const documents: Document[] = [
     "version": "1.1",
     "lastUpdated": "2024-12-03",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-203",
+      "STR-204",
+      "STR-206",
+      "STR-214",
+      "STR-232",
+      "STR-233",
+      "STR-234",
+      "TAK-303",
+      "TAK-304"
+    ]
   },
   {
     "id": "STR-206",
@@ -693,7 +1021,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-302",
+      "TAK-305",
+      "TAK-205",
+      "OPS-203"
+    ]
   },
   {
     "id": "STR-207",
@@ -705,7 +1039,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-208",
+      "STR-209",
+      "TAK-102",
+      "TAK-303"
+    ]
   },
   {
     "id": "STR-208",
@@ -716,7 +1056,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-207",
+      "STR-209",
+      "STR-401",
+      "TAK-102"
+    ]
   },
   {
     "id": "STR-209",
@@ -728,7 +1074,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-102",
+      "STR-207",
+      "STR-208",
+      "TAK-204"
+    ]
   },
   {
     "id": "STR-210",
@@ -740,39 +1092,71 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-203",
+      "TAK-204",
+      "OPS-102",
+      "STR-206"
+    ]
   },
   {
     "id": "STR-211",
-    "title": "Inledning",
+    "title": "Vägar till Sjukdomsbekämpning genom Teknologi och Social Utveckling",
     "path": "STR/STR-200-politik/STR-211-vägar-till-sjukdomsbekämpning-genom-teknologi-och-social-utveckling.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Fjärilspartiet ser sjukdomsbekämpning som en nyckel till en hållbar och hälsosam framtid för alla. Vårt arbete fokuserar på att använda avancerad teknik och social utveckling för att minska och på sik..."
+    "description": "Fjärilspartiet ser sjukdomsbekämpning som en nyckel till en hållbar och hälsosam framtid för alla. Vårt arbete fokuserar på att använda avancerad teknik och social utveckling för att minska och på sik...",
+    "version": "1.0",
+    "lastUpdated": "2024-10-30",
+    "author": "Björn Kenneth Holmström",
+    "role": "Grundare och Visionär",
+    "relatedDocs": [
+      "STR-200",
+      "STR-400",
+      "TAK-203",
+      "OPS-300",
+      "STR-001"
+    ]
   },
   {
     "id": "STR-212",
-    "title": "Ramverk för global ekonomisk jämlikhet och resursöverflöd",
-    "path": "STR/STR-200-politik/STR-212-ramverk-för-global-ekonomisk-jämlikhet-och-resurs-överflöd.md",
+    "title": "Överflöd och knapphet – vad som kan bli rikligt och vad som inte kan",
+    "path": "STR/STR-200-politik/STR-212-överflöd-och-knapphet.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Fjärilspartiets vision för global ekonomisk jämlikhet och resursöverflöd bygger på en värld där ekonomisk ojämlikhet mellan länder och folkgrupper minimeras, och där grundläggande resurser såsom energ...",
-    "version": "1.0",
-    "lastUpdated": "2024-10-30",
+    "description": "Version 1.0 hette \"Ramverk för global ekonomisk jämlikhet och resursöverflöd\" och byggde på att överflöd kan bli en norm: energi, mat, vatten och bostäder tillgängliga för alla genom teknik, cirkulari...",
+    "version": "2.0",
+    "lastUpdated": "2026-08-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-306",
+      "STR-304",
+      "STR-400",
+      "STR-248",
+      "STR-203",
+      "STR-001"
+    ]
   },
   {
     "id": "STR-213",
-    "title": "Styrningens evolution: Ett adaptivt och integrerat perspektiv",
-    "path": "STR/STR-200-politik/STR-213-styrningens-evolution-ett-adaptivt-och-integrerat-perspektiv.md",
+    "title": "Styrningens evolution: hur ett styrsystem ändrar sig självt",
+    "path": "STR/STR-200-politik/STR-213-styrningens-evolution.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Att utveckla ett styrsystem som kombinerar det bästa från olika styrningsformer, anpassar sig efter olika kontexter och nivåer, och skapar optimala förutsättningar för både individuell frihet och koll...",
-    "version": "1.0",
-    "lastUpdated": "2024-10-30",
+    "description": "Version 1.0 av det här dokumentet var en tidtabell. Fas 1 mellan 2025 och 2030, fas 2 mellan 2030 och 2040, därefter \"fullt utvecklade hybridsystem\" och \"sömlös växling mellan styrningsformer\". Vi är ...",
+    "version": "2.0",
+    "lastUpdated": "2026-08-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-250",
+      "STR-218",
+      "STR-110",
+      "STR-101",
+      "STR-001"
+    ]
   },
   {
     "id": "STR-214",
@@ -780,10 +1164,21 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-214-aubi-ekonomisk-analys-och-finansiering.md",
     "category": "STR",
     "subcategory": "STR-200",
+    "description": "AUBI (Adaptiv Universell Basinkomst) representerar en omfattande reform av välfärdssystemet. Med det höjda grundbeloppet på 15,000 SEK krävs en än mer genomtänkt och systematisk implementering. Denna ...",
     "version": "2.1",
     "lastUpdated": "2024-11-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-203",
+      "STR-204",
+      "STR-201",
+      "STR-202",
+      "STR-232",
+      "STR-233",
+      "STR-234",
+      "TAK-103"
+    ]
   },
   {
     "id": "STR-215",
@@ -794,7 +1189,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-11",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-206",
+      "STR-207",
+      "STR-213",
+      "STR-216"
+    ]
   },
   {
     "id": "STR-216",
@@ -805,7 +1206,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-11",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-206",
+      "STR-207",
+      "STR-213",
+      "STR-215"
+    ]
   },
   {
     "id": "STR-217",
@@ -816,7 +1223,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-210",
+      "STR-203",
+      "TAK-203",
+      "TAK-205"
+    ]
   },
   {
     "id": "STR-218",
@@ -824,11 +1237,19 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-218-integrerad-flernivådemokrati.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Dagens samhällsutmaningar – från klimatförändringar till digitalisering, från global migration till lokal stadsutveckling – känner inga administrativa gränser. Ändå fungerar våra demokratiska system f...",
-    "version": "2.0",
-    "lastUpdated": "2025-07-12",
+    "description": "Version 2.0 av det här dokumentet byggde på en tilltalande idé: att demokratins problem är att nivåerna inte pratar med varandra, och att lösningen är att koppla ihop dem så att lokala röster \"når hel...",
+    "version": "3.0",
+    "lastUpdated": "2026-08-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-250",
+      "STR-110",
+      "STR-249",
+      "OPS-105",
+      "STR-213",
+      "STR-210"
+    ]
   },
   {
     "id": "STR-219",
@@ -836,10 +1257,17 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-219-ramverk-för-etisk-beskattning.md",
     "category": "STR",
     "subcategory": "STR-200",
+    "description": "def calculate_ethical_tax_rate(base_rate, ethical_index):",
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-201",
+      "STR-202",
+      "STR-103",
+      "OPS-104"
+    ]
   },
   {
     "id": "STR-220",
@@ -850,7 +1278,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-102",
+      "OPS-205",
+      "STR-501",
+      "STR-502"
+    ]
   },
   {
     "id": "STR-221",
@@ -861,7 +1295,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-502",
+      "STR-218",
+      "STR-103",
+      "OPS-104"
+    ]
   },
   {
     "id": "STR-222",
@@ -872,7 +1312,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-401",
+      "STR-402",
+      "TAK-401",
+      "TAK-501"
+    ]
   },
   {
     "id": "STR-223",
@@ -883,7 +1329,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "TAK-203",
+      "TAK-204",
+      "TAK-205",
+      "STR-210"
+    ]
   },
   {
     "id": "STR-224",
@@ -894,7 +1346,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "TAK-301",
+      "TAK-303",
+      "TAK-304",
+      "TAK-305",
+      "STR-207"
+    ]
   },
   {
     "id": "STR-225",
@@ -902,10 +1361,17 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-225-digital-systemintegration.md",
     "category": "STR",
     "subcategory": "STR-200",
+    "description": "identity: IdentityService;    // Gemensam identitetshantering",
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-102",
+      "OPS-105",
+      "STR-218",
+      "STR-219"
+    ]
   },
   {
     "id": "STR-226",
@@ -916,7 +1382,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-103",
+      "STR-213",
+      "STR-403",
+      "STR-502",
+      "TAK-106"
+    ]
   },
   {
     "id": "STR-227",
@@ -940,7 +1413,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-12-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och visionär",
+    "relatedDocs": [
+      "STR-103",
+      "STR-213",
+      "STR-223",
+      "STR-215"
+    ]
   },
   {
     "id": "STR-229",
@@ -952,7 +1431,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-01-02",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och visionär",
+    "relatedDocs": [
+      "STR-227",
+      "STR-223",
+      "STR-218",
+      "STR-220"
+    ]
   },
   {
     "id": "STR-230",
@@ -964,7 +1449,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-01-12",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Visionär"
+    "role": "Grundare och Visionär",
+    "relatedDocs": [
+      "STR-203",
+      "STR-204",
+      "STR-206",
+      "STR-214"
+    ]
   },
   {
     "id": "STR-231",
@@ -976,7 +1467,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-12-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och visionär",
+    "relatedDocs": [
+      "STR-203",
+      "STR-206",
+      "STR-210",
+      "STR-216",
+      "STR-223"
+    ]
   },
   {
     "id": "STR-232",
@@ -988,7 +1486,16 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-12-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och visionär",
+    "relatedDocs": [
+      "STR-203",
+      "STR-207",
+      "STR-208",
+      "STR-215",
+      "STR-233",
+      "STR-234",
+      "TAK-101"
+    ]
   },
   {
     "id": "STR-233",
@@ -999,7 +1506,15 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-12-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och visionär",
+    "relatedDocs": [
+      "STR-228",
+      "STR-203",
+      "STR-201",
+      "STR-219",
+      "STR-232",
+      "STR-234"
+    ]
   },
   {
     "id": "STR-234",
@@ -1011,7 +1526,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-12-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och visionär",
+    "relatedDocs": [
+      "STR-203",
+      "STR-214",
+      "STR-228",
+      "STR-229"
+    ]
   },
   {
     "id": "STR-235",
@@ -1022,7 +1543,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och visionär",
+    "relatedDocs": [
+      "STR-228",
+      "STR-215",
+      "STR-216",
+      "STR-213"
+    ]
   },
   {
     "id": "STR-236",
@@ -1034,7 +1561,15 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-10-19",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-401",
+      "TAK-501",
+      "STR-222",
+      "STR-218",
+      "GGF-001",
+      "STR-203"
+    ]
   },
   {
     "id": "STR-237",
@@ -1046,7 +1581,15 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-10-19",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-218",
+      "STR-213",
+      "STR-236",
+      "TAK-501",
+      "OPS-105",
+      "STR-210"
+    ]
   },
   {
     "id": "STR-238",
@@ -1054,10 +1597,18 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-238-hearts-leaves-i-svensk-kontext.md",
     "category": "STR",
     "subcategory": "STR-200",
+    "description": "Hearts och Leaves är komplementära valutor som kompletterar svenska kronor genom att synliggöra och belöna värdeskapande som marknaden misslyckas med att värdera: omsorgsarbete, gemenskap, kulturell v...",
     "version": "1.0",
     "lastUpdated": "2025-10-19",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-203",
+      "STR-236",
+      "STR-237",
+      "STR-401",
+      "GGF-001"
+    ]
   },
   {
     "id": "STR-239",
@@ -1069,7 +1620,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-10-19",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-236",
+      "STR-237",
+      "STR-207",
+      "TAK-501",
+      "STR-240"
+    ]
   },
   {
     "id": "STR-240",
@@ -1081,7 +1639,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-10-19",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-200",
+      "STR-236",
+      "STR-204",
+      "STR-239",
+      "GGF-001"
+    ]
   },
   {
     "id": "STR-241",
@@ -1097,7 +1662,7 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-242-adaptiv-trygghets-och-brottsförebyggande-strategi.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "1. **Det är sällan signalstyrkan som är problemet – det är routing och incitament.** Lärare, fältassistenter och lokalpolis ser ofta exakt vilka unga som är på väg in långt innan det smäller. Signalen..."
+    "description": "Det här dokumentet är ett utkast, inte ett färdigt program. Vi har inte en heltäckande lösning på brottsligheten, och vi tror inte att något parti har det. Vad vi har är ett sätt att tänka: fånga upp ..."
   },
   {
     "id": "STR-243",
@@ -1113,7 +1678,7 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-244-adaptiv-skol-och-utbildningspolitik.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Vi tror på frihet i lärandet – att intresse, eget tempo och egna projekt kan få ett barn att blomstra. Men friheten har en förutsättning. Att kunna läsa flytande, räkna och hålla en sammansatt tanke ä..."
+    "description": "Det här är ett utkast, inte ett färdigt program, och vi gör inte anspråk på att ha lösningen på skolan. Vi lät sex AI-modeller utmana vårt skoltänkande, och utfallet var ovanligt entydigt: vår adaptiv..."
   },
   {
     "id": "STR-245",
@@ -1129,7 +1694,7 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-246-adaptiv-skatte-och-utgiftspolitik.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Nästan all skattedebatt handlar om *hur mycket* pengar som ska spenderas. Mycket färre frågar hur samhället ska *upptäcka* att en satsning slutat fungera. Ur ett systemperspektiv är det märkligt – ing..."
+    "description": "Det här är ett utkast, inte ett färdigt program. Vi lät sex AI-modeller utmana vår skatte- och utgiftspolitik, och svaret pekade åt två håll samtidigt. Den starka, distinkta delen är *mekaniken*: hur ..."
   },
   {
     "id": "STR-247",
@@ -1137,7 +1702,7 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-247-adaptiv-migrations-och-integrationspolitik.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Vår grundmodell beskriver problem som byggs upp tyst tills de blir kris. För det här området passar den sämre."
+    "description": "Det här är ett utkast, inte ett färdigt program, och vi gör inte anspråk på att lösa migrationen. Vi lät sex AI-modeller utmana vår migrations- och integrationspolitik, och svaret pekade tydligt: vår ..."
   },
   {
     "id": "STR-248",
@@ -1145,7 +1710,7 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-248-adaptiv-klimat-och-energipolitik.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Vår tes är att vi bedömer energilösningar på ett fåtal hårda dimensioner – livscykelutsläpp, planerbar effekt, systemtjänster och nettosystemkostnad – och låter den lösning som levererar bäst till läg..."
+    "description": "Det här är ett utkast, inte ett färdigt program. Vi lät sex AI-modeller utmana vår klimat- och energipolitik, och svaret var ovanligt entydigt: vår hållning är i grunden rätt, men två formuleringar bä..."
   },
   {
     "id": "STR-249",
@@ -1153,7 +1718,7 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-249-adaptiv-bostadspolitik.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Att faktiskt hitta någonstans att bo är inte en isolerad fråga. Skolsegregationen vi brottas med i STR-244, integrationsutfallen i STR-247 och den lokala sårbarheten i STR-248 bottnar alla delvis i bo..."
+    "description": "Det här är ett utkast, inte ett färdigt program. Vi lät fem AI-modeller riva i vår bostadspolitik, och svaret kom i två delar. Vårt interna mekanismutkast är ovanligt konkret och flera av idéerna håll..."
   },
   {
     "id": "STR-250",
@@ -1161,7 +1726,15 @@ export const documents: Document[] = [
     "path": "STR/STR-200-politik/STR-250-adaptiv-demokrati-och-inflytande-politik.md",
     "category": "STR",
     "subcategory": "STR-200",
-    "description": "Den bärande insikten är att den verkliga konflikten inte är demokrati mot expertis. Den är preferenser mot lärande. De flesta demokratiska institutioner fångar preferenser men lär sig dåligt; de flest..."
+    "description": "Det här är ett utkast, inte ett färdigt program, och det är vår egen ryggrad vi prövar hårdast. Vi lät sex AI-modeller riva i subsidiariteten och Framtidskommunerna, och tre saker föll ut. Vi buntar i..."
+  },
+  {
+    "id": "STR-251",
+    "title": "Fjärilspartiets ansats: ett samhälle ser inte bättre för att det mäter mer, utan för att det som mäter är oberoende av varandra",
+    "path": "STR/STR-200-politik/STR-251-observatörsmångfald.md",
+    "category": "STR",
+    "subcategory": "STR-200",
+    "description": "Det här dokumentet handlar om en egenskap hos samhället som ingen myndighet ansvarar för och som därför försvinner utan att någon beslutar om det: att de som iakttar verkligheten gör det på tillräckli..."
   },
   {
     "id": "STR-301",
@@ -1173,7 +1746,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-302",
+      "STR-206",
+      "STR-209",
+      "STR-401",
+      "OPS-102"
+    ]
   },
   {
     "id": "STR-302",
@@ -1185,18 +1765,34 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-301",
+      "STR-206",
+      "TAK-305",
+      "STR-102",
+      "OPS-203"
+    ]
   },
   {
     "id": "STR-303",
-    "title": "Konkreta vägar till global transformation",
-    "path": "STR/STR-300-internationellt/STR-303-konkreta-vägar-till-global-transformation.md",
+    "title": "Konkreta vägar till global påverkan",
+    "path": "STR/STR-300-internationellt/STR-303-konkreta-vägar-till-global-påverkan.md",
     "category": "STR",
     "subcategory": "STR-300",
-    "version": "1.0",
-    "lastUpdated": "2024-12-10",
+    "description": "Version 1.0 hette \"Konkreta vägar till global transformation\" och innehöll budgetposter, årtal och pilotprojekt: ett nordiskt medlingscenter för 50 miljoner kronor, ett centrum för medvetandeforskning...",
+    "version": "2.0",
+    "lastUpdated": "2026-08-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-304",
+      "STR-306",
+      "STR-305",
+      "STR-213",
+      "STR-301",
+      "STR-110"
+    ]
   },
   {
     "id": "STR-304",
@@ -1204,11 +1800,21 @@ export const documents: Document[] = [
     "path": "STR/STR-300-internationellt/STR-304-globalt-konstitutionellt-ramverk-och-etisk-styrning.md",
     "category": "STR",
     "subcategory": "STR-300",
-    "description": "Detta ramverk är inte tänkt att ersätta lokala styresskick, utan att skapa en etisk grund som överspänner mänsklig aktivitet på alla nivåer, från individen till det globala samfundet. Det representera...",
-    "version": "1.0",
-    "lastUpdated": "2025-02-27",
+    "description": "Version 1.0 lovade direkt röstning om globala policyer för varje människa på jorden. Det löftet går inte att hålla, och inte av praktiska skäl som teknik eller resurser kan lösa. En preferens som ska ...",
+    "version": "2.0",
+    "lastUpdated": "2026-08-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-250",
+      "STR-218",
+      "STR-213",
+      "STR-301",
+      "STR-303",
+      "STR-306",
+      "STR-220",
+      "OPS-400"
+    ]
   },
   {
     "id": "STR-305",
@@ -1216,23 +1822,19 @@ export const documents: Document[] = [
     "path": "STR/STR-300-internationellt/STR-305-fred-och-konfliktförebyggande-på-global-nivå.md",
     "category": "STR",
     "subcategory": "STR-300",
-    "description": "I en värld där konflikter blir alltmer komplexa och sammankopplade räcker traditionell diplomati inte längre för att skapa bestående fred. Klimatförändringar, teknologisk disruption, ekonomisk ojämlik...",
-    "version": "1.0",
-    "lastUpdated": "2024-12-14",
+    "description": "Version 1.0 byggde på tesen att konflikter uppstår när värdesystem kolliderar utan att det finns strukturer för dialog, och att lösningen därför ligger i djupare ömsesidig förståelse – kontemplativ pr...",
+    "version": "2.0",
+    "lastUpdated": "2026-08-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
-  },
-  {
-    "id": "STR-305",
-    "title": "Fred och konfliktförebyggande på global nivå",
-    "path": "STR/STR-300-internationellt/STR-305.md",
-    "category": "STR",
-    "subcategory": "STR-300",
-    "description": "I en värld där konflikter blir alltmer komplexa och sammankopplade räcker traditionell diplomati inte längre för att skapa bestående fred. Klimatförändringar, teknologisk disruption, ekonomisk ojämlik...",
-    "version": "1.0",
-    "lastUpdated": "2024-12-14",
-    "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-304",
+      "STR-306",
+      "STR-303",
+      "STR-226",
+      "STR-215",
+      "TAK-106"
+    ]
   },
   {
     "id": "STR-306",
@@ -1240,11 +1842,21 @@ export const documents: Document[] = [
     "path": "STR/STR-300-internationellt/STR-306-global-ekonomisk-rättvisa-och-resursfördelning.md",
     "category": "STR",
     "subcategory": "STR-300",
-    "description": "Fjärilspartiets vision om global ekonomisk rättvisa utgår från insikten att ekonomisk demokrati är lika viktig som politisk demokrati. När en liten elit kontrollerar ekonomiska resurser och beslutsfat...",
-    "version": "1.0",
-    "lastUpdated": "2024-12-15",
+    "description": "Version 1.0 innehöll två saker som drog åt olika håll utan att dokumentet märkte det. Den ena var omfördelning: skatter, fonder, teknologiöverföring, skuldavskrivning, grundtrygghet. Den andra var pla...",
+    "version": "2.0",
+    "lastUpdated": "2026-08-10",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-304",
+      "STR-250",
+      "STR-218",
+      "STR-203",
+      "STR-214",
+      "STR-219",
+      "STR-212",
+      "OPS-400"
+    ]
   },
   {
     "id": "STR-307",
@@ -1256,7 +1868,16 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-12-15",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och strategisk samordnare"
+    "role": "Grundare och strategisk samordnare",
+    "relatedDocs": [
+      "STR-215",
+      "STR-216",
+      "STR-221",
+      "STR-227",
+      "STR-503",
+      "STR-206",
+      "TAK-304"
+    ]
   },
   {
     "id": "STR-400",
@@ -1268,7 +1889,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Strategiansvarig"
+    "role": "Grundare och Strategiansvarig",
+    "relatedDocs": [
+      "STR-401",
+      "STR-402",
+      "TAK-300",
+      "OPS-205",
+      "STR-300"
+    ]
   },
   {
     "id": "STR-401",
@@ -1280,7 +1908,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-208",
+      "TAK-202",
+      "STR-301",
+      "TAK-102",
+      "OPS-201"
+    ]
   },
   {
     "id": "STR-402",
@@ -1292,7 +1927,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och hållbarhetssamordnare"
+    "role": "Grundare och hållbarhetssamordnare",
+    "relatedDocs": [
+      "STR-401",
+      "STR-400",
+      "TAK-200",
+      "TAK-300"
+    ]
   },
   {
     "id": "STR-403",
@@ -1303,7 +1944,15 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-400",
+      "STR-401",
+      "STR-402",
+      "STR-103",
+      "STR-212",
+      "TAK-501"
+    ]
   },
   {
     "id": "STR-501",
@@ -1315,7 +1964,10 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Teknisk Samordnare"
+    "role": "Grundare och Teknisk Samordnare",
+    "relatedDocs": [
+      "STR-502"
+    ]
   },
   {
     "id": "STR-502",
@@ -1327,7 +1979,10 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Teknisk Samordnare"
+    "role": "Grundare och Teknisk Samordnare",
+    "relatedDocs": [
+      "STR-501"
+    ]
   },
   {
     "id": "STR-503",
@@ -1339,7 +1994,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-06",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och visionär"
+    "role": "Grundare och visionär",
+    "relatedDocs": [
+      "STR-500",
+      "STR-501",
+      "STR-502",
+      "STR-504"
+    ]
   },
   {
     "id": "STR-504",
@@ -1350,7 +2011,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Visionär"
+    "role": "Grundare och Visionär",
+    "relatedDocs": [
+      "STR-500",
+      "STR-501",
+      "STR-502",
+      "STR-503"
+    ]
   },
   {
     "id": "STR-505",
@@ -1362,7 +2029,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-04-05",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Teknisk Samordnare"
+    "role": "Grundare och Teknisk Samordnare",
+    "relatedDocs": [
+      "STR-501",
+      "STR-502",
+      "STR-503",
+      "STR-220",
+      "STR-102"
+    ]
   },
   {
     "id": "STR-506",
@@ -1374,7 +2048,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2025-12-27",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-501",
+      "STR-220",
+      "STR-225",
+      "STR-400"
+    ]
   },
   {
     "id": "TAK-101",
@@ -1386,7 +2066,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-100",
+      "STR-103",
+      "OPS-104",
+      "OPS-205",
+      "TAK-104"
+    ]
   },
   {
     "id": "TAK-102",
@@ -1397,7 +2084,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-209",
+      "TAK-101",
+      "STR-207",
+      "STR-208"
+    ]
   },
   {
     "id": "TAK-103",
@@ -1409,7 +2102,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-201",
+      "STR-202",
+      "STR-203",
+      "OPS-201",
+      "TAK-101"
+    ]
   },
   {
     "id": "TAK-104",
@@ -1421,7 +2121,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-101",
+      "OPS-102",
+      "OPS-205",
+      "STR-103"
+    ]
   },
   {
     "id": "TAK-105",
@@ -1429,10 +2135,18 @@ export const documents: Document[] = [
     "path": "TAK/TAK-100-organisation/TAK-105-intern-demokrati-och-hybridstyrning.md",
     "category": "TAK",
     "subcategory": "TAK-100",
+    "description": "Partiet använder fyra olika styrningslägen beroende på situation:",
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "OPS-103",
+      "TAK-101",
+      "TAK-102",
+      "STR-213",
+      "STR-210"
+    ]
   },
   {
     "id": "TAK-106",
@@ -1443,7 +2157,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-105",
+      "TAK-101",
+      "STR-103",
+      "OPS-103"
+    ]
   },
   {
     "id": "TAK-107",
@@ -1454,7 +2174,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-105",
+      "TAK-106",
+      "STR-401",
+      "TAK-601"
+    ]
   },
   {
     "id": "TAK-108",
@@ -1465,7 +2191,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-31",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-101",
+      "TAK-103",
+      "TAK-104",
+      "OPS-104"
+    ]
   },
   {
     "id": "TAK-201",
@@ -1477,7 +2209,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-203",
+      "OPS-206",
+      "OPS-207",
+      "TAK-204",
+      "TAK-205"
+    ]
   },
   {
     "id": "TAK-202",
@@ -1489,7 +2228,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-100",
+      "TAK-201",
+      "TAK-203",
+      "STR-401"
+    ]
   },
   {
     "id": "TAK-203",
@@ -1500,7 +2245,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-201",
+      "TAK-202",
+      "TAK-204",
+      "TAK-205",
+      "STR-210"
+    ]
   },
   {
     "id": "TAK-204",
@@ -1511,7 +2263,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-203",
+      "TAK-201",
+      "TAK-205",
+      "STR-209",
+      "TAK-102"
+    ]
   },
   {
     "id": "TAK-205",
@@ -1523,7 +2282,13 @@ export const documents: Document[] = [
     "version": "2.0",
     "lastUpdated": "2024-12-14",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-206",
+      "TAK-203",
+      "TAK-204",
+      "OPS-203"
+    ]
   },
   {
     "id": "TAK-300",
@@ -1535,7 +2300,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och välfärdssamordnare"
+    "role": "Grundare och välfärdssamordnare",
+    "relatedDocs": [
+      "TAK-301",
+      "TAK-302",
+      "TAK-303",
+      "TAK-304",
+      "TAK-305"
+    ]
   },
   {
     "id": "TAK-301",
@@ -1547,7 +2319,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-302",
+      "TAK-303",
+      "TAK-304",
+      "TAK-305"
+    ]
   },
   {
     "id": "TAK-302",
@@ -1559,7 +2337,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-301",
+      "TAK-303",
+      "TAK-304",
+      "TAK-305"
+    ]
   },
   {
     "id": "TAK-303",
@@ -1571,7 +2355,14 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-301",
+      "TAK-302",
+      "TAK-304",
+      "TAK-305",
+      "STR-207"
+    ]
   },
   {
     "id": "TAK-304",
@@ -1583,7 +2374,13 @@ export const documents: Document[] = [
     "version": "1.1",
     "lastUpdated": "2024-12-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "TAK-301",
+      "TAK-303",
+      "TAK-305",
+      "STR-206"
+    ]
   },
   {
     "id": "TAK-305",
@@ -1595,7 +2392,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-29",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och teknisk samordnare"
+    "role": "Grundare och teknisk samordnare",
+    "relatedDocs": [
+      "STR-206",
+      "STR-302",
+      "TAK-304",
+      "TAK-303"
+    ]
   },
   {
     "id": "TAK-401",
@@ -1607,7 +2410,13 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Utvecklingssamordnare"
+    "role": "Grundare och Utvecklingssamordnare",
+    "relatedDocs": [
+      "STR-401",
+      "OPS-102",
+      "TAK-104",
+      "STR-206"
+    ]
   },
   {
     "id": "TAK-402",
@@ -1619,7 +2428,12 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och rättspolicysamordnare"
+    "role": "Grundare och rättspolicysamordnare",
+    "relatedDocs": [
+      "STR-103",
+      "TAK-104",
+      "OPS-205"
+    ]
   },
   {
     "id": "TAK-403",
@@ -1627,6 +2441,7 @@ export const documents: Document[] = [
     "path": "TAK/TAK-400-bostad-och-samhälle/TAK-403-ramverk-för-kulturell-innovation-och-bevarande.md",
     "category": "TAK",
     "subcategory": "TAK-400",
+    "description": "Att skapa ett dynamiskt och hållbart kulturellt ekosystem som:",
     "version": "1.0",
     "lastUpdated": "2024-11-13",
     "author": "Björn Kenneth Holmström",
@@ -1654,7 +2469,12 @@ export const documents: Document[] = [
     "version": "1.0",
     "lastUpdated": "2024-10-30",
     "author": "Björn Kenneth Holmström",
-    "role": "Grundare och Strategisk Samordnare"
+    "role": "Grundare och Strategisk Samordnare",
+    "relatedDocs": [
+      "STR-401",
+      "TAK-104",
+      "TAK-402"
+    ]
   },
   {
     "id": "TAK-502",
